@@ -1,0 +1,10 @@
+.env
+__pycache__/
+.venv/
+*.log
+data/cache/
+artifacts/
+.playwright-mcp/
+data/raw/
+data/site-results.jsonl
+data/telegram-results.jsonl

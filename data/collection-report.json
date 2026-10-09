@@ -1,0 +1,20 @@
+{
+  "imported_at": "2026-10-09T16:04:14.361346+00:00",
+  "raw_rows": 4812,
+  "excluded_rows": 2629,
+  "museums": 1270,
+  "with_site": 980,
+  "with_coordinates": 1269,
+  "with_telegram": 674,
+  "note": "Каталог кандидатов из локальных выгрузок, дата исходных данных неизвестна. Возможны дубли и закрытые площадки.",
+  "built_at": "2026-10-09T16:05:53.315148+00:00",
+  "site_domains_total": 554,
+  "site_domains_checked": 554,
+  "site_domains_available": 468,
+  "channels": 363,
+  "channels_checked": 363,
+  "channels_available": 306,
+  "events": 76,
+  "posts": 1500,
+  "event_source_domains": 2
+}
