@@ -16,21 +16,21 @@ def public_url(url):
             raise ValueError('Non-public address')
     return url
 
-def fetch(url):
+def fetch(url, content_types=('html',), method='GET', data=None):
     last = None
     for attempt in range(2):
         try:
             current = public_url(url)
             for _ in range(5):
-                with requests.get(current, timeout=(5, 10), headers={'User-Agent': AGENT},
-                                  allow_redirects=False, stream=True) as response:
+                with requests.request(method, current, data=data, timeout=(5, 12), headers={'User-Agent': AGENT},
+                                      allow_redirects=False, stream=True) as response:
                     if response.is_redirect:
                         from urllib.parse import urljoin
                         current = public_url(urljoin(current, response.headers['Location']))
                         continue
                     response.raise_for_status()
-                    if 'html' not in response.headers.get('Content-Type', '').lower():
-                        raise ValueError('Not an HTML page')
+                    if not any(kind in response.headers.get('Content-Type', '').lower() for kind in content_types):
+                        raise ValueError('Unexpected content type')
                     chunks = bytearray()
                     for part in response.iter_content(65536):
                         chunks.extend(part)

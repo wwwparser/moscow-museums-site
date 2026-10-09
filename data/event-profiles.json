@@ -1,0 +1,7312 @@
+{
+  "agencyart.ru": {
+    "domain": "agencyart.ru",
+    "name": "Art ru",
+    "adapter": "generic",
+    "seeds": [
+      "http://agencyart.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "art-story.com": {
+    "domain": "art-story.com",
+    "name": "Art Story",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.art-story.com/events/",
+      "https://www.art-story.com/events/items/18533/",
+      "http://art-story.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kartina-ponomeram-pofoto.ru": {
+    "domain": "kartina-ponomeram-pofoto.ru",
+    "name": "Artmix",
+    "adapter": "generic",
+    "seeds": [
+      "https://kartina-ponomeram-pofoto.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "azart.moscow": {
+    "domain": "azart.moscow",
+    "name": "Az/art",
+    "adapter": "generic",
+    "seeds": [
+      "https://azart.moscow/events/",
+      "https://azart.moscow/events/?date_filter=all-days§ion=63",
+      "https://azart.moscow/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tochkag.net": {
+    "domain": "tochkag.net",
+    "name": "Bubble Love",
+    "adapter": "generic",
+    "seeds": [
+      "https://tochkag.net/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "cube.moscow": {
+    "domain": "cube.moscow",
+    "name": "Cube.Moscow, центр современного искусства",
+    "adapter": "generic",
+    "seeds": [
+      "https://cube.moscow/events",
+      "https://cube.moscow/events/?utm_source=main_page&utm_medium=website&utm_campaign=navigation&utm_content=events",
+      "http://cube.moscow"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "paleontologia.ru": {
+    "domain": "paleontologia.ru",
+    "name": "Era",
+    "adapter": "generic",
+    "seeds": [
+      "http://paleontologia.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "fedini.art": {
+    "domain": "fedini.art",
+    "name": "Fedini Gallery",
+    "adapter": "generic",
+    "seeds": [
+      "http://fedini.art/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "galleryfineart.ru": {
+    "domain": "galleryfineart.ru",
+    "name": "Fineart Gallery",
+    "adapter": "generic",
+    "seeds": [
+      "http://galleryfineart.ru/ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "frais.ru": {
+    "domain": "frais.ru",
+    "name": "Frais, кондитерская фабрика",
+    "adapter": "generic",
+    "seeds": [
+      "https://frais.ru:443/ekskursii/",
+      "http://frais.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "garagemca.org": {
+    "domain": "garagemca.org",
+    "name": "Garage, музей современного искусства",
+    "adapter": "cards",
+    "seeds": [
+      "https://garagemca.org/calendar"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12,
+    "rules": [
+      {
+        "card": "a[href*=\"/event/\"]",
+        "title": ".underline-text",
+        "date": [
+          "[aria-label^=\"С \"]"
+        ],
+        "aria_date": "[aria-label^=\"С \"]"
+      }
+    ]
+  },
+  "inartibus.org": {
+    "domain": "inartibus.org",
+    "name": "In Artibus foundation",
+    "adapter": "generic",
+    "seeds": [
+      "https://inartibus.org/events",
+      "https://inartibus.org/events/",
+      "http://inartibus.org/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "luminarx.ru": {
+    "domain": "luminarx.ru",
+    "name": "Luminar-X, иммерсивное арт-пространство",
+    "adapter": "generic",
+    "seeds": [
+      "https://luminarx.ru/afisha/",
+      "https://luminarx.ru/",
+      "http://luminarx.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "megabricks.ru": {
+    "domain": "megabricks.ru",
+    "name": "Megabricks, музей Лего",
+    "adapter": "generic",
+    "seeds": [
+      "http://megabricks.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "melspace.ru": {
+    "domain": "melspace.ru",
+    "name": "MelSpace",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.melspace.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "popupmuseum.art": {
+    "domain": "popupmuseum.art",
+    "name": "Pop Up Museum",
+    "adapter": "generic",
+    "seeds": [
+      "https://popupmuseum.art/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "msk.smile-park.ru": {
+    "domain": "msk.smile-park.ru",
+    "name": "Smile Park на ВДНХ, музей иллюзий",
+    "adapter": "generic",
+    "seeds": [
+      "http://msk.smile-park.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "vladey.net": {
+    "domain": "vladey.net",
+    "name": "Vladey",
+    "adapter": "generic",
+    "seeds": [
+      "http://vladey.net/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "automuseum.ru": {
+    "domain": "automuseum.ru",
+    "name": "Автомобили мира, музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://automuseum.ru/",
+      "https://automuseum.ru/excursions",
+      "http://automuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "academgorodokmitino.ru": {
+    "domain": "academgorodokmitino.ru",
+    "name": "Академгородок Митино",
+    "adapter": "generic",
+    "seeds": [
+      "https://academgorodokmitino.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "эйнштейн.дети": {
+    "domain": "эйнштейн.дети",
+    "name": "Академия Теслы",
+    "adapter": "generic",
+    "seeds": [
+      "http://эйнштейн.дети/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gokhran.ru": {
+    "domain": "gokhran.ru",
+    "name": "Алмазный фонд, выставочный зал",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.gokhran.ru:443/ru/press/afisha/index.phtml",
+      "https://www.gokhran.ru:443/ru/press/afisha/index.phtml?page=0",
+      "http://www.gokhran.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kreml.ru": {
+    "domain": "kreml.ru",
+    "name": "Алмазный фонд, выставочный зал",
+    "adapter": "generic",
+    "seeds": [
+      "https://kreml.ru/calendar",
+      "https://kreml.ru/calendar?type=",
+      "http://www.kreml.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.angstrem.ru": {
+    "domain": "museum.angstrem.ru",
+    "name": "Ангстрем",
+    "adapter": "generic",
+    "seeds": [
+      "https://museum.angstrem.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ivan-the-great-bell-tower.kreml.ru": {
+    "domain": "ivan-the-great-bell-tower.kreml.ru",
+    "name": "Ансамбль колокольни Иван Великий, Московский Кремль",
+    "adapter": "generic",
+    "seeds": [
+      "http://ivan-the-great-bell-tower.kreml.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tsaritsyno-museum.ru": {
+    "domain": "tsaritsyno-museum.ru",
+    "name": "Ансамбль усадьбы Царицыно, Большой дворец",
+    "adapter": "cards",
+    "seeds": [
+      "https://tsaritsyno-museum.ru/events/"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12,
+    "rules": [
+      {
+        "card": ".card__wrap",
+        "title": ".card__title",
+        "date": [
+          ".card__action"
+        ],
+        "kind": ".card__tag",
+        "infer_year": true
+      }
+    ]
+  },
+  "hortus.msu.ru": {
+    "domain": "hortus.msu.ru",
+    "name": "Аптекарский огород, викторная оранжерея",
+    "adapter": "generic",
+    "seeds": [
+      "http://hortus.msu.ru/events",
+      "http://hortus.msu.ru/outdoor.html",
+      "http://hortus.msu.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "artdecomuseum.ru": {
+    "domain": "artdecomuseum.ru",
+    "name": "АР Деко",
+    "adapter": "generic",
+    "seeds": [
+      "http://artdecomuseum.ru/lektsii",
+      "http://artdecomuseum.ru/afisha-1",
+      "http://artdecomuseum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "goslitmuz.ru": {
+    "domain": "goslitmuz.ru",
+    "name": "Арка Марка",
+    "adapter": "generic",
+    "seeds": [
+      "https://goslitmuz.ru:443/poster/?arrFilter_107=841265288&set_filter=Показать",
+      "https://goslitmuz.ru:443/poster/19491/",
+      "https://goslitmuz.ru/children/arka_marka"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "armmuseum.ru": {
+    "domain": "armmuseum.ru",
+    "name": "Армянский музей Москвы и культуры наций",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.armmuseum.ru/events",
+      "https://www.armmuseum.ru/eventsold",
+      "http://www.armmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "naive-museum.ru": {
+    "domain": "naive-museum.ru",
+    "name": "Арт-Наив-Парк",
+    "adapter": "generic",
+    "seeds": [
+      "https://naive-museum.ru/2026/09/naivnye-moskvichi/",
+      "https://naive-museum.ru/2026/06/ezhednevnyj-semaster-klass-po-pechataniyu-lubochnoj-kartinki/",
+      "http://naive-museum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "artdynamics.ru": {
+    "domain": "artdynamics.ru",
+    "name": "АртДинамикс",
+    "adapter": "generic",
+    "seeds": [
+      "https://artdynamics.ru/",
+      "https://artdynamics.ru/msk",
+      "https://artdynamics.ru/msk"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "shm.ru": {
+    "domain": "shm.ru",
+    "name": "Артиллерийский двор Исторического музея",
+    "adapter": "cards",
+    "seeds": [
+      "https://shm.ru/shows/"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12,
+    "rules": [
+      {
+        "card": ".gim-card-event",
+        "title": ".gim-h5",
+        "date": [
+          ".gim-card-event__date"
+        ],
+        "venue": ".gim-card-event__museum",
+        "kind": ".gim-card-event__type"
+      }
+    ]
+  },
+  "archangel-cathedral.kreml.ru": {
+    "domain": "archangel-cathedral.kreml.ru",
+    "name": "Архангельский собор, Московский Кремль",
+    "adapter": "generic",
+    "seeds": [
+      "http://archangel-cathedral.kreml.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "atom.museum": {
+    "domain": "atom.museum",
+    "name": "Атом",
+    "adapter": "generic",
+    "seeds": [
+      "https://atom.museum/afisha/",
+      "https://atom.museum/afisha/?tab=date",
+      "https://atom.museum/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "basmania.ru": {
+    "domain": "basmania.ru",
+    "name": "Басмания, музей Басманного района",
+    "adapter": "generic",
+    "seeds": [
+      "https://basmania.ru/calendar/",
+      "https://basmania.ru/category/events/",
+      "http://basmania.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mgomz.ru": {
+    "domain": "mgomz.ru",
+    "name": "Башня Братского острога",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.mgomz.ru/ru/pages/pushkinskaya-karta",
+      "https://www.mgomz.ru/ru/excursions/listing/kolomenskoe",
+      "http://www.mgomz.ru/ekspozitsii/bashnya-bratskogo-ostroga-vneshniy-osmotr-obekta"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "belvorobey.ru": {
+    "domain": "belvorobey.ru",
+    "name": "Белый воробей",
+    "adapter": "generic",
+    "seeds": [
+      "https://belvorobey.ru/muzej",
+      "https://belvorobey.ru/program",
+      "https://belvorobey.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "moscow-bestiary.ru": {
+    "domain": "moscow-bestiary.ru",
+    "name": "Бестиарий, криптозоологический музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://moscow-bestiary.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sviblovoprav.mskobr.ru": {
+    "domain": "sviblovoprav.mskobr.ru",
+    "name": "Библейский музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://sviblovoprav.mskobr.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "biotechmuseum.fbras.ru": {
+    "domain": "biotechmuseum.fbras.ru",
+    "name": "Биотех",
+    "adapter": "generic",
+    "seeds": [
+      "https://biotechmuseum.fbras.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "annunciation-cathedral.kreml.ru": {
+    "domain": "annunciation-cathedral.kreml.ru",
+    "name": "Благовещенский собор, Московский Кремль",
+    "adapter": "generic",
+    "seeds": [
+      "http://annunciation-cathedral.kreml.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kuskovo.ru": {
+    "domain": "kuskovo.ru",
+    "name": "Большая каменная оранжерея, музей",
+    "adapter": "cards",
+    "seeds": [
+      "https://kuskovo.ru/",
+      "https://kuskovo.ru/our-events/concerts/"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12,
+    "rules": [
+      {
+        "card": ".concert__item-box",
+        "title": ".concert__name",
+        "date": [
+          ".concert__date",
+          ".concert__day"
+        ],
+        "venue": ".concert__info",
+        "category": "Концерт",
+        "infer_year": true
+      },
+      {
+        "card": "a.exhibition__item",
+        "title": ".exhibition__name",
+        "date": [
+          ".exhibition__date"
+        ],
+        "category": "Выставка"
+      }
+    ]
+  },
+  "1812panorama.ru": {
+    "domain": "1812panorama.ru",
+    "name": "Бородинская битва, музей-панорама",
+    "adapter": "generic",
+    "seeds": [
+      "http://1812panorama.ru/afisha",
+      "http://1812panorama.ru/visitors/lectures",
+      "http://1812panorama.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "winzavod.ru": {
+    "domain": "winzavod.ru",
+    "name": "Бродильный цех",
+    "adapter": "generic",
+    "seeds": [
+      "https://winzavod.ru/calendar/",
+      "https://winzavod.ru/calendar/?type=lectures_discussions",
+      "https://winzavod.ru/residents/places/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "dombulgakova.ru": {
+    "domain": "dombulgakova.ru",
+    "name": "Булгаковский Дом, музей",
+    "adapter": "mec-calendar",
+    "seeds": [
+      "https://dombulgakova.ru/kalendar/"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "bunker42.com": {
+    "domain": "bunker42.com",
+    "name": "Бункер-42",
+    "adapter": "generic",
+    "seeds": [
+      "https://bunker42.com/events/",
+      "https://bunker42.com/",
+      "https://bunker42.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "bunker703.ru": {
+    "domain": "bunker703.ru",
+    "name": "Бункер-703",
+    "adapter": "generic",
+    "seeds": [
+      "https://bunker703.ru/bunker/",
+      "https://bunker703.ru/bunker-moscow/",
+      "https://bunker703.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "podzemnayamoskva.ru": {
+    "domain": "podzemnayamoskva.ru",
+    "name": "Бункер-музей Подземная Москва",
+    "adapter": "generic",
+    "seeds": [
+      "https://podzemnayamoskva.ru/book/",
+      "https://podzemnayamoskva.ru/exkurs/",
+      "https://podzemnayamoskva.ru/?r=yandex"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "vdnh.ru": {
+    "domain": "vdnh.ru",
+    "name": "Буран, интерактивный музейный комплекс",
+    "adapter": "generic",
+    "seeds": [
+      "https://vdnh.ru/events",
+      "https://vdnh.ru/events/",
+      "http://vdnh.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "domskazok.su": {
+    "domain": "domskazok.su",
+    "name": "Буратино-Пиноккио, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://domskazok.su"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sw-cosplay.ru": {
+    "domain": "sw-cosplay.ru",
+    "name": "В далёкой-далёкой Галактике, выставка-косплей",
+    "adapter": "generic",
+    "seeds": [
+      "http://sw-cosplay.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museuminsilence.ru": {
+    "domain": "museuminsilence.ru",
+    "name": "В Тишине",
+    "adapter": "generic",
+    "seeds": [
+      "https://museuminsilence.ru/novyj-god-v-tishine/",
+      "https://museuminsilence.ru/oboi-na-telefon-ijun/",
+      "http://museuminsilence.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ecocenter-vg.tilda.ws": {
+    "domain": "ecocenter-vg.tilda.ws",
+    "name": "Воробьёвы горы, эколого-просветительский центр",
+    "adapter": "generic",
+    "seeds": [
+      "http://ecocenter-vg.tilda.ws"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "damuseum.ru": {
+    "domain": "damuseum.ru",
+    "name": "Всероссийский музей декоративного искусства",
+    "adapter": "generic",
+    "seeds": [
+      "https://damuseum.ru:443/events/",
+      "https://damuseum.ru:443/catalog/",
+      "http://damuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museumsport.ru": {
+    "domain": "museumsport.ru",
+    "name": "Всероссийский физкультурно-спортивный комплекс Готов к труду и обороне",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.museumsport.ru/events",
+      "https://www.museumsport.ru/for_visitors",
+      "http://www.museumsport.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tickets.gokhran.ru": {
+    "domain": "tickets.gokhran.ru",
+    "name": "Выставка Алмазный фонд Гохрана России",
+    "adapter": "generic",
+    "seeds": [
+      "http://tickets.gokhran.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "official.vdnh.ru": {
+    "domain": "official.vdnh.ru",
+    "name": "Выставка достижений народного хозяйства",
+    "adapter": "generic",
+    "seeds": [
+      "https://official.vdnh.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mtmuseum.ru": {
+    "domain": "mtmuseum.ru",
+    "name": "Выставочное пространство Музея транспорта Москвы",
+    "adapter": "generic",
+    "seeds": [
+      "https://mtmuseum.ru/affiche/",
+      "https://mtmuseum.ru/affiche/?section%5B%5D=15",
+      "http://mtmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "pushkinmuseum.ru": {
+    "domain": "pushkinmuseum.ru",
+    "name": "Выставочный зал государственного музея имени А.С. Пушкина",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.pushkinmuseum.ru/afisha/",
+      "https://www.pushkinmuseum.ru/ekskursii/",
+      "http://pushkinmuseum.ru/?q=node/5"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tolstoymuseum.ru": {
+    "domain": "tolstoymuseum.ru",
+    "name": "Выставочный зал Л.Н.Толстого",
+    "adapter": "generic",
+    "seeds": [
+      "https://tolstoymuseum.ru/events/",
+      "https://tolstoymuseum.ru/schedule/",
+      "http://tolstoymuseum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.cbr.ru": {
+    "domain": "museum.cbr.ru",
+    "name": "Выставочный зал музейно-экспозиционного фонда Банка России",
+    "adapter": "generic",
+    "seeds": [
+      "https://museum.cbr.ru/events/",
+      "https://museum.cbr.ru/excursions/",
+      "http://museum.cbr.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mosmuseum.ru": {
+    "domain": "mosmuseum.ru",
+    "name": "Выставочный зал Музея Зеленограда",
+    "adapter": "cards",
+    "seeds": [
+      "https://mosmuseum.ru/"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12,
+    "rules": [
+      {
+        "card": "a:has(.interval)",
+        "title": "h3",
+        "date": [
+          ".interval"
+        ],
+        "venue": ".tag-place",
+        "kind": ".tag-event-type",
+        "infer_year": true
+      }
+    ]
+  },
+  "rah.ru": {
+    "domain": "rah.ru",
+    "name": "Выставочный зал Российской академии художеств",
+    "adapter": "generic",
+    "seeds": [
+      "https://rah.ru/events/",
+      "https://rah.ru/events/?display=tile",
+      "http://rah.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sakharov-center.ru": {
+    "domain": "sakharov-center.ru",
+    "name": "Выставочный зал Сахаровского центра",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.sakharov-center.ru/calendar",
+      "http://www.sakharov-center.ru/node/12137",
+      "http://www.sakharov-center.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "statearchive.ru": {
+    "domain": "statearchive.ru",
+    "name": "Выставочный зал федеральных архивов",
+    "adapter": "generic",
+    "seeds": [
+      "http://statearchive.ru/395"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "goramuseum.ru": {
+    "domain": "goramuseum.ru",
+    "name": "Г.о.р.а., музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://goramuseum.ru:443/afisha/interaktivnyij-kvest-tajnoe-donesenie-v-muzee-g.o.r.a/afisha/",
+      "https://goramuseum.ru:443/excursions/",
+      "http://goramuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "syntaxgallery.com": {
+    "domain": "syntaxgallery.com",
+    "name": "Галерея Syntax",
+    "adapter": "generic",
+    "seeds": [
+      "http://syntaxgallery.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "belyaevo.vzmoscow.ru": {
+    "domain": "belyaevo.vzmoscow.ru",
+    "name": "Галерея Беляево",
+    "adapter": "generic",
+    "seeds": [
+      "https://belyaevo.vzmoscow.ru/events",
+      "https://belyaevo.vzmoscow.ru/galleries",
+      "https://belyaevo.vzmoscow.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "vykhino.vzmoscow.ru": {
+    "domain": "vykhino.vzmoscow.ru",
+    "name": "Галерея Выхино",
+    "adapter": "generic",
+    "seeds": [
+      "https://vykhino.vzmoscow.ru/events",
+      "https://vykhino.vzmoscow.ru/galleries",
+      "https://vykhino.vzmoscow.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "davydkovo.vzmoscow.ru": {
+    "domain": "davydkovo.vzmoscow.ru",
+    "name": "Галерея Давыдково",
+    "adapter": "generic",
+    "seeds": [
+      "https://davydkovo.vzmoscow.ru/events",
+      "https://davydkovo.vzmoscow.ru/galleries",
+      "https://davydkovo.vzmoscow.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "zagorje.vzmoscow.ru": {
+    "domain": "zagorje.vzmoscow.ru",
+    "name": "Галерея Загорье",
+    "adapter": "generic",
+    "seeds": [
+      "https://zagorje.vzmoscow.ru/events",
+      "https://zagorje.vzmoscow.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "glazunov-gallery.ru": {
+    "domain": "glazunov-gallery.ru",
+    "name": "Галерея Ильи Глазунова, Музей русского лубка и наивного искусства",
+    "adapter": "generic",
+    "seeds": [
+      "https://glazunov-gallery.ru/media/",
+      "https://glazunov-gallery.ru/excursions/",
+      "http://glazunov-gallery.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tsereteli.ru": {
+    "domain": "tsereteli.ru",
+    "name": "Галерея искусств Зураба Церетели",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.tsereteli.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "dzen.ru": {
+    "domain": "dzen.ru",
+    "name": "Галерея искусств Зураба Церетели",
+    "adapter": "generic",
+    "seeds": [
+      "https://dzen.ru/rah"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gallerykino.ru": {
+    "domain": "gallerykino.ru",
+    "name": "Галерея Кино",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.gallerykino.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "classicgallery.ru": {
+    "domain": "classicgallery.ru",
+    "name": "Галерея классической фотографии",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.classicgallery.ru/fotografiya/",
+      "https://www.classicgallery.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "dollslane.ru": {
+    "domain": "dollslane.ru",
+    "name": "Галерея Кукольный переулок",
+    "adapter": "generic",
+    "seeds": [
+      "http://dollslane.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kashirka.vzmoscow.ru": {
+    "domain": "kashirka.vzmoscow.ru",
+    "name": "Галерея на Каширке",
+    "adapter": "generic",
+    "seeds": [
+      "https://kashirka.vzmoscow.ru/events",
+      "https://kashirka.vzmoscow.ru/galleries",
+      "https://kashirka.vzmoscow.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "shabolovka.vzmoscow.ru": {
+    "domain": "shabolovka.vzmoscow.ru",
+    "name": "Галерея на Шаболовке, музей авангарда",
+    "adapter": "generic",
+    "seeds": [
+      "https://shabolovka.vzmoscow.ru/events",
+      "https://shabolovka.vzmoscow.ru/schedule",
+      "http://shabolovka.vzmoscow.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "nikoartgallery.com": {
+    "domain": "nikoartgallery.com",
+    "name": "Галерея Нико",
+    "adapter": "generic",
+    "seeds": [
+      "https://nikoartgallery.com/afisha/",
+      "https://nikoartgallery.com/afisha-scene/",
+      "https://nikoartgallery.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "peresvetov.vzmoscow.ru": {
+    "domain": "peresvetov.vzmoscow.ru",
+    "name": "Галерея Пересветов переулок",
+    "adapter": "generic",
+    "seeds": [
+      "https://peresvetov.vzmoscow.ru/events",
+      "http://peresvetov.vzmoscow.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rostokino.vzmoscow.ru": {
+    "domain": "rostokino.vzmoscow.ru",
+    "name": "Галерея Ростокино",
+    "adapter": "generic",
+    "seeds": [
+      "https://rostokino.vzmoscow.ru/events",
+      "https://rostokino.vzmoscow.ru/galleries",
+      "https://rostokino.vzmoscow.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "khodynka.vzmoscow.ru": {
+    "domain": "khodynka.vzmoscow.ru",
+    "name": "Галерея Ходынка",
+    "adapter": "generic",
+    "seeds": [
+      "https://khodynka.vzmoscow.ru/events",
+      "https://khodynka.vzmoscow.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "web.telegram.org": {
+    "domain": "web.telegram.org",
+    "name": "Галерея Ходынка",
+    "adapter": "generic",
+    "seeds": [
+      "https://web.telegram.org/k/#@khodynkagallery"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "fondkp.ru": {
+    "domain": "fondkp.ru",
+    "name": "Галерея Царская башня",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.fondkp.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "petrlizunov.com": {
+    "domain": "petrlizunov.com",
+    "name": "Галерея-мастерская художника Лизунова П.",
+    "adapter": "generic",
+    "seeds": [
+      "https://petrlizunov.com/shop-item/moyakoroleva",
+      "https://petrlizunov.com/shop-item/seriyadevushki",
+      "https://petrlizunov.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "memorythegallery.vsite.biz": {
+    "domain": "memorythegallery.vsite.biz",
+    "name": "Галерея-музей Память",
+    "adapter": "generic",
+    "seeds": [
+      "http://memorythegallery.vsite.biz/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gon-museum.ru": {
+    "domain": "gon-museum.ru",
+    "name": "Гараж особого назначения ФСО России, музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://gon-museum.ru/events",
+      "https://gon-museum.ru/",
+      "http://gon-museum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "narkomfin.ru": {
+    "domain": "narkomfin.ru",
+    "name": "Гараж, музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://narkomfin.ru/calendar?sync=true",
+      "https://narkomfin.ru/calendar?interval=this_week&sync=true",
+      "http://narkomfin.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "afgan-zal.ru": {
+    "domain": "afgan-zal.ru",
+    "name": "ГБУК г. Москвы Государственный выставочный зал истории войны в Афганистане",
+    "adapter": "generic",
+    "seeds": [
+      "http://afgan-zal.ru/2026/08/20/%d0%b4%d0%b5%d0%bd%d1%8c-%d0%be%d1%82%d0%ba%d1%80%d1%8b%d1%82%d1%8b%d1%85-%d0%b4%d0%b2%d0%b5%d1%80%d0%b5%d0%b9-%d0%be%d0%b1%d0%b7%d0%be%d1%80%d0%bd%d0%b0%d1%8f-%d1%8d%d0%ba%d1%81%d0%ba%d1%83%d1%80/",
+      "http://afgan-zal.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "vnesterenko.ru": {
+    "domain": "vnesterenko.ru",
+    "name": "ГБУК города Москвы Московская государственная картинная галерея Василия Нестеренко",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.vnesterenko.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "nesterenko.arts.mos.ru": {
+    "domain": "nesterenko.arts.mos.ru",
+    "name": "ГБУК города Москвы Московская государственная картинная галерея Василия Нестеренко",
+    "adapter": "generic",
+    "seeds": [
+      "https://nesterenko.arts.mos.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sgm.ru": {
+    "domain": "sgm.ru",
+    "name": "Геологический Государственный музей им. В.И. Вернадского",
+    "adapter": "generic",
+    "seeds": [
+      "https://sgm.ru/VISITORS/index.php",
+      "https://sgm.ru/VISITORS/index.php?1",
+      "http://sgm.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "olehnik.ru": {
+    "domain": "olehnik.ru",
+    "name": "Геолого-палеонтологический школьный музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://olehnik.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "zen.yandex.ru": {
+    "domain": "zen.yandex.ru",
+    "name": "Гербовый зал г. Москвы",
+    "adapter": "generic",
+    "seeds": [
+      "http://zen.yandex.ru/mosmuseum"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "domsmirnova.com": {
+    "domain": "domsmirnova.com",
+    "name": "Главный дом городской усадьбы О. И. Гарчиковой - П. П. Смирнова",
+    "adapter": "generic",
+    "seeds": [
+      "https://domsmirnova.com:443/ekskursii/",
+      "http://domsmirnova.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "park-kuzminki.ru": {
+    "domain": "park-kuzminki.ru",
+    "name": "Главный дом усадьбы Н.А. Дурасова",
+    "adapter": "generic",
+    "seeds": [
+      "https://park-kuzminki.ru/lublino/events/",
+      "https://park-kuzminki.ru/lublino/events/?special_version=Y",
+      "https://park-kuzminki.ru/lublino/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "pushkinmuseum.art": {
+    "domain": "pushkinmuseum.art",
+    "name": "ГМИИ имени Пушкина, Галерея искусства стран Европы и Америки XIX – XX веков",
+    "adapter": "pushkin",
+    "seeds": [
+      "https://pushkinmuseum.art/events/index.php?lang=ru"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12,
+    "rules": [
+      {
+        "card": ".item--card",
+        "title": ".font-gmtext",
+        "date": [
+          ".desc__date"
+        ],
+        "link": ".desc a[href]",
+        "venue": ".desc__place",
+        "kind": ".desc__type",
+        "start_unix_attr": "data-date"
+      }
+    ]
+  },
+  "russpass.ru": {
+    "domain": "russpass.ru",
+    "name": "Городская усадьба И.Е. Рубцова-Моргуновых, г. Москва",
+    "adapter": "generic",
+    "seeds": [
+      "https://russpass.ru/usadby-moskvy",
+      "https://russpass.ru/usadby-moskvy/afisha-sobytii?detail=true&primarypage-slug=usadby-moskvy",
+      "http://russpass.ru/usadby-moskvy"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum-tropinina.ru": {
+    "domain": "museum-tropinina.ru",
+    "name": "Городская усадьба Масленниковых-Петуховых, г. Москва",
+    "adapter": "generic",
+    "seeds": [
+      "https://museum-tropinina.ru/",
+      "https://museum-tropinina.ru/kontakty-2/",
+      "http://www.museum-tropinina.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "usadbazubovyh.ru": {
+    "domain": "usadbazubovyh.ru",
+    "name": "Городская усадьба Полежаевых и Зубовых",
+    "adapter": "generic",
+    "seeds": [
+      "https://usadbazubovyh.ru/calendar",
+      "http://usadbazubovyh.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gorkiy.plus": {
+    "domain": "gorkiy.plus",
+    "name": "Горький плюс, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://gorkiy.plus"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tretyakovgallery.ru": {
+    "domain": "tretyakovgallery.ru",
+    "name": "Государственная Третьяковская галерея",
+    "adapter": "tretyakov-api",
+    "seeds": [
+      "https://www.tretyakovgallery.ru/events/"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tretyakov.ru": {
+    "domain": "tretyakov.ru",
+    "name": "Государственная Третьяковская галерея, галерея Новая Третьяковка",
+    "adapter": "generic",
+    "seeds": [
+      "http://tretyakov.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "hramvtolmachah.ru": {
+    "domain": "hramvtolmachah.ru",
+    "name": "Государственная Третьяковская галерея, Музей-храм Святителя Николая в Толмачах",
+    "adapter": "generic",
+    "seeds": [
+      "https://hramvtolmachah.ru/shedule/",
+      "https://hramvtolmachah.ru/%d0%b0%d0%bd%d0%be%d0%bd%d1%81-%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f-%d0%ba%d0%be%d0%bb%d0%bb%d0%b5%d0%ba%d1%86%d0%b8%d0%be%d0%bd%d0%b5%d1%80%d1%8b-%d1%81%d0%b5/",
+      "http://hramvtolmachah.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "2011.bolshoi.ru": {
+    "domain": "2011.bolshoi.ru",
+    "name": "Государственный Академический Большой Театр России, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://2011.bolshoi.ru/museum/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gbmt.ru": {
+    "domain": "gbmt.ru",
+    "name": "Государственный Биологический музей им. К.А. Тимирязева",
+    "adapter": "generic",
+    "seeds": [
+      "https://gbmt.ru/ru/excursion/",
+      "https://gbmt.ru/ru/excursion/cost/",
+      "http://gbmt.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "darwinmuseum.ru": {
+    "domain": "darwinmuseum.ru",
+    "name": "Государственный Дарвиновский музей",
+    "adapter": "cards",
+    "seeds": [
+      "https://www.darwinmuseum.ru/"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12,
+    "rules": [
+      {
+        "card": "a.view_list.timetable-link",
+        "title": "h3",
+        "date": [
+          ".view_list_date"
+        ],
+        "infer_year": true,
+        "date_list": true
+      },
+      {
+        "card": ".carousel-caption",
+        "title": "h2 a",
+        "date": [
+          "p"
+        ],
+        "infer_year": true,
+        "date_list": true
+      }
+    ]
+  },
+  "sketchfab.com": {
+    "domain": "sketchfab.com",
+    "name": "Государственный Дарвиновский музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://sketchfab.com/darwinmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "izi.travel": {
+    "domain": "izi.travel",
+    "name": "Государственный историко-архитектурный художественный и ландшафтный музей-заповедник Царицыно",
+    "adapter": "generic",
+    "seeds": [
+      "https://izi.travel/ru/2f7c-muzey-zapovednik-caricyno"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "okudshava.ru": {
+    "domain": "okudshava.ru",
+    "name": "Государственный мемориальный музей Б. Ш. Окуджавы",
+    "adapter": "generic",
+    "seeds": [
+      "http://okudshava.ru/events/",
+      "http://okudshava.ru/event/1210/",
+      "http://okudshava.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "muar.ru": {
+    "domain": "muar.ru",
+    "name": "Государственный музей архитектуры им. А.В. Щусева",
+    "adapter": "generic",
+    "seeds": [
+      "https://muar.ru/lectures/",
+      "https://muar.ru/excursions/",
+      "http://muar.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn--80aedfjnibldycb2bv1r.xn--p1ai": {
+    "domain": "xn--80aedfjnibldycb2bv1r.xn--p1ai",
+    "name": "Государственный музей В.В. Маяковского",
+    "adapter": "generic",
+    "seeds": [
+      "https://xn--80aedfjnibldycb2bv1r.xn--p1ai/events/",
+      "https://xn--80aedfjnibldycb2bv1r.xn--p1ai/events/?PAGEN_1=2",
+      "http://xn--80aedfjnibldycb2bv1r.xn--p1ai"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "data.mos.ru": {
+    "domain": "data.mos.ru",
+    "name": "Государственный музей В.В. Маяковского",
+    "adapter": "generic",
+    "seeds": [
+      "http://data.mos.ru/opendata/7702155262-muzei"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "muzeimayakovskogo.ru": {
+    "domain": "muzeimayakovskogo.ru",
+    "name": "Государственный музей В.В. Маяковского",
+    "adapter": "generic",
+    "seeds": [
+      "https://muzeimayakovskogo.ru/events/",
+      "https://muzeimayakovskogo.ru/events/?PAGEN_1=2",
+      "http://muzeimayakovskogo.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "музеймаяковского.рф": {
+    "domain": "музеймаяковского.рф",
+    "name": "Государственный музей В.В. Маяковского",
+    "adapter": "generic",
+    "seeds": [
+      "https://музеймаяковского.рф/events/",
+      "https://музеймаяковского.рф/events/?PAGEN_1=2",
+      "https://музеймаяковского.рф/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "visotsky.ru": {
+    "domain": "visotsky.ru",
+    "name": "Государственный музей Владимира Высоцкого",
+    "adapter": "generic",
+    "seeds": [
+      "https://visotsky.ru/afisha",
+      "https://visotsky.ru/afisha/",
+      "http://www.visotsky.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "orientmuseum.ru": {
+    "domain": "orientmuseum.ru",
+    "name": "Государственный музей Востока",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.orientmuseum.ru/visit/lections/index.php",
+      "https://www.orientmuseum.ru/visit/excursions/index.php",
+      "http://www.orientmuseum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.timacad.ru": {
+    "domain": "museum.timacad.ru",
+    "name": "Государственный музей животноводства им. Е. Ф. Лискуна",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum.timacad.ru/253-2/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gmom.ru": {
+    "domain": "gmom.ru",
+    "name": "Государственный музей обороны Москвы",
+    "adapter": "generic",
+    "seeds": [
+      "http://gmom.ru/",
+      "http://gmom.ru/Afisha",
+      "http://www.gmom.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ostafyevomuseum.ru": {
+    "domain": "ostafyevomuseum.ru",
+    "name": "Государственный музей-заповедник Остафьево-Русский Парнас",
+    "adapter": "generic",
+    "seeds": [
+      "https://ostafyevomuseum.ru/poster/",
+      "https://ostafyevomuseum.ru/",
+      "https://ostafyevomuseum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ostrovsky-museum.ru": {
+    "domain": "ostrovsky-museum.ru",
+    "name": "Государственный музей-культурный центр Интеграция им. Н. А. Островского",
+    "adapter": "generic",
+    "seeds": [
+      "https://ostrovsky-museum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tverskaya14.ru": {
+    "domain": "tverskaya14.ru",
+    "name": "Государственный музей-культурный центр Интеграция им. Н. А. Островского",
+    "adapter": "generic",
+    "seeds": [
+      "http://tverskaya14.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rosizo.ru": {
+    "domain": "rosizo.ru",
+    "name": "Государственный музейно-выставочный центр Росизо",
+    "adapter": "generic",
+    "seeds": [
+      "https://rosizo.ru/events/",
+      "https://rosizo.ru/events/all/",
+      "http://rosizo.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "vma.muar.ru": {
+    "domain": "vma.muar.ru",
+    "name": "Государственный научно-исследовательский музей архитектуры имени А. В. Щусева",
+    "adapter": "generic",
+    "seeds": [
+      "http://vma.muar.ru/ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sovrhistory.ru": {
+    "domain": "sovrhistory.ru",
+    "name": "Государственный центральный музей современной истории России",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.sovrhistory.ru/events/index.php",
+      "https://www.sovrhistory.ru/events/index.php?lang=en",
+      "https://www.sovrhistory.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12,
+    "calendar_enabled": false,
+    "review_note": "Не включено в календарь: общая афиша организации либо извлечение требует проверки."
+  },
+  "sovr.ru": {
+    "domain": "sovr.ru",
+    "name": "Государственный центральный музей современной истории России, филиал Пресня",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.sovr.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "bakhrushinmuseum.ru": {
+    "domain": "bakhrushinmuseum.ru",
+    "name": "Государственный центральный театральный музей им. Бахрушина А. А.",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.bakhrushinmuseum.ru/?action=eventfilter&is_main_page=0&is_lang_ru=1&eventsType=0&eventsPlace=0&eventsDate=month&eventsLayout=grid",
+      "https://www.bakhrushinmuseum.ru/?action=eventfilter&is_main_page=0&is_lang_ru=1&eventsType=0&eventsPlace=0&eventsDate=month&eventsLayout=grid",
+      "http://bakhrushinmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gctm.ru": {
+    "domain": "gctm.ru",
+    "name": "Государственный центральный театральный музей им. Бахрушина А. А.",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.gctm.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "grammofonika.ru": {
+    "domain": "grammofonika.ru",
+    "name": "Граммофоника, музей виниловой музыки",
+    "adapter": "generic",
+    "seeds": [
+      "http://grammofonika.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "solyankagallery.ru": {
+    "domain": "solyankagallery.ru",
+    "name": "ГРАУНД Солянка",
+    "adapter": "generic",
+    "seeds": [
+      "https://solyankagallery.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "iskusstvo.org": {
+    "domain": "iskusstvo.org",
+    "name": "Дали & Пикассо, художественная выставка",
+    "adapter": "generic",
+    "seeds": [
+      "https://iskusstvo.org/detskie-ekskursii-s-proektom-pro-muzey/",
+      "https://iskusstvo.org/meropriyatiya-pod-klyuch-fond-iskusstvo-naciy/",
+      "http://iskusstvo.org/proekty-fonda-iskusstvo-natsiy/vystavka-dali-i-pikasso/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "сдюсшор64.рф": {
+    "domain": "сдюсшор64.рф",
+    "name": "Дворец борьбы имени Ивана Ярыгина",
+    "adapter": "generic",
+    "seeds": [
+      "http://сдюсшор64.рф/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "dynamomuseum.ru": {
+    "domain": "dynamomuseum.ru",
+    "name": "Динамо, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://dynamomuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "liza.fund": {
+    "domain": "liza.fund",
+    "name": "Доктор Лиза",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.liza.fund/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "domloseva.ru": {
+    "domain": "domloseva.ru",
+    "name": "Дом А. Ф. Лосева",
+    "adapter": "generic",
+    "seeds": [
+      "http://domloseva.ru/events/afisha",
+      "http://domloseva.ru/events/afisha/calendar?yearID=2026&monthID=10&print=1&tmpl=component",
+      "http://domloseva.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "losev-library.ru": {
+    "domain": "losev-library.ru",
+    "name": "Дом А. Ф. Лосева",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.losev-library.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mos.ru": {
+    "domain": "mos.ru",
+    "name": "Дом А. Ф. Лосева",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.mos.ru/afisha/venues/204211/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12,
+    "calendar_enabled": false,
+    "review_note": "Не включено в календарь: общая афиша организации либо извлечение требует проверки."
+  },
+  "дом-ангелов.рф": {
+    "domain": "дом-ангелов.рф",
+    "name": "Дом ангелов на Арбате",
+    "adapter": "generic",
+    "seeds": [
+      "http://дом-ангелов.рф/",
+      "http://дом-ангелов.рф/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn----8sbgdcj6bdlgh.xn--p1ai": {
+    "domain": "xn----8sbgdcj6bdlgh.xn--p1ai",
+    "name": "Дом Ангелов на Арбате, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://xn----8sbgdcj6bdlgh.xn--p1ai",
+      "http://xn----8sbgdcj6bdlgh.xn--p1ai"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "butterflarium.ru": {
+    "domain": "butterflarium.ru",
+    "name": "Дом бабочек, Муравьёв и Рептилий",
+    "adapter": "generic",
+    "seeds": [
+      "https://butterflarium.ru/uslugi/ekskursii/",
+      "https://butterflarium.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "dombulata.ru": {
+    "domain": "dombulata.ru",
+    "name": "Дом Булата",
+    "adapter": "generic",
+    "seeds": [
+      "http://dombulata.ru/events",
+      "http://dombulata.ru/events/",
+      "http://www.dombulata.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "burganov.ru": {
+    "domain": "burganov.ru",
+    "name": "Дом Бурганова, музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://burganov.ru/afisha-onlajn/",
+      "https://burganov.ru/museum/vidy-muzeja/",
+      "http://burganov.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "домгарри.рф": {
+    "domain": "домгарри.рф",
+    "name": "Дом Гарри",
+    "adapter": "generic",
+    "seeds": [
+      "https://домгарри.рф/",
+      "https://домгарри.рф/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "domgogolya.ru": {
+    "domain": "domgogolya.ru",
+    "name": "Дом Н.В. Гоголя",
+    "adapter": "cards",
+    "seeds": [
+      "https://www.domgogolya.ru/events/"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12,
+    "rules": [
+      {
+        "card": ".event",
+        "title": ".name-event",
+        "date": [
+          ".day-event .number",
+          ".day-event .month",
+          ".time-event"
+        ],
+        "venue": ".where-event",
+        "kind": ".format-event",
+        "infer_year": true
+      }
+    ]
+  },
+  "dnnmuseum.ru": {
+    "domain": "dnnmuseum.ru",
+    "name": "Дом на набережной, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://dnnmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "domrz.ru": {
+    "domain": "domrz.ru",
+    "name": "Дом Русского зарубежья им. А. Солженицына, музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.domrz.ru/event/",
+      "https://www.domrz.ru/event/?PROPS%5BTYPE%5D=17",
+      "http://domrz.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "taplink.cc": {
+    "domain": "taplink.cc",
+    "name": "Дом русского зарубежья имени А. И. Солженицына",
+    "adapter": "generic",
+    "seeds": [
+      "https://taplink.cc/dom_russkogo_zarubezhja"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mmom.ru": {
+    "domain": "mmom.ru",
+    "name": "Дом-музей Великой княгини Елизаветы Феодоровны",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.mmom.ru:443/photo/383/",
+      "https://www.mmom.ru:443/mmom/raspisanie/",
+      "http://mmom.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "konyukhov.ru": {
+    "domain": "konyukhov.ru",
+    "name": "Дом-музей и экспедиционный штаб Фёдора Конюхова",
+    "adapter": "generic",
+    "seeds": [
+      "http://konyukhov.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museummhat.ru": {
+    "domain": "museummhat.ru",
+    "name": "Дом-музей К. С. Станиславского",
+    "adapter": "generic",
+    "seeds": [
+      "https://museummhat.ru/vistavki/events/",
+      "https://museummhat.ru/excursions/",
+      "http://museummhat.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "dommuseum.ru": {
+    "domain": "dommuseum.ru",
+    "name": "Дом-музей Марины Цветаевой",
+    "adapter": "generic",
+    "seeds": [
+      "https://dommuseum.ru/excurtion",
+      "https://dommuseum.ru/excurtion/",
+      "http://dommuseum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "perfumer-house.ru": {
+    "domain": "perfumer-house.ru",
+    "name": "Домъ парфюмера, музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://perfumer-house.ru/page65954115.html",
+      "http://perfumer-house.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "osmogenes.ru": {
+    "domain": "osmogenes.ru",
+    "name": "Домъ парфюмера, музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.osmogenes.ru/",
+      "https://www.osmogenes.ru/we",
+      "http://Www.osmogenes.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "dosaaf-auto.ru": {
+    "domain": "dosaaf-auto.ru",
+    "name": "ДОСААФ России, музей боевой и трудовой славы",
+    "adapter": "generic",
+    "seeds": [
+      "http://dosaaf-auto.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.rggu.ru": {
+    "domain": "museum.rggu.ru",
+    "name": "Другое искусство",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum.rggu.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ekartmoscow.ru": {
+    "domain": "ekartmoscow.ru",
+    "name": "Е.К.АртБюро",
+    "adapter": "generic",
+    "seeds": [
+      "http://ekartmoscow.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "jewish-museum.ru": {
+    "domain": "jewish-museum.ru",
+    "name": "Еврейский музей и центр толерантности",
+    "adapter": "cards",
+    "seeds": [
+      "https://www.jewish-museum.ru/events/"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12,
+    "rules": [
+      {
+        "card": ".event-card",
+        "title": ".event-card__name",
+        "date": [
+          ".event-card__date"
+        ],
+        "link": ".event-card__name"
+      }
+    ]
+  },
+  "esenin-museum.ru": {
+    "domain": "esenin-museum.ru",
+    "name": "Есенин-центр Московского государственного музея С. А. Есенина",
+    "adapter": "generic",
+    "seeds": [
+      "https://esenin-museum.ru/yesenin-center"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "zhivayaistoriya.com": {
+    "domain": "zhivayaistoriya.com",
+    "name": "Живая история, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://zhivayaistoriya.com"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "zhivayaistoriya.ru": {
+    "domain": "zhivayaistoriya.ru",
+    "name": "Живая история, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://zhivayaistoriya.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "zabawushka.ru": {
+    "domain": "zabawushka.ru",
+    "name": "Забавушка",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.zabawushka.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "stalinbunker.ru": {
+    "domain": "stalinbunker.ru",
+    "name": "Запасной командный пункт Верховного Главнокомандующего Красной Армии И.В. Сталина периода Великой Отечественной войны 1941-1945",
+    "adapter": "generic",
+    "seeds": [
+      "https://stalinbunker.ru/",
+      "https://stalinbunker.ru/?page_id=1061",
+      "https://stalinbunker.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "cmaf.ru": {
+    "domain": "cmaf.ru",
+    "name": "Запасной командный пункт Верховного Главнокомандующего Красной Армии И.В. Сталина периода Великой Отечественной войны 1941-1945 гг.",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.cmaf.ru/excursion/",
+      "http://www.cmaf.ru/excursion/obzornaya-ekskursiya-po-muzeyu/",
+      "http://www.cmaf.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "zlatoustmonastyr.ru": {
+    "domain": "zlatoustmonastyr.ru",
+    "name": "Златоустовский мужской монастырь",
+    "adapter": "generic",
+    "seeds": [
+      "https://zlatoustmonastyr.ru/?p=630",
+      "https://zlatoustmonastyr.ru/?cat=180",
+      "http://zlatoustmonastyr.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "izmmu.ru": {
+    "domain": "izmmu.ru",
+    "name": "Зоологический музей МГУ",
+    "adapter": "generic",
+    "seeds": [
+      "https://izmmu.ru/sounds",
+      "http://izmmu.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "zmmu.msu.ru": {
+    "domain": "zmmu.msu.ru",
+    "name": "Зоологический музей МГУ",
+    "adapter": "generic",
+    "seeds": [
+      "https://zmmu.msu.ru/nauka-v-muzee/dbs/",
+      "https://zmmu.msu.ru/nauka-v-muzee/dbs/nauka-v-muzee/dbs/",
+      "http://zmmu.msu.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "zmmu.org": {
+    "domain": "zmmu.org",
+    "name": "Зоологический музей МГУ",
+    "adapter": "generic",
+    "seeds": [
+      "http://zmmu.org/afisha",
+      "https://zmmu.org/afisha",
+      "http://zmmu.org/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sch904u.mskobr.ru": {
+    "domain": "sch904u.mskobr.ru",
+    "name": "И не помнить об этом нельзя, военно-патриотический музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://sch904u.mskobr.ru/o-nas/obshchestvennaya-zhizn/muzey-i-ne-pomnit-ob-etom-nelzya"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rsl.ru": {
+    "domain": "rsl.ru",
+    "name": "Ивановский зал РГБ",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.rsl.ru/events?userType=1",
+      "https://www.rsl.ru/events?eventCategory=59&announcement=true",
+      "https://www.rsl.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kremlin-izmailovo.com": {
+    "domain": "kremlin-izmailovo.com",
+    "name": "Избушка Бабы-Яги",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.kremlin-izmailovo.com/svadebnoe-agentstvo-ministerstvo-radosti",
+      "http://www.kremlin-izmailovo.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "animamuseum.ru": {
+    "domain": "animamuseum.ru",
+    "name": "Измайловский кремль, музей анимации",
+    "adapter": "generic",
+    "seeds": [
+      "https://animamuseum.ru:443/contacts/",
+      "https://animamuseum.ru:443/events/new-year/",
+      "http://animamuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ingos.ru": {
+    "domain": "ingos.ru",
+    "name": "Ингосстрах, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://ingos.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "park-inno.ru": {
+    "domain": "park-inno.ru",
+    "name": "Иннопарк",
+    "adapter": "generic",
+    "seeds": [
+      "https://park-inno.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "vk.link": {
+    "domain": "vk.link",
+    "name": "Инсектопия",
+    "adapter": "generic",
+    "seeds": [
+      "https://vk.link/insectopia_moscow"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mozg.moscow": {
+    "domain": "mozg.moscow",
+    "name": "Интерактивный музей мозга",
+    "adapter": "generic",
+    "seeds": [
+      "http://mozg.moscow"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mos-anatomikum.ru": {
+    "domain": "mos-anatomikum.ru",
+    "name": "Интерактивный музей Московский Анатомикум",
+    "adapter": "generic",
+    "seeds": [
+      "http://mos-anatomikum.ru/",
+      "http://mos-anatomikum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museumcherdak.ru": {
+    "domain": "museumcherdak.ru",
+    "name": "Интерактивный политехнический музей Дедушкин чердак",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.museumcherdak.ru/events",
+      "http://www.museumcherdak.ru/excursions",
+      "http://www.museumcherdak.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.sportedu.ru": {
+    "domain": "museum.sportedu.ru",
+    "name": "Историко-спортивный музей Рус Гцолифк",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum.sportedu.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mzd.rzd.ru": {
+    "domain": "mzd.rzd.ru",
+    "name": "Историческая площадка Паровозное депо Подмосковная",
+    "adapter": "generic",
+    "seeds": [
+      "https://mzd.rzd.ru/ru/11454"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn--b1ae4ad.xn--p1ai": {
+    "domain": "xn--b1ae4ad.xn--p1ai",
+    "name": "Историческая экспозиция пожарно-спасательной службы",
+    "adapter": "generic",
+    "seeds": [
+      "https://xn--b1ae4ad.xn--p1ai/calendar",
+      "https://xn--b1ae4ad.xn--p1ai/calendar?region=28",
+      "http://xn--b1ae4ad.xn--p1ai/museum/129"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "вдпо.рф": {
+    "domain": "вдпо.рф",
+    "name": "Историческая экспозиция пожарно-спасательной службы",
+    "adapter": "generic",
+    "seeds": [
+      "https://вдпо.рф/calendar",
+      "https://вдпо.рф/calendar?region=28",
+      "https://вдпо.рф/museum/129"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kadashi.ru": {
+    "domain": "kadashi.ru",
+    "name": "Кадашевская слобода, канцелярия",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.kadashi.ru/bogosluzheniya.html",
+      "https://www.kadashi.ru/istoriya/kadashevskij-kalendar.html",
+      "http://www.kadashi.ru/item/1785-muzej-kadashevskaya-sloboda.html"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ambercombine.ru": {
+    "domain": "ambercombine.ru",
+    "name": "Калининградский янтарный комбинат",
+    "adapter": "generic",
+    "seeds": [
+      "https://ambercombine.ru/images/tourism/attestaciya/Положение.pdf",
+      "https://ambercombine.ru/tourism/attestatsiya-vneshnikh-ekskursovodov",
+      "https://ambercombine.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "m.dzen.ru": {
+    "domain": "m.dzen.ru",
+    "name": "Квартира Г. М. Кржижановского, экспозиционно-мемориальный отдел",
+    "adapter": "generic",
+    "seeds": [
+      "http://m.dzen.ru/sovrhistory"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "zaryadyepark.ru": {
+    "domain": "zaryadyepark.ru",
+    "name": "Китайгородская стена",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.zaryadyepark.ru/info/",
+      "https://www.zaryadyepark.ru/schedule/",
+      "http://www.zaryadyepark.ru/services/kitaygorodskaya-stena/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "keymineral.ru": {
+    "domain": "keymineral.ru",
+    "name": "Ключ земли, геологический музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://keymineral.ru/table",
+      "http://keymineral.ru/aboutus",
+      "http://keymineral.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "cosmos.vdnh.ru": {
+    "domain": "cosmos.vdnh.ru",
+    "name": "Космонавтика и авиация, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://cosmos.vdnh.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "hram-kurkino.ru": {
+    "domain": "hram-kurkino.ru",
+    "name": "Краеведческий музей при храме Владимирской иконы Божией Матери",
+    "adapter": "generic",
+    "seeds": [
+      "https://hram-kurkino.ru/wp-content/uploads/2026/09/Сентябрь-26.pdf",
+      "https://hram-kurkino.ru/%d1%8d%d0%ba%d1%81%d0%ba%d1%83%d1%80%d1%81%d0%b8%d0%b8/",
+      "http://hram-kurkino.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "newmanege.ru": {
+    "domain": "newmanege.ru",
+    "name": "Креативное пространство Новый Манеж",
+    "adapter": "generic",
+    "seeds": [
+      "https://newmanege.ru/allevents",
+      "https://newmanege.ru/allevents?tfc_storepartnav%5B2301498891%5D=644019731672",
+      "https://newmanege.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kremlin-ksk.ru": {
+    "domain": "kremlin-ksk.ru",
+    "name": "Кремлевская школа верховой езды",
+    "adapter": "generic",
+    "seeds": [
+      "https://kremlin-ksk.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kulturazao.ru": {
+    "domain": "kulturazao.ru",
+    "name": "Культурный центр Внуково",
+    "adapter": "generic",
+    "seeds": [
+      "https://kulturazao.ru/branches/kulturnye-tsentry/vnukovo"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kulturaszao.ru": {
+    "domain": "kulturaszao.ru",
+    "name": "Культурный центр Митино, музей морского космического флота",
+    "adapter": "generic",
+    "seeds": [
+      "https://kulturaszao.ru/events",
+      "https://kulturaszao.ru/doc",
+      "https://kulturaszao.ru/kcmitino"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rublev-museum.ru": {
+    "domain": "rublev-museum.ru",
+    "name": "Лекторий Музея им. Андрея Рублева",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.rublev-museum.ru/poster/",
+      "https://www.rublev-museum.ru/visitors/tours/",
+      "https://rublev-museum.ru/poster/lectures"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "historydepositarium.ru": {
+    "domain": "historydepositarium.ru",
+    "name": "Лица победы, исторический депозитарий",
+    "adapter": "generic",
+    "seeds": [
+      "http://historydepositarium.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "lomakovka.ru": {
+    "domain": "lomakovka.ru",
+    "name": "Ломаковский музей старинных автомобилей и мотоциклов",
+    "adapter": "generic",
+    "seeds": [
+      "http://lomakovka.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.lukoil.ru": {
+    "domain": "museum.lukoil.ru",
+    "name": "Лукойл, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum.lukoil.ru/ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "planetarium-moscow.ru": {
+    "domain": "planetarium-moscow.ru",
+    "name": "Лунариум, интерактивное пространство",
+    "adapter": "generic",
+    "seeds": [
+      "http://planetarium-moscow.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "luchgallery.com": {
+    "domain": "luchgallery.com",
+    "name": "Луч",
+    "adapter": "generic",
+    "seeds": [
+      "http://luchgallery.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mirvodki.com": {
+    "domain": "mirvodki.com",
+    "name": "М.и.р. водки, музей истории русской водки",
+    "adapter": "generic",
+    "seeds": [
+      "http://mirvodki.com"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "lgc.mirchocolat.ru": {
+    "domain": "lgc.mirchocolat.ru",
+    "name": "М.и.р. шоколада Крылатское",
+    "adapter": "generic",
+    "seeds": [
+      "http://lgc.mirchocolat.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "majolicamuseum.ru": {
+    "domain": "majolicamuseum.ru",
+    "name": "Майолики, художественный музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://majolicamuseum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "maketmoskvy.ru": {
+    "domain": "maketmoskvy.ru",
+    "name": "Макет Москвы, выставочный центр",
+    "adapter": "generic",
+    "seeds": [
+      "https://maketmoskvy.ru/ru/tours",
+      "http://www.maketmoskvy.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "artplay.ru": {
+    "domain": "artplay.ru",
+    "name": "Малый выставочный зал",
+    "adapter": "generic",
+    "seeds": [
+      "https://artplay.ru/events",
+      "https://artplay.ru/events/",
+      "https://www.artplay.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "clck.ru": {
+    "domain": "clck.ru",
+    "name": "Марс, центр современного искусства",
+    "adapter": "generic",
+    "seeds": [
+      "http://clck.ru/35MCYS"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "icom-russia.com": {
+    "domain": "icom-russia.com",
+    "name": "Международный совет музеев",
+    "adapter": "generic",
+    "seeds": [
+      "http://icom-russia.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "erzia-fond.com": {
+    "domain": "erzia-fond.com",
+    "name": "Международный фонд искусств им. Ст.Д. Эрьзи",
+    "adapter": "generic",
+    "seeds": [
+      "http://erzia-fond.com"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "maly.ru": {
+    "domain": "maly.ru",
+    "name": "Мемориальная квартира А. И. Сумбатова-Южина",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.maly.ru/afisha",
+      "https://www.maly.ru/yuzhin/events",
+      "http://www.maly.ru/yuzhin"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kvartira-belogo.guru.ru": {
+    "domain": "kvartira-belogo.guru.ru",
+    "name": "Мемориальная квартира Андрея Белого",
+    "adapter": "generic",
+    "seeds": [
+      "http://kvartira-belogo.guru.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sviatoslav-richter.ru": {
+    "domain": "sviatoslav-richter.ru",
+    "name": "Мемориальная квартира Святослава Рихтера",
+    "adapter": "generic",
+    "seeds": [
+      "http://sviatoslav-richter.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "nrcki.ru": {
+    "domain": "nrcki.ru",
+    "name": "Мемориальный дом-музей академика И.В. Курчатова",
+    "adapter": "generic",
+    "seeds": [
+      "http://nrcki.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "jivo.chat": {
+    "domain": "jivo.chat",
+    "name": "Мемориальный дом-музей академика С.П. Королёва",
+    "adapter": "generic",
+    "seeds": [
+      "http://jivo.chat/2sY5UIoauC"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kosmo-museum.ru": {
+    "domain": "kosmo-museum.ru",
+    "name": "Мемориальный дом-музей академика С.П. Королёва",
+    "adapter": "cards",
+    "seeds": [
+      "https://kosmo-museum.ru/events"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12,
+    "rules": [
+      {
+        "card": ".bricks-default_i",
+        "title": "h3",
+        "date": [
+          "li:has(.ico__time)"
+        ],
+        "link": "a.bricks-default_i_hover",
+        "kind": ".bricks-default_i_cnt_section"
+      }
+    ]
+  },
+  "iep.ru": {
+    "domain": "iep.ru",
+    "name": "Мемориальный кабинет Гайдара, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://iep.ru/ru/e-t-gaydar/muzey-egora-gaydara.php"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ineos.ac.ru": {
+    "domain": "ineos.ac.ru",
+    "name": "Мемориальный кабинет-музей академика А.Н. Несмеянова",
+    "adapter": "generic",
+    "seeds": [
+      "https://ineos.ac.ru/lections",
+      "http://www.ineos.ac.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.ru": {
+    "domain": "museum.ru",
+    "name": "Мемориальный кабинет-музей академика А.П. Виноградова",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum.ru/M1635"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "scriabinmuseum.ru": {
+    "domain": "scriabinmuseum.ru",
+    "name": "Мемориальный музей А. Н. Скрябина",
+    "adapter": "scriabin",
+    "seeds": [
+      "https://scriabinmuseum.ru/afisha/"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12,
+    "rules": [
+      {
+        "card": ".card_event",
+        "title": "h3",
+        "date": [
+          ".date_and_time"
+        ],
+        "kind": ".b_caption.top_left",
+        "venue": ".b_caption.bottom_left",
+        "infer_year": true
+      }
+    ]
+  },
+  "evgenia20.ru": {
+    "domain": "evgenia20.ru",
+    "name": "Мемориальный музей Евгении Сергеевны Коваленко",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.evgenia20.ru/istoria-o-spektakle/istoria-afisha-spektaklya/",
+      "https://www.evgenia20.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gnesina-museum.com": {
+    "domain": "gnesina-museum.com",
+    "name": "Мемориальный музей-квартира Е.Ф. Гнесиной",
+    "adapter": "generic",
+    "seeds": [
+      "http://gnesina-museum.com"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "timmuseum.timacad.ru": {
+    "domain": "timmuseum.timacad.ru",
+    "name": "Мемориальный музей-квартира К. А. Тимирязева",
+    "adapter": "generic",
+    "seeds": [
+      "http://timmuseum.timacad.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "puppet.ru": {
+    "domain": "puppet.ru",
+    "name": "Мемориальный музей-квартира С. В. Образцова",
+    "adapter": "generic",
+    "seeds": [
+      "https://puppet.ru:443/afisha",
+      "https://puppet.ru:443/afisha?theme=puppet_ease",
+      "http://puppet.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "florenskyfond.ru": {
+    "domain": "florenskyfond.ru",
+    "name": "Мемориальный музей-квартира священника Павла Флоренского",
+    "adapter": "generic",
+    "seeds": [
+      "http://florenskyfond.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "culture.ru": {
+    "domain": "culture.ru",
+    "name": "МИИТ, дворец культуры",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.culture.ru/afisha",
+      "https://www.culture.ru/afisha/russia?page=1",
+      "http://culture.ru/institutes/83857/dvorec-kultury-rossiiskogo-universiteta-transporta"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12,
+    "calendar_enabled": false,
+    "review_note": "Не включено в календарь: общая афиша организации либо извлечение требует проверки."
+  },
+  "dkmiit.ru": {
+    "domain": "dkmiit.ru",
+    "name": "МИИТ, дворец культуры",
+    "adapter": "generic",
+    "seeds": [
+      "https://dkmiit.ru:443/event/",
+      "https://dkmiit.ru/event/",
+      "http://dkmiit.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "fmm.ru": {
+    "domain": "fmm.ru",
+    "name": "Минералогический музей им. А. Е. Ферсмана",
+    "adapter": "generic",
+    "seeds": [
+      "https://fmm.ru/index.php?title=Коллекции_Минералогического_Музея_им._А.Е._Ферсмана&oldid=883691",
+      "https://fmm.ru/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F",
+      "http://fmm.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mgri.ru": {
+    "domain": "mgri.ru",
+    "name": "Минералогический музей Российского государственного геологоразведочного университета имени С. Орджоникидзе",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.mgri.ru/events/",
+      "https://www.mgri.ru/events/?c_quarter=3&c_year=2026",
+      "https://www.mgri.ru/life-v-mgri-rggru/museums/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "chokomuseum.ru": {
+    "domain": "chokomuseum.ru",
+    "name": "Мишка, музей истории шоколада и какао",
+    "adapter": "generic",
+    "seeds": [
+      "https://chokomuseum.ru",
+      "https://chokomuseum.ru/",
+      "http://chokomuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "glazunov.ru": {
+    "domain": "glazunov.ru",
+    "name": "Московская государственная картинная галерея народного художника СССР Ильи Глазунова",
+    "adapter": "generic",
+    "seeds": [
+      "http://glazunov.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "marhi.ru": {
+    "domain": "marhi.ru",
+    "name": "Московский архитектурный институт, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://marhi.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mgdu.dogm.mos.ru": {
+    "domain": "mgdu.dogm.mos.ru",
+    "name": "Московский городской дом учителя",
+    "adapter": "generic",
+    "seeds": [
+      "https://mgdu.dogm.mos.ru/directions-of-activities/creative-groups/poster/",
+      "http://mgdu.dogm.mos.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.msu.ru": {
+    "domain": "museum.msu.ru",
+    "name": "Московский государственный университет им. М.В. Ломоносова, Музей землеведения",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.museum.msu.ru/ekskursii",
+      "http://www.museum.msu.ru/o-muzee/struktura/gruppa-obrazovatelnykh-i-ekskursionnykh-programm",
+      "http://www.museum.msu.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mdn.ru": {
+    "domain": "mdn.ru",
+    "name": "Московский дом национальностей",
+    "adapter": "generic",
+    "seeds": [
+      "https://mdn.ru/",
+      "https://mdn.ru/tour",
+      "https://mdn.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mdx.ru": {
+    "domain": "mdx.ru",
+    "name": "Московский Дом художника",
+    "adapter": "generic",
+    "seeds": [
+      "http://mdx.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "moscowzoo.ru": {
+    "domain": "moscowzoo.ru",
+    "name": "Московский зоопарк, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://moscowzoo.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "moscowdesignmuseum.ru": {
+    "domain": "moscowdesignmuseum.ru",
+    "name": "Московский музей дизайна",
+    "adapter": "generic",
+    "seeds": [
+      "https://moscowdesignmuseum.ru/events/",
+      "https://moscowdesignmuseum.ru/events/?PAGEN_1=2",
+      "http://moscowdesignmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "moscow-cat-museum.wixsite.com": {
+    "domain": "moscow-cat-museum.wixsite.com",
+    "name": "Московский Музей Кошки",
+    "adapter": "generic",
+    "seeds": [
+      "https://moscow-cat-museum.wixsite.com/moscow-cat-museum"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museumperfume.ru": {
+    "domain": "museumperfume.ru",
+    "name": "Московский музей парфюмерии",
+    "adapter": "generic",
+    "seeds": [
+      "https://museumperfume.ru/photoalbums",
+      "https://museumperfume.ru/products/duhi-gerlen",
+      "https://museumperfume.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mmoma.ru": {
+    "domain": "mmoma.ru",
+    "name": "Московский музей современного искусства",
+    "adapter": "cards",
+    "seeds": [
+      "https://mmoma.ru/"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12,
+    "rules": [
+      {
+        "card": "a[href*=\"/visit/gallery/\"]:has(h3)",
+        "title": "h3",
+        "date": [
+          "p.ba-inline-flex"
+        ],
+        "category": "Выставка",
+        "force_period": true
+      }
+    ]
+  },
+  "mmoma.timepad.ru": {
+    "domain": "mmoma.timepad.ru",
+    "name": "Московский музей современного искусства",
+    "adapter": "generic",
+    "seeds": [
+      "https://mmoma.timepad.ru/events/",
+      "https://mmoma.timepad.ru/event/4227791/",
+      "https://mmoma.timepad.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mosconcert.moscow": {
+    "domain": "mosconcert.moscow",
+    "name": "Москонцерт, Музыкальная квартира",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.mosconcert.moscow/afisha/",
+      "https://www.mosconcert.moscow/afisha/?month=11&year=2026",
+      "http://www.mosconcert.moscow/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "warmotors.ru": {
+    "domain": "warmotors.ru",
+    "name": "Моторы войны",
+    "adapter": "generic",
+    "seeds": [
+      "https://warmotors.ru/",
+      "https://warmotors.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "armoury-chamber.kreml.ru": {
+    "domain": "armoury-chamber.kreml.ru",
+    "name": "Музеи Московского Кремля, Грановитая палата",
+    "adapter": "generic",
+    "seeds": [
+      "http://armoury-chamber.kreml.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "weliycenter.ru": {
+    "domain": "weliycenter.ru",
+    "name": "Музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://weliycenter.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mlrz.ru": {
+    "domain": "mlrz.ru",
+    "name": "Музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://mlrz.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sch717s.mskobr.ru": {
+    "domain": "sch717s.mskobr.ru",
+    "name": "Музей 157-й Неманской стрелковой дивизии",
+    "adapter": "generic",
+    "seeds": [
+      "http://sch717s.mskobr.ru/o-nas/obshchestvennaya-zhizn/muzey-boevoy-slavyi"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sch1246v.mskobr.ru": {
+    "domain": "sch1246v.mskobr.ru",
+    "name": "Музей 295-й стрелковой Херсонской дивизии",
+    "adapter": "generic",
+    "seeds": [
+      "https://sch1246v.mskobr.ru/muzejnyj_kompleks/muzej_boevoj_slavy_295_strelkovoj_divizii/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "moscowccc.ru": {
+    "domain": "moscowccc.ru",
+    "name": "Музей VI съезда коммунистической партии Китая",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.moscowccc.ru/kopiya-o-centre"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "autostory.pro": {
+    "domain": "autostory.pro",
+    "name": "Музей автомобильных историй",
+    "adapter": "generic",
+    "seeds": [
+      "http://autostory.pro"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "teatrarmii.ru": {
+    "domain": "teatrarmii.ru",
+    "name": "Музей академического театра Российской армии",
+    "adapter": "generic",
+    "seeds": [
+      "https://teatrarmii.ru/affiche/",
+      "http://teatrarmii.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mvk.academy-andriaka.ru": {
+    "domain": "mvk.academy-andriaka.ru",
+    "name": "Музей акварели",
+    "adapter": "generic",
+    "seeds": [
+      "https://mvk.academy-andriaka.ru/",
+      "https://mvk.academy-andriaka.ru/excursions/",
+      "http://mvk.academy-andriaka.ru/exhibitions/muzey-akvareli/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "academy-andriaka.ru": {
+    "domain": "academy-andriaka.ru",
+    "name": "Музей акварели",
+    "adapter": "generic",
+    "seeds": [
+      "https://academy-andriaka.ru/raboty-iz-muzeya-akvareli",
+      "https://academy-andriaka.ru/stydenty/raspisanie-zanyatij/",
+      "http://academy-andriaka.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "academy.andriaka.ru": {
+    "domain": "academy.andriaka.ru",
+    "name": "Музей акварели",
+    "adapter": "generic",
+    "seeds": [
+      "http://academy.andriaka.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "andriaka.ru": {
+    "domain": "andriaka.ru",
+    "name": "Музей акварели",
+    "adapter": "generic",
+    "seeds": [
+      "http://andriaka.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "muz-alp.ru": {
+    "domain": "muz-alp.ru",
+    "name": "Музей альпинизма",
+    "adapter": "generic",
+    "seeds": [
+      "https://muz-alp.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "antropos.msu.ru": {
+    "domain": "antropos.msu.ru",
+    "name": "Музей антропологии им. Д.Н. Анучина",
+    "adapter": "generic",
+    "seeds": [
+      "http://antropos.msu.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "баронмюнхаузен.рф": {
+    "domain": "баронмюнхаузен.рф",
+    "name": "Музей барона Мюнхгаузена",
+    "adapter": "generic",
+    "seeds": [
+      "http://баронмюнхаузен.рф/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gym1636u.mskobr.ru": {
+    "domain": "gym1636u.mskobr.ru",
+    "name": "Музей боевой славы 327-й авиадивизии 4-й воздушной армии",
+    "adapter": "generic",
+    "seeds": [
+      "http://gym1636u.mskobr.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gym1507uz.mskobr.ru": {
+    "domain": "gym1507uz.mskobr.ru",
+    "name": "Музей боевой славы 43-й армии",
+    "adapter": "generic",
+    "seeds": [
+      "http://gym1507uz.mskobr.ru/obrazovanie/muzei/muzej_43_armii"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sch-mr.mskobr.ru": {
+    "domain": "sch-mr.mskobr.ru",
+    "name": "Музей боевой славы 6-го гвардейского механизированного корпуса 4-й танковой армии",
+    "adapter": "generic",
+    "seeds": [
+      "https://sch-mr.mskobr.ru/orlov_vasilij_fedorovich_geroj_sovetskogo_soyuza_gvardii_polkovnik"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museumdal.ru": {
+    "domain": "museumdal.ru",
+    "name": "Музей В. И. Даля",
+    "adapter": "generic",
+    "seeds": [
+      "http://museumdal.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "manufactura-mi.ru": {
+    "domain": "manufactura-mi.ru",
+    "name": "Музей ватной игрушки",
+    "adapter": "generic",
+    "seeds": [
+      "https://manufactura-mi.ru/o-nas",
+      "https://manufactura-mi.ru/kontakty",
+      "http://manufactura-mi.ru/museum"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "toysmk.ru": {
+    "domain": "toysmk.ru",
+    "name": "Музей ватной игрушки",
+    "adapter": "generic",
+    "seeds": [
+      "http://toysmk.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum-vf.ru": {
+    "domain": "museum-vf.ru",
+    "name": "Музей военной формы",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.museum-vf.ru/arkhiv-afishy/",
+      "https://www.museum-vf.ru/guests/ekskursii/",
+      "http://www.museum-vf.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rvio.histrf.ru": {
+    "domain": "rvio.histrf.ru",
+    "name": "Музей военной формы",
+    "adapter": "generic",
+    "seeds": [
+      "https://rvio.histrf.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "msk.musbot.ru": {
+    "domain": "msk.musbot.ru",
+    "name": "Музей Восстания Машин",
+    "adapter": "generic",
+    "seeds": [
+      "https://msk.musbot.ru/shkolam/",
+      "http://msk.musbot.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "watchmuseum.ru": {
+    "domain": "watchmuseum.ru",
+    "name": "Музей времени и часов",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.watchmuseum.ru/event/lekciya-posvyaschyonnaya-mikrobrendam-lideram",
+      "http://www.watchmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.viam.ru": {
+    "domain": "museum.viam.ru",
+    "name": "Музей Всероссийского института авиационных материалов",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum.viam.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "victorymuseum.ru": {
+    "domain": "victorymuseum.ru",
+    "name": "Музей Г.О.Р.А.",
+    "adapter": "cards",
+    "seeds": [
+      "https://victorymuseum.ru/playbill/events/"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12,
+    "rules": [
+      {
+        "card": ".oblique-items .item",
+        "title": ".name",
+        "date": [
+          ".date"
+        ],
+        "link": ".name",
+        "kind": ".age-limit-box"
+      }
+    ]
+  },
+  "10.garagemca.org": {
+    "domain": "10.garagemca.org",
+    "name": "Музей Гараж",
+    "adapter": "generic",
+    "seeds": [
+      "https://10.garagemca.org/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn--80afcsrlra.xn--p1ai": {
+    "domain": "xn--80afcsrlra.xn--p1ai",
+    "name": "Музей Гарри Поттера, интерактивная выставка",
+    "adapter": "generic",
+    "seeds": [
+      "https://xn--80afcsrlra.xn--p1ai/",
+      "http://xn--80afcsrlra.xn--p1ai/museum"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ippo.ru": {
+    "domain": "ippo.ru",
+    "name": "Музей генерал-губернатора Москвы Великого князя Сергея Александровича и истории Императорского православного палестинского общества",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.ippo.ru/about/centre/1/1/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kghmuseum.ru": {
+    "domain": "kghmuseum.ru",
+    "name": "Музей городского хозяйства Москвы",
+    "adapter": "generic",
+    "seeds": [
+      "http://kghmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn----7sbabalfgj4as1arld1aqs8v.xn--p1ai": {
+    "domain": "xn----7sbabalfgj4as1arld1aqs8v.xn--p1ai",
+    "name": "Музей декоративно-прикладного и промышленного искусства, МГХПА им. С.Г. Строганова",
+    "adapter": "generic",
+    "seeds": [
+      "http://xn----7sbabalfgj4as1arld1aqs8v.xn--p1ai"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kustari.net": {
+    "domain": "kustari.net",
+    "name": "Музей деревянной игрушки",
+    "adapter": "generic",
+    "seeds": [
+      "http://kustari.net"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "cdm-moscow.ru": {
+    "domain": "cdm-moscow.ru",
+    "name": "Музей детства",
+    "adapter": "generic",
+    "seeds": [
+      "http://cdm-moscow.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "audioguide.cdm-moscow.ru": {
+    "domain": "audioguide.cdm-moscow.ru",
+    "name": "Музей детства",
+    "adapter": "generic",
+    "seeds": [
+      "https://audioguide.cdm-moscow.ru/muzei_detstva",
+      "https://audioguide.cdm-moscow.ru/dobro_pozhalovat",
+      "https://audioguide.cdm-moscow.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ugolokdurova.ru": {
+    "domain": "ugolokdurova.ru",
+    "name": "Музей династии Дурова",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.ugolokdurova.ru/playbill/",
+      "https://www.ugolokdurova.ru/museum"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum-ksrk.ru": {
+    "domain": "museum-ksrk.ru",
+    "name": "Музей дома культуры Всероссийского общества слепых",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum-ksrk.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ksrk.ru": {
+    "domain": "ksrk.ru",
+    "name": "Музей дома культуры Всероссийского общества слепых",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.ksrk.ru:443/events/event.php?EVENT_ID=8222",
+      "https://www.ksrk.ru:443/events/event.php?EVENT_ID=8328",
+      "http://www.ksrk.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "parcom.ru": {
+    "domain": "parcom.ru",
+    "name": "Музей ЗАО МОФ Парижская коммуна",
+    "adapter": "generic",
+    "seeds": [
+      "http://parcom.ru/soczialnoe-partnerstvo/muzej/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "zverevcenter.ru": {
+    "domain": "zverevcenter.ru",
+    "name": "Музей Зверевский центр современного искусства",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.zverevcenter.ru/index.php/item/370-raspisanie-chasy-i-kusochek-kolbasy",
+      "http://www.zverevcenter.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "zelmuseum.ru": {
+    "domain": "zelmuseum.ru",
+    "name": "Музей Зеленограда",
+    "adapter": "generic",
+    "seeds": [
+      "http://zelmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "cosmos.msu.ru": {
+    "domain": "cosmos.msu.ru",
+    "name": "Музей землеведения Московского государственного университета имени М.В. Ломоносова",
+    "adapter": "generic",
+    "seeds": [
+      "http://cosmos.msu.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mes.msu.ru": {
+    "domain": "mes.msu.ru",
+    "name": "Музей землеведения Московского государственного университета имени М.В. Ломоносова",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.mes.msu.ru/ekskursii",
+      "http://www.mes.msu.ru/o-muzee/struktura/gruppa-obrazovatelnykh-i-ekskursionnykh-programm",
+      "http://www.mes.msu.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "msu.ru": {
+    "domain": "msu.ru",
+    "name": "Музей землеведения Московского государственного университета имени М.В. Ломоносова",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.msu.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "magistrvv.com": {
+    "domain": "magistrvv.com",
+    "name": "Музей изобразительного и декоративно-прикладного искусства Хайрулова В2",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.magistrvv.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museyfondn2.ru": {
+    "domain": "museyfondn2.ru",
+    "name": "Музей Императора Николая II",
+    "adapter": "generic",
+    "seeds": [
+      "https://museyfondn2.ru/",
+      "https://museyfondn2.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "timacad.ru": {
+    "domain": "timacad.ru",
+    "name": "Музей Индустриализации Земледелия им. В.П. Горячкина",
+    "adapter": "generic",
+    "seeds": [
+      "http://timacad.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "khrunichevmuseum.tilda.ws": {
+    "domain": "khrunichevmuseum.tilda.ws",
+    "name": "Музей истории",
+    "adapter": "generic",
+    "seeds": [
+      "http://khrunichevmuseum.tilda.ws"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "voginfo.ru": {
+    "domain": "voginfo.ru",
+    "name": "Музей истории ВОГ",
+    "adapter": "generic",
+    "seeds": [
+      "http://voginfo.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mosparks.ru": {
+    "domain": "mosparks.ru",
+    "name": "Музей истории военно-морского флота",
+    "adapter": "generic",
+    "seeds": [
+      "https://mosparks.ru/events",
+      "https://mosparks.ru/events/",
+      "http://mosparks.ru/vmf/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gmig.ru": {
+    "domain": "gmig.ru",
+    "name": "Музей истории ГУЛАГа",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.gmig.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mievr.ru": {
+    "domain": "mievr.ru",
+    "name": "Музей истории евреев в России",
+    "adapter": "generic",
+    "seeds": [
+      "http://mievr.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "niitp.ru": {
+    "domain": "niitp.ru",
+    "name": "Музей истории и технических достижений НИИ ТП",
+    "adapter": "generic",
+    "seeds": [
+      "https://niitp.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "hm.msu.ru": {
+    "domain": "hm.msu.ru",
+    "name": "Музей истории МГУ имени М.В. Ломоносова",
+    "adapter": "generic",
+    "seeds": [
+      "http://hm.msu.ru/%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8F-%D1%83%D1%87%D0%B0%D1%89%D0%B8%D1%85%D1%81%D1%8F-%D1%81%D1%83%D0%BD%D1%86-%D0%BC%D0%B3%D1%83",
+      "http://hm.msu.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.historymed.ru": {
+    "domain": "museum.historymed.ru",
+    "name": "Музей истории медицины МГМСУ имени А. И. Евдокимова",
+    "adapter": "generic",
+    "seeds": [
+      "https://museum.historymed.ru/exposition",
+      "https://museum.historymed.ru/anatomical",
+      "https://museum.historymed.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sechenov.ru": {
+    "domain": "sechenov.ru",
+    "name": "Музей истории медицины первого Московского государственного медицинского университета им. И.М. Сеченова",
+    "adapter": "generic",
+    "seeds": [
+      "http://sechenov.ru/univers/structure/other/muzey-istorii-meditsiny"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "monikiweb.ru": {
+    "domain": "monikiweb.ru",
+    "name": "Музей истории МОНИКИ",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.monikiweb.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "miit.ru": {
+    "domain": "miit.ru",
+    "name": "Музей истории Московского государственного университета путей сообщения",
+    "adapter": "generic",
+    "seeds": [
+      "http://miit.ru/portal/page/portal/miit/divs/hist?ct_hist=3&ct_mmc=2&curr_page_divs=1&curr_page_hist=1&curr_page_mmc=1&id_division_divs=379&id_division_hist=379&id_page=1569&id_pi_cpm=3&id_pi_divs=1571&id_pi_hist=1575&id_pi_m2l=67&id_pi_mm=48&id_pi_mmc=64&id_pi_top=1265&idk_info_hist=1137&letter_divs=0&search_divs=0&view_mode_divs=2.0&view_mode_top=1"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "pkb1.ru": {
+    "domain": "pkb1.ru",
+    "name": "Музей истории Московской городской психиатрической больницы им. Н.А. Алексеева",
+    "adapter": "generic",
+    "seeds": [
+      "http://pkb1.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mosenergo-museum.ru": {
+    "domain": "mosenergo-museum.ru",
+    "name": "Музей истории Мосэнерго",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.mosenergo-museum.ru/excursion.php",
+      "http://mosenergo-museum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mint.museum": {
+    "domain": "mint.museum",
+    "name": "Музей истории науки и техники",
+    "adapter": "generic",
+    "seeds": [
+      "http://mint.museum/events",
+      "https://mint.museum/events",
+      "http://mint.museum"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mospolytech.ru": {
+    "domain": "mospolytech.ru",
+    "name": "Музей истории полиграфии, книгоиздания и МГУП им. Ивана Федорова",
+    "adapter": "generic",
+    "seeds": [
+      "http://mospolytech.ru/ob-universitete/muzei"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "prostarover.ru": {
+    "domain": "prostarover.ru",
+    "name": "Музей истории Преображенского старообрядческого монастыря",
+    "adapter": "generic",
+    "seeds": [
+      "http://prostarover.ru",
+      "http://prostarover.ru/lekcii-i-seminary/",
+      "http://prostarover.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mos-gaz.ru": {
+    "domain": "mos-gaz.ru",
+    "name": "Музей истории развития газового хозяйства",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.mos-gaz.ru/history/museum/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum-vnukovo.ru": {
+    "domain": "museum-vnukovo.ru",
+    "name": "Музей истории района Внуково",
+    "adapter": "generic",
+    "seeds": [
+      "https://museum-vnukovo.ru:443/",
+      "https://museum-vnukovo.ru:443/contact",
+      "http://museum-vnukovo.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gubkin.ru": {
+    "domain": "gubkin.ru",
+    "name": "Музей истории Российского государственного университета нефти и газа им. И.М. Губкина",
+    "adapter": "generic",
+    "seeds": [
+      "https://gubkin.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sokolniki.mirchocolat.ru": {
+    "domain": "sokolniki.mirchocolat.ru",
+    "name": "Музей Истории Русского Шоколада Сокольники",
+    "adapter": "generic",
+    "seeds": [
+      "https://sokolniki.mirchocolat.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rea.ru": {
+    "domain": "rea.ru",
+    "name": "Музей истории РЭУ имени Г. В. Плеханова",
+    "adapter": "generic",
+    "seeds": [
+      "https://rea.ru/events",
+      "https://rea.ru/events?tag=44",
+      "http://rea.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12,
+    "calendar_enabled": false,
+    "review_note": "Не включено в календарь: общая афиша организации либо извлечение требует проверки."
+  },
+  "telhistory.ru": {
+    "domain": "telhistory.ru",
+    "name": "Музей истории телефона",
+    "adapter": "generic",
+    "seeds": [
+      "http://telhistory.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum-shchapovo.msk.muzkult.ru": {
+    "domain": "museum-shchapovo.msk.muzkult.ru",
+    "name": "Музей истории усадьбы Александрово-Щапово",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum-shchapovo.msk.muzkult.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "agios-nicolos.ru": {
+    "domain": "agios-nicolos.ru",
+    "name": "Музей истории храма и Первой мировой войны",
+    "adapter": "generic",
+    "seeds": [
+      "https://agios-nicolos.ru/расписание/",
+      "https://agios-nicolos.ru/wp-content/uploads/2026/09/СЕНТЯБРЬ-ОКТЯБРЬ-ОБЩЕЕ.pdf",
+      "http://agios-nicolos.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sevastopolets-moskva.ru": {
+    "domain": "sevastopolets-moskva.ru",
+    "name": "Музей истории Черноморского флота",
+    "adapter": "generic",
+    "seeds": [
+      "https://sevastopolets-moskva.ru/sections/museum/about.aspx"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mirpaustowskogo.ru": {
+    "domain": "mirpaustowskogo.ru",
+    "name": "Музей К. Г. Паустовского",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.mirpaustowskogo.ru/afisha/",
+      "https://www.mirpaustowskogo.ru/posetitelju/excursions",
+      "http://www.mirpaustowskogo.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museumkadashi.com": {
+    "domain": "museumkadashi.com",
+    "name": "Музей Кадашёвская слобода",
+    "adapter": "generic",
+    "seeds": [
+      "http://museumkadashi.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "музейкарамели.рф": {
+    "domain": "музейкарамели.рф",
+    "name": "Музей Карамели",
+    "adapter": "generic",
+    "seeds": [
+      "http://музейкарамели.рф/dedmoroz"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museikino.ru": {
+    "domain": "museikino.ru",
+    "name": "Музей кино",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.museikino.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mosfilm.ru": {
+    "domain": "mosfilm.ru",
+    "name": "Музей киноконцерна Мосфильм",
+    "adapter": "generic",
+    "seeds": [
+      "https://mosfilm.ru/excursions/",
+      "http://mosfilm.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "nomadic.ru": {
+    "domain": "nomadic.ru",
+    "name": "Музей кочевой культуры",
+    "adapter": "generic",
+    "seeds": [
+      "http://nomadic.ru/visitors/",
+      "http://nomadic.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "redcross.ru": {
+    "domain": "redcross.ru",
+    "name": "Музей красного креста",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.redcross.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.redcross.ru": {
+    "domain": "museum.redcross.ru",
+    "name": "Музей красного креста",
+    "adapter": "generic",
+    "seeds": [
+      "https://museum.redcross.ru/events",
+      "https://museum.redcross.ru/events?page=1",
+      "https://museum.redcross.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "cryptography-museum.ru": {
+    "domain": "cryptography-museum.ru",
+    "name": "Музей криптографии",
+    "adapter": "generic",
+    "seeds": [
+      "https://cryptography-museum.ru/events",
+      "https://cryptography-museum.ru/tours",
+      "http://cryptography-museum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tuzova.com": {
+    "domain": "tuzova.com",
+    "name": "Музей кукол Barbie",
+    "adapter": "generic",
+    "seeds": [
+      "http://tuzova.com"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "brickstar.ru": {
+    "domain": "brickstar.ru",
+    "name": "Музей Лего Brick Star",
+    "adapter": "generic",
+    "seeds": [
+      "https://brickstar.ru:443/konstruktoryi/lego-minifigures/",
+      "https://brickstar.ru:443/novosti/konstruktoryi/lego-minifigures/",
+      "http://brickstar.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "bulgakovmuseum.ru": {
+    "domain": "bulgakovmuseum.ru",
+    "name": "Музей М. А. Булгакова",
+    "adapter": "bulgakov",
+    "seeds": [
+      "https://bulgakovmuseum.ru/calendar"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "magicmuseum.ru": {
+    "domain": "magicmuseum.ru",
+    "name": "Музей магии",
+    "adapter": "generic",
+    "seeds": [
+      "https://magicmuseum.ru/exptest-msk",
+      "http://magicmuseum.ru/msk"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "moskva-tr.gazprom.ru": {
+    "domain": "moskva-tr.gazprom.ru",
+    "name": "Музей магистрального транспорта газа",
+    "adapter": "generic",
+    "seeds": [
+      "http://moskva-tr.gazprom.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.histrf.ru": {
+    "domain": "museum.histrf.ru",
+    "name": "Музей Московских стрельцов Стрелецкие палаты",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum.histrf.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museumrvio.ru": {
+    "domain": "museumrvio.ru",
+    "name": "Музей Московских стрельцов Стрелецкие палаты",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.museumrvio.ru/children-events/",
+      "https://www.museumrvio.ru/posetitelyam/excursions/",
+      "http://www.museumrvio.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mosmetro.ru": {
+    "domain": "mosmetro.ru",
+    "name": "Музей Московского метрополитена",
+    "adapter": "generic",
+    "seeds": [
+      "http://mosmetro.ru/passengers/services/career-guidance-center"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mof.group": {
+    "domain": "mof.group",
+    "name": "Музей Московской оружейной фабрики БР. Юдиныхъ с 1827г",
+    "adapter": "generic",
+    "seeds": [
+      "https://mof.group/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sch2093.mskobr.ru": {
+    "domain": "sch2093.mskobr.ru",
+    "name": "Музей Моё Отечество",
+    "adapter": "generic",
+    "seeds": [
+      "https://sch2093.mskobr.ru/obrazovanie/muzeynoe-delo/muzej"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mpgu.su": {
+    "domain": "mpgu.su",
+    "name": "Музей МПГУ",
+    "adapter": "generic",
+    "seeds": [
+      "https://mpgu.su/ob-mpgu/muzey-mpgu/ekskursii/",
+      "https://mpgu.su/wp-content/uploads/2016/12/IMG_5316.jpg",
+      "http://mpgu.su/ob-mpgu/muzey-mpgu/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "мпгу.рф": {
+    "domain": "мпгу.рф",
+    "name": "Музей МПГУ",
+    "adapter": "generic",
+    "seeds": [
+      "http://мпгу.рф/ob-mpgu/muzey-mpgu"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "poiskovikirf.ru": {
+    "domain": "poiskovikirf.ru",
+    "name": "Музей Неизвестный солдат",
+    "adapter": "generic",
+    "seeds": [
+      "http://poiskovikirf.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn--b1agahljhp0c.xn--p1ai": {
+    "domain": "xn--b1agahljhp0c.xn--p1ai",
+    "name": "Музей необычных велосипедов",
+    "adapter": "generic",
+    "seeds": [
+      "http://xn--b1agahljhp0c.xn--p1ai"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "веломузей.рф": {
+    "domain": "веломузей.рф",
+    "name": "Музей необычных велосипедов",
+    "adapter": "generic",
+    "seeds": [
+      "https://веломузей.рф/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sklif.mos.ru": {
+    "domain": "sklif.mos.ru",
+    "name": "Музей НИИ скорой помощи им. Н.В. Склифосовского",
+    "adapter": "generic",
+    "seeds": [
+      "https://sklif.mos.ru/events/",
+      "https://sklif.mos.ru/events/?special_version=Y",
+      "https://sklif.mos.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12,
+    "calendar_enabled": false,
+    "review_note": "Не включено в календарь: общая афиша организации либо извлечение требует проверки."
+  },
+  "misis.ru": {
+    "domain": "misis.ru",
+    "name": "Музей Ниту Мисис",
+    "adapter": "generic",
+    "seeds": [
+      "https://misis.ru/university/struktura-universiteta/offices/science-office/informmarketingcenter/museum/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "brykina.com": {
+    "domain": "brykina.com",
+    "name": "Музей нонконформизма",
+    "adapter": "generic",
+    "seeds": [
+      "http://brykina.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mnk.coinmuseum.ru": {
+    "domain": "mnk.coinmuseum.ru",
+    "name": "Музей нумизматики",
+    "adapter": "generic",
+    "seeds": [
+      "http://mnk.coinmuseum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "coinmuseum.ru": {
+    "domain": "coinmuseum.ru",
+    "name": "Музей нумизматики",
+    "adapter": "generic",
+    "seeds": [
+      "https://coinmuseum.ru/nauchnaya-deyatelnost/events/",
+      "https://coinmuseum.ru/nauchnaya-deyatelnost/events/?year=2026",
+      "https://coinmuseum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museumofillusions.moscow": {
+    "domain": "museumofillusions.moscow",
+    "name": "Музей оптических иллюзий",
+    "adapter": "generic",
+    "seeds": [
+      "http://museumofillusions.moscow"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tupolev.ru": {
+    "domain": "tupolev.ru",
+    "name": "Музей опытного конструкторского бюро А. Н. Туполева",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.tupolev.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum-trotter.ru": {
+    "domain": "museum-trotter.ru",
+    "name": "Музей Орловского рысака и русской тройки",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum-trotter.ru/events.html",
+      "http://museum-trotter.ru/exposition.html",
+      "http://museum-trotter.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "podval-museum.ru": {
+    "domain": "podval-museum.ru",
+    "name": "Музей Оружейный подвал",
+    "adapter": "generic",
+    "seeds": [
+      "https://podval-museum.ru/",
+      "https://podval-museum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "moscowarmsmuseum.ru": {
+    "domain": "moscowarmsmuseum.ru",
+    "name": "Музей оружия",
+    "adapter": "generic",
+    "seeds": [
+      "https://moscowarmsmuseum.ru/events",
+      "http://moscowarmsmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "surl.li": {
+    "domain": "surl.li",
+    "name": "Музей Отечественной войны 1812 года",
+    "adapter": "generic",
+    "seeds": [
+      "http://surl.li/jeyi"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rors.ru": {
+    "domain": "rors.ru",
+    "name": "Музей охоты и рыболовства",
+    "adapter": "generic",
+    "seeds": [
+      "https://rors.ru/istoriya-muzeya/muzejnyj-kalendar/",
+      "http://rors.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "music-museum.ru": {
+    "domain": "music-museum.ru",
+    "name": "Музей П.И. Чайковский и Москва",
+    "adapter": "generic",
+    "seeds": [
+      "https://music-museum.ru/events/",
+      "https://music-museum.ru/events/events/",
+      "https://music-museum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.lihov6.ru": {
+    "domain": "museum.lihov6.ru",
+    "name": "Музей памяти новомучеников и исповедников Российских",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum.lihov6.ru/ekskursii",
+      "http://museum.lihov6.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "park.sokolniki.com": {
+    "domain": "park.sokolniki.com",
+    "name": "Музей парка Сокольники",
+    "adapter": "generic",
+    "seeds": [
+      "http://park.sokolniki.com/about/museum/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "printmuseum.ru": {
+    "domain": "printmuseum.ru",
+    "name": "Музей Печатной графики",
+    "adapter": "generic",
+    "seeds": [
+      "https://printmuseum.ru/afisha/",
+      "https://printmuseum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gopinball.ru": {
+    "domain": "gopinball.ru",
+    "name": "Музей Пинбола GoPinball",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.gopinball.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sch1161.mskobr.ru": {
+    "domain": "sch1161.mskobr.ru",
+    "name": "Музей писателя Е. Л. Войскунского",
+    "adapter": "generic",
+    "seeds": [
+      "https://sch1161.mskobr.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "pokrov-monastir.ru": {
+    "domain": "pokrov-monastir.ru",
+    "name": "Музей Покровского монастыря и Блаженной Матроны Московской",
+    "adapter": "generic",
+    "seeds": [
+      "https://pokrov-monastir.ru:443/schedule",
+      "https://pokrov-monastir.ru:443/excursions",
+      "http://pokrov-monastir.ru/news/muzey_pokrovskogo_monastyrya"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "muzeydela.ru": {
+    "domain": "muzeydela.ru",
+    "name": "Музей предпринимателей, меценатов и благотворителей",
+    "adapter": "generic",
+    "seeds": [
+      "https://muzeydela.ru/sobytiya/",
+      "https://muzeydela.ru/posetitelyam/lekcii/",
+      "http://muzeydela.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.pkb4.ru": {
+    "domain": "museum.pkb4.ru",
+    "name": "Музей Преображенской больницы",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum.pkb4.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "pkb4.ru": {
+    "domain": "pkb4.ru",
+    "name": "Музей Преображенской больницы",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.pkb4.ru/museum/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mosecopros.ru": {
+    "domain": "mosecopros.ru",
+    "name": "Музей природы, экоцентр",
+    "adapter": "generic",
+    "seeds": [
+      "http://mosecopros.ru/nature-museum"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "profiling.museum": {
+    "domain": "profiling.museum",
+    "name": "Музей профайлинга",
+    "adapter": "generic",
+    "seeds": [
+      "http://profiling.museum"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mpomos.ru": {
+    "domain": "mpomos.ru",
+    "name": "Музей профессионального образования города Москвы",
+    "adapter": "generic",
+    "seeds": [
+      "https://mpomos.ru/schedule",
+      "http://mpomos.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gingerbread-msk.ru": {
+    "domain": "gingerbread-msk.ru",
+    "name": "Музей Пряника",
+    "adapter": "generic",
+    "seeds": [
+      "https://gingerbread-msk.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "музей-пряник.рф": {
+    "domain": "музей-пряник.рф",
+    "name": "Музей Пряника",
+    "adapter": "generic",
+    "seeds": [
+      "https://музей-пряник.рф/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn--c1adffbadreybi0ax0b.xn--p1ai": {
+    "domain": "xn--c1adffbadreybi0ax0b.xn--p1ai",
+    "name": "Музей психологии, дефектологии и логопедии",
+    "adapter": "generic",
+    "seeds": [
+      "https://xn--c1adffbadreybi0ax0b.xn--p1ai/",
+      "http://xn--c1adffbadreybi0ax0b.xn--p1ai"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "музейпсихологии.рф": {
+    "domain": "музейпсихологии.рф",
+    "name": "Музей психологии, дефектологии и логопедии",
+    "adapter": "generic",
+    "seeds": [
+      "https://музейпсихологии.рф/",
+      "https://музейпсихологии.рф/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "plmusey.narod.ru": {
+    "domain": "plmusey.narod.ru",
+    "name": "Музей путешествий и паломничества по святым местам",
+    "adapter": "generic",
+    "seeds": [
+      "http://plmusey.narod.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "castle.moscow": {
+    "domain": "castle.moscow",
+    "name": "Музей Ратной Истории г. Москвы",
+    "adapter": "generic",
+    "seeds": [
+      "https://castle.moscow/",
+      "https://castle.moscow/gastro/",
+      "https://castle.moscow/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "roerichsmuseum.ru": {
+    "domain": "roerichsmuseum.ru",
+    "name": "Музей Рерихов",
+    "adapter": "generic",
+    "seeds": [
+      "http://roerichsmuseum.ru/index.php/events",
+      "http://roerichsmuseum.ru/index.php/events?start=8",
+      "http://roerichsmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.rmapo.ru": {
+    "domain": "museum.rmapo.ru",
+    "name": "Музей РМАНПО",
+    "adapter": "generic",
+    "seeds": [
+      "https://museum.rmapo.ru/poznavatelnye-ekskursii-dlya-sotrudnikov-i-obuchayushhihsya-akademii-v-muzee-rmanpo/",
+      "https://museum.rmapo.ru/v-muzee-akademii-sostoyalas-ekskursiya-na-anglijskom-yazyke-dlya-inostrannyh-gostej/",
+      "http://museum.rmapo.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rudn.ru": {
+    "domain": "rudn.ru",
+    "name": "Музей Российского университета дружбы народов",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.rudn.ru/media/events",
+      "https://www.rudn.ru/media/events?events_id=a188d8bd-eea2-420a-9e20-ea906e71f5bd&downloadICS",
+      "https://www.rudn.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "guslimuseum.ru": {
+    "domain": "guslimuseum.ru",
+    "name": "Музей русских гуслей и китайского гуциня",
+    "adapter": "generic",
+    "seeds": [
+      "http://guslimuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "moseparh.ru": {
+    "domain": "moseparh.ru",
+    "name": "Музей Русского Афона",
+    "adapter": "generic",
+    "seeds": [
+      "http://moseparh.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rusimp.su": {
+    "domain": "rusimp.su",
+    "name": "Музей русского импрессионизма",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.rusimp.su/calendar",
+      "https://www.rusimp.su/calendar?visitors=adult",
+      "http://rusimp.su"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mirekmuseum.ru": {
+    "domain": "mirekmuseum.ru",
+    "name": "Музей русской гармоники Альфреда Мирека",
+    "adapter": "generic",
+    "seeds": [
+      "https://mirekmuseum.ru/mirek/377/",
+      "https://mirekmuseum.ru/mirek/393/",
+      "https://mirekmuseum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "new.russikona.ru": {
+    "domain": "new.russikona.ru",
+    "name": "Музей русской иконы им. Михаила Абрамова",
+    "adapter": "generic",
+    "seeds": [
+      "http://new.russikona.ru/events",
+      "http://new.russikona.ru/events?category[]=excursions",
+      "http://new.russikona.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kuzminki-msk.ru": {
+    "domain": "kuzminki-msk.ru",
+    "name": "Музей русской усадебной культуры Усадьба князей Голицыных Влахернское-Кузьминки",
+    "adapter": "generic",
+    "seeds": [
+      "http://kuzminki-msk.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sadovoekoltso.com": {
+    "domain": "sadovoekoltso.com",
+    "name": "Музей Садовое кольцо",
+    "adapter": "generic",
+    "seeds": [
+      "http://sadovoekoltso.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gemmuseum.ru": {
+    "domain": "gemmuseum.ru",
+    "name": "Музей Самоцветы",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.gemmuseum.ru/Коллекции/",
+      "https://www.gemmuseum.ru/Экскурсии/",
+      "http://www.gemmuseum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum-light.bl-g.ru": {
+    "domain": "museum-light.bl-g.ru",
+    "name": "Музей света",
+    "adapter": "generic",
+    "seeds": [
+      "https://museum-light.bl-g.ru/",
+      "http://museum-light.bl-g.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mos03.ru": {
+    "domain": "mos03.ru",
+    "name": "Музей скорой помощи, Станция скорой и неотложной медицинской помощи им. Пучкова А.С.",
+    "adapter": "generic",
+    "seeds": [
+      "http://mos03.ru/rubrics/about-the-museum/informatsiya-o-muzee-ssinmp-im-a-s-puchkova/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum-slav.com": {
+    "domain": "museum-slav.com",
+    "name": "Музей славянской культуры им. Константина Васильева",
+    "adapter": "generic",
+    "seeds": [
+      "https://museum-slav.com/",
+      "http://museum-slav.com"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "dogmuseum.ru": {
+    "domain": "dogmuseum.ru",
+    "name": "Музей собаки",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.dogmuseum.ru/online",
+      "https://www.dogmuseum.ru/events/obzornaya",
+      "http://www.dogmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mus-col.com": {
+    "domain": "mus-col.com",
+    "name": "Музей Собрание",
+    "adapter": "generic",
+    "seeds": [
+      "https://mus-col.com/events/",
+      "https://mus-col.com/events/?PAGEN_1=2",
+      "https://mus-col.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "15kop.ru": {
+    "domain": "15kop.ru",
+    "name": "Музей советских игровых автоматов",
+    "adapter": "generic",
+    "seeds": [
+      "https://15kop.ru/afisha",
+      "https://15kop.ru/afisha-arhiv",
+      "http://www.15kop.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn--80adgdranccsaibe8bu0mvc.xn--p1ai": {
+    "domain": "xn--80adgdranccsaibe8bu0mvc.xn--p1ai",
+    "name": "Музей современной оловянной военно-исторической миниатюры",
+    "adapter": "generic",
+    "seeds": [
+      "https://xn--80adgdranccsaibe8bu0mvc.xn--p1ai:443/gr13.html",
+      "https://xn--80adgdranccsaibe8bu0mvc.xn--p1ai:443/gr14.html",
+      "http://xn--80adgdranccsaibe8bu0mvc.xn--p1ai"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "hram-ks.ru": {
+    "domain": "hram-ks.ru",
+    "name": "Музей создания Алексеевского монастыря",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.hram-ks.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "souzmultpark.ru": {
+    "domain": "souzmultpark.ru",
+    "name": "Музей Союзмультфильма",
+    "adapter": "generic",
+    "seeds": [
+      "https://souzmultpark.ru/uploads/attractions/stereozerkala1.jpg",
+      "http://souzmultpark.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "cska.ru": {
+    "domain": "cska.ru",
+    "name": "Музей спортивной славы ЦСКА",
+    "adapter": "generic",
+    "seeds": [
+      "http://cska.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mosmuseumussr.ru": {
+    "domain": "mosmuseumussr.ru",
+    "name": "Музей СССР",
+    "adapter": "generic",
+    "seeds": [
+      "https://mosmuseumussr.ru/",
+      "http://mosmuseumussr.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "armenianchurch.ru": {
+    "domain": "armenianchurch.ru",
+    "name": "Музей Тапан",
+    "adapter": "generic",
+    "seeds": [
+      "https://armenianchurch.ru/tapan"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sculptura.ru": {
+    "domain": "sculptura.ru",
+    "name": "Музей Творческое наследие академика Юрия Орехова",
+    "adapter": "generic",
+    "seeds": [
+      "http://sculptura.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tvartsmuseum.ru": {
+    "domain": "tvartsmuseum.ru",
+    "name": "Музей телевизионного искусства",
+    "adapter": "generic",
+    "seeds": [
+      "https://tvartsmuseum.ru/",
+      "http://tvartsmuseum.ru/",
+      "https://tvartsmuseum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "muzeytemnoty.ru": {
+    "domain": "muzeytemnoty.ru",
+    "name": "Музей темноты",
+    "adapter": "generic",
+    "seeds": [
+      "http://muzeytemnoty.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "muzeyvtemnote.ru": {
+    "domain": "muzeyvtemnote.ru",
+    "name": "Музей темноты",
+    "adapter": "generic",
+    "seeds": [
+      "http://muzeyvtemnote.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "apple-museum.ru": {
+    "domain": "apple-museum.ru",
+    "name": "Музей техники Apple",
+    "adapter": "generic",
+    "seeds": [
+      "https://apple-museum.ru/",
+      "http://apple-museum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "dollmuseum.ru": {
+    "domain": "dollmuseum.ru",
+    "name": "Музей уникальных кукол",
+    "adapter": "generic",
+    "seeds": [
+      "https://dollmuseum.ru/ekskursii",
+      "https://dollmuseum.ru/masterclasses",
+      "http://dollmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn----8sbacgokdt1a3a6c.xn--p1ai": {
+    "domain": "xn----8sbacgokdt1a3a6c.xn--p1ai",
+    "name": "Музей уральских сказов",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.xn----8sbacgokdt1a3a6c.xn--p1ai/klass",
+      "https://www.xn----8sbacgokdt1a3a6c.xn--p1ai/bibex",
+      "http://xn----8sbacgokdt1a3a6c.xn--p1ai"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "музей-бажова.рф": {
+    "domain": "музей-бажова.рф",
+    "name": "Музей уральских сказов",
+    "adapter": "generic",
+    "seeds": [
+      "http://музей-бажова.рф/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "fabrikacci.com": {
+    "domain": "fabrikacci.com",
+    "name": "Музей фабрики",
+    "adapter": "generic",
+    "seeds": [
+      "https://fabrikacci.com/events.html",
+      "http://fabrikacci.com/events.html",
+      "http://fabrikacci.com"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "fa.ru": {
+    "domain": "fa.ru",
+    "name": "Музей Финансового университета",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.fa.ru/org/div/museum/Pages/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "magic2.ru": {
+    "domain": "magic2.ru",
+    "name": "Музей фокусов",
+    "adapter": "generic",
+    "seeds": [
+      "http://magic2.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kosygin-rgu.ru": {
+    "domain": "kosygin-rgu.ru",
+    "name": "Музей художественного текстиля и костюма РГУ им. А. Н. Косыгина",
+    "adapter": "generic",
+    "seeds": [
+      "https://kosygin-rgu.ru/vuz/museum/mhtk.aspx?ysclid=lb.."
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "feina.ru": {
+    "domain": "feina.ru",
+    "name": "Музей чизкейка",
+    "adapter": "generic",
+    "seeds": [
+      "http://feina.ru/cheesecake-museum"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "centralchessclub.ru": {
+    "domain": "centralchessclub.ru",
+    "name": "Музей шахмат",
+    "adapter": "generic",
+    "seeds": [
+      "http://centralchessclub.ru/raspisanie-turnirov/",
+      "http://centralchessclub.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ruchess.ru": {
+    "domain": "ruchess.ru",
+    "name": "Музей шахмат",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.ruchess.ru/championship/calendar/",
+      "https://www.ruchess.ru/championship/calendar/?LIST=1",
+      "http://www.ruchess.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "knigoluby.ru": {
+    "domain": "knigoluby.ru",
+    "name": "Музей экслибриса и миниатюрной книги",
+    "adapter": "generic",
+    "seeds": [
+      "https://knigoluby.ru/%d0%b0%d1%84%d0%b8%d1%88%d0%b0-%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b9-2/",
+      "https://knigoluby.ru:443/%D0%B0%D1%84%D0%B8%D1%88%D0%B0-%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9-2/",
+      "http://knigoluby.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "exlibrismuseum.org": {
+    "domain": "exlibrismuseum.org",
+    "name": "Музей экслибриса и миниатюрной книги",
+    "adapter": "generic",
+    "seeds": [
+      "https://exlibrismuseum.org/raspisanie/",
+      "https://exlibrismuseum.org/product/excursion/",
+      "https://exlibrismuseum.org/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "lectoriumart.ru": {
+    "domain": "lectoriumart.ru",
+    "name": "Музей экслибриса и миниатюрной книги",
+    "adapter": "generic",
+    "seeds": [
+      "https://lectoriumart.ru/shop",
+      "https://lectoriumart.ru/shop/",
+      "https://lectoriumart.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.rgub.ru": {
+    "domain": "museum.rgub.ru",
+    "name": "Музей электронной книги",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum.rgub.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museumofemotions.ru": {
+    "domain": "museumofemotions.ru",
+    "name": "Музей эмоций",
+    "adapter": "generic",
+    "seeds": [
+      "http://museumofemotions.ru/msk"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mus-school1086.ucoz.ru": {
+    "domain": "mus-school1086.ucoz.ru",
+    "name": "Музей этнокультуры Кореи",
+    "adapter": "generic",
+    "seeds": [
+      "http://mus-school1086.ucoz.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "fond-nikulin.ru": {
+    "domain": "fond-nikulin.ru",
+    "name": "Музей Ю. В. Никулина",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.fond-nikulin.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.festival15.ru": {
+    "domain": "museum.festival15.ru",
+    "name": "Музей Ю.В.Никулина, центр содействия семейному воспитанию",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum.festival15.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn--c1arjr.xn--p1ai": {
+    "domain": "xn--c1arjr.xn--p1ai",
+    "name": "Музей, МПГУ им. М.А. Шолохова",
+    "adapter": "generic",
+    "seeds": [
+      "http://xn--c1arjr.xn--p1ai/ob-mpgu/muzey-mpgu"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "nffedorov.ru": {
+    "domain": "nffedorov.ru",
+    "name": "Музей-библиотека им Н.Ф. Фёдорова",
+    "adapter": "generic",
+    "seeds": [
+      "https://nffedorov.ru/10-09",
+      "https://nffedorov.ru/2026-09-05",
+      "http://nffedorov.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.imli.ru": {
+    "domain": "museum.imli.ru",
+    "name": "Музей-квартира А.М. Горького",
+    "adapter": "generic",
+    "seeds": [
+      "https://museum.imli.ru/экскурсии",
+      "https://museum.imli.ru/расписание",
+      "http://museum.imli.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "um.mos.ru": {
+    "domain": "um.mos.ru",
+    "name": "Музей-квартира академика Н.Д. Зелинского",
+    "adapter": "generic",
+    "seeds": [
+      "https://um.mos.ru/posters/events/?sort=date",
+      "https://um.mos.ru/posters/events/?freeEvents=true",
+      "http://um.mos.ru/houses/kvartira_v_kotoroy_zhil_zelinskiy_nikolay_dmitrievich_v_1893_1911_i_1917_1950_gg_v_kvartire_memorial"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rutube.ru": {
+    "domain": "rutube.ru",
+    "name": "Музей-квартира В. Н. Плучека",
+    "adapter": "generic",
+    "seeds": [
+      "https://rutube.ru/search/?query=%23%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D0%B8",
+      "https://rutube.ru/video/95286bf2d3d9913f8aa9847e64df6eeb/",
+      "http://rutube.ru/channel/23745556/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gnesin-academy.ru": {
+    "domain": "gnesin-academy.ru",
+    "name": "Музей-квартира Е. Ф. Гнесиной",
+    "adapter": "generic",
+    "seeds": [
+      "https://gnesin-academy.ru/events/",
+      "https://gnesin-academy.ru/events/video/",
+      "https://gnesin-academy.ru/sveden/struct/memorialnyj-muzej-kvartiry-el-f-gnes/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "vakhtangov.ru": {
+    "domain": "vakhtangov.ru",
+    "name": "Музей-квартира Е.Б. Вахтангова",
+    "adapter": "generic",
+    "seeds": [
+      "https://vakhtangov.ru/afisha/",
+      "https://vakhtangov.ru/afisha/tour/",
+      "http://www.vakhtangov.ru/shows/muzeukvartira"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sytin-museum.ru": {
+    "domain": "sytin-museum.ru",
+    "name": "Музей-квартира И. Д. Сытина",
+    "adapter": "generic",
+    "seeds": [
+      "http://sytin-museum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "librarystd.ru": {
+    "domain": "librarystd.ru",
+    "name": "Музей-квартира Народных артистов СССР Б.М. Тенина и Л.П. Сухаревской, филиал ЦНБ СТД РФ",
+    "adapter": "generic",
+    "seeds": [
+      "http://librarystd.ru/1062-расписание-работы-библиотеки",
+      "http://librarystd.ru/1065-расписание-работы-библиотеки-2",
+      "http://librarystd.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rubankov.ru": {
+    "domain": "rubankov.ru",
+    "name": "Музей-мастерская 1000 топоров",
+    "adapter": "generic",
+    "seeds": [
+      "https://rubankov.ru/museum/category/events",
+      "https://rubankov.ru/museum/nashi-uslugi",
+      "https://rubankov.ru/museum/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "small_museums_near.tretyakovgallery.ru": {
+    "domain": "small_museums_near.tretyakovgallery.ru",
+    "name": "Музей-мастерская А.С. Голубкиной",
+    "adapter": "generic",
+    "seeds": [
+      "http://small_museums_near.tretyakovgallery.ru/golubkina"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gurchenko.ru": {
+    "domain": "gurchenko.ru",
+    "name": "Музей-мастерская Людмилы Гурченко",
+    "adapter": "generic",
+    "seeds": [
+      "http://gurchenko.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "moscowmanege.ru": {
+    "domain": "moscowmanege.ru",
+    "name": "Музей-мастерская народного художника СССР Д.А. Налбандяна",
+    "adapter": "generic",
+    "seeds": [
+      "http://moscowmanege.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "puzzlemuseum.ru": {
+    "domain": "puzzlemuseum.ru",
+    "name": "Музей-студия головоломок",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.puzzlemuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "lublino-palace.ru": {
+    "domain": "lublino-palace.ru",
+    "name": "Музей-усадьба Люблино",
+    "adapter": "generic",
+    "seeds": [
+      "https://lublino-palace.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mahm.ru": {
+    "domain": "mahm.ru",
+    "name": "Музей-усадьба Муравьёвых-Апостолов",
+    "adapter": "generic",
+    "seeds": [
+      "https://mahm.ru/events",
+      "https://mahm.ru/services/3",
+      "https://mahm.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "31-12.рф": {
+    "domain": "31-12.рф",
+    "name": "Музей-фабрика ёлочных игрушек",
+    "adapter": "generic",
+    "seeds": [
+      "http://31-12.рф/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mai.ru": {
+    "domain": "mai.ru",
+    "name": "Музейно-выставочный комплекс Московского авиационного института",
+    "adapter": "generic",
+    "seeds": [
+      "https://mai.ru/events/",
+      "https://mai.ru/press/events/",
+      "https://mai.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "computer-museum.ru": {
+    "domain": "computer-museum.ru",
+    "name": "Музейно-выставочный центр национальной микроэлектроники им. А.И. Шокина",
+    "adapter": "generic",
+    "seeds": [
+      "https://computer-museum.ru/calendar/",
+      "https://computer-museum.ru/calendar/1.htm",
+      "http://computer-museum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rrl-museum.cqham.ru": {
+    "domain": "rrl-museum.cqham.ru",
+    "name": "Музейный комплекс радиоэлектроники",
+    "adapter": "generic",
+    "seeds": [
+      "http://rrl-museum.cqham.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "dostoevskyworld.ru": {
+    "domain": "dostoevskyworld.ru",
+    "name": "Музейный центр Московский дом Достоевского",
+    "adapter": "generic",
+    "seeds": [
+      "https://dostoevskyworld.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mamm-mdf.ru": {
+    "domain": "mamm-mdf.ru",
+    "name": "Мультимедиа арт музей",
+    "adapter": "cards",
+    "seeds": [
+      "https://mamm.art/events/"
+    ],
+    "max_pages": 8,
+    "max_details": 0,
+    "enabled": true,
+    "refresh_hours": 12,
+    "rules": [
+      {
+        "card": "a.sched__row",
+        "title": ".sched__title",
+        "date": [
+          "time"
+        ]
+      }
+    ]
+  },
+  "zhukovskymuseum.ru": {
+    "domain": "zhukovskymuseum.ru",
+    "name": "Научно-мемориальный музей Н.Е. Жуковского",
+    "adapter": "generic",
+    "seeds": [
+      "https://zhukovskymuseum.ru/events/",
+      "https://zhukovskymuseum.ru:443/",
+      "http://zhukovskymuseum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "portret.ru": {
+    "domain": "portret.ru",
+    "name": "Национальная портретная галерея",
+    "adapter": "generic",
+    "seeds": [
+      "http://portret.ru/modules.php?name=rupages&pa=showpage&pid=37",
+      "http://portret.ru/modules.php?name=GalleryMuseum&do=list&orderby=&p=1",
+      "http://portret.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "irioh.ru": {
+    "domain": "irioh.ru",
+    "name": "НИИ медицины труда им. академика Н.Ф. Измерова, музей истории гигиены труда и профпатологии",
+    "adapter": "generic",
+    "seeds": [
+      "https://irioh.ru/events/",
+      "https://irioh.ru/en/events/",
+      "http://irioh.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ase-ec.ru": {
+    "domain": "ase-ec.ru",
+    "name": "НИКИМТ-Атомстрой, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://ase-ec.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "nimamuseum.com": {
+    "domain": "nimamuseum.com",
+    "name": "Нима",
+    "adapter": "generic",
+    "seeds": [
+      "http://nimamuseum.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "hse.ru": {
+    "domain": "hse.ru",
+    "name": "НИУ ВШЭ, центр истории и социологии Второй мировой войны и ее последствий",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.hse.ru/war/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "centervnl.ru": {
+    "domain": "centervnl.ru",
+    "name": "Обычные люди, пространство",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.centervnl.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ognimos.ru": {
+    "domain": "ognimos.ru",
+    "name": "Огни Москвы",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.ognimos.ru/excursions",
+      "http://www.ognimos.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "nosov.rgub.ru": {
+    "domain": "nosov.rgub.ru",
+    "name": "Особняк купца В.Д. Носова, историко-культурный центр",
+    "adapter": "generic",
+    "seeds": [
+      "https://nosov.rgub.ru/",
+      "http://nosov.rgub.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rgub.ru": {
+    "domain": "rgub.ru",
+    "name": "Особняк купца В.Д. Носова, историко-культурный центр",
+    "adapter": "generic",
+    "seeds": [
+      "https://rgub.ru/schedule/",
+      "https://rgub.ru/events_a.xml",
+      "http://rgub.ru/osobnyak_nosova"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn----7sbbdcuwkodph3b5esd.xn--p1ai": {
+    "domain": "xn----7sbbdcuwkodph3b5esd.xn--p1ai",
+    "name": "Особняк-Небылица",
+    "adapter": "generic",
+    "seeds": [
+      "https://xn----7sbbdcuwkodph3b5esd.xn--p1ai/excursions.html",
+      "http://xn----7sbbdcuwkodph3b5esd.xn--p1ai"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ostankino.kuskovo.ru": {
+    "domain": "ostankino.kuskovo.ru",
+    "name": "Останкино и Кусково, государственный музей-заповедник",
+    "adapter": "generic",
+    "seeds": [
+      "http://ostankino.kuskovo.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ostankino-museum.ru": {
+    "domain": "ostankino-museum.ru",
+    "name": "Останкино, усадьба",
+    "adapter": "generic",
+    "seeds": [
+      "https://ostankino-museum.ru:443/concerts/",
+      "https://ostankino-museum.ru:443/excursion/",
+      "http://ostankino-museum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tvtower.ru": {
+    "domain": "tvtower.ru",
+    "name": "Останкинская телебашня",
+    "adapter": "generic",
+    "seeds": [
+      "https://tvtower.ru/services/buro/",
+      "https://tvtower.ru/services/events/sevenShades/",
+      "https://tvtower.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "polymus.ru": {
+    "domain": "polymus.ru",
+    "name": "Открытые коллекции, Политехнический музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://polymus.ru/events",
+      "https://polymus.ru/pages/calendar",
+      "http://polymus.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ochakovo.ru": {
+    "domain": "ochakovo.ru",
+    "name": "Очаково, музей традиционных русских напитков",
+    "adapter": "generic",
+    "seeds": [
+      "https://ochakovo.ru/kompaniya/",
+      "https://ochakovo.ru/ekskursii/",
+      "http://ochakovo.ru/ekskursii/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "transport.mos.ru": {
+    "domain": "transport.mos.ru",
+    "name": "Павильон Московского транспорта",
+    "adapter": "generic",
+    "seeds": [
+      "https://transport.mos.ru/reka/events",
+      "https://transport.mos.ru/pavilionmt",
+      "http://transport.mos.ru/pavilionmt"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "znanie.vdnh.ru": {
+    "domain": "znanie.vdnh.ru",
+    "name": "Павильон Рабочий и колхозница",
+    "adapter": "generic",
+    "seeds": [
+      "http://znanie.vdnh.ru/grounds/?ground=pavilon-rabochiy-i-kolkhoznitsa"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "expocentr.ru": {
+    "domain": "expocentr.ru",
+    "name": "Павильон № 5",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.expocentr.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "myhistorypark.ru": {
+    "domain": "myhistorypark.ru",
+    "name": "Павильон № 57 Россия — моя история",
+    "adapter": "generic",
+    "seeds": [
+      "http://myhistorypark.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "berizaryad.ru": {
+    "domain": "berizaryad.ru",
+    "name": "Павильон № 61. Выставка Лев Толстой. Война и мир. Ожившие страницы",
+    "adapter": "generic",
+    "seeds": [
+      "https://berizaryad.ru/events",
+      "http://berizaryad.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "balletcenter.ru": {
+    "domain": "balletcenter.ru",
+    "name": "Павильон № 62 Международный центр балета",
+    "adapter": "generic",
+    "seeds": [
+      "https://balletcenter.ru/%d1%80%d0%b0%d1%81%d0%bf%d0%b8%d1%81%d0%b0%d0%bd%d0%b8%d0%b5/",
+      "https://balletcenter.ru/2023/03/%d1%8d%d0%ba%d1%81%d0%ba%d1%83%d1%80%d1%81%d0%b8%d1%8f-%d0%b2-%d0%bc%d0%b0%d0%bc%d1%82/",
+      "http://balletcenter.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "innoagency.ru": {
+    "domain": "innoagency.ru",
+    "name": "Павильон №37 Центр ассистивных технологий Феникс",
+    "adapter": "generic",
+    "seeds": [
+      "https://innoagency.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "palaty.moscow": {
+    "domain": "palaty.moscow",
+    "name": "Палаты на Льва Толстого",
+    "adapter": "generic",
+    "seeds": [
+      "https://palaty.moscow/events",
+      "https://palaty.moscow/maya",
+      "https://palaty.moscow/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "paleo.ru": {
+    "domain": "paleo.ru",
+    "name": "Палеонтологический музей им. Ю. А. Орлова",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.paleo.ru/museum/events/",
+      "https://www.paleo.ru/museum/events/?special_version=Y",
+      "http://paleo.ru/museum/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mama-nanik.ru": {
+    "domain": "mama-nanik.ru",
+    "name": "Памирский дом, этнический музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.mama-nanik.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "bapark.ru": {
+    "domain": "bapark.ru",
+    "name": "Парк культуры и отдыха, администрация",
+    "adapter": "generic",
+    "seeds": [
+      "http://bapark.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "patriarchs-palace.kreml.ru": {
+    "domain": "patriarchs-palace.kreml.ru",
+    "name": "Патриаршие палаты",
+    "adapter": "generic",
+    "seeds": [
+      "http://patriarchs-palace.kreml.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "fxxc.ru": {
+    "domain": "fxxc.ru",
+    "name": "Патриарший музей церковного искусства",
+    "adapter": "generic",
+    "seeds": [
+      "http://fxxc.ru/hall/afisha/",
+      "http://fxxc.ru/tourist/jekskursii/",
+      "http://fxxc.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "patriarchia.ru": {
+    "domain": "patriarchia.ru",
+    "name": "Патриарший музей церковного искусства",
+    "adapter": "generic",
+    "seeds": [
+      "http://patriarchia.ru/db/text/4264387.html"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "planetarium-cc.moscow": {
+    "domain": "planetarium-cc.moscow",
+    "name": "Планетарий Центрального дома Российской армии им. М. Фрунзе",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.planetarium-cc.moscow/sagan/",
+      "https://www.planetarium-cc.moscow/weekend/",
+      "http://www.planetarium-cc.moscow/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "posusecam.ru": {
+    "domain": "posusecam.ru",
+    "name": "По сусекам, музей русского быта",
+    "adapter": "generic",
+    "seeds": [
+      "https://posusecam.ru/afisha",
+      "http://posusecam.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "welcome.zaryadyepark.ru": {
+    "domain": "welcome.zaryadyepark.ru",
+    "name": "Подземный музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://welcome.zaryadyepark.ru/?event=697",
+      "https://welcome.zaryadyepark.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "poezddedamoroza.ru": {
+    "domain": "poezddedamoroza.ru",
+    "name": "Поезд Деда мороза",
+    "adapter": "generic",
+    "seeds": [
+      "http://poezddedamoroza.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum-williams.ru": {
+    "domain": "museum-williams.ru",
+    "name": "Почвенно-агрономический музей им. В. Р. Вильямса",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum-williams.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "hramkv.ru": {
+    "domain": "hramkv.ru",
+    "name": "Православный духовно-культурный центр при храме святого равноапостольного князя Владимира в Тушине",
+    "adapter": "generic",
+    "seeds": [
+      "https://hramkv.ru/o-khrame/raspisanie/",
+      "http://hramkv.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn--b1acebhjbdcjdo3ad7ahdrlp9h.xn--p1ai": {
+    "domain": "xn--b1acebhjbdcjdo3ad7ahdrlp9h.xn--p1ai",
+    "name": "Прекрасное далеко, музей советской игрушки",
+    "adapter": "generic",
+    "seeds": [
+      "http://xn--b1acebhjbdcjdo3ad7ahdrlp9h.xn--p1ai"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rkk-museum.ru": {
+    "domain": "rkk-museum.ru",
+    "name": "Радиомузей Валерия Громова",
+    "adapter": "generic",
+    "seeds": [
+      "http://rkk-museum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "робостанция.рф": {
+    "domain": "робостанция.рф",
+    "name": "Робостанция",
+    "adapter": "generic",
+    "seeds": [
+      "https://робостанция.рф/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn--80abwtcbllj6b9f.xn--p1ai": {
+    "domain": "xn--80abwtcbllj6b9f.xn--p1ai",
+    "name": "Робостанция, научно-развлекательная выставка",
+    "adapter": "generic",
+    "seeds": [
+      "https://xn--80abwtcbllj6b9f.xn--p1ai/shkolnye-ekskursii-s-robotami",
+      "http://xn--80abwtcbllj6b9f.xn--p1ai"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rozaeinema.ru": {
+    "domain": "rozaeinema.ru",
+    "name": "Роза Эйнема, музей истории кондитерской фабрики",
+    "adapter": "generic",
+    "seeds": [
+      "http://rozaeinema.ru",
+      "http://rozaeinema.ru/tours",
+      "http://rozaeinema.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "glazunov-academy.ru": {
+    "domain": "glazunov-academy.ru",
+    "name": "Российская академия живописи, ваяния и зодчества Ильи Глазунова, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://glazunov-academy.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "roslesmuseum.ru": {
+    "domain": "roslesmuseum.ru",
+    "name": "Российский музей леса",
+    "adapter": "generic",
+    "seeds": [
+      "http://roslesmuseum.ru/excursion/",
+      "http://roslesmuseum.ru/excursion/excursion/",
+      "http://roslesmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "medmuseum.ru": {
+    "domain": "medmuseum.ru",
+    "name": "Российский музей медицины",
+    "adapter": "generic",
+    "seeds": [
+      "https://medmuseum.ru/publichnye-lektsii",
+      "https://medmuseum.ru/zakazat-ekskursiyu",
+      "http://medmuseum.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "history.rudn.ru": {
+    "domain": "history.rudn.ru",
+    "name": "Российский университет дружбы народов им. Патриса Лумумбы, Музей истории РУДН",
+    "adapter": "generic",
+    "seeds": [
+      "http://history.rudn.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gtsolifk.ru": {
+    "domain": "gtsolifk.ru",
+    "name": "Российский университет спорта ГЦОЛИФК, историко-спортивный музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://gtsolifk.ru/obrazovanie/raspisanie",
+      "https://gtsolifk.ru/postupayuschim/bakalavriat/raspisanie_vstupitelnih_ispitaniy",
+      "http://gtsolifk.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "uniconf.ru": {
+    "domain": "uniconf.ru",
+    "name": "Рот Фронт",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.uniconf.ru/museums/",
+      "http://www.uniconf.ru/press-center/novosti/konditerskaya-fabrika-zeya-provela-obrazovatelnuyu-ekskursiyu-dlya-studentov/",
+      "http://www.uniconf.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "igem.ru": {
+    "domain": "igem.ru",
+    "name": "Рудно-петрографический музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://igem.ru/calendar",
+      "https://igem.ru/museum/events",
+      "http://www.igem.ru/muzei/muzei.html"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "losinyiostrov.ru": {
+    "domain": "losinyiostrov.ru",
+    "name": "Русский быт, экологический центр",
+    "adapter": "generic",
+    "seeds": [
+      "https://losinyiostrov.ru/turizm-i-otdykh/ekskursii/",
+      "https://losinyiostrov.ru/turizm-i-otdykh/ekskursii/ornitologicheskaya-ekskursiya-po-pontonnoy-ekotrope/",
+      "http://losinyiostrov.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sobyanina.ru": {
+    "domain": "sobyanina.ru",
+    "name": "Русский музей детского искусства",
+    "adapter": "generic",
+    "seeds": [
+      "https://sobyanina.ru/affiche",
+      "https://sobyanina.ru/schedule",
+      "http://sobyanina.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museumruss.ru": {
+    "domain": "museumruss.ru",
+    "name": "Русское средневековье, музейный центр",
+    "adapter": "generic",
+    "seeds": [
+      "https://museumruss.ru/",
+      "http://museumruss.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rut-miit.ru": {
+    "domain": "rut-miit.ru",
+    "name": "РУТ (МИИТ), музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://rut-miit.ru/museum"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "muzey-sensorium.ru": {
+    "domain": "muzey-sensorium.ru",
+    "name": "Сенсориум, музей в темноте",
+    "adapter": "generic",
+    "seeds": [
+      "https://muzey-sensorium.ru/events",
+      "https://muzey-sensorium.ru/excursion",
+      "http://muzey-sensorium.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "levsha-pav10.ru": {
+    "domain": "levsha-pav10.ru",
+    "name": "Сибирский Левша",
+    "adapter": "generic",
+    "seeds": [
+      "https://levsha-pav10.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "slovo.vdnh.ru": {
+    "domain": "slovo.vdnh.ru",
+    "name": "Слово",
+    "adapter": "generic",
+    "seeds": [
+      "http://slovo.vdnh.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "assumption-cathedral.kreml.ru": {
+    "domain": "assumption-cathedral.kreml.ru",
+    "name": "Собор Успения Пресвятой Богородицы",
+    "adapter": "generic",
+    "seeds": [
+      "http://assumption-cathedral.kreml.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "lihov6.ru": {
+    "domain": "lihov6.ru",
+    "name": "Соборная палата",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.lihov6.ru/afisha",
+      "https://www.lihov6.ru/afisha/",
+      "https://www.lihov6.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "smsport.ru": {
+    "domain": "smsport.ru",
+    "name": "Современный музей спорта",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.smsport.ru/expo/videoex/",
+      "http://www.smsport.ru/expo/ekskursii/",
+      "http://smsport.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "oao-sokol.ru": {
+    "domain": "oao-sokol.ru",
+    "name": "Сокол, музей радиоэлектроники",
+    "adapter": "generic",
+    "seeds": [
+      "http://oao-sokol.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tutanhamon.msk.ru": {
+    "domain": "tutanhamon.msk.ru",
+    "name": "Сокровища гробницы Тутанхамона",
+    "adapter": "generic",
+    "seeds": [
+      "https://tutanhamon.msk.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "souzmultclub.ru": {
+    "domain": "souzmultclub.ru",
+    "name": "Союзмультфильм, музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://souzmultclub.ru/programs/excursions/",
+      "https://souzmultclub.ru/programs/excursions/kinostudiya2/",
+      "http://souzmultclub.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kremlin-architectural-ensemble.kreml.ru": {
+    "domain": "kremlin-architectural-ensemble.kreml.ru",
+    "name": "Спасская башня",
+    "adapter": "generic",
+    "seeds": [
+      "https://kremlin-architectural-ensemble.kreml.ru/architecture/view/spasskaya-bashnya-moskovskogo-kremlya"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "artanum.ru": {
+    "domain": "artanum.ru",
+    "name": "Товарищество живописцев Московского союза художников",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.artanum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "moscow-painters.ru": {
+    "domain": "moscow-painters.ru",
+    "name": "Товарищество живописцев Московского союза художников",
+    "adapter": "generic",
+    "seeds": [
+      "https://moscow-painters.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tradart.ru": {
+    "domain": "tradart.ru",
+    "name": "ТраDарт",
+    "adapter": "generic",
+    "seeds": [
+      "https://tradart.ru/lectures",
+      "https://tradart.ru/exhibitions-events",
+      "http://tradart.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mif-mira.ru": {
+    "domain": "mif-mira.ru",
+    "name": "Традиционные маски и фигуры мира",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.mif-mira.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "usadbabaryshnikova.aif.ru": {
+    "domain": "usadbabaryshnikova.aif.ru",
+    "name": "Усадьба Барышникова",
+    "adapter": "generic",
+    "seeds": [
+      "https://usadbabaryshnikova.aif.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "usadba.troitsasviblovo.ru": {
+    "domain": "usadba.troitsasviblovo.ru",
+    "name": "Усадьба Свиблово",
+    "adapter": "generic",
+    "seeds": [
+      "http://usadba.troitsasviblovo.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "art-cvetaev.ru": {
+    "domain": "art-cvetaev.ru",
+    "name": "Учебный художественный музей им. И. В. Цветаева",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.art-cvetaev.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rsuh.ru": {
+    "domain": "rsuh.ru",
+    "name": "Учебный художественный музей им. И. В. Цветаева",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.rsuh.ru/student/our-activities/our-events/",
+      "https://www.rsuh.ru/museum"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "31-12.xn--p1ai": {
+    "domain": "31-12.xn--p1ai",
+    "name": "Фабрика ёлочных игрушек, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://31-12.xn--p1ai"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "farfo.ru": {
+    "domain": "farfo.ru",
+    "name": "Фарфо",
+    "adapter": "generic",
+    "seeds": [
+      "https://farfo.ru/events",
+      "https://farfo.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ekaterina-foundation.ru": {
+    "domain": "ekaterina-foundation.ru",
+    "name": "Фонд культуры Екатерина",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.ekaterina-foundation.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mos-time.ru": {
+    "domain": "mos-time.ru",
+    "name": "Фонд Московское время",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.mos-time.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gbsad.ru": {
+    "domain": "gbsad.ru",
+    "name": "Фондовая оранжерея Главного ботанического сада им. Н.В. Цицина РАН",
+    "adapter": "generic",
+    "seeds": [
+      "https://gbsad.ru/ekskursii",
+      "https://gbsad.ru/meropriyatiya",
+      "https://gbsad.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.spartak.com": {
+    "domain": "museum.spartak.com",
+    "name": "Футбольный клуб Спартак-Москва, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum.spartak.com"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ordynka.com": {
+    "domain": "ordynka.com",
+    "name": "Храм иконы Божией Матери всех скорбящих радость на большой Ордынке, музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://ordynka.com/ekskursii/",
+      "https://ordynka.com/raspisanie/",
+      "http://ordynka.com/muzej"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "tsar-maket.ru": {
+    "domain": "tsar-maket.ru",
+    "name": "Царь-макет, музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://tsar-maket.ru/ekskursii/",
+      "https://tsar-maket.ru/novosti/ekskursii/",
+      "http://tsar-maket.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mospriroda.ru": {
+    "domain": "mospriroda.ru",
+    "name": "Цветоводство, эколого-просветительский центр",
+    "adapter": "generic",
+    "seeds": [
+      "https://mospriroda.ru:443/press_center/startuet_priem_zayavok_na_onlayn_konkurs_pokazhi_moskvu_/",
+      "https://mospriroda.ru:443/press_center/startoval_priyem_rabot_na_viii_gorodskoy_konkurs_detskogo_risunka_nasledie_moego_rayona/",
+      "http://mospriroda.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "voznesenskycenter.ru": {
+    "domain": "voznesenskycenter.ru",
+    "name": "Центр Вознесенского",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.voznesenskycenter.ru/events/",
+      "https://www.voznesenskycenter.ru/category/events/",
+      "https://www.voznesenskycenter.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "artcentre.moscow": {
+    "domain": "artcentre.moscow",
+    "name": "Центр искусств Москва",
+    "adapter": "generic",
+    "seeds": [
+      "https://artcentre.moscow/project/excursions/",
+      "https://artcentre.moscow/project/art-collecting/",
+      "https://artcentre.moscow/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "numexpert.ru": {
+    "domain": "numexpert.ru",
+    "name": "Центр Исследований Культурных Ценностей",
+    "adapter": "generic",
+    "seeds": [
+      "https://numexpert.ru/product-category/lektsii/",
+      "http://numexpert.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "centermars.ru": {
+    "domain": "centermars.ru",
+    "name": "Центр Современного Искусства М'арс",
+    "adapter": "generic",
+    "seeds": [
+      "https://centermars.ru/calendar/",
+      "https://centermars.ru/calendar/?lang=en",
+      "https://centermars.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "cca9.ru": {
+    "domain": "cca9.ru",
+    "name": "Центр современного искусства №9",
+    "adapter": "generic",
+    "seeds": [
+      "http://cca9.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "fabrikacci.ru": {
+    "domain": "fabrikacci.ru",
+    "name": "Центр творческих индустрий Фабрика",
+    "adapter": "generic",
+    "seeds": [
+      "http://fabrikacci.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "proektfabrika.ru": {
+    "domain": "proektfabrika.ru",
+    "name": "Центр творческих индустрий Фабрика",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.proektfabrika.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "icr.su": {
+    "domain": "icr.su",
+    "name": "Центр-музей им. Н.К Рериха, офис",
+    "adapter": "generic",
+    "seeds": [
+      "https://icr.su:443/rus/events/",
+      "https://icr.su:443/rus/events/index.php?print=yes",
+      "http://icr.su"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "aviacosmosdom.ru": {
+    "domain": "aviacosmosdom.ru",
+    "name": "Центральный дом авиации и космонавтики ДОСААФ России",
+    "adapter": "generic",
+    "seeds": [
+      "https://aviacosmosdom.ru/uslugi",
+      "https://aviacosmosdom.ru/uslugi/143-zakaz-ekskursii",
+      "http://aviacosmosdom.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "cdra.ru": {
+    "domain": "cdra.ru",
+    "name": "Центральный Дом Российской Армии",
+    "adapter": "generic",
+    "seeds": [
+      "http://cdra.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kcvs.ru": {
+    "domain": "kcvs.ru",
+    "name": "Центральный Дом Российской Армии",
+    "adapter": "generic",
+    "seeds": [
+      "http://kcvs.ru/index.htm",
+      "http://kcvs.ru/afisha.htm",
+      "http://kcvs.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "partyhall.ru": {
+    "domain": "partyhall.ru",
+    "name": "Центральный Дом Российской Армии",
+    "adapter": "generic",
+    "seeds": [
+      "http://partyhall.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rosgvard.ru": {
+    "domain": "rosgvard.ru",
+    "name": "Центральный музей войск национальной гвардии Российской Федерации",
+    "adapter": "generic",
+    "seeds": [
+      "http://rosgvard.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.rosguard.gov.ru": {
+    "domain": "museum.rosguard.gov.ru",
+    "name": "Центральный музей войск национальной гвардии Российской Федерации",
+    "adapter": "generic",
+    "seeds": [
+      "https://museum.rosguard.gov.ru/page/index/ekskurs-v-istoriyu",
+      "https://museum.rosguard.gov.ru/page/index/virtualnaya-ekskursiya-po-centralnomu--muzeyu",
+      "https://museum.rosguard.gov.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mvd.ru": {
+    "domain": "mvd.ru",
+    "name": "Центральный музей МВД России",
+    "adapter": "generic",
+    "seeds": [
+      "http://mvd.ru/history/Centralnij_muzej_MVD_Rossii"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mchs.gov.ru": {
+    "domain": "mchs.gov.ru",
+    "name": "Центральный музей МЧС России",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.mchs.gov.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.customs.gov.ru": {
+    "domain": "museum.customs.gov.ru",
+    "name": "Центральный музей таможенной службы",
+    "adapter": "generic",
+    "seeds": [
+      "http://museum.customs.gov.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "park-gorkogo.ru": {
+    "domain": "park-gorkogo.ru",
+    "name": "Центральный парк культуры и отдыха им. М. Горького, Музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.park-gorkogo.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ps.fsb.ru": {
+    "domain": "ps.fsb.ru",
+    "name": "Центральный пограничный музей ФСБ России",
+    "adapter": "generic",
+    "seeds": [
+      "http://ps.fsb.ru/fps/history/fps/history/calendar.htm",
+      "http://ps.fsb.ru/fps/history/museum.htm"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ndm-museum.ru": {
+    "domain": "ndm-museum.ru",
+    "name": "Церковный музей Московской Епархии Русской Православной Церкви",
+    "adapter": "generic",
+    "seeds": [
+      "http://ndm-museum.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "holy-robe-deposition-church.kreml.ru": {
+    "domain": "holy-robe-deposition-church.kreml.ru",
+    "name": "Церковь Положения Ризы Божией Матери",
+    "adapter": "generic",
+    "seeds": [
+      "http://holy-robe-deposition-church.kreml.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "teapotland.ru": {
+    "domain": "teapotland.ru",
+    "name": "Чайникландия - Музей удивительных чайников мира",
+    "adapter": "generic",
+    "seeds": [
+      "https://www.teapotland.ru/excursions",
+      "http://www.teapotland.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "school.aaii.ru": {
+    "domain": "school.aaii.ru",
+    "name": "Школа акварели Сергея Андрияки",
+    "adapter": "generic",
+    "seeds": [
+      "https://school.aaii.ru/excursions/",
+      "https://school.aaii.ru/obrazovanie/video-ekskursii/",
+      "https://school.aaii.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "pro100klass.wixsite.com": {
+    "domain": "pro100klass.wixsite.com",
+    "name": "Школьные годы",
+    "adapter": "generic",
+    "seeds": [
+      "https://pro100klass.wixsite.com/perovo-moscow/---c13fi",
+      "https://pro100klass.wixsite.com/perovo-moscow/tours-of-the-museum",
+      "http://pro100klass.wixsite.com/perovo-moscow"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sch2126.mskobr.ru": {
+    "domain": "sch2126.mskobr.ru",
+    "name": "Школьные годы",
+    "adapter": "generic",
+    "seeds": [
+      "http://sch2126.mskobr.ru/obrazovanie/shkol_nyj_muzej/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "rusheva.com": {
+    "domain": "rusheva.com",
+    "name": "Школьный мемориальный музей Нади Рушевой",
+    "adapter": "generic",
+    "seeds": [
+      "http://rusheva.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sch1770.mskobr.ru": {
+    "domain": "sch1770.mskobr.ru",
+    "name": "Школьный музей XX века",
+    "adapter": "generic",
+    "seeds": [
+      "http://sch1770.mskobr.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn--e1ahboc1a5byb.xn--d1acj3b": {
+    "domain": "xn--e1ahboc1a5byb.xn--d1acj3b",
+    "name": "Эйнштейн.дети, музей",
+    "adapter": "generic",
+    "seeds": [
+      "http://xn--e1ahboc1a5byb.xn--d1acj3b"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "xn--h1abpis6ct.xn--80adxhks": {
+    "domain": "xn--h1abpis6ct.xn--80adxhks",
+    "name": "Эйфория, арт-пространство",
+    "adapter": "generic",
+    "seeds": [
+      "http://xn--h1abpis6ct.xn--80adxhks"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ecosborka.ru": {
+    "domain": "ecosborka.ru",
+    "name": "ЭкоЦентр Сборка",
+    "adapter": "generic",
+    "seeds": [
+      "https://ecosborka.ru/poster/",
+      "https://ecosborka.ru/poster/?type=47",
+      "https://ecosborka.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "ekokuskovo.clients.site": {
+    "domain": "ekokuskovo.clients.site",
+    "name": "Экоцентр экошкола Кусково",
+    "adapter": "generic",
+    "seeds": [
+      "https://ekokuskovo.clients.site/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "mihrab.ru": {
+    "domain": "mihrab.ru",
+    "name": "Экскурсионное бюро, Московская Соборная мечеть",
+    "adapter": "generic",
+    "seeds": [
+      "https://mihrab.ru/ekskursiya/muzej",
+      "https://mihrab.ru/ekskursiya/tatar-quarter",
+      "http://mihrab.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "exlibriscafe.ru": {
+    "domain": "exlibriscafe.ru",
+    "name": "ЭксЛибрис",
+    "adapter": "generic",
+    "seeds": [
+      "http://exlibriscafe.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "experimentanium.ru": {
+    "domain": "experimentanium.ru",
+    "name": "Экспериментаниум",
+    "adapter": "generic",
+    "seeds": [
+      "https://experimentanium.ru/excursions/",
+      "https://experimentanium.ru/show/olimpiada/",
+      "https://experimentanium.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "kuzpark.ru": {
+    "domain": "kuzpark.ru",
+    "name": "Экспозиция меда и пчеловодства",
+    "adapter": "generic",
+    "seeds": [
+      "http://www.kuzpark.ru/kuzpark/ru/events",
+      "http://www.kuzpark.ru/kuzpark/ru/calendar",
+      "http://kuzpark.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "elysium.ru": {
+    "domain": "elysium.ru",
+    "name": "Элизиум",
+    "adapter": "generic",
+    "seeds": [
+      "https://elysium.ru/events/",
+      "https://elysium.ru/events/?search_year=2024",
+      "http://www.elysium.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "museum.yandex.ru": {
+    "domain": "museum.yandex.ru",
+    "name": "Яндекс Музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://museum.yandex.ru/events",
+      "https://museum.yandex.ru/events/past",
+      "http://museum.yandex.ru"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "yandex.ru": {
+    "domain": "yandex.ru",
+    "name": "Яндекс Музей",
+    "adapter": "generic",
+    "seeds": [
+      "https://yandex.ru/museum"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  }
+}

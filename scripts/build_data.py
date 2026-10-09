@@ -16,6 +16,9 @@ def build():
     museums = json.loads((ROOT/'data/museums.json').read_text(encoding='utf8'))
     overrides = json.loads((ROOT/'data/theme-overrides.json').read_text(encoding='utf8'))
     sites, telegram = cache('site-results.jsonl'), cache('telegram-results.jsonl')
+    monitored = cache('event-results.jsonl')
+    profiles_path = ROOT/'data/event-profiles.json'
+    profiles = json.loads(profiles_path.read_text(encoding='utf8')) if profiles_path.exists() else {}
     domains = {urlparse(u).hostname.removeprefix('www.') for m in museums for u in m['sites']}
     sites = {k: v for k, v in sites.items() if k in domains}
     canonical_telegram = {}
@@ -32,7 +35,8 @@ def build():
         m['theme_source'] = 'Ручная классификация' if m['id'] in overrides else 'Предварительно по названию'
         m['agenda'], m['news'], m['checked_at'], m['website_errors'] = [], [], '', []
         for url in m['sites']:
-            r = sites.get(urlparse(url).hostname.removeprefix('www.'))
+            domain = urlparse(url).hostname.removeprefix('www.')
+            r = sites.get(domain)
             if not r:
                 continue
             m['checked_at'] = r['checked_at']
@@ -41,14 +45,22 @@ def build():
                 m['verification'] = 'Сайт доступен; запись музея требует проверки'
             for field in ('emails', 'phones', 'telegram', 'agenda', 'news'):
                 m[field] = list(dict.fromkeys(m[field] + r[field]))
-            for event in r['events']:
-                key = (urlparse(event['source']).hostname.removeprefix('www.') + '|' + event['start']
-                       + '|' + event.get('end', '') + '|' + event['title'].strip().casefold())
+            agenda = monitored.get(domain)
+            collected_events = agenda['events'] if agenda and (agenda['events'] or agenda['status'] in ('ok','no_dates')) else r['events']
+            if not profiles.get(domain,{}).get('calendar_enabled',True):
+                collected_events=[]
+            for event in collected_events:
+                key = (event.get('source_site') or urlparse(event['source']).hostname.removeprefix('www.')) + '|' + event['start']
+                key += '|' + event.get('end', '') + '|' + event['title'].strip().casefold()
                 if key not in events:
                     e = dict(event)
+                    e.setdefault('source_site',domain)
+                    e['requires_review']=bool(agenda and agenda.get('adapter')=='generic')
+                    e.setdefault('schedule_type','period' if e.get('end') and e['end'][:10]!=e['start'][:10] else 'session' if e.get('date_precision')=='time' else 'day')
                     e.update({'id': hashlib.sha256(key.encode()).hexdigest()[:12], 'museum_ids': [],
-                              'kind': 'Лекция' if 'лекц' in e['title'].lower() else 'Экскурсия' if 'экскурс' in e['title'].lower() else 'Событие',
-                              'checked_at': r['checked_at'], 'venue_note': 'Событие общего сайта. Конкретную площадку уточняйте в источнике.'})
+                              'kind': e.get('kind') or ('Лекция' if 'лекц' in e['title'].lower() else 'Экскурсия' if 'экскурс' in e['title'].lower() else 'Событие'),
+                              'checked_at': agenda['checked_at'] if agenda else r['checked_at'],
+                              'venue_note': e.get('venue') or 'Событие общего сайта. Конкретную площадку уточняйте в источнике.'})
                     events[key] = e
                 elif len(urlparse(event['source']).path) > len(urlparse(events[key]['source']).path):
                     events[key]['source'] = event['source']
@@ -69,9 +81,24 @@ def build():
                  'events': len(events), 'posts': sum(len(r['posts']) for r in channels.values()),
                  'event_source_domains': len({urlparse(e['source']).hostname.removeprefix('www.') for e in events.values()}),
                  'with_telegram': sum(bool(m['telegram']) for m in museums)})
-    payload = {'meta': meta, 'themes': [label for label, _ in THEMES] + [OTHER], 'museums': museums, 'events': sorted(events.values(), key=lambda e: e['start']), 'channels': list(channels.values())}
+    public_sources=[]
+    for domain, profile in profiles.items():
+        row=monitored.get(domain,{})
+        public_sources.append({'domain':domain,'name':profile['name'],'adapter':profile['adapter'],
+            'status':row.get('status','not_checked'),'checked_at':row.get('checked_at',''),
+            'events':len(row.get('events',[])),'pages':row.get('pages',[]),'errors':len(row.get('errors',[])),
+            'stale':row.get('stale',False),'changes':row.get('changes',{}),'seeds':profile['seeds'],
+            'calendar_enabled':profile.get('calendar_enabled',True),'review_note':profile.get('review_note','')})
+    meta.update({'event_sources_checked':len(monitored),'event_sources_configured':len(profiles),
+                 'event_sources_with_dates':sum(bool(r['events']) for r in monitored.values()),
+                 'event_sources_individual':sum(p['adapter']!='generic' for p in profiles.values())})
+    payload = {'meta': meta, 'themes': [label for label, _ in THEMES] + [OTHER], 'museums': museums, 'events': sorted(events.values(), key=lambda e: e['start']), 'channels': list(channels.values()), 'event_sources':public_sources}
     dest = ROOT/'web/data'; dest.mkdir(parents=True, exist_ok=True)
     (dest/'catalog.json').write_text(json.dumps(payload, ensure_ascii=False), encoding='utf8')
+    with (dest/'event-sources.csv').open('w',encoding='utf-8-sig',newline='') as f:
+        fields=['domain','name','adapter','status','events','checked_at','errors','stale']
+        writer=csv.DictWriter(f,fieldnames=fields,delimiter=';');writer.writeheader()
+        writer.writerows({k:r[k] for k in fields} for r in public_sources)
     with (dest/'museums.csv').open('w', encoding='utf-8-sig', newline='') as f:
         fields = ['name', 'address', 'category', 'themes', 'theme_source', 'sites', 'telegram', 'emails', 'phones', 'lat', 'lon', 'verification']
         writer = csv.DictWriter(f, fieldnames=fields, delimiter=';'); writer.writeheader()
