@@ -7,7 +7,7 @@
   "with_coordinates": 1269,
   "with_telegram": 674,
   "note": "Каталог кандидатов из локальных выгрузок, дата исходных данных неизвестна. Возможны дубли и закрытые площадки.",
-  "built_at": "2026-10-09T18:13:05.063265+00:00",
+  "built_at": "2026-10-09T19:54:35.248101+00:00",
   "site_domains_total": 554,
   "site_domains_checked": 554,
   "site_domains_available": 468,
@@ -20,5 +20,9 @@
   "event_sources_checked": 554,
   "event_sources_configured": 554,
   "event_sources_with_dates": 37,
-  "event_sources_individual": 17
+  "event_sources_individual": 17,
+  "admission_sources_checked": 554,
+  "admission_sources_with_facts": 174,
+  "admission_tariffs": 1752,
+  "admission_free_rules": 525
 }

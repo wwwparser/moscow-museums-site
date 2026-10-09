@@ -10,3 +10,5 @@ data/site-results.jsonl
 data/telegram-results.jsonl
 data/event-results.jsonl
 data/event-history.jsonl
+data/admission-documents.jsonl
+data/admission-results.jsonl

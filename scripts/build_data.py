@@ -17,6 +17,7 @@ def build():
     overrides = json.loads((ROOT/'data/theme-overrides.json').read_text(encoding='utf8'))
     sites, telegram = cache('site-results.jsonl'), cache('telegram-results.jsonl')
     monitored = cache('event-results.jsonl')
+    admission_cache = cache('admission-results.jsonl')
     profiles_path = ROOT/'data/event-profiles.json'
     profiles = json.loads(profiles_path.read_text(encoding='utf8')) if profiles_path.exists() else {}
     domains = {urlparse(u).hostname.removeprefix('www.') for m in museums for u in m['sites']}
@@ -31,6 +32,7 @@ def build():
     telegram = canonical_telegram
     events, channels = {}, {}
     for m in museums:
+        m['admission_domains']=list(dict.fromkeys(urlparse(u).hostname.removeprefix('www.') for u in m['sites'] if urlparse(u).hostname.removeprefix('www.') in admission_cache))
         m['themes'] = overrides.get(m['id']) or classify(m['name'])
         m['theme_source'] = 'Ручная классификация' if m['id'] in overrides else 'Предварительно по названию'
         m['agenda'], m['news'], m['checked_at'], m['website_errors'] = [], [], '', []
@@ -92,9 +94,27 @@ def build():
     meta.update({'event_sources_checked':len(monitored),'event_sources_configured':len(profiles),
                  'event_sources_with_dates':sum(bool(r['events']) for r in monitored.values()),
                  'event_sources_individual':sum(p['adapter']!='generic' for p in profiles.values())})
-    payload = {'meta': meta, 'themes': [label for label, _ in THEMES] + [OTHER], 'museums': museums, 'events': sorted(events.values(), key=lambda e: e['start']), 'channels': list(channels.values()), 'event_sources':public_sources}
+    admission_sources=[]
+    admission_profiles_path=ROOT/'data/admission-profiles.json'
+    admission_profiles=json.loads(admission_profiles_path.read_text(encoding='utf8')) if admission_profiles_path.exists() else {}
+    for domain,row in admission_cache.items():
+        if domain not in domains:continue
+        public={k:row.get(k) for k in ('name','checked_at','status','pages','links','input_truncated','stale')}
+        public['name']=admission_profiles.get(domain,{}).get('name',public['name'])
+        public.update(domain=domain,tickets=row.get('tickets',[]),free_rules=row.get('free_rules',[]),
+                      museum_ids=[m['id'] for m in museums if domain in m['admission_domains']],rejected_count=len(row.get('rejected',[])))
+        admission_sources.append(public)
+    meta.update(admission_sources_checked=len(admission_sources),admission_sources_with_facts=sum(bool(r['tickets'] or r['free_rules']) for r in admission_sources),
+                admission_tariffs=sum(len(r['tickets']) for r in admission_sources),admission_free_rules=sum(len(r['free_rules']) for r in admission_sources))
+    payload = {'meta': meta, 'themes': [label for label, _ in THEMES] + [OTHER], 'museums': museums, 'events': sorted(events.values(), key=lambda e: e['start']), 'channels': list(channels.values()), 'event_sources':public_sources,'admission_sources':admission_sources}
     dest = ROOT/'web/data'; dest.mkdir(parents=True, exist_ok=True)
     (dest/'catalog.json').write_text(json.dumps(payload, ensure_ascii=False), encoding='utf8')
+    with (dest/'admission.csv').open('w',encoding='utf-8-sig',newline='') as f:
+        fields=['domain','museum','type','category','scope','price_text','amount_rub','when','conditions','rule_type','source','checked_at']
+        writer=csv.DictWriter(f,fieldnames=fields,delimiter=';');writer.writeheader()
+        for r in admission_sources:
+            for kind in ('tickets','free_rules'):
+                for item in r[kind]:writer.writerow({k:dict(item,domain=r['domain'],museum=r['name'],type=kind,checked_at=r['checked_at']).get(k,'') for k in fields})
     with (dest/'event-sources.csv').open('w',encoding='utf-8-sig',newline='') as f:
         fields=['domain','name','adapter','status','events','checked_at','errors','stale']
         writer=csv.DictWriter(f,fieldnames=fields,delimiter=';');writer.writeheader()

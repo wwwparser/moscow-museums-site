@@ -16,7 +16,7 @@ def public_url(url):
             raise ValueError('Non-public address')
     return url
 
-def fetch(url, content_types=('html',), method='GET', data=None):
+def fetch(url, content_types=('html',), method='GET', data=None, raw=False, max_bytes=3_000_000):
     last = None
     for attempt in range(2):
         try:
@@ -34,9 +34,10 @@ def fetch(url, content_types=('html',), method='GET', data=None):
                     chunks = bytearray()
                     for part in response.iter_content(65536):
                         chunks.extend(part)
-                        if len(chunks) > 3_000_000:
+                        if len(chunks) > max_bytes:
                             raise ValueError('Page exceeds size limit')
                     response._content = bytes(chunks)
+                    if raw:return bytes(chunks),current
                     if not response.encoding or response.encoding.lower() == 'iso-8859-1':
                         response.encoding = response.apparent_encoding
                     return response.text, current

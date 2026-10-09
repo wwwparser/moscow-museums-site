@@ -27,4 +27,14 @@ for c in p['channels']:
     post_ids.extend(x['id'].lower() for x in c['posts'])
 assert len(post_ids) == len(set(post_ids)), 'Duplicate Telegram posts'
 assert len(post_ids) == p['meta']['posts']
+for row in p.get('admission_sources',[]):
+    assert set(row['museum_ids']).issubset(ids)
+    for item in row['tickets']+row['free_rules']:
+        assert item['source'].startswith(('http://','https://'))
+        assert item['quote']
+    for ticket in row['tickets']:
+        assert ticket['category'] and ticket['price_text']
+        if ticket.get('amount_rub') is not None:assert isinstance(ticket['amount_rub'],(int,float)) and ticket['amount_rub']>=0
+assert p['meta'].get('admission_tariffs',0)==sum(len(r['tickets']) for r in p.get('admission_sources',[]))
+assert p['meta'].get('admission_free_rules',0)==sum(len(r['free_rules']) for r in p.get('admission_sources',[]))
 print(f"Verified: {len(ids)} museums, {len(p['events'])} dated events, {len(post_ids)} posts")

@@ -1,0 +1,28 @@
+{
+  "pushkinmuseum.art": {"name":"ГМИИ имени А. С. Пушкина","seeds": ["https://pushkinmuseum.art/visitors/", "https://pushkinmuseum.art/"]},
+  "tretyakovgallery.ru": {
+    "seeds": [
+      "https://www.tretyakovgallery.ru/api/textographs/&for-visitors&free&/?lang=ru",
+      "https://www.tretyakovgallery.ru/api/textographs/&for-visitors&excemption&/?lang=ru",
+      "https://www.tretyakovgallery.ru/exhibitions/o/shedevry-russkogo-iskusstva-xi-nachala-xx-veka/",
+      "https://www.tretyakovgallery.ru/exhibitions/o/iskusstvo-khkh-veka/"
+    ],
+    "source_urls": {
+      "https://www.tretyakovgallery.ru/api/textographs/&for-visitors&free&/?lang=ru": "https://www.tretyakovgallery.ru/for-visitors/free/",
+      "https://www.tretyakovgallery.ru/api/textographs/&for-visitors&excemption&/?lang=ru": "https://www.tretyakovgallery.ru/for-visitors/excemption/"
+    },
+    "max_pages": 4,
+    "browser_seeds": [
+      "https://www.tretyakovgallery.ru/exhibitions/o/shedevry-russkogo-iskusstva-xi-nachala-xx-veka/",
+      "https://www.tretyakovgallery.ru/exhibitions/o/iskusstvo-khkh-veka/",
+      "https://www.tretyakovgallery.ru/for-visitors/free/",
+      "https://www.tretyakovgallery.ru/for-visitors/excemption/"
+    ]
+  },
+  "mosmuseum.ru": {"name":"Музей Москвы и филиалы","seeds": ["https://mosmuseum.ru/visitors/tikets/free/", "https://mosmuseum.ru/visitors/tikets/lgotnyie-kategorii/", "https://mosmuseum.ru/visitors/tikets/types/", "https://mosmuseum.ru/visitors/tikets/free/museum_week/"],"max_pages": 8},
+  "mamm-mdf.ru": {"seeds": ["https://mamm.art/"],"max_pages": 8},
+  "jewish-museum.ru": {"seeds": ["https://www.jewish-museum.ru/visitors/prices/", "https://www.jewish-museum.ru/visitors/"],"max_pages": 8},
+  "domgogolya.ru": {"seeds": ["https://www.domgogolya.ru/visit/"],"max_pages": 8},
+  "kosmo-museum.ru": {"seeds": ["https://kosmo-museum.ru/static_pages/stoimost-biletov"],"max_pages": 6},
+  "dombulgakova.ru": {"seeds": ["https://dombulgakova.ru/pravila-poseshheniya/", "https://dombulgakova.ru/"],"max_pages": 6}
+}
