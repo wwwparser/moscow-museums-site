@@ -8,7 +8,7 @@ from pathlib import Path
 import subprocess
 import sys
 ROOT=Path(__file__).resolve().parents[1]
-GENERATED=['web/data/catalog.json','web/data/museums.csv','web/data/admission.csv','web/data/event-sources.csv','web/data/update-report.json','data/collection-report.json','data/event-profiles.json']
+GENERATED=['web/data/catalog.json','web/data/museums.csv','web/data/admission.csv','web/data/event-sources.csv','web/data/update-report.json','data/collection-report.json','data/event-profiles.json','data/exposition-notes.json']
 
 @contextmanager
 def update_lock():
@@ -39,9 +39,12 @@ def report(started,mode,steps):
     queue_path=ROOT/'data/luna-queue.json'
     try:pending_luna=json.loads(queue_path.read_text(encoding='utf8')).get('pending_luna',0)
     except (OSError,ValueError):pending_luna=0
+    exposition_summary_path=ROOT/'data/cache/exposition/summary.json'
+    exposition_summary=json.loads(exposition_summary_path.read_text(encoding='utf8')) if exposition_summary_path.exists() else {}
     result={'started_at':started,'finished_at':datetime.now(timezone.utc).isoformat(),'mode':mode,'steps':steps,'pending_luna':pending_luna,'llm_processing':'internal-luna','external_llm_enabled':False,
         'sites':stats({k:v for k,v in sites.items() if k in domains},'errors'),'events':stats(events,'errors'),
         'admission':stats(fees,'errors'),'telegram':stats({c['url']:c for c in catalog['channels']},'error'),
+        'expositions':exposition_summary,'pending_exposition_luna':exposition_summary.get('pending_luna',0),
         'counts':catalog['meta'],'status':'partial' if any(s['status']!='ok' for s in steps) else 'completed'}
     for section in ('sites','events','admission','telegram'):
         if result[section]['stale'] or result[section]['with_errors']:result['status']='partial'
@@ -87,8 +90,13 @@ def main():
                     run('admission facts revalidation',[py,'scripts/collect_admission.py','--stage','extract','--workers','2'],required=False)
                     run('admission audit',[py,'scripts/audit_admission.py'])
                 run('prepare internal Luna queue',[py,'scripts/prepare_luna_queue.py'],required=False)
+                if mode=='full':
+                    run('exposition source pages',[py,'scripts/collect_expositions.py','--workers','8',*([] if args.resume else ['--refresh'])],required=False)
+                    run('rendered exposition pages',[py,'scripts/collect_exposition_browser.py'],required=False)
+                run('validate exposition facts',[py,'scripts/apply_expositions.py'],required=False)
+                run('prepare exposition Luna queue',[py,'scripts/collect_expositions.py','--prepare-only'],required=False)
             run('build',[py,'scripts/build_data.py']);run('verification',[py,'scripts/verify_data.py'])
-            for file in ('app.js','telegram-feed.js','admission-view.js','update-status.js'):run(file,['node','--check','web/'+file])
+            for file in ('app.js','telegram-feed.js','admission-view.js','update-status.js','exposition-view.js'):run(file,['node','--check','web/'+file])
             summary=report(started,mode,steps);print('UPDATE SUMMARY:',json.dumps({k:v for k,v in summary.items() if k not in ('counts','steps')},ensure_ascii=True),flush=True)
             if summary.get('pending_luna'):print(f"PENDING_LUNA: {summary['pending_luna']} sources require internal Luna review; the scheduled job does not process this queue.",flush=True)
             if args.publish:

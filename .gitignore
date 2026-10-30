@@ -20,3 +20,8 @@ data/luna-refined-results.jsonl
 data/luna-gmom-visual.jsonl
 data/luna-major-entry-only.jsonl
 data/admission-visual-evidence.json
+data/exposition-documents.jsonl
+data/exposition-manual.jsonl
+data/exposition-luna-*.jsonl
+data/exposition-curated*.jsonl
+data/exposition-queue.json

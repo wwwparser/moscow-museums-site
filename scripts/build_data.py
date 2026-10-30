@@ -18,6 +18,9 @@ def build():
     sites, telegram = cache('site-results.jsonl'), cache('telegram-results.jsonl')
     monitored = cache('event-results.jsonl')
     admission_cache = cache('admission-results.jsonl')
+    exposition_docs=cache('exposition-documents.jsonl')
+    exposition_path=ROOT/'data/exposition-notes.json'
+    exposition=json.loads(exposition_path.read_text(encoding='utf8')) if exposition_path.exists() else {'museums':{},'reviews':{}}
     profiles_path = ROOT/'data/event-profiles.json'
     profiles = json.loads(profiles_path.read_text(encoding='utf8')) if profiles_path.exists() else {}
     domains = {urlparse(u).hostname.removeprefix('www.') for m in museums for u in m['sites']}
@@ -37,6 +40,10 @@ def build():
     telegram = canonical_telegram
     events, channels = {}, {}
     for m in museums:
+        m['exposition']=exposition['museums'].get(m['id'])
+        m['exposition_summary']=' '.join(f['text'] for f in m['exposition']['facts']) if m['exposition'] else ''
+        m['exposition_sources']=list(dict.fromkeys(f['source'] for f in m['exposition']['facts'])) if m['exposition'] else []
+        m['exposition_checked_at']=m['exposition']['checked_at'] if m['exposition'] else ''
         m['admission_domains']=list(dict.fromkeys(urlparse(u).hostname.removeprefix('www.') for u in m['sites'] if urlparse(u).hostname.removeprefix('www.') in admission_cache))
         m['themes'] = overrides.get(m['id']) or classify(m['name'])
         m['theme_source'] = 'Ручная классификация' if m['id'] in overrides else 'Предварительно по названию'
@@ -113,6 +120,7 @@ def build():
     meta.update(admission_sources_checked=len(admission_sources),admission_sources_with_facts=sum(bool(r['tickets'] or r['free_rules']) for r in admission_sources),
                 admission_tariffs=sum(len(r['tickets']) for r in admission_sources),admission_free_rules=sum(len(r['free_rules']) for r in admission_sources))
     meta.update(site_sources_stale=sum(bool(r.get('stale')) for r in sites.values()),telegram_sources_stale=sum(bool(r.get('stale')) for r in channels.values()),admission_sources_stale=sum(bool(r.get('stale')) for r in admission_sources))
+    meta.update(exposition_museums=sum(bool(m['exposition']) for m in museums),exposition_sources_checked=len(exposition_docs),exposition_sources_readable=sum(bool(r['documents']) for r in exposition_docs.values()),exposition_sources_reviewed=len(exposition['reviews']))
     payload = {'meta': meta, 'themes': [label for label, _ in THEMES] + [OTHER], 'museums': museums, 'events': sorted(events.values(), key=lambda e: e['start']), 'channels': list(channels.values()), 'event_sources':public_sources,'admission_sources':admission_sources}
     dest = ROOT/'web/data'; dest.mkdir(parents=True, exist_ok=True)
     temp=dest/'catalog.json.tmp';temp.write_text(json.dumps(payload, ensure_ascii=False),encoding='utf8');temp.replace(dest/'catalog.json')
@@ -127,7 +135,7 @@ def build():
         writer=csv.DictWriter(f,fieldnames=fields,delimiter=';');writer.writeheader()
         writer.writerows({k:r[k] for k in fields} for r in public_sources)
     with (dest/'museums.csv').open('w', encoding='utf-8-sig', newline='') as f:
-        fields = ['name', 'address', 'category', 'themes', 'theme_source', 'sites', 'telegram', 'emails', 'phones', 'lat', 'lon', 'verification']
+        fields = ['name', 'address', 'category', 'themes', 'theme_source', 'sites', 'telegram', 'emails', 'phones', 'lat', 'lon', 'verification','exposition_summary','exposition_sources','exposition_checked_at']
         writer = csv.DictWriter(f, fieldnames=fields, delimiter=';'); writer.writeheader()
         for m in museums:
             writer.writerow({k: ', '.join(m[k]) if isinstance(m[k], list) else m[k] for k in fields})

@@ -12,6 +12,13 @@ assert len({e['id'] for e in p['events']}) == len(p['events']), 'Duplicate event
 for m in p['museums']:
     assert m['themes'] and set(m['themes']).issubset(p['themes']), m['name']
     assert m['sources'], m['name']
+    if m.get('exposition'):
+        note=m['exposition'];assert note['processor']=='internal-luna'
+        assert 2<=len(note['facts'])<=4
+        assert note['checked_at'] and note['domain']
+        for fact in note['facts']:
+            assert len(fact['text'])>=25 and fact['source'].startswith(('https://','http://'))
+        assert m['exposition_summary']==' '.join(f['text'] for f in note['facts'])
     if m['lat'] is not None:
         assert m['lon'] is not None and 55.1 <= m['lat'] <= 56.2 and 36.5 <= m['lon'] <= 38.3
 for e in p['events']:
@@ -37,4 +44,5 @@ for row in p.get('admission_sources',[]):
         if ticket.get('amount_rub') is not None:assert isinstance(ticket['amount_rub'],(int,float)) and ticket['amount_rub']>=0
 assert p['meta'].get('admission_tariffs',0)==sum(len(r['tickets']) for r in p.get('admission_sources',[]))
 assert p['meta'].get('admission_free_rules',0)==sum(len(r['free_rules']) for r in p.get('admission_sources',[]))
+assert p['meta'].get('exposition_museums',0)==sum(bool(m.get('exposition')) for m in p['museums'])
 print(f"Verified: {len(ids)} museums, {len(p['events'])} dated events, {len(post_ids)} posts")

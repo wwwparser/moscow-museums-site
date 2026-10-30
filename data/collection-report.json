@@ -7,7 +7,7 @@
   "with_coordinates": 1269,
   "with_telegram": 677,
   "note": "Каталог кандидатов из локальных выгрузок, дата исходных данных неизвестна. Возможны дубли и закрытые площадки.",
-  "built_at": "2026-10-30T09:56:48.539174+00:00",
+  "built_at": "2026-10-30T15:17:38.482629+00:00",
   "site_domains_total": 554,
   "site_domains_checked": 554,
   "site_domains_available": 449,
@@ -27,5 +27,9 @@
   "admission_free_rules": 822,
   "site_sources_stale": 31,
   "telegram_sources_stale": 0,
-  "admission_sources_stale": 8
+  "admission_sources_stale": 8,
+  "exposition_museums": 339,
+  "exposition_sources_checked": 554,
+  "exposition_sources_readable": 395,
+  "exposition_sources_reviewed": 554
 }

@@ -9,5 +9,6 @@ fetch('data/update-report.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Erro
   }
   root.append(list);
   if(report.pending_luna){const pending=document.createElement('p');pending.textContent='Ожидают разбора внутренней Luna: '+report.pending_luna+' источников. Непроверенные сведения не выдаются за обновлённые.';root.append(pending);}
+  if(report.pending_exposition_luna){const pending=document.createElement('p');pending.textContent='Новые или изменившиеся материалы об экспозициях ожидают проверки: '+report.pending_exposition_luna+' сайтов.';root.append(pending);}
   const link=document.createElement('a');link.href='data/update-report.json';link.textContent='Скачать подробный отчёт JSON ↗';link.download='update-report.json';root.append(link);
 }).catch(()=>{const root=document.querySelector('#update-health');if(root)root.textContent='Отчёт появится после следующего полного запуска обновления.';});

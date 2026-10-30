@@ -4,6 +4,8 @@ python scripts/verify_data.py
 if ($LASTEXITCODE -ne 0) { throw 'Data verification failed' }
 node --check web/app.js
 if ($LASTEXITCODE -ne 0) { throw 'JavaScript validation failed' }
+node --check web/exposition-view.js
+if ($LASTEXITCODE -ne 0) { throw 'Exposition view validation failed' }
 node --check web/telegram-feed.js
 if ($LASTEXITCODE -ne 0) { throw 'Telegram feed validation failed' }
 node --check web/admission-view.js
