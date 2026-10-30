@@ -1,0 +1,104 @@
+{
+  "started_at": "2026-10-30T08:58:46.196939+00:00",
+  "finished_at": "2026-10-30T09:56:49.587021+00:00",
+  "mode": "full",
+  "steps": [
+    {
+      "name": "build",
+      "status": "ok",
+      "exit_code": 0
+    },
+    {
+      "name": "verification",
+      "status": "ok",
+      "exit_code": 0
+    },
+    {
+      "name": "app.js",
+      "status": "ok",
+      "exit_code": 0
+    },
+    {
+      "name": "telegram-feed.js",
+      "status": "ok",
+      "exit_code": 0
+    },
+    {
+      "name": "admission-view.js",
+      "status": "ok",
+      "exit_code": 0
+    },
+    {
+      "name": "update-status.js",
+      "status": "ok",
+      "exit_code": 0
+    }
+  ],
+  "pending_luna": 0,
+  "llm_processing": "internal-luna",
+  "external_llm_enabled": false,
+  "sites": {
+    "checked": 554,
+    "checked_today": 554,
+    "checked_this_run": 554,
+    "last_attempt_at": "2026-10-30T09:04:20.412234+00:00",
+    "stale": 31,
+    "with_errors": 124
+  },
+  "events": {
+    "checked": 554,
+    "checked_today": 554,
+    "checked_this_run": 554,
+    "last_attempt_at": "2026-10-30T09:12:12.960810+00:00",
+    "stale": 5,
+    "with_errors": 135
+  },
+  "admission": {
+    "checked": 554,
+    "checked_today": 554,
+    "checked_this_run": 554,
+    "last_attempt_at": "2026-10-30T09:51:13.408293+00:00",
+    "stale": 8,
+    "with_errors": 140
+  },
+  "telegram": {
+    "checked": 364,
+    "checked_today": 364,
+    "checked_this_run": 364,
+    "last_attempt_at": "2026-10-30T09:06:15.335627+00:00",
+    "stale": 0,
+    "with_errors": 57
+  },
+  "counts": {
+    "imported_at": "2026-10-09T16:04:14.361346+00:00",
+    "raw_rows": 4812,
+    "excluded_rows": 2629,
+    "museums": 1270,
+    "with_site": 980,
+    "with_coordinates": 1269,
+    "with_telegram": 677,
+    "note": "Каталог кандидатов из локальных выгрузок, дата исходных данных неизвестна. Возможны дубли и закрытые площадки.",
+    "built_at": "2026-10-30T09:56:48.539174+00:00",
+    "site_domains_total": 554,
+    "site_domains_checked": 554,
+    "site_domains_available": 449,
+    "channels": 364,
+    "channels_checked": 364,
+    "channels_available": 307,
+    "events": 664,
+    "posts": 1502,
+    "event_source_domains": 30,
+    "event_sources_checked": 554,
+    "event_sources_configured": 554,
+    "event_sources_with_dates": 36,
+    "event_sources_individual": 17,
+    "admission_sources_checked": 554,
+    "admission_sources_with_facts": 202,
+    "admission_tariffs": 2457,
+    "admission_free_rules": 822,
+    "site_sources_stale": 31,
+    "telegram_sources_stale": 0,
+    "admission_sources_stale": 8
+  },
+  "status": "partial"
+}
