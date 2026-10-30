@@ -1,5 +1,11 @@
 {
-  "pushkinmuseum.art": {"name":"ГМИИ имени А. С. Пушкина","seeds": ["https://pushkinmuseum.art/visitors/", "https://pushkinmuseum.art/"]},
+  "pushkinmuseum.art": {
+    "name": "ГМИИ имени А. С. Пушкина",
+    "seeds": [
+      "https://pushkinmuseum.art/visitors/",
+      "https://pushkinmuseum.art/"
+    ]
+  },
   "tretyakovgallery.ru": {
     "seeds": [
       "https://www.tretyakovgallery.ru/api/textographs/&for-visitors&free&/?lang=ru",
@@ -19,10 +25,55 @@
       "https://www.tretyakovgallery.ru/for-visitors/excemption/"
     ]
   },
-  "mosmuseum.ru": {"name":"Музей Москвы и филиалы","seeds": ["https://mosmuseum.ru/visitors/tikets/free/", "https://mosmuseum.ru/visitors/tikets/lgotnyie-kategorii/", "https://mosmuseum.ru/visitors/tikets/types/", "https://mosmuseum.ru/visitors/tikets/free/museum_week/"],"max_pages": 8},
-  "mamm-mdf.ru": {"seeds": ["https://mamm.art/"],"max_pages": 8},
-  "jewish-museum.ru": {"seeds": ["https://www.jewish-museum.ru/visitors/prices/", "https://www.jewish-museum.ru/visitors/"],"max_pages": 8},
-  "domgogolya.ru": {"seeds": ["https://www.domgogolya.ru/visit/"],"max_pages": 8},
-  "kosmo-museum.ru": {"seeds": ["https://kosmo-museum.ru/static_pages/stoimost-biletov"],"max_pages": 6},
-  "dombulgakova.ru": {"seeds": ["https://dombulgakova.ru/pravila-poseshheniya/", "https://dombulgakova.ru/"],"max_pages": 6}
+  "mosmuseum.ru": {
+    "name": "Музей Москвы и филиалы",
+    "seeds": [
+      "https://mosmuseum.ru/visitors/tikets/free/",
+      "https://mosmuseum.ru/visitors/tikets/lgotnyie-kategorii/",
+      "https://mosmuseum.ru/visitors/tikets/types/",
+      "https://mosmuseum.ru/visitors/tikets/free/museum_week/"
+    ],
+    "max_pages": 8
+  },
+  "mamm-mdf.ru": {
+    "seeds": [
+      "https://mamm.art/"
+    ],
+    "max_pages": 8
+  },
+  "jewish-museum.ru": {
+    "seeds": [
+      "https://www.jewish-museum.ru/visitors/prices/",
+      "https://www.jewish-museum.ru/visitors/"
+    ],
+    "max_pages": 8
+  },
+  "domgogolya.ru": {
+    "seeds": [
+      "https://www.domgogolya.ru/visit/"
+    ],
+    "max_pages": 8
+  },
+  "kosmo-museum.ru": {
+    "seeds": [
+      "https://kosmo-museum.ru/static_pages/stoimost-biletov"
+    ],
+    "max_pages": 6
+  },
+  "dombulgakova.ru": {
+    "seeds": [
+      "https://dombulgakova.ru/pravila-poseshheniya/",
+      "https://dombulgakova.ru/"
+    ],
+    "max_pages": 6
+  },
+  "gmom.ru": {
+    "seeds": [
+      "https://gmom.ru/docs/13.07.2026_01-36-91-od_Serebrova_E.V._Melehina_A.Iu..pdf",
+      "https://gmom.ru/Bileti_2",
+      "https://gmom.ru/Lgotnoe-obslujivanie",
+      "https://gmom.ru/Moskovskaya-muzejnaya-nedelya"
+    ],
+    "max_pages": 8
+  }
 }

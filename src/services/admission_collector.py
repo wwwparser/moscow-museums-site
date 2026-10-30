@@ -2,6 +2,8 @@
 from datetime import datetime,timezone
 from io import BytesIO
 import hashlib
+import json
+from pathlib import Path
 import re
 import time
 from urllib.parse import urlparse,urldefrag,urlunparse,parse_qsl,urlencode
@@ -73,6 +75,14 @@ def read_document(url):
         from pypdf import PdfReader
         reader=PdfReader(BytesIO(content))
         text='\n'.join(page.extract_text(extraction_mode='layout') or '' for page in reader.pages[:35])
+        # A visual transcript reviewed by internal Luna can be reused only for
+        # the identical PDF bytes. A changed document requires a new review.
+        registry_path=Path(__file__).resolve().parents[2]/'data/admission-visual-evidence.json'
+        if registry_path.exists():
+            entry=json.loads(registry_path.read_text(encoding='utf8')).get(final,{})
+            if entry.get('processor')=='internal-luna' and entry.get('pdf_sha256')==hashlib.sha256(content).hexdigest():
+                transcript=Path(entry['text_file'])
+                if transcript.exists():text+='\n'+transcript.read_text(encoding='utf8')
         return text,final,'pdf',''
     # Decode HTML explicitly, preserving Russian content.
     try:html=content.decode('utf8')

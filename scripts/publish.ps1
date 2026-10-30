@@ -8,6 +8,8 @@ node --check web/telegram-feed.js
 if ($LASTEXITCODE -ne 0) { throw 'Telegram feed validation failed' }
 node --check web/admission-view.js
 if ($LASTEXITCODE -ne 0) { throw 'Admission view validation failed' }
+node --check web/update-status.js
+if ($LASTEXITCODE -ne 0) { throw 'Update status validation failed' }
 git push origin main
 if ($LASTEXITCODE -ne 0) { throw 'Source push failed' }
 git subtree push --prefix web origin gh-pages

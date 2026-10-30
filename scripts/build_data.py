@@ -3,7 +3,7 @@ import csv
 import hashlib
 import json
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from urllib.parse import urlparse
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -23,9 +23,14 @@ def build():
     domains = {urlparse(u).hostname.removeprefix('www.') for m in museums for u in m['sites']}
     sites = {k: v for k, v in sites.items() if k in domains}
     canonical_telegram = {}
+    telegram_aliases={}
     for url, row in telegram.items():
         key = url.lower()
-        if key not in canonical_telegram or row['posts']:
+        handles={p['id'].split('/')[0].lower() for p in row.get('posts',[]) if '/' in p.get('id','')}
+        canonical='https://t.me/'+next(iter(handles)) if len(handles)==1 else key
+        telegram_aliases[key]=canonical
+        key=canonical
+        if key not in canonical_telegram or row.get('checked_at','')>canonical_telegram[key].get('checked_at',''):
             row = dict(row)
             row['posts'] = [dict(p, channel=key) for p in row['posts']]
             canonical_telegram[key] = row
@@ -44,7 +49,7 @@ def build():
             m['checked_at'] = r['checked_at']
             m['website_errors'].extend(r['errors'])
             if r['pages']:
-                m['verification'] = 'Сайт доступен; запись музея требует проверки'
+                m['verification'] = 'Проверка сайта не удалась; сохранены прежние сведения' if r.get('stale') else 'Сайт доступен; запись музея требует проверки'
             for field in ('emails', 'phones', 'telegram', 'agenda', 'news'):
                 m[field] = list(dict.fromkeys(m[field] + r[field]))
             agenda = monitored.get(domain)
@@ -52,6 +57,7 @@ def build():
             if not profiles.get(domain,{}).get('calendar_enabled',True):
                 collected_events=[]
             for event in collected_events:
+                if (event.get('end') or event['start'])[:10]<date.today().isoformat():continue
                 key = (event.get('source_site') or urlparse(event['source']).hostname.removeprefix('www.')) + '|' + event['start']
                 key += '|' + event.get('end', '') + '|' + event['title'].strip().casefold()
                 if key not in events:
@@ -70,16 +76,16 @@ def build():
                 if m['id'] not in events[key]['museum_ids']:
                     events[key]['museum_ids'].append(m['id'])
         for c in m['telegram']:
-            c = c.lower()
+            c = telegram_aliases.get(c.lower(),c.lower())
             channels.setdefault(c, {'url': c, 'museum_ids': [], 'posts': [], 'error': 'Ещё не проверен', 'checked_at': ''})['museum_ids'].append(m['id'])
-        m['telegram'] = list(dict.fromkeys(c.lower() for c in m['telegram']))
+        m['telegram'] = list(dict.fromkeys(telegram_aliases.get(c.lower(),c.lower()) for c in m['telegram']))
     for c, row in channels.items():
         if c in telegram:
-            row.update({k: telegram[c][k] for k in ('posts', 'error', 'checked_at')})
+            row.update({k: telegram[c].get(k) for k in ('posts', 'error', 'checked_at','stale','last_success_at')})
     meta = json.loads((ROOT/'data/import-report.json').read_text(encoding='utf8'))
     meta.update({'built_at': datetime.now(timezone.utc).isoformat(), 'site_domains_total': len({urlparse(u).hostname.removeprefix('www.') for m in museums for u in m['sites']}),
-                 'site_domains_checked': len(sites), 'site_domains_available': sum(bool(r['pages']) for r in sites.values()),
-                 'channels': len(channels), 'channels_checked': sum(c in telegram for c in channels), 'channels_available': sum(bool(r['posts']) for r in channels.values()),
+                 'site_domains_checked': len(sites), 'site_domains_available': sum(bool(r['pages']) and not r.get('stale') for r in sites.values()),
+                 'channels': len(channels), 'channels_checked': sum(c in telegram for c in channels), 'channels_available': sum(bool(r['posts']) and not r.get('stale') for r in channels.values()),
                  'events': len(events), 'posts': sum(len(r['posts']) for r in channels.values()),
                  'event_source_domains': len({urlparse(e['source']).hostname.removeprefix('www.') for e in events.values()}),
                  'with_telegram': sum(bool(m['telegram']) for m in museums)})
@@ -99,16 +105,17 @@ def build():
     admission_profiles=json.loads(admission_profiles_path.read_text(encoding='utf8')) if admission_profiles_path.exists() else {}
     for domain,row in admission_cache.items():
         if domain not in domains:continue
-        public={k:row.get(k) for k in ('name','checked_at','status','pages','links','input_truncated','stale')}
+        public={k:row.get(k) for k in ('name','checked_at','status','pages','links','input_truncated','stale','last_success_at')}
         public['name']=admission_profiles.get(domain,{}).get('name',public['name'])
         public.update(domain=domain,tickets=row.get('tickets',[]),free_rules=row.get('free_rules',[]),
                       museum_ids=[m['id'] for m in museums if domain in m['admission_domains']],rejected_count=len(row.get('rejected',[])))
         admission_sources.append(public)
     meta.update(admission_sources_checked=len(admission_sources),admission_sources_with_facts=sum(bool(r['tickets'] or r['free_rules']) for r in admission_sources),
                 admission_tariffs=sum(len(r['tickets']) for r in admission_sources),admission_free_rules=sum(len(r['free_rules']) for r in admission_sources))
+    meta.update(site_sources_stale=sum(bool(r.get('stale')) for r in sites.values()),telegram_sources_stale=sum(bool(r.get('stale')) for r in channels.values()),admission_sources_stale=sum(bool(r.get('stale')) for r in admission_sources))
     payload = {'meta': meta, 'themes': [label for label, _ in THEMES] + [OTHER], 'museums': museums, 'events': sorted(events.values(), key=lambda e: e['start']), 'channels': list(channels.values()), 'event_sources':public_sources,'admission_sources':admission_sources}
     dest = ROOT/'web/data'; dest.mkdir(parents=True, exist_ok=True)
-    (dest/'catalog.json').write_text(json.dumps(payload, ensure_ascii=False), encoding='utf8')
+    temp=dest/'catalog.json.tmp';temp.write_text(json.dumps(payload, ensure_ascii=False),encoding='utf8');temp.replace(dest/'catalog.json')
     with (dest/'admission.csv').open('w',encoding='utf-8-sig',newline='') as f:
         fields=['domain','museum','type','category','scope','price_text','amount_rub','when','conditions','rule_type','source','checked_at']
         writer=csv.DictWriter(f,fieldnames=fields,delimiter=';');writer.writeheader()

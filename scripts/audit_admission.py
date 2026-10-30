@@ -11,6 +11,10 @@ path=ROOT/'data/admission-results.jsonl'
 with path.open('a',encoding='utf8') as output:
     for key,row in rows.items():
         if not row.get('tickets') and not row.get('free_rules'):continue
+        if row.get('stale'):continue
+        if docs[key]['checked_at']>row['checked_at']:
+            row['stale']=True;row['last_success_at']=row.get('last_success_at',row['checked_at']);row['last_attempt_at']=docs[key]['checked_at']
+            output.write(json.dumps(row,ensure_ascii=False)+'\n');continue
         documents=[{'source':d['source'],'text':Path(d['file']).read_text(encoding='utf8')} for d in docs[key]['documents']]
         # Multiple HTML/API representations of one URL are all source evidence.
         combined={}

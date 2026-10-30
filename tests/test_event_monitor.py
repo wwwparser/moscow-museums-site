@@ -1,4 +1,4 @@
-from datetime import date
+from datetime import date,timedelta
 import json
 import unittest
 from unittest.mock import patch
@@ -62,7 +62,7 @@ class EventMonitorTests(unittest.TestCase):
         self.assertEqual(e['schedule_type'],'period')
 
     def test_failure_keeps_last_good_data_without_cancellation(self):
-        future=date.today().replace(day=28).isoformat()
+        future=(date.today()+timedelta(days=7)).isoformat()
         e={'title':'Лекция','url':'https://m.example/events/one','source':'https://m.example/events','start':future,'end':'','date_precision':'day'}
         e['monitor_id']=event_identity(e)
         profile={'domain':'m.example','name':'Музей','adapter':'generic','seeds':['https://m.example/'],'max_pages':1}

@@ -13,8 +13,11 @@ def get_posts(channel):
         time = node.select_one('time[datetime]')
         if not ident or not time:
             continue
+        if text:
+            for br in text.select('br'):br.replace_with('\n')
+            for block in text.select('p,blockquote'):block.insert_before('\n');block.insert_after('\n')
         posts.append({'id': ident, 'channel': channel, 'url': 'https://t.me/' + ident,
-                      'text': text.get_text('\n', strip=True) if text else 'Медиа-публикация — открыть в Telegram',
+                      'text': text.get_text('', strip=False).strip() if text else 'Медиа-публикация — открыть в Telegram',
                       'date': time['datetime']})
     if not posts:
         raise ValueError('Public channel preview unavailable or empty')

@@ -12,3 +12,11 @@ data/event-results.jsonl
 data/event-history.jsonl
 data/admission-documents.jsonl
 data/admission-results.jsonl
+data/luna-queue.json
+data/luna-results.jsonl
+data/luna-major-results.jsonl
+data/luna-review-all.jsonl
+data/luna-refined-results.jsonl
+data/luna-gmom-visual.jsonl
+data/luna-major-entry-only.jsonl
+data/admission-visual-evidence.json

@@ -58,6 +58,9 @@ def main():
     ap.add_argument('--workers', type=int, default=6)
     ap.add_argument('--refresh', action='store_true')
     ap.add_argument('--telegram-limit', type=int, default=0, help='0 = all known channels')
+    ap.add_argument('--section',choices=['all','sites','telegram'],default='all')
+    ap.add_argument('--no-build',action='store_true')
+    ap.add_argument('--since',help='Skip rows checked at or after this ISO timestamp')
     args = ap.parse_args()
     museums = json.loads((ROOT/'data/museums.json').read_text(encoding='utf8'))
     domains = {}
@@ -68,35 +71,50 @@ def main():
                 domains.setdefault(domain.removeprefix('www.'), url)
     selected = list(domains.items())[:args.limit or None]
     cache_path = ROOT/'data/site-results.jsonl'
-    cache = {} if args.refresh else load_cache(cache_path)
+    previous_sites=load_cache(cache_path)
+    cache = dict(previous_sites)
+    if args.section=='telegram':selected=[]
     with cache_path.open('a', encoding='utf8') as output, ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = [pool.submit(crawl, item) for item in selected if item[0] not in cache]
-        for future in as_completed(futures):
+        futures = [pool.submit(crawl, item) for item in selected if (args.refresh or item[0] not in cache) and (not args.since or cache.get(item[0],{}).get('checked_at','')<args.since)]
+        for count,future in enumerate(as_completed(futures),1):
             row = future.result()
+            old=previous_sites.get(row['key'])
+            if not row['pages'] and old and old['pages']:
+                for field in ('pages','events','emails','phones','telegram','agenda','news'):row[field]=old[field]
+                row['stale']=True
+                row['last_success_at']=old.get('last_success_at',old['checked_at'])
+            else:row['last_success_at']=row['checked_at'] if row['pages'] else ''
             cache[row['key']] = row
             output.write(json.dumps(row, ensure_ascii=False) + '\n'); output.flush()
-            print(f"sites {len(cache)}/{len(domains)}: {row['key']} ({len(row['pages'])} pages)", flush=True)
+            print(f"sites {count}/{len(futures)}: {row['key']} ({len(row['pages'])} pages)", flush=True)
     channels = set()
     for m in museums:
-        channels.update(m['telegram'])
+        channels.update(c.lower() for c in m['telegram'])
     for row in cache.values():
-        channels.update(row['telegram'])
+        channels.update(c.lower() for c in row['telegram'])
     tg_path = ROOT/'data/telegram-results.jsonl'
-    tg_cache = {} if args.refresh else load_cache(tg_path)
+    tg_cache = {k.lower():v for k,v in sorted(load_cache(tg_path).items(),key=lambda item:item[1].get('checked_at',''))}
+    if args.section=='sites':channels=set()
     def channel_job(channel):
         row = {'key': channel, 'checked_at': now(), 'posts': [], 'error': ''}
         try:
             row['posts'] = get_posts(channel)
         except Exception as exc:
             row['error'] = str(exc)
+            old=tg_cache.get(channel)
+            if old and old['posts']:
+                row['posts']=old['posts'];row['stale']=True
+                row['last_success_at']=old.get('last_success_at',old['checked_at'])
+        if not row['error']:row['last_success_at']=row['checked_at']
         return row
     with tg_path.open('a', encoding='utf8') as output, ThreadPoolExecutor(max_workers=min(args.workers, 4)) as pool:
-        futures = [pool.submit(channel_job, c) for c in sorted(channels)[:args.telegram_limit or None] if c not in tg_cache]
-        for future in as_completed(futures):
+        futures = [pool.submit(channel_job, c) for c in sorted(channels)[:args.telegram_limit or None] if (args.refresh or c not in tg_cache) and (not args.since or tg_cache.get(c,{}).get('checked_at','')<args.since)]
+        for count,future in enumerate(as_completed(futures),1):
             row = future.result(); tg_cache[row['key']] = row
             output.write(json.dumps(row, ensure_ascii=False) + '\n'); output.flush()
-            print(f"telegram {len(tg_cache)}/{len(channels)}: {row['key']} ({len(row['posts'])} posts)", flush=True)
-    from build_data import build
-    build()
+            print(f"telegram {count}/{len(futures)}: {row['key']} ({len(row['posts'])} posts)", flush=True)
+    if not args.no_build:
+        from build_data import build
+        build()
 if __name__ == '__main__':
     main()

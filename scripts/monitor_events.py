@@ -18,6 +18,7 @@ def main():
     ap.add_argument('--domains',help='Comma-separated source domains')
     ap.add_argument('--dedicated-only',action='store_true')
     ap.add_argument('--refresh',action='store_true',help='Bypass per-source refresh interval')
+    ap.add_argument('--no-build',action='store_true')
     args=ap.parse_args()
     if args.workers<1 or args.workers>8:ap.error('workers must be between 1 and 8')
     if not 1<=args.days<=366:ap.error('days must be between 1 and 366')
@@ -42,6 +43,7 @@ def main():
             output.write(json.dumps(row,ensure_ascii=False)+'\n');output.flush()
             changes.write(json.dumps({k:row[k] for k in ('key','checked_at','status','changes')},ensure_ascii=False)+'\n');changes.flush()
             print(f"[{i}/{len(selected)}] {row['key']} {row['status']} {len(row['events'])} events",flush=True)
-    from build_data import build
-    build()
+    if not args.no_build:
+        from build_data import build
+        build()
 if __name__=='__main__':main()

@@ -3,6 +3,19 @@ from src.services.admission_collector import text_page,pricing_links
 from src.services.admission_extract import validate
 
 class AdmissionTests(unittest.TestCase):
+    def test_corrupted_category_is_not_published_with_valid_price_quote(self):
+        source='https://museum.example/prices'
+        item={'category':'????????','price_text':'500 руб.','amount_rub':500,'source':source,'quote':'Взрослые 500 руб.'}
+        result=validate({'tickets':[item]},[{'source':source,'text':'Взрослые 500 руб.'}])
+        self.assertEqual(result['tickets'],[])
+
+    def test_missing_optional_conditions_do_not_render_as_none(self):
+        source='https://museum.example/prices'
+        item={'category':'Взрослые','price_text':'500 руб.','amount_rub':500,'conditions':None,'scope':'None','source':source,'quote':'Взрослые 500 руб.'}
+        row=validate({'tickets':[item]},[{'source':source,'text':'Взрослые 500 руб.'}])['tickets'][0]
+        self.assertEqual(row['conditions'],'')
+        self.assertEqual(row['scope'],'')
+
     def test_table_category_context_and_links(self):
         html='<nav>Бесплатно</nav><main><table><tr><td>Взрослые</td><td>1 200 руб.</td></tr></table><a href="/visitors/prices">Стоимость билетов</a><a href="https://shop.example/prices">Цены сувениров</a></main>'
         text=text_page(html)
