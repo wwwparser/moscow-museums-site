@@ -1,0 +1,85 @@
+"""Browser acceptance of the redesigned static UI (isolated Chrome context)."""
+import json
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+
+ROOT=Path(__file__).resolve().parents[1]
+OUT=ROOT/'artifacts/redesign/verification'
+OUT.mkdir(parents=True,exist_ok=True)
+URL='http://127.0.0.1:8768/'
+report={'url':URL,'driver':'Playwright / Chrome, isolated context','checks':[],'errors':[],'requests':[],'views':[]}
+def check(name,condition):
+ report['checks'].append({'name':name,'pass':bool(condition)})
+ if not condition:raise AssertionError(name)
+
+with sync_playwright() as p:
+ b=p.chromium.launch(channel='chrome',headless=True)
+ ctx=b.new_context(viewport={'width':1280,'height':900},accept_downloads=True)
+ page=ctx.new_page()
+ page.on('pageerror',lambda e:report['errors'].append(str(e)))
+ page.on('response',lambda r:report['requests'].append({'url':r.url,'status':r.status}) if r.status>=400 else None)
+ page.goto(URL);page.wait_for_selector('.museum-card');page.evaluate('document.fonts.ready')
+ check('new design loaded',page.locator('body').get_attribute('data-view')=='catalog')
+ page.keyboard.press('Tab');check('keyboard skip link',page.locator('.skip-link').evaluate('(e)=>e===document.activeElement'))
+ page.keyboard.press('Tab');page.keyboard.press('Enter');check('brand keeps catalog route',page.url.endswith('#catalog'))
+ page.locator('#search').fill('несуществующиймузей123');check('empty result',page.locator('#museum-list .empty').count()==1)
+ page.locator('#toggle-filters').click();check('extra filters expand',page.locator('#extra-filters').is_visible())
+ page.locator('#reset').click();check('filter reset',page.locator('.museum-card').count()==24)
+ page.locator('#category').select_option(label='Музеи-квартиры');check('museum format filter',page.locator('.museum-card .tag').first.inner_text()=='МУЗЕИ-КВАРТИРЫ')
+ page.locator('#sort').select_option('name-desc');check('sort selection',page.locator('#sort').input_value()=='name-desc')
+ page.locator('#reset').click();page.locator('#toggle-filters').click()
+ page.locator('[data-theme]').nth(1).click();check('theme selection',bool(page.locator('#theme').input_value()))
+ page.locator('[data-theme=""]').click();check('all themes button',page.locator('#theme').input_value()=='')
+ first=page.locator('[data-museum]').first;first.click();check('museum dialog',page.locator('#museum-dialog').is_visible())
+ check('dialog labelled title',bool(page.locator('#museum-detail-title').inner_text()))
+ page.screenshot(path=str(OUT/'museum-detail-desktop.png'))
+ page.keyboard.press('Tab');check('dialog tab stays inside',page.evaluate('document.querySelector("#museum-dialog").contains(document.activeElement)'))
+ page.keyboard.press('Escape');check('dialog Escape / focus return',not page.locator('#museum-dialog').is_visible() and first.evaluate('(e)=>e===document.activeElement'))
+ page.locator('#more').click();check('load more museums',page.locator('.museum-card').count()==48)
+ page.reload();page.wait_for_selector('.museum-card')
+ for width,height,label in [(1280,900,'desktop'),(360,800,'mobile')]:
+  page.set_viewport_size({'width':width,'height':height})
+  if width==360:
+   page.locator('#toggle-navigation').click();check('mobile expanded navigation',page.locator('#toggle-navigation').get_attribute('aria-expanded')=='true')
+   page.screenshot(path=str(OUT/'navigation-mobile-expanded.png'))
+  for route in ['catalog','map','events','admission','telegram','sources']:
+   page.locator(f'.tabs [data-tab="{route}"]').click();page.wait_for_timeout(250)
+   page.evaluate('window.scrollTo(0,0)')
+   if route=='map':page.wait_for_timeout(1500)
+   page.screenshot(path=str(OUT/f'{route}-{label}-first.png'))
+   if route=='catalog':page.screenshot(path=str(OUT/f'{route}-{label}-full.png'),full_page=True)
+   if route=='telegram' and width==360:
+    page.locator('#toggle-channels').click();check('mobile channel tools open',page.locator('#channel-tools').is_visible());page.locator('#toggle-channels').click();check('mobile channel tools close',not page.locator('#channel-tools').is_visible())
+   size=page.evaluate('({width:innerWidth,scroll:document.documentElement.scrollWidth,view:document.body.dataset.view})')
+   report['views'].append({'route':route,'viewport':[width,height],**size})
+   check(f'{route} at {width}: no page overflow',size['scroll']<=width)
+  page.locator('.brand').click();page.locator('#catalog').wait_for(state='visible');check(f'brand navigates from sources at {width}',page.locator('#catalog').is_visible())
+ page.set_viewport_size({'width':1280,'height':900})
+ page.locator('[data-tab="map"]').click();check('map sidebar',page.locator('.map-item').count()==12)
+ page.locator('.map-item [data-locate]').first.click();check('map locate action',page.locator('#map-canvas .leaflet-pane').count()>0)
+ page.locator('.map-item [data-museum]').first.click();check('map opens museum',page.locator('#museum-dialog').is_visible());page.keyboard.press('Escape')
+ page.locator('[data-tab="events"]').click()
+ page.locator('[data-period="month"]').click();check('month calendar',page.locator('.day').count()>=28)
+ page.screenshot(path=str(OUT/'events-month-desktop.png'))
+ page.locator('.day').first.click();check('selected calendar day',page.locator('#all-days').count()==1)
+ page.locator('#all-days').click();page.locator('[data-period="year"]').click();check('year calendar',page.locator('[data-month]').count()==12)
+ page.locator('[data-month="9"]').click();check('month from year',page.locator('[data-period="month"]').get_attribute('class')=='active')
+ page.locator('#calendar-mode').select_option('periods');check('period presentation',page.locator('.event-row:not(.is-period)').count()==0)
+ page.locator('#calendar-mode').select_option('all')
+ with page.expect_download() as dl:page.locator('#export-ics').click()
+ target=OUT/'events.ics';dl.value.save_as(target);check('calendar export',target.read_text(encoding='utf8').startswith('BEGIN:VCALENDAR'))
+ page.locator('[data-tab="admission"]').click();page.locator('.admission-card summary').first.click();check('tariffs expand',page.locator('.admission-card[open]').count()>0)
+ page.screenshot(path=str(OUT/'admission-expanded-desktop.png'))
+ page.locator('#visitor-category').select_option('students');check('visitor filter',page.locator('#admission-list').inner_text().strip()!='')
+ check('source title encoding fallback','???' not in page.locator('.admission-card summary').first.inner_text())
+ page.locator('[data-tab="telegram"]').click();check('Telegram posts',page.locator('#post-list .post').count()>0)
+ page.locator('#post-search').fill('несуществующийпост123');check('Telegram empty search',page.locator('#post-list .empty').count()>0)
+ page.locator('#reset-feed').click()
+ save=page.locator('.post-footer button').first;save.click();check('save Telegram post',save.get_attribute('aria-pressed')=='true')
+ page.locator('#saved-posts').click();check('saved feed filter',page.locator('#post-list .post').count()==1)
+ page.reload();page.wait_for_selector('#post-list .post');check('saved post persists',page.locator('#saved-count').inner_text()=='1')
+ report['probe']=page.evaluate((Path('C:/Users/Yuri/.codex/skills/ui-verification/scripts/page_probe.js')).read_text(encoding='utf8'))
+ check('no uncaught page errors',not report['errors'])
+ (OUT/'result.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')
+ print(json.dumps({'checks':len(report['checks']),'errors':report['errors'],'failed_http':report['requests'][:10]},ensure_ascii=False))
+ ctx.close();b.close()

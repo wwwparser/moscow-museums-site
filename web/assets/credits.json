@@ -1,0 +1,14 @@
+{
+  "museum-collage.webp": {
+    "type": "AI-generated decorative collage",
+    "generator": "ChatGPT, via Browser Bridge at the explicit request of the project owner",
+    "date": "2026-10-30",
+    "conversation": "https://chatgpt.com/c/6ae493d3-9070-83eb-a51b-f2fa2bf58028",
+    "note": "Decorative artwork; not a photograph of a specific museum."
+  },
+  "fonts": {
+    "Inter": "https://github.com/google/fonts/tree/main/ofl/inter",
+    "Playfair Display": "https://github.com/google/fonts/tree/main/ofl/playfairdisplay",
+    "license": "SIL Open Font License 1.1; complete license texts included alongside the fonts."
+  }
+}
