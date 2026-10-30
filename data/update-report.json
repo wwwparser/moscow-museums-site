@@ -1,7 +1,7 @@
 {
   "started_at": "2026-10-30T08:58:46.196939+00:00",
-  "finished_at": "2026-10-30T09:56:49.587021+00:00",
-  "mode": "full",
+  "finished_at": "2026-10-30T15:17:39.661474+00:00",
+  "mode": "daily",
   "steps": [
     {
       "name": "build",
@@ -30,6 +30,11 @@
     },
     {
       "name": "update-status.js",
+      "status": "ok",
+      "exit_code": 0
+    },
+    {
+      "name": "exposition-view.js",
       "status": "ok",
       "exit_code": 0
     }
@@ -69,6 +74,15 @@
     "stale": 0,
     "with_errors": 57
   },
+  "expositions": {
+    "checked_sources": 554,
+    "readable_sources": 395,
+    "unavailable_sources": 159,
+    "pending_luna": 0,
+    "processor": "internal-luna",
+    "prepared_at": "2026-10-30T15:15:44.438329+00:00"
+  },
+  "pending_exposition_luna": 0,
   "counts": {
     "imported_at": "2026-10-09T16:04:14.361346+00:00",
     "raw_rows": 4812,
@@ -78,7 +92,7 @@
     "with_coordinates": 1269,
     "with_telegram": 677,
     "note": "Каталог кандидатов из локальных выгрузок, дата исходных данных неизвестна. Возможны дубли и закрытые площадки.",
-    "built_at": "2026-10-30T09:56:48.539174+00:00",
+    "built_at": "2026-10-30T15:17:38.482629+00:00",
     "site_domains_total": 554,
     "site_domains_checked": 554,
     "site_domains_available": 449,
@@ -98,7 +112,11 @@
     "admission_free_rules": 822,
     "site_sources_stale": 31,
     "telegram_sources_stale": 0,
-    "admission_sources_stale": 8
+    "admission_sources_stale": 8,
+    "exposition_museums": 339,
+    "exposition_sources_checked": 554,
+    "exposition_sources_readable": 395,
+    "exposition_sources_reviewed": 554
   },
   "status": "partial"
 }
