@@ -23,7 +23,7 @@
       "domain": "bunker42.com",
       "processor": "internal-luna",
       "evidence_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "status": "verified"
+      "status": "stale"
     },
     "ea598a385013": {
       "facts": [
@@ -48,7 +48,7 @@
       "domain": "bunker42.com",
       "processor": "internal-luna",
       "evidence_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "status": "verified"
+      "status": "stale"
     },
     "64eda5ce64da": {
       "facts": [
@@ -115,7 +115,7 @@
       "domain": "automuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "8844d6050e3869e6a777838e52eb9e042c264c411fcf9e718c6994f3b43f0699",
-      "status": "verified"
+      "status": "stale"
     },
     "3b845673f0be": {
       "facts": [
@@ -132,7 +132,7 @@
       "domain": "automuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "8844d6050e3869e6a777838e52eb9e042c264c411fcf9e718c6994f3b43f0699",
-      "status": "verified"
+      "status": "stale"
     },
     "366abe8cb567": {
       "facts": [
@@ -153,7 +153,7 @@
       "domain": "belvorobey.ru",
       "processor": "internal-luna",
       "evidence_hash": "8ea8dce25e51425ee8a69b40ae16fb18af336f92f1668ba0dac34414ee74ea95",
-      "status": "verified"
+      "status": "stale"
     },
     "a40739f0847f": {
       "facts": [
@@ -174,7 +174,7 @@
       "domain": "belvorobey.ru",
       "processor": "internal-luna",
       "evidence_hash": "8ea8dce25e51425ee8a69b40ae16fb18af336f92f1668ba0dac34414ee74ea95",
-      "status": "verified"
+      "status": "stale"
     },
     "57984054095e": {
       "facts": [
@@ -254,7 +254,7 @@
       "domain": "15kop.ru",
       "processor": "internal-luna",
       "evidence_hash": "7f7c776203dcee1ff6d2c0a8713a8eaf4170bdd5edecc4a9a34b1aa59518e11b",
-      "status": "verified"
+      "status": "stale"
     },
     "9ec002a0a0d7": {
       "facts": [
@@ -275,7 +275,7 @@
       "domain": "15kop.ru",
       "processor": "internal-luna",
       "evidence_hash": "7f7c776203dcee1ff6d2c0a8713a8eaf4170bdd5edecc4a9a34b1aa59518e11b",
-      "status": "verified"
+      "status": "stale"
     },
     "8b5f88b0b17f": {
       "facts": [
@@ -296,7 +296,7 @@
       "domain": "apple-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "3189082e5635ca1cea774246ea38bdf99998c11aaa8fb361ff4676d370fd9e35",
-      "status": "verified"
+      "status": "stale"
     },
     "2c992e55726a": {
       "facts": [
@@ -317,7 +317,7 @@
       "domain": "atom.museum",
       "processor": "internal-luna",
       "evidence_hash": "244fafca7e7457ba8d0c62716939b913460e10361ca14026a4d507789ed509e9",
-      "status": "verified"
+      "status": "stale"
     },
     "ed98366442da": {
       "facts": [
@@ -338,7 +338,7 @@
       "domain": "atom.museum",
       "processor": "internal-luna",
       "evidence_hash": "244fafca7e7457ba8d0c62716939b913460e10361ca14026a4d507789ed509e9",
-      "status": "verified"
+      "status": "stale"
     },
     "f3bcbf46763b": {
       "facts": [
@@ -586,7 +586,7 @@
       "domain": "domgogolya.ru",
       "processor": "internal-luna",
       "evidence_hash": "4396e83be8e3fb2adfe9cfcfbeee3d7dce1f1b1cc7afdf5de3f33008516a361b",
-      "status": "verified"
+      "status": "stale"
     },
     "4e1f996d25f8": {
       "facts": [
@@ -603,7 +603,7 @@
       "domain": "domgogolya.ru",
       "processor": "internal-luna",
       "evidence_hash": "4396e83be8e3fb2adfe9cfcfbeee3d7dce1f1b1cc7afdf5de3f33008516a361b",
-      "status": "verified"
+      "status": "stale"
     },
     "ee2a75fd9a98": {
       "facts": [
@@ -624,7 +624,7 @@
       "domain": "domloseva.ru",
       "processor": "internal-luna",
       "evidence_hash": "80c0a9fb510e5b815f51e0a3105828eac64d36eaaa4eda9c5631ea04f2bd15c6",
-      "status": "verified"
+      "status": "stale"
     },
     "b99901cac5d6": {
       "facts": [
@@ -649,7 +649,7 @@
       "domain": "dommuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "10e99d1ef6978ea5ba0911fecff7388360a8ed7fa482f948946efa8ff67f6eb3",
-      "status": "verified"
+      "status": "stale"
     },
     "12b138210816": {
       "facts": [
@@ -674,7 +674,7 @@
       "domain": "dommuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "10e99d1ef6978ea5ba0911fecff7388360a8ed7fa482f948946efa8ff67f6eb3",
-      "status": "verified"
+      "status": "stale"
     },
     "adb296d1423f": {
       "facts": [
@@ -699,7 +699,7 @@
       "domain": "aviacosmosdom.ru",
       "processor": "internal-luna",
       "evidence_hash": "63f177b5f29bfa4de057c9d9ac627a58c4007b3af468234382ae41d09225976f",
-      "status": "verified"
+      "status": "stale"
     },
     "e8aa42aae369": {
       "facts": [
@@ -724,7 +724,7 @@
       "domain": "aviacosmosdom.ru",
       "processor": "internal-luna",
       "evidence_hash": "63f177b5f29bfa4de057c9d9ac627a58c4007b3af468234382ae41d09225976f",
-      "status": "verified"
+      "status": "stale"
     },
     "51db8e6cd1ce": {
       "facts": [
@@ -749,7 +749,7 @@
       "domain": "gemmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "78d759f97eefaa730f84cdaecf119b8704e960c12c561a5c8f511b5f567defca",
-      "status": "verified"
+      "status": "stale"
     },
     "ee97a6a07f5b": {
       "facts": [
@@ -774,7 +774,7 @@
       "domain": "gemmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "78d759f97eefaa730f84cdaecf119b8704e960c12c561a5c8f511b5f567defca",
-      "status": "verified"
+      "status": "stale"
     },
     "331b5a14e675": {
       "facts": [
@@ -799,7 +799,7 @@
       "domain": "animamuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "1f68cd612d781fe3ff865164f5749afa6e2f16ee5149f503e9dfdecb81a40453",
-      "status": "verified"
+      "status": "stale"
     },
     "102dfb075faf": {
       "facts": [
@@ -820,7 +820,7 @@
       "domain": "azart.moscow",
       "processor": "internal-luna",
       "evidence_hash": "ba7071c3ee7a7cce4093785cbc2edb18a34b77a897095d39b199d171b30a731b",
-      "status": "verified"
+      "status": "stale"
     },
     "9fc1df34e85a": {
       "facts": [
@@ -841,7 +841,7 @@
       "domain": "azart.moscow",
       "processor": "internal-luna",
       "evidence_hash": "ba7071c3ee7a7cce4093785cbc2edb18a34b77a897095d39b199d171b30a731b",
-      "status": "verified"
+      "status": "stale"
     },
     "9b341ba32358": {
       "facts": [
@@ -988,7 +988,7 @@
       "domain": "cryptography-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "e5691cd728575b547806eb3d746b72cf453da293f2e01f1c31220f1fb5d22c08",
-      "status": "verified"
+      "status": "stale"
     },
     "79e5a94140c8": {
       "facts": [
@@ -1013,7 +1013,7 @@
       "domain": "cryptography-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "e5691cd728575b547806eb3d746b72cf453da293f2e01f1c31220f1fb5d22c08",
-      "status": "verified"
+      "status": "stale"
     },
     "c2d598b9c9a1": {
       "facts": [
@@ -1038,7 +1038,7 @@
       "domain": "domrz.ru",
       "processor": "internal-luna",
       "evidence_hash": "576278bf38ad77620d1681fb86b51d214fd729058b1738bf81178c4ebf8960bb",
-      "status": "verified"
+      "status": "stale"
     },
     "6e71617a4ca3": {
       "facts": [
@@ -1063,7 +1063,7 @@
       "domain": "domrz.ru",
       "processor": "internal-luna",
       "evidence_hash": "576278bf38ad77620d1681fb86b51d214fd729058b1738bf81178c4ebf8960bb",
-      "status": "verified"
+      "status": "stale"
     },
     "82342fa8905f": {
       "facts": [
@@ -1080,7 +1080,7 @@
       "domain": "domskazok.su",
       "processor": "internal-luna",
       "evidence_hash": "8f4c70210f713f2d86536237130fffc6adbcd5750a8922602c2e6adfb6902a0f",
-      "status": "verified"
+      "status": "stale"
     },
     "4c3442ad3dd1": {
       "facts": [
@@ -1097,7 +1097,7 @@
       "domain": "domskazok.su",
       "processor": "internal-luna",
       "evidence_hash": "8f4c70210f713f2d86536237130fffc6adbcd5750a8922602c2e6adfb6902a0f",
-      "status": "verified"
+      "status": "stale"
     },
     "35d07ce96d25": {
       "facts": [
@@ -1168,7 +1168,7 @@
       "domain": "gopinball.ru",
       "processor": "internal-luna",
       "evidence_hash": "eaf00024309c1473e0e3b8b8a98a9cd3c811497827847ea18c45af0a0997a86c",
-      "status": "verified"
+      "status": "stale"
     },
     "252a8385e2ab": {
       "facts": [
@@ -1185,7 +1185,7 @@
       "domain": "hram-kurkino.ru",
       "processor": "internal-luna",
       "evidence_hash": "f6e913fc7d2463ad2da62aa54e23ee08516e83a9da86c15634d1d31d34c3485b",
-      "status": "verified"
+      "status": "stale"
     },
     "9d34993f16ae": {
       "facts": [
@@ -1206,7 +1206,7 @@
       "domain": "bulgakovmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "8a621368c80c5b1a56b2a1d559543e8d4ce1cedb47315c04c0c433efd5cb62b9",
-      "status": "verified"
+      "status": "stale"
     },
     "ecb9638237ef": {
       "facts": [
@@ -1227,7 +1227,7 @@
       "domain": "bulgakovmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "8a621368c80c5b1a56b2a1d559543e8d4ce1cedb47315c04c0c433efd5cb62b9",
-      "status": "verified"
+      "status": "stale"
     },
     "fe003ba201a6": {
       "facts": [
@@ -1244,7 +1244,7 @@
       "domain": "bulgakovmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "8a621368c80c5b1a56b2a1d559543e8d4ce1cedb47315c04c0c433efd5cb62b9",
-      "status": "verified"
+      "status": "stale"
     },
     "6fec40ad2404": {
       "facts": [
@@ -1265,7 +1265,7 @@
       "domain": "cmaf.ru",
       "processor": "internal-luna",
       "evidence_hash": "145ebe2fcf2bd5784b5efc1526567b22f4afbade1212a2d58147fc28b7428849",
-      "status": "verified"
+      "status": "stale"
     },
     "098244e049c6": {
       "facts": [
@@ -1286,7 +1286,7 @@
       "domain": "cmaf.ru",
       "processor": "internal-luna",
       "evidence_hash": "145ebe2fcf2bd5784b5efc1526567b22f4afbade1212a2d58147fc28b7428849",
-      "status": "verified"
+      "status": "stale"
     },
     "8710f9c7dc46": {
       "facts": [
@@ -1454,7 +1454,7 @@
       "domain": "elysium.ru",
       "processor": "internal-luna",
       "evidence_hash": "57638d5da9c4d8e8c9e2f42dc846ae8a10fa395abe6d072c3eb5a496e99e0eea",
-      "status": "verified"
+      "status": "stale"
     },
     "4b9ce209c406": {
       "facts": [
@@ -1500,7 +1500,7 @@
       "domain": "artdecomuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "8a7b5d3d9090b01b30798f498c3baa52b42c195795cbde69da38a606f2c663bc",
-      "status": "verified"
+      "status": "stale"
     },
     "80e8fe27f073": {
       "facts": [
@@ -1542,7 +1542,7 @@
       "domain": "glazunov-gallery.ru",
       "processor": "internal-luna",
       "evidence_hash": "3a735ae7fd5c907aadffd18d500c8fbcf01b4ef604316add51b0927900da2af3",
-      "status": "verified"
+      "status": "stale"
     },
     "7509c2a51a59": {
       "facts": [
@@ -1588,7 +1588,7 @@
       "domain": "zmmu.msu.ru",
       "processor": "internal-luna",
       "evidence_hash": "398ec1a86fcd6896745bc318c0efda9805518955d7a47b7ccb1ac125bf93ff31",
-      "status": "verified"
+      "status": "stale"
     },
     "2422c2546c9e": {
       "facts": [
@@ -1730,7 +1730,7 @@
       "domain": "magic2.ru",
       "processor": "internal-luna",
       "evidence_hash": "efe8e8e7e00d34fcb0e920ffd61be839056dd11da723be9e6a1248d81089d88d",
-      "status": "verified"
+      "status": "stale"
     },
     "f2b94e0fe93b": {
       "facts": [
@@ -1751,7 +1751,7 @@
       "domain": "magic2.ru",
       "processor": "internal-luna",
       "evidence_hash": "efe8e8e7e00d34fcb0e920ffd61be839056dd11da723be9e6a1248d81089d88d",
-      "status": "verified"
+      "status": "stale"
     },
     "1e96fed3fc85": {
       "facts": [
@@ -1797,7 +1797,7 @@
       "domain": "keymineral.ru",
       "processor": "internal-luna",
       "evidence_hash": "0d1d84b02de0de348eff0c6a7d583b3cbbd512f6b7a986a27c363f41e20a12c0",
-      "status": "verified"
+      "status": "stale"
     },
     "371f8e2591ad": {
       "facts": [
@@ -1847,7 +1847,7 @@
       "domain": "kuskovo.ru",
       "processor": "internal-luna",
       "evidence_hash": "669ea3547aacdf8d0d8112e2fb3ea4f5d41cedd6998d8ed2ff02a08a6e7567fe",
-      "status": "verified"
+      "status": "stale"
     },
     "ebf031ccd23e": {
       "facts": [
@@ -1872,7 +1872,7 @@
       "domain": "kuskovo.ru",
       "processor": "internal-luna",
       "evidence_hash": "669ea3547aacdf8d0d8112e2fb3ea4f5d41cedd6998d8ed2ff02a08a6e7567fe",
-      "status": "verified"
+      "status": "stale"
     },
     "d171356e8cdb": {
       "facts": [
@@ -1939,7 +1939,7 @@
       "domain": "hramvtolmachah.ru",
       "processor": "internal-luna",
       "evidence_hash": "3061a3ffa1546d7ea0de53a5d889dc0f3fdafe35e60a387ef4427aa8702ff8c2",
-      "status": "verified"
+      "status": "stale"
     },
     "23ef23fb6b50": {
       "facts": [
@@ -1964,7 +1964,7 @@
       "domain": "hramvtolmachah.ru",
       "processor": "internal-luna",
       "evidence_hash": "3061a3ffa1546d7ea0de53a5d889dc0f3fdafe35e60a387ef4427aa8702ff8c2",
-      "status": "verified"
+      "status": "stale"
     },
     "545ae18865be": {
       "facts": [
@@ -1989,7 +1989,7 @@
       "domain": "igem.ru",
       "processor": "internal-luna",
       "evidence_hash": "a74c6cd17ec8def447c5ade5d37d50ae1d260665c903f7ef2b4de740cb76c5bc",
-      "status": "verified"
+      "status": "stale"
     },
     "a6f8b36b465d": {
       "facts": [
@@ -2060,7 +2060,7 @@
       "domain": "inartibus.org",
       "processor": "internal-luna",
       "evidence_hash": "ec4f2565c6cee956cd93f4af5996b49ae9f3e70f8c0a92da67ae917628471ae3",
-      "status": "verified"
+      "status": "stale"
     },
     "91ddec878576": {
       "facts": [
@@ -2123,7 +2123,7 @@
       "domain": "luchgallery.com",
       "processor": "internal-luna",
       "evidence_hash": "eade754594d9cf9eddd2fda0ef44b9abdacc999171b209ffbfabf405304ef73e",
-      "status": "verified"
+      "status": "stale"
     },
     "cc43ec906042": {
       "facts": [
@@ -2148,7 +2148,7 @@
       "domain": "goramuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "15497a6860dc341024d9952a99b4b337c86d19c2204666c2940332f8b73241ab",
-      "status": "verified"
+      "status": "stale"
     },
     "6291a104925c": {
       "facts": [
@@ -2173,7 +2173,7 @@
       "domain": "magicmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "ccb308a554b9b6fa9535b804d1b18c103ac264595b929e3a62bead7b7e3dff34",
-      "status": "verified"
+      "status": "stale"
     },
     "e70e0dbafa50": {
       "facts": [
@@ -2236,7 +2236,7 @@
       "domain": "maketmoskvy.ru",
       "processor": "internal-luna",
       "evidence_hash": "c65f5cb6b9630ed19ccc609412a8b4267394e17387daf5cf04f21a950a6c1e56",
-      "status": "verified"
+      "status": "stale"
     },
     "28d6bd1adb02": {
       "facts": [
@@ -2324,7 +2324,7 @@
       "domain": "moscowdesignmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "bd917e437635f150bc6efed653c45dac919858ea2d0ce14a429514fb7a3f91ff",
-      "status": "verified"
+      "status": "stale"
     },
     "25d30dc6db49": {
       "facts": [
@@ -2349,7 +2349,7 @@
       "domain": "mosmetro.ru",
       "processor": "internal-luna",
       "evidence_hash": "8c8003e056adca1c050920f4c5f055a15f5882c01efa1c50741d80225b116b4d",
-      "status": "verified"
+      "status": "stale"
     },
     "611fdee8ae39": {
       "facts": [
@@ -2412,7 +2412,7 @@
       "domain": "maly.ru",
       "processor": "internal-luna",
       "evidence_hash": "47b24c5592a183e7d5bd34fe96b4a59688a55ed1f14046fbb7f3844850cc7405",
-      "status": "verified"
+      "status": "stale"
     },
     "39a96cc3e8f0": {
       "facts": [
@@ -2433,7 +2433,7 @@
       "domain": "maly.ru",
       "processor": "internal-luna",
       "evidence_hash": "47b24c5592a183e7d5bd34fe96b4a59688a55ed1f14046fbb7f3844850cc7405",
-      "status": "verified"
+      "status": "stale"
     },
     "e5b6ee9e9f6e": {
       "facts": [
@@ -2454,7 +2454,7 @@
       "domain": "mosparks.ru",
       "processor": "internal-luna",
       "evidence_hash": "1e0c5fd5d0e51adaf48e9d53625cdf3c2844fda828a7f523f924548b0312295f",
-      "status": "verified"
+      "status": "stale"
     },
     "3899d14f21b3": {
       "facts": [
@@ -2471,7 +2471,7 @@
       "domain": "mosparks.ru",
       "processor": "internal-luna",
       "evidence_hash": "1e0c5fd5d0e51adaf48e9d53625cdf3c2844fda828a7f523f924548b0312295f",
-      "status": "verified"
+      "status": "stale"
     },
     "6f2a7630287b": {
       "facts": [
@@ -2492,7 +2492,7 @@
       "domain": "msk.musbot.ru",
       "processor": "internal-luna",
       "evidence_hash": "4f6520436ebcf9ffe8137d3046a443721234f0f568db239f22eb02ccbcb5be25",
-      "status": "verified"
+      "status": "stale"
     },
     "fee347b4d15d": {
       "facts": [
@@ -2513,7 +2513,7 @@
       "domain": "msk.musbot.ru",
       "processor": "internal-luna",
       "evidence_hash": "4f6520436ebcf9ffe8137d3046a443721234f0f568db239f22eb02ccbcb5be25",
-      "status": "verified"
+      "status": "stale"
     },
     "0aac34f6c000": {
       "facts": [
@@ -2585,7 +2585,7 @@
       "domain": "iskusstvo.org",
       "processor": "internal-luna",
       "evidence_hash": "b1133ae40b41a8fbb77696b928e6ba0e16ef79aa16a5cc6a5e3a3c9a5506d3d7",
-      "status": "verified"
+      "status": "stale"
     },
     "cfcb8edc89b0": {
       "facts": [
@@ -2606,7 +2606,7 @@
       "domain": "majolicamuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "0c0bf7e4d85b635ead648fedc1b6fb5db0d7ee2a42fa41d16a259a8d4070c111",
-      "status": "verified"
+      "status": "stale"
     },
     "2f173fd54382": {
       "facts": [
@@ -2627,7 +2627,7 @@
       "domain": "marhi.ru",
       "processor": "internal-luna",
       "evidence_hash": "aae66b9b1661c5e7a5194d7f2a81371c06a6f125a2dd3f29f262b0fb26b9c40c",
-      "status": "verified"
+      "status": "stale"
     },
     "c318bcac03a1": {
       "facts": [
@@ -2648,7 +2648,7 @@
       "domain": "marhi.ru",
       "processor": "internal-luna",
       "evidence_hash": "aae66b9b1661c5e7a5194d7f2a81371c06a6f125a2dd3f29f262b0fb26b9c40c",
-      "status": "verified"
+      "status": "stale"
     },
     "4d3ce358d72f": {
       "facts": [
@@ -2669,7 +2669,7 @@
       "domain": "medmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "fe2c7e31cf0652728ae73fe7ce1909e4dd3f9a72fee26ec36f3e1e2e8dfe423e",
-      "status": "verified"
+      "status": "stale"
     },
     "d627b6939d3f": {
       "facts": [
@@ -2690,7 +2690,7 @@
       "domain": "medmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "fe2c7e31cf0652728ae73fe7ce1909e4dd3f9a72fee26ec36f3e1e2e8dfe423e",
-      "status": "verified"
+      "status": "stale"
     },
     "ff9db8ae010d": {
       "facts": [
@@ -2707,7 +2707,7 @@
       "domain": "mievr.ru",
       "processor": "internal-luna",
       "evidence_hash": "19e562cff8d7992eaa8cc971723fdecff5d7b3e94c03174beecc04a29791ffbf",
-      "status": "verified"
+      "status": "stale"
     },
     "ebaa0fb9cda1": {
       "facts": [
@@ -2728,7 +2728,7 @@
       "domain": "mint.museum",
       "processor": "internal-luna",
       "evidence_hash": "4a669f5d14e124d513d79be9a7b412cbe9072941e401bb49dfed051f3f560879",
-      "status": "verified"
+      "status": "stale"
     },
     "3c3c98dbbc98": {
       "facts": [
@@ -2753,7 +2753,7 @@
       "domain": "moscowarmsmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "b8e5d00b7be3934fe00819572ec04f012bb3dfa89843427aac9fb8d51cade061",
-      "status": "verified"
+      "status": "stale"
     },
     "7fdef96f7612": {
       "facts": [
@@ -2778,7 +2778,7 @@
       "domain": "moscowarmsmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "b8e5d00b7be3934fe00819572ec04f012bb3dfa89843427aac9fb8d51cade061",
-      "status": "verified"
+      "status": "stale"
     },
     "2b83d27ae648": {
       "facts": [
@@ -2795,7 +2795,7 @@
       "domain": "mosenergo-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "9b1b6445feb213e91781f425808af584772885a4c84184a9d62f30f0921c5234",
-      "status": "verified"
+      "status": "stale"
     },
     "c06efd96d578": {
       "facts": [
@@ -2812,7 +2812,7 @@
       "domain": "mosenergo-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "9b1b6445feb213e91781f425808af584772885a4c84184a9d62f30f0921c5234",
-      "status": "verified"
+      "status": "stale"
     },
     "abeecd2abb70": {
       "facts": [
@@ -2833,7 +2833,7 @@
       "domain": "mosmuseumussr.ru",
       "processor": "internal-luna",
       "evidence_hash": "1ea376b31a5022ca263bc539c740c483ae93c2612a31efd6b4c0ac95b4216412",
-      "status": "verified"
+      "status": "stale"
     },
     "f720dfef97e6": {
       "facts": [
@@ -2854,7 +2854,7 @@
       "domain": "mosmuseumussr.ru",
       "processor": "internal-luna",
       "evidence_hash": "1ea376b31a5022ca263bc539c740c483ae93c2612a31efd6b4c0ac95b4216412",
-      "status": "verified"
+      "status": "stale"
     },
     "754df0abe289": {
       "facts": [
@@ -2875,7 +2875,7 @@
       "domain": "mpgu.su",
       "processor": "internal-luna",
       "evidence_hash": "5ad663eed3f56a337f663da270d780e9f9df1f041054a8faa318adaa3766e1cb",
-      "status": "verified"
+      "status": "stale"
     },
     "1a49d046b4f1": {
       "facts": [
@@ -2896,7 +2896,7 @@
       "domain": "mpgu.su",
       "processor": "internal-luna",
       "evidence_hash": "5ad663eed3f56a337f663da270d780e9f9df1f041054a8faa318adaa3766e1cb",
-      "status": "verified"
+      "status": "stale"
     },
     "6b0aead79c27": {
       "facts": [
@@ -3089,7 +3089,7 @@
       "domain": "muzey-sensorium.ru",
       "processor": "internal-luna",
       "evidence_hash": "cfcb735373ade5baa21d44e6febf22f2bd350e4c8349b16beb143ace330381bc",
-      "status": "verified"
+      "status": "stale"
     },
     "7ea68e139da9": {
       "facts": [
@@ -3114,7 +3114,7 @@
       "domain": "mvk.academy-andriaka.ru",
       "processor": "internal-luna",
       "evidence_hash": "2143b8895f71c38258da2fe8613c6a53b6297bfaf0b5be230691739617572303",
-      "status": "verified"
+      "status": "stale"
     },
     "be4aad879004": {
       "facts": [
@@ -3160,7 +3160,7 @@
       "domain": "toysmk.ru",
       "processor": "internal-luna",
       "evidence_hash": "2ef5831082e0dcfe9f54d7919498c1693b8152583441bdba91d51b439999e2ef",
-      "status": "verified"
+      "status": "stale"
     },
     "74b52727bb3b": {
       "facts": [
@@ -3181,7 +3181,7 @@
       "domain": "museum.msu.ru",
       "processor": "internal-luna",
       "evidence_hash": "c815bcd4405f62dae1342b04f0c604f2e7c6864d78b8f2a026c2464ebc22de0e",
-      "status": "verified"
+      "status": "stale"
     },
     "0b50e75747e3": {
       "facts": [
@@ -3202,7 +3202,7 @@
       "domain": "mgomz.ru",
       "processor": "internal-luna",
       "evidence_hash": "6e672a0b3a812fbba2bad190fd28994042f87b91ec724f1cd7ec51e904388a4b",
-      "status": "verified"
+      "status": "stale"
     },
     "d219dc2a900a": {
       "facts": [
@@ -3361,7 +3361,7 @@
       "domain": "museum.lukoil.ru",
       "processor": "internal-luna",
       "evidence_hash": "d46f36ebe7bd79d8db8c8305e12adeabc9282d410710d7c729bd97fd0930d086",
-      "status": "verified"
+      "status": "stale"
     },
     "83003e1af303": {
       "facts": [
@@ -3382,7 +3382,7 @@
       "domain": "museum.lukoil.ru",
       "processor": "internal-luna",
       "evidence_hash": "d46f36ebe7bd79d8db8c8305e12adeabc9282d410710d7c729bd97fd0930d086",
-      "status": "verified"
+      "status": "stale"
     },
     "8deb9a969fa8": {
       "facts": [
@@ -3500,7 +3500,7 @@
       "domain": "museumdal.ru",
       "processor": "internal-luna",
       "evidence_hash": "5e47083b977a2c1ee181e8fb11d9079a29b8ac0201458a7f32bd7612cf0e555e",
-      "status": "verified"
+      "status": "stale"
     },
     "c622a35edf79": {
       "facts": [
@@ -3521,7 +3521,7 @@
       "domain": "museumdal.ru",
       "processor": "internal-luna",
       "evidence_hash": "5e47083b977a2c1ee181e8fb11d9079a29b8ac0201458a7f32bd7612cf0e555e",
-      "status": "verified"
+      "status": "stale"
     },
     "dfce085cb697": {
       "facts": [
@@ -3546,7 +3546,7 @@
       "domain": "museumrvio.ru",
       "processor": "internal-luna",
       "evidence_hash": "407008f995b9de398ba27924ae6192cb0385270ca07c5f7d52cf2ae0ce31bed8",
-      "status": "verified"
+      "status": "stale"
     },
     "cf0da6a8331a": {
       "facts": [
@@ -3567,7 +3567,7 @@
       "domain": "mus-school1086.ucoz.ru",
       "processor": "internal-luna",
       "evidence_hash": "c66db6a4e062b90dd14194315fe9a48178613cec88b17db82079b0dd63c69fc8",
-      "status": "verified"
+      "status": "stale"
     },
     "5becc69d032b": {
       "facts": [
@@ -3592,7 +3592,7 @@
       "domain": "orientmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "57e136a8286c038c39a475edd6a6e3346b2b64b17455c0c6f7a090df8cd3d6a0",
-      "status": "verified"
+      "status": "stale"
     },
     "c11dc2afe83a": {
       "facts": [
@@ -3617,7 +3617,7 @@
       "domain": "orientmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "57e136a8286c038c39a475edd6a6e3346b2b64b17455c0c6f7a090df8cd3d6a0",
-      "status": "verified"
+      "status": "stale"
     },
     "5695b5384644": {
       "facts": [
@@ -3688,7 +3688,7 @@
       "domain": "plmusey.narod.ru",
       "processor": "internal-luna",
       "evidence_hash": "51387e203aa49ef0167fa6b248dc24530775b44d607873921a9edb8d927b6da6",
-      "status": "verified"
+      "status": "stale"
     },
     "b3cfb6e7ff01": {
       "facts": [
@@ -3709,7 +3709,7 @@
       "domain": "mosmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "460318ac6e50d0b96b697a7ecfb5a1cbd89215a9669012375b4ee57aee29a8b6",
-      "status": "verified"
+      "status": "stale"
     },
     "c034f3b5e5a5": {
       "facts": [
@@ -3730,7 +3730,7 @@
       "domain": "mosmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "460318ac6e50d0b96b697a7ecfb5a1cbd89215a9669012375b4ee57aee29a8b6",
-      "status": "verified"
+      "status": "stale"
     },
     "f946cbb32520": {
       "facts": [
@@ -3751,7 +3751,7 @@
       "domain": "mosmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "460318ac6e50d0b96b697a7ecfb5a1cbd89215a9669012375b4ee57aee29a8b6",
-      "status": "verified"
+      "status": "stale"
     },
     "b8596ba11171": {
       "facts": [
@@ -3772,7 +3772,7 @@
       "domain": "mosmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "460318ac6e50d0b96b697a7ecfb5a1cbd89215a9669012375b4ee57aee29a8b6",
-      "status": "verified"
+      "status": "stale"
     },
     "96a25490b8e2": {
       "facts": [
@@ -3793,7 +3793,7 @@
       "domain": "mosmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "460318ac6e50d0b96b697a7ecfb5a1cbd89215a9669012375b4ee57aee29a8b6",
-      "status": "verified"
+      "status": "stale"
     },
     "0bf8e92886f0": {
       "facts": [
@@ -3814,7 +3814,7 @@
       "domain": "dollslane.ru",
       "processor": "internal-luna",
       "evidence_hash": "ae7dbde530d8fd2dfb5cc37e00fab6851769d0d2e95d4b6d7dcaeb6a4af8bf01",
-      "status": "verified"
+      "status": "stale"
     },
     "55e42ff06ff2": {
       "facts": [
@@ -3831,7 +3831,7 @@
       "domain": "okudshava.ru",
       "processor": "internal-luna",
       "evidence_hash": "705465c47862bd9a957451e45568172b2ff217640ce186526cb5bee410a0c6f2",
-      "status": "verified"
+      "status": "stale"
     },
     "f87b141f9fdd": {
       "facts": [
@@ -3856,7 +3856,7 @@
       "domain": "paleo.ru",
       "processor": "internal-luna",
       "evidence_hash": "d0bfe4ebc7e9884070a843855773bb966b36481277d7d2dbd0e0ae364bee8315",
-      "status": "verified"
+      "status": "stale"
     },
     "f5c8e287e333": {
       "facts": [
@@ -3881,7 +3881,7 @@
       "domain": "paleo.ru",
       "processor": "internal-luna",
       "evidence_hash": "d0bfe4ebc7e9884070a843855773bb966b36481277d7d2dbd0e0ae364bee8315",
-      "status": "verified"
+      "status": "stale"
     },
     "55ecbb0a399d": {
       "facts": [
@@ -3956,7 +3956,7 @@
       "domain": "teapotland.ru",
       "processor": "internal-luna",
       "evidence_hash": "136d4e59a44f69bea4f7ff21969ccdd8bf3d92eab263d102fe0e70541403d573",
-      "status": "verified"
+      "status": "stale"
     },
     "21f20ad91626": {
       "facts": [
@@ -3981,7 +3981,7 @@
       "domain": "teapotland.ru",
       "processor": "internal-luna",
       "evidence_hash": "136d4e59a44f69bea4f7ff21969ccdd8bf3d92eab263d102fe0e70541403d573",
-      "status": "verified"
+      "status": "stale"
     },
     "edc6c883ed19": {
       "facts": [
@@ -4002,7 +4002,7 @@
       "domain": "telhistory.ru",
       "processor": "internal-luna",
       "evidence_hash": "14e5d639f19f6f2fef5ed7098fe3e35f56dac72ffa4b895e65a1b223697a417b",
-      "status": "verified"
+      "status": "stale"
     },
     "74231fa6dced": {
       "facts": [
@@ -4048,7 +4048,7 @@
       "domain": "voznesenskycenter.ru",
       "processor": "internal-luna",
       "evidence_hash": "0772bf281f4b4e8bc223a87cdf14daa14abb5427dfe25f4ff33c0c963877334c",
-      "status": "verified"
+      "status": "stale"
     },
     "309b29fdbd40": {
       "facts": [
@@ -4086,7 +4086,7 @@
       "domain": "mpomos.ru",
       "processor": "internal-luna",
       "evidence_hash": "358d9545ac180c962b0be21e243eb23f2a57d7605460ae918d025f77caadc150",
-      "status": "verified"
+      "status": "stale"
     },
     "c625f3e96ba1": {
       "facts": [
@@ -4107,7 +4107,7 @@
       "domain": "mtmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "f92407a0df59c76451207b38bedfc23aff5563c233da861ca2067c9ffcb0a7ff",
-      "status": "verified"
+      "status": "stale"
     },
     "b177bbe4e6ba": {
       "facts": [
@@ -4128,7 +4128,7 @@
       "domain": "mtmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "f92407a0df59c76451207b38bedfc23aff5563c233da861ca2067c9ffcb0a7ff",
-      "status": "verified"
+      "status": "stale"
     },
     "2677bddef322": {
       "facts": [
@@ -4149,7 +4149,7 @@
       "domain": "mtmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "f92407a0df59c76451207b38bedfc23aff5563c233da861ca2067c9ffcb0a7ff",
-      "status": "verified"
+      "status": "stale"
     },
     "5b9aedb89878": {
       "facts": [
@@ -4170,7 +4170,7 @@
       "domain": "mtmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "f92407a0df59c76451207b38bedfc23aff5563c233da861ca2067c9ffcb0a7ff",
-      "status": "verified"
+      "status": "stale"
     },
     "4cd9f7127ee7": {
       "facts": [
@@ -4191,7 +4191,7 @@
       "domain": "mtmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "f92407a0df59c76451207b38bedfc23aff5563c233da861ca2067c9ffcb0a7ff",
-      "status": "verified"
+      "status": "stale"
     },
     "517bfdc34a25": {
       "facts": [
@@ -4212,7 +4212,7 @@
       "domain": "mtmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "f92407a0df59c76451207b38bedfc23aff5563c233da861ca2067c9ffcb0a7ff",
-      "status": "verified"
+      "status": "stale"
     },
     "75557929fecf": {
       "facts": [
@@ -4233,7 +4233,7 @@
       "domain": "mtmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "f92407a0df59c76451207b38bedfc23aff5563c233da861ca2067c9ffcb0a7ff",
-      "status": "verified"
+      "status": "stale"
     },
     "bc93bcf69cd4": {
       "facts": [
@@ -4254,7 +4254,7 @@
       "domain": "mtmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "f92407a0df59c76451207b38bedfc23aff5563c233da861ca2067c9ffcb0a7ff",
-      "status": "verified"
+      "status": "stale"
     },
     "255c30b6d161": {
       "facts": [
@@ -4275,7 +4275,7 @@
       "domain": "museum-light.bl-g.ru",
       "processor": "internal-luna",
       "evidence_hash": "547ba329bf1763b6999fa6719a433db23831d17956986d317bf376ab5e979653",
-      "status": "verified"
+      "status": "stale"
     },
     "6c308c8bacd7": {
       "facts": [
@@ -4296,7 +4296,7 @@
       "domain": "museum-slav.com",
       "processor": "internal-luna",
       "evidence_hash": "e366c73304d3cce861d7966483fb63689af7238a50a64b17e4edd5a27dbd4f79",
-      "status": "verified"
+      "status": "stale"
     },
     "04af8c46464d": {
       "facts": [
@@ -4317,7 +4317,7 @@
       "domain": "museum-slav.com",
       "processor": "internal-luna",
       "evidence_hash": "e366c73304d3cce861d7966483fb63689af7238a50a64b17e4edd5a27dbd4f79",
-      "status": "verified"
+      "status": "stale"
     },
     "fe7185472101": {
       "facts": [
@@ -4334,7 +4334,7 @@
       "domain": "rah.ru",
       "processor": "internal-luna",
       "evidence_hash": "f4bb61124f9b73a4320f411df346d2d71b0699fd2d9ccc2547cab3f34b238950",
-      "status": "verified"
+      "status": "stale"
     },
     "b6d8213ea526": {
       "facts": [
@@ -4355,7 +4355,7 @@
       "domain": "xn--80abwtcbllj6b9f.xn--p1ai",
       "processor": "internal-luna",
       "evidence_hash": "119250bf1c4591501d9aae91f0247e144f186c5ec5806832dbdffacbc6a720e7",
-      "status": "verified"
+      "status": "stale"
     },
     "7576632f1e45": {
       "facts": [
@@ -4380,7 +4380,7 @@
       "domain": "zmmu.msu.ru",
       "processor": "internal-luna",
       "evidence_hash": "398ec1a86fcd6896745bc318c0efda9805518955d7a47b7ccb1ac125bf93ff31",
-      "status": "verified"
+      "status": "stale"
     },
     "7abe154690a1": {
       "facts": [
@@ -4401,7 +4401,7 @@
       "domain": "fedini.art",
       "processor": "internal-luna",
       "evidence_hash": "a313b09a9622895ff299f6c3fa6854b0f28e158bf3ea228f283bab9908978ade",
-      "status": "verified"
+      "status": "stale"
     },
     "e65463f4881b": {
       "facts": [
@@ -4422,7 +4422,7 @@
       "domain": "ekaterina-foundation.ru",
       "processor": "internal-luna",
       "evidence_hash": "91a29ee07670da7c92578c9164c059950647bdf4186d1e287573e4548d30faba",
-      "status": "verified"
+      "status": "stale"
     },
     "212dfb249f22": {
       "facts": [
@@ -4443,7 +4443,7 @@
       "domain": "polymus.ru",
       "processor": "internal-luna",
       "evidence_hash": "07b3dc055c1739a561de92844f4b08662d75bd4b9a6a8aa4f3e21df6cd456df1",
-      "status": "verified"
+      "status": "stale"
     },
     "1a2cae67fc64": {
       "facts": [
@@ -4489,7 +4489,7 @@
       "domain": "sechenov.ru",
       "processor": "internal-luna",
       "evidence_hash": "975f91d2b27fc562d138b968a3e8e5bd9553c3edf1c46d6fc846ea8992ab3300",
-      "status": "verified"
+      "status": "stale"
     },
     "82b04bf996bf": {
       "facts": [
@@ -4619,7 +4619,7 @@
       "domain": "xn--b1acebhjbdcjdo3ad7ahdrlp9h.xn--p1ai",
       "processor": "internal-luna",
       "evidence_hash": "b03cb42f42957cc3d47b4e820a8df0c80c45c601357ea10e0a08f6dc32726a73",
-      "status": "verified"
+      "status": "stale"
     },
     "85349aad03a3": {
       "facts": [
@@ -4644,7 +4644,7 @@
       "domain": "zhukovskymuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "774c82f3ece3aa096b485e677d1fd515e7c37793b4039d006ea879ac2e9d0635",
-      "status": "verified"
+      "status": "stale"
     },
     "aea947c397f0": {
       "facts": [
@@ -4669,7 +4669,7 @@
       "domain": "zhukovskymuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "774c82f3ece3aa096b485e677d1fd515e7c37793b4039d006ea879ac2e9d0635",
-      "status": "verified"
+      "status": "stale"
     },
     "8b944befba4c": {
       "facts": [
@@ -4690,7 +4690,7 @@
       "domain": "museum.pkb4.ru",
       "processor": "internal-luna",
       "evidence_hash": "b3539fac69fe23ed6efa9696447d3c012690456fe68e4bd185917a386bc9a4db",
-      "status": "verified"
+      "status": "stale"
     },
     "9fd240843278": {
       "facts": [
@@ -4740,7 +4740,7 @@
       "domain": "ognimos.ru",
       "processor": "internal-luna",
       "evidence_hash": "0bbea27e09087f4b5cf5b946c2cf3412aa4fac601231ddba092af9aef3183aa6",
-      "status": "verified"
+      "status": "stale"
     },
     "9a2466d4b399": {
       "facts": [
@@ -4782,7 +4782,7 @@
       "domain": "vakhtangov.ru",
       "processor": "internal-luna",
       "evidence_hash": "3f71ec57a2960b73b947c26e31b562eafe413eb5ea877311d00122a1f1b1e5ab",
-      "status": "verified"
+      "status": "stale"
     },
     "356f72706612": {
       "facts": [
@@ -4807,7 +4807,7 @@
       "domain": "visotsky.ru",
       "processor": "internal-luna",
       "evidence_hash": "831a8a32dd9b5dd5fe30ae5696373240af790a3138245dbe302c262f62d6c84d",
-      "status": "verified"
+      "status": "stale"
     },
     "70215d1046bb": {
       "facts": [
@@ -4828,7 +4828,7 @@
       "domain": "xn--c1adffbadreybi0ax0b.xn--p1ai",
       "processor": "internal-luna",
       "evidence_hash": "f10e3f349baae50df57c325b403eaa457bb9a4260722c03917174a4cb7b38e8f",
-      "status": "verified"
+      "status": "stale"
     },
     "8659812de8ef": {
       "facts": [
@@ -4899,7 +4899,7 @@
       "domain": "museum.cbr.ru",
       "processor": "internal-luna",
       "evidence_hash": "6982ba6264a7bacf564ab7b1be4a91940044295596bc8e691fce2bc89b2cbcff",
-      "status": "verified"
+      "status": "stale"
     },
     "e562170275c0": {
       "facts": [
@@ -4920,7 +4920,7 @@
       "domain": "museum.customs.gov.ru",
       "processor": "internal-luna",
       "evidence_hash": "ef52d25be0133ee264d13ff61cb3e2c9edcc845eed8cf0ad8086264ff357772b",
-      "status": "verified"
+      "status": "stale"
     },
     "0e5ab54e472d": {
       "facts": [
@@ -4941,7 +4941,7 @@
       "domain": "museum.historymed.ru",
       "processor": "internal-luna",
       "evidence_hash": "6a39074e2ef90b59ee3fa18f89b16c03cfb59390cf7882f53a9ce14876c5eab9",
-      "status": "verified"
+      "status": "stale"
     },
     "62d1e217b69a": {
       "facts": [
@@ -4962,7 +4962,7 @@
       "domain": "museum.historymed.ru",
       "processor": "internal-luna",
       "evidence_hash": "6a39074e2ef90b59ee3fa18f89b16c03cfb59390cf7882f53a9ce14876c5eab9",
-      "status": "verified"
+      "status": "stale"
     },
     "63df6b42b4e4": {
       "facts": [
@@ -5025,7 +5025,7 @@
       "domain": "museum.yandex.ru",
       "processor": "internal-luna",
       "evidence_hash": "cfadd30e3ef21a737118fafede62553615b827ce6e87b83eb462ca3b03ddc8e3",
-      "status": "verified"
+      "status": "stale"
     },
     "9a8cc47fdc6a": {
       "facts": [
@@ -5042,7 +5042,7 @@
       "domain": "museumperfume.ru",
       "processor": "internal-luna",
       "evidence_hash": "abccd15b92b3734e75f9dae8515a2d828c2912d89b006c140417a7ccce2a7495",
-      "status": "verified"
+      "status": "stale"
     },
     "326057763efa": {
       "facts": [
@@ -5092,7 +5092,7 @@
       "domain": "rublev-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "9d5a25af0ca5a56e24aa300e48354490bd98392477ac4c7418333bc0b766646c",
-      "status": "verified"
+      "status": "stale"
     },
     "d7ff2c58cc1f": {
       "facts": [
@@ -5159,7 +5159,7 @@
       "domain": "teatrarmii.ru",
       "processor": "internal-luna",
       "evidence_hash": "0840317712eadd2d3be16621077bfc6769c3169fdf88c037cb9cfbe014427cd8",
-      "status": "verified"
+      "status": "stale"
     },
     "d24b9e8eb266": {
       "facts": [
@@ -5180,7 +5180,7 @@
       "domain": "ugolokdurova.ru",
       "processor": "internal-luna",
       "evidence_hash": "355a2500dee7f3946667899ca23a1b1e122146aa45d510d3b55968f5182d44f5",
-      "status": "verified"
+      "status": "stale"
     },
     "1263cc991d51": {
       "facts": [
@@ -5201,7 +5201,7 @@
       "domain": "ugolokdurova.ru",
       "processor": "internal-luna",
       "evidence_hash": "355a2500dee7f3946667899ca23a1b1e122146aa45d510d3b55968f5182d44f5",
-      "status": "verified"
+      "status": "stale"
     },
     "56fc127e82c0": {
       "facts": [
@@ -5222,7 +5222,7 @@
       "domain": "zaryadyepark.ru",
       "processor": "internal-luna",
       "evidence_hash": "73859e2c8a13a16e3a58d4ca78f72f3e7217c1dffa044073b7466f7c3cfff1a7",
-      "status": "verified"
+      "status": "stale"
     },
     "aacb824bc89b": {
       "facts": [
@@ -5281,7 +5281,7 @@
       "domain": "kreml.ru",
       "processor": "internal-luna",
       "evidence_hash": "56ab125e3c63d320cef876dc999b9edc9742f6428fc2db4434d68c5bfbd8f0f3",
-      "status": "verified"
+      "status": "stale"
     },
     "0572d75a2b6c": {
       "facts": [
@@ -5298,7 +5298,7 @@
       "domain": "kreml.ru",
       "processor": "internal-luna",
       "evidence_hash": "56ab125e3c63d320cef876dc999b9edc9742f6428fc2db4434d68c5bfbd8f0f3",
-      "status": "verified"
+      "status": "stale"
     },
     "5312eb917de3": {
       "facts": [
@@ -5323,7 +5323,7 @@
       "domain": "kreml.ru",
       "processor": "internal-luna",
       "evidence_hash": "56ab125e3c63d320cef876dc999b9edc9742f6428fc2db4434d68c5bfbd8f0f3",
-      "status": "verified"
+      "status": "stale"
     },
     "c34e1b2223a5": {
       "facts": [
@@ -5348,7 +5348,7 @@
       "domain": "kreml.ru",
       "processor": "internal-luna",
       "evidence_hash": "56ab125e3c63d320cef876dc999b9edc9742f6428fc2db4434d68c5bfbd8f0f3",
-      "status": "verified"
+      "status": "stale"
     },
     "37d0f4f15a25": {
       "facts": [
@@ -5365,7 +5365,7 @@
       "domain": "kreml.ru",
       "processor": "internal-luna",
       "evidence_hash": "56ab125e3c63d320cef876dc999b9edc9742f6428fc2db4434d68c5bfbd8f0f3",
-      "status": "verified"
+      "status": "stale"
     },
     "6e4db9af074a": {
       "facts": [
@@ -5382,7 +5382,7 @@
       "domain": "kreml.ru",
       "processor": "internal-luna",
       "evidence_hash": "56ab125e3c63d320cef876dc999b9edc9742f6428fc2db4434d68c5bfbd8f0f3",
-      "status": "verified"
+      "status": "stale"
     },
     "4956bfe288d4": {
       "facts": [
@@ -5399,7 +5399,7 @@
       "domain": "kreml.ru",
       "processor": "internal-luna",
       "evidence_hash": "56ab125e3c63d320cef876dc999b9edc9742f6428fc2db4434d68c5bfbd8f0f3",
-      "status": "verified"
+      "status": "stale"
     },
     "dbb68b43f6dd": {
       "facts": [
@@ -5416,7 +5416,7 @@
       "domain": "kreml.ru",
       "processor": "internal-luna",
       "evidence_hash": "56ab125e3c63d320cef876dc999b9edc9742f6428fc2db4434d68c5bfbd8f0f3",
-      "status": "verified"
+      "status": "stale"
     },
     "97137d7a41f2": {
       "facts": [
@@ -5433,7 +5433,7 @@
       "domain": "kreml.ru",
       "processor": "internal-luna",
       "evidence_hash": "56ab125e3c63d320cef876dc999b9edc9742f6428fc2db4434d68c5bfbd8f0f3",
-      "status": "verified"
+      "status": "stale"
     },
     "7d4fd93db001": {
       "facts": [
@@ -5450,7 +5450,7 @@
       "domain": "kreml.ru",
       "processor": "internal-luna",
       "evidence_hash": "56ab125e3c63d320cef876dc999b9edc9742f6428fc2db4434d68c5bfbd8f0f3",
-      "status": "verified"
+      "status": "stale"
     },
     "a2dc1b781335": {
       "facts": [
@@ -5467,7 +5467,7 @@
       "domain": "kreml.ru",
       "processor": "internal-luna",
       "evidence_hash": "56ab125e3c63d320cef876dc999b9edc9742f6428fc2db4434d68c5bfbd8f0f3",
-      "status": "verified"
+      "status": "stale"
     },
     "e92b089b0277": {
       "facts": [
@@ -5484,7 +5484,7 @@
       "domain": "kreml.ru",
       "processor": "internal-luna",
       "evidence_hash": "56ab125e3c63d320cef876dc999b9edc9742f6428fc2db4434d68c5bfbd8f0f3",
-      "status": "verified"
+      "status": "stale"
     },
     "6a45f7a8db50": {
       "facts": [
@@ -5505,7 +5505,7 @@
       "domain": "kreml.ru",
       "processor": "internal-luna",
       "evidence_hash": "56ab125e3c63d320cef876dc999b9edc9742f6428fc2db4434d68c5bfbd8f0f3",
-      "status": "verified"
+      "status": "stale"
     },
     "19147422b734": {
       "facts": [
@@ -5526,7 +5526,7 @@
       "domain": "kreml.ru",
       "processor": "internal-luna",
       "evidence_hash": "56ab125e3c63d320cef876dc999b9edc9742f6428fc2db4434d68c5bfbd8f0f3",
-      "status": "verified"
+      "status": "stale"
     },
     "91f32d14afc6": {
       "facts": [
@@ -5610,7 +5610,7 @@
       "domain": "music-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "6abcc446254b3cddac86451fe4cd17a4777aa9d11698b5b720b137ec179014b8",
-      "status": "verified"
+      "status": "stale"
     },
     "8d53a5306766": {
       "facts": [
@@ -5648,7 +5648,7 @@
       "domain": "ochakovo.ru",
       "processor": "internal-luna",
       "evidence_hash": "5bf94ea5229736ef35a9f774384db3c53ce7f0f38166e0c0b4b5541242ca4363",
-      "status": "verified"
+      "status": "stale"
     },
     "a4a856b6cfc0": {
       "facts": [
@@ -5669,7 +5669,7 @@
       "domain": "ochakovo.ru",
       "processor": "internal-luna",
       "evidence_hash": "5bf94ea5229736ef35a9f774384db3c53ce7f0f38166e0c0b4b5541242ca4363",
-      "status": "verified"
+      "status": "stale"
     },
     "4ab2b1c3927f": {
       "facts": [
@@ -5690,7 +5690,7 @@
       "domain": "ostafyevomuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "3b6829995430a886a0caed534b858dd4e1a4fdafcc7ce7c705daf2f8e8689253",
-      "status": "verified"
+      "status": "stale"
     },
     "1d23774ec924": {
       "facts": [
@@ -5711,7 +5711,7 @@
       "domain": "ostafyevomuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "3b6829995430a886a0caed534b858dd4e1a4fdafcc7ce7c705daf2f8e8689253",
-      "status": "verified"
+      "status": "stale"
     },
     "6c8be759d4a0": {
       "facts": [
@@ -5732,7 +5732,7 @@
       "domain": "parcom.ru",
       "processor": "internal-luna",
       "evidence_hash": "db1563ae7b46f2b6eb8b557ec1e2ceb950c6ab8cef52452530ff236069668dfe",
-      "status": "verified"
+      "status": "stale"
     },
     "c5261dd490ff": {
       "facts": [
@@ -5837,7 +5837,7 @@
       "domain": "newmanege.ru",
       "processor": "internal-luna",
       "evidence_hash": "dad43cf8fa848015842025768211d24b83726a4c3112b76492e2b6f31101adf4",
-      "status": "verified"
+      "status": "stale"
     },
     "ec972e7ba789": {
       "facts": [
@@ -5858,7 +5858,7 @@
       "domain": "muar.ru",
       "processor": "internal-luna",
       "evidence_hash": "f63de04f0d6f0aba72f69fd7074a50476b1f864e2346c4681234bad80cb07888",
-      "status": "verified"
+      "status": "stale"
     },
     "d5f289aadb6b": {
       "facts": [
@@ -5879,7 +5879,7 @@
       "domain": "muar.ru",
       "processor": "internal-luna",
       "evidence_hash": "f63de04f0d6f0aba72f69fd7074a50476b1f864e2346c4681234bad80cb07888",
-      "status": "verified"
+      "status": "stale"
     },
     "6ebeaed14a3a": {
       "facts": [
@@ -5900,7 +5900,7 @@
       "domain": "museum.msu.ru",
       "processor": "internal-luna",
       "evidence_hash": "c815bcd4405f62dae1342b04f0c604f2e7c6864d78b8f2a026c2464ebc22de0e",
-      "status": "verified"
+      "status": "stale"
     },
     "5ae0af4b2cd9": {
       "facts": [
@@ -5942,7 +5942,7 @@
       "domain": "puppet.ru",
       "processor": "internal-luna",
       "evidence_hash": "93fbb8a5eb01976b4317f4ff75ae00a166fc80e1000585ecaf47774812121040",
-      "status": "verified"
+      "status": "stale"
     },
     "8b86071a1f4f": {
       "facts": [
@@ -5967,7 +5967,7 @@
       "domain": "puppet.ru",
       "processor": "internal-luna",
       "evidence_hash": "93fbb8a5eb01976b4317f4ff75ae00a166fc80e1000585ecaf47774812121040",
-      "status": "verified"
+      "status": "stale"
     },
     "14d31238a2ce": {
       "facts": [
@@ -5992,7 +5992,7 @@
       "domain": "rsl.ru",
       "processor": "internal-luna",
       "evidence_hash": "8a00141dfd29083d10ac4be82bec54604dd5b5ccede8a7d7e8fe783a3caab4e0",
-      "status": "verified"
+      "status": "stale"
     },
     "768e427833a1": {
       "facts": [
@@ -6017,7 +6017,7 @@
       "domain": "rubankov.ru",
       "processor": "internal-luna",
       "evidence_hash": "92515d3712f396f03e5f0e960f9803693d3d0c1e504a2c4e90f9426041fb9671",
-      "status": "verified"
+      "status": "stale"
     },
     "5e6deb31b07a": {
       "facts": [
@@ -6042,7 +6042,7 @@
       "domain": "prostarover.ru",
       "processor": "internal-luna",
       "evidence_hash": "d26db3864fd9044e77cb0249dc9495205174f11fb035fc5d17d3a154256a253b",
-      "status": "verified"
+      "status": "stale"
     },
     "301cf85b34eb": {
       "facts": [
@@ -6063,7 +6063,7 @@
       "domain": "sklif.mos.ru",
       "processor": "internal-luna",
       "evidence_hash": "740190d5a97be7841db0d618acbb6bac1c4b0408300a045e0874cb30b4743c1e",
-      "status": "verified"
+      "status": "stale"
     },
     "e6d5f65dc149": {
       "facts": [
@@ -6084,7 +6084,7 @@
       "domain": "pushkinmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "ccea029e7b4b7119a927b3264fa6432b8655790dd231ee07ce503efa8edba4bd",
-      "status": "verified"
+      "status": "stale"
     },
     "a02ae7a0ab06": {
       "facts": [
@@ -6105,7 +6105,7 @@
       "domain": "pushkinmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "ccea029e7b4b7119a927b3264fa6432b8655790dd231ee07ce503efa8edba4bd",
-      "status": "verified"
+      "status": "stale"
     },
     "e90e5b666bd9": {
       "facts": [
@@ -6126,7 +6126,7 @@
       "domain": "pushkinmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "ccea029e7b4b7119a927b3264fa6432b8655790dd231ee07ce503efa8edba4bd",
-      "status": "verified"
+      "status": "stale"
     },
     "d94d1f07cd5e": {
       "facts": [
@@ -6151,7 +6151,7 @@
       "domain": "rgub.ru",
       "processor": "internal-luna",
       "evidence_hash": "55fa62edbc96c7b0110e94f980bdaa361d633a57db5c91da3cbd6046acb9c95b",
-      "status": "verified"
+      "status": "stale"
     },
     "4a3864b3edf1": {
       "facts": [
@@ -6193,7 +6193,7 @@
       "domain": "park-kuzminki.ru",
       "processor": "internal-luna",
       "evidence_hash": "28b69d2081a04fbfec1013a4444e6483a04cdd27bbb78e21c2238e2f2b6643e6",
-      "status": "verified"
+      "status": "stale"
     },
     "68482c0ad55e": {
       "facts": [
@@ -6214,7 +6214,7 @@
       "domain": "park-kuzminki.ru",
       "processor": "internal-luna",
       "evidence_hash": "28b69d2081a04fbfec1013a4444e6483a04cdd27bbb78e21c2238e2f2b6643e6",
-      "status": "verified"
+      "status": "stale"
     },
     "518067041eb6": {
       "facts": [
@@ -6365,7 +6365,7 @@
       "domain": "rusimp.su",
       "processor": "internal-luna",
       "evidence_hash": "152ffd225ed7e920e65961f15ed8b80cb0a4f1e0b4ba3a540a651be9a0ffbd33",
-      "status": "verified"
+      "status": "stale"
     },
     "a28ac5f2727f": {
       "facts": [
@@ -6390,7 +6390,7 @@
       "domain": "rusimp.su",
       "processor": "internal-luna",
       "evidence_hash": "152ffd225ed7e920e65961f15ed8b80cb0a4f1e0b4ba3a540a651be9a0ffbd33",
-      "status": "verified"
+      "status": "stale"
     },
     "1f9cbee998d2": {
       "facts": [
@@ -6411,7 +6411,7 @@
       "domain": "sakharov-center.ru",
       "processor": "internal-luna",
       "evidence_hash": "dbbbe369648d283fff0c49078dbbf1e50ad74f479a49a1b95a6d8b945927548a",
-      "status": "verified"
+      "status": "stale"
     },
     "94005e4f1985": {
       "facts": [
@@ -6428,7 +6428,7 @@
       "domain": "tsaritsyno-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "4f67a78f9718209aa9207184e74a45c17e6e305d35baef2cd91c512060c7941d",
-      "status": "verified"
+      "status": "stale"
     },
     "afd25ec04504": {
       "facts": [
@@ -6445,7 +6445,7 @@
       "domain": "tsaritsyno-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "4f67a78f9718209aa9207184e74a45c17e6e305d35baef2cd91c512060c7941d",
-      "status": "verified"
+      "status": "stale"
     },
     "902094097529": {
       "facts": [
@@ -6462,7 +6462,7 @@
       "domain": "tsaritsyno-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "4f67a78f9718209aa9207184e74a45c17e6e305d35baef2cd91c512060c7941d",
-      "status": "verified"
+      "status": "stale"
     },
     "0f1e3e817a19": {
       "facts": [
@@ -6479,7 +6479,7 @@
       "domain": "tsaritsyno-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "4f67a78f9718209aa9207184e74a45c17e6e305d35baef2cd91c512060c7941d",
-      "status": "verified"
+      "status": "stale"
     },
     "a0fcd9ea993b": {
       "facts": [
@@ -6496,7 +6496,7 @@
       "domain": "tsaritsyno-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "4f67a78f9718209aa9207184e74a45c17e6e305d35baef2cd91c512060c7941d",
-      "status": "verified"
+      "status": "stale"
     },
     "eaa081ffe817": {
       "facts": [
@@ -6517,7 +6517,7 @@
       "domain": "planetarium-moscow.ru",
       "processor": "internal-luna",
       "evidence_hash": "649128fb07b8f97356280a15b4e4ac85f1f564126987d8225c677c0996b95205",
-      "status": "verified"
+      "status": "stale"
     },
     "353d23aecb45": {
       "facts": [
@@ -6538,7 +6538,7 @@
       "domain": "planetarium-moscow.ru",
       "processor": "internal-luna",
       "evidence_hash": "649128fb07b8f97356280a15b4e4ac85f1f564126987d8225c677c0996b95205",
-      "status": "verified"
+      "status": "stale"
     },
     "c6afc0635666": {
       "facts": [
@@ -6563,7 +6563,7 @@
       "domain": "planetarium-moscow.ru",
       "processor": "internal-luna",
       "evidence_hash": "649128fb07b8f97356280a15b4e4ac85f1f564126987d8225c677c0996b95205",
-      "status": "verified"
+      "status": "stale"
     },
     "c16cc80687a4": {
       "facts": [
@@ -6588,7 +6588,7 @@
       "domain": "planetarium-moscow.ru",
       "processor": "internal-luna",
       "evidence_hash": "649128fb07b8f97356280a15b4e4ac85f1f564126987d8225c677c0996b95205",
-      "status": "verified"
+      "status": "stale"
     },
     "ea00c5a3c6f6": {
       "facts": [
@@ -6701,7 +6701,7 @@
       "domain": "shabolovka.vzmoscow.ru",
       "processor": "internal-luna",
       "evidence_hash": "4a3f31d6a853233cf9beaacdc4900691bfd19c790837593a7f99f46c881bd0cf",
-      "status": "verified"
+      "status": "stale"
     },
     "db5e3564784c": {
       "facts": [
@@ -6739,7 +6739,7 @@
       "domain": "sobyanina.ru",
       "processor": "internal-luna",
       "evidence_hash": "6dbcb75c99df997d8dfd6ae3857af542e46ab43964f7f990a8f8d0c9b715bbf0",
-      "status": "verified"
+      "status": "stale"
     },
     "a43d7a759d7f": {
       "facts": [
@@ -6764,7 +6764,7 @@
       "domain": "darwinmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "81b6af4f1353077fe9889fc1b48ac68b2fb34a8390d52c20a977078c911b1c3e",
-      "status": "verified"
+      "status": "stale"
     },
     "9192b9b81df3": {
       "facts": [
@@ -6785,7 +6785,7 @@
       "domain": "ordynka.com",
       "processor": "internal-luna",
       "evidence_hash": "8570e0b86a09de5a4aee253b4fd51e198b33bb1ab5eac28da9965b327d83e6d8",
-      "status": "verified"
+      "status": "stale"
     },
     "a5de8075cd09": {
       "facts": [
@@ -6831,7 +6831,7 @@
       "domain": "shm.ru",
       "processor": "internal-luna",
       "evidence_hash": "a4abb84ea0c233672031a3919550058c18a7191c5dac36b31c350321c5e1e397",
-      "status": "verified"
+      "status": "stale"
     },
     "954ab2036984": {
       "facts": [
@@ -6856,7 +6856,7 @@
       "domain": "shm.ru",
       "processor": "internal-luna",
       "evidence_hash": "a4abb84ea0c233672031a3919550058c18a7191c5dac36b31c350321c5e1e397",
-      "status": "verified"
+      "status": "stale"
     },
     "95d00a2d5700": {
       "facts": [
@@ -6881,7 +6881,7 @@
       "domain": "shm.ru",
       "processor": "internal-luna",
       "evidence_hash": "a4abb84ea0c233672031a3919550058c18a7191c5dac36b31c350321c5e1e397",
-      "status": "verified"
+      "status": "stale"
     },
     "1945cddf7c77": {
       "facts": [
@@ -6906,7 +6906,7 @@
       "domain": "shm.ru",
       "processor": "internal-luna",
       "evidence_hash": "a4abb84ea0c233672031a3919550058c18a7191c5dac36b31c350321c5e1e397",
-      "status": "verified"
+      "status": "stale"
     },
     "a82b066f9bef": {
       "facts": [
@@ -6931,7 +6931,7 @@
       "domain": "shm.ru",
       "processor": "internal-luna",
       "evidence_hash": "a4abb84ea0c233672031a3919550058c18a7191c5dac36b31c350321c5e1e397",
-      "status": "verified"
+      "status": "stale"
     },
     "8e5a2e16fcd4": {
       "facts": [
@@ -6956,7 +6956,7 @@
       "domain": "shm.ru",
       "processor": "internal-luna",
       "evidence_hash": "a4abb84ea0c233672031a3919550058c18a7191c5dac36b31c350321c5e1e397",
-      "status": "verified"
+      "status": "stale"
     },
     "50e327b7b5b0": {
       "facts": [
@@ -6981,7 +6981,7 @@
       "domain": "shm.ru",
       "processor": "internal-luna",
       "evidence_hash": "a4abb84ea0c233672031a3919550058c18a7191c5dac36b31c350321c5e1e397",
-      "status": "verified"
+      "status": "stale"
     },
     "c26e2d7a2819": {
       "facts": [
@@ -6998,7 +6998,7 @@
       "domain": "goslitmuz.ru",
       "processor": "internal-luna",
       "evidence_hash": "afdfcdf3e4a0239be41f4b1e7aab17cb965f20083b2f5a4560b3469e8cb992de",
-      "status": "verified"
+      "status": "stale"
     },
     "5953b72ccf42": {
       "facts": [
@@ -7015,7 +7015,7 @@
       "domain": "goslitmuz.ru",
       "processor": "internal-luna",
       "evidence_hash": "afdfcdf3e4a0239be41f4b1e7aab17cb965f20083b2f5a4560b3469e8cb992de",
-      "status": "verified"
+      "status": "stale"
     },
     "62a1514004a1": {
       "facts": [
@@ -7040,7 +7040,7 @@
       "domain": "goslitmuz.ru",
       "processor": "internal-luna",
       "evidence_hash": "afdfcdf3e4a0239be41f4b1e7aab17cb965f20083b2f5a4560b3469e8cb992de",
-      "status": "verified"
+      "status": "stale"
     },
     "e7277bc12b09": {
       "facts": [
@@ -7065,7 +7065,7 @@
       "domain": "goslitmuz.ru",
       "processor": "internal-luna",
       "evidence_hash": "afdfcdf3e4a0239be41f4b1e7aab17cb965f20083b2f5a4560b3469e8cb992de",
-      "status": "verified"
+      "status": "stale"
     },
     "3ace40095f68": {
       "facts": [
@@ -7090,7 +7090,7 @@
       "domain": "goslitmuz.ru",
       "processor": "internal-luna",
       "evidence_hash": "afdfcdf3e4a0239be41f4b1e7aab17cb965f20083b2f5a4560b3469e8cb992de",
-      "status": "verified"
+      "status": "stale"
     },
     "e5312c5d1077": {
       "facts": [
@@ -7115,7 +7115,7 @@
       "domain": "goslitmuz.ru",
       "processor": "internal-luna",
       "evidence_hash": "afdfcdf3e4a0239be41f4b1e7aab17cb965f20083b2f5a4560b3469e8cb992de",
-      "status": "verified"
+      "status": "stale"
     },
     "4ff070c9031e": {
       "facts": [
@@ -7136,7 +7136,7 @@
       "domain": "goslitmuz.ru",
       "processor": "internal-luna",
       "evidence_hash": "afdfcdf3e4a0239be41f4b1e7aab17cb965f20083b2f5a4560b3469e8cb992de",
-      "status": "verified"
+      "status": "stale"
     },
     "475011cdb3b8": {
       "facts": [
@@ -7157,7 +7157,7 @@
       "domain": "goslitmuz.ru",
       "processor": "internal-luna",
       "evidence_hash": "afdfcdf3e4a0239be41f4b1e7aab17cb965f20083b2f5a4560b3469e8cb992de",
-      "status": "verified"
+      "status": "stale"
     },
     "28c485b1fa35": {
       "facts": [
@@ -7178,7 +7178,7 @@
       "domain": "goslitmuz.ru",
       "processor": "internal-luna",
       "evidence_hash": "afdfcdf3e4a0239be41f4b1e7aab17cb965f20083b2f5a4560b3469e8cb992de",
-      "status": "verified"
+      "status": "stale"
     },
     "bc21b06bd7cd": {
       "facts": [
@@ -7199,7 +7199,7 @@
       "domain": "goslitmuz.ru",
       "processor": "internal-luna",
       "evidence_hash": "afdfcdf3e4a0239be41f4b1e7aab17cb965f20083b2f5a4560b3469e8cb992de",
-      "status": "verified"
+      "status": "stale"
     },
     "35cacb2dae0b": {
       "facts": [
@@ -7220,7 +7220,7 @@
       "domain": "goslitmuz.ru",
       "processor": "internal-luna",
       "evidence_hash": "afdfcdf3e4a0239be41f4b1e7aab17cb965f20083b2f5a4560b3469e8cb992de",
-      "status": "verified"
+      "status": "stale"
     },
     "ee338fdc8688": {
       "facts": [
@@ -7237,7 +7237,7 @@
       "domain": "goslitmuz.ru",
       "processor": "internal-luna",
       "evidence_hash": "afdfcdf3e4a0239be41f4b1e7aab17cb965f20083b2f5a4560b3469e8cb992de",
-      "status": "verified"
+      "status": "stale"
     },
     "a075f2c6e0fb": {
       "facts": [
@@ -7262,7 +7262,7 @@
       "domain": "darwinmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "81b6af4f1353077fe9889fc1b48ac68b2fb34a8390d52c20a977078c911b1c3e",
-      "status": "verified"
+      "status": "stale"
     },
     "c64d3e2b0584": {
       "facts": [
@@ -7287,7 +7287,7 @@
       "domain": "pushkinmuseum.art",
       "processor": "internal-luna",
       "evidence_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "status": "verified"
+      "status": "stale"
     },
     "5a8dba7c7493": {
       "facts": [
@@ -7312,7 +7312,7 @@
       "domain": "pushkinmuseum.art",
       "processor": "internal-luna",
       "evidence_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "status": "verified"
+      "status": "stale"
     },
     "b6612247d417": {
       "facts": [
@@ -7333,7 +7333,7 @@
       "domain": "pushkinmuseum.art",
       "processor": "internal-luna",
       "evidence_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "status": "verified"
+      "status": "stale"
     }
   },
   "reviews": {
@@ -10662,5 +10662,5 @@
       "note": "Кэш содержит анонсы и описания временных выставок без указания срока, но не подтверждает постоянную коллекцию или постоянную экспозицию."
     }
   },
-  "updated_at": "2026-10-31T05:12:05.446091+00:00"
+  "updated_at": "2026-11-01T07:20:26.312306+00:00"
 }
