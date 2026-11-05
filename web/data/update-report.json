@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-11-04T05:43:13.467493+00:00",
-  "finished_at": "2026-11-04T05:51:12.528665+00:00",
+  "started_at": "2026-11-05T05:49:30.183983+00:00",
+  "finished_at": "2026-11-05T05:57:11.049649+00:00",
   "mode": "daily",
   "steps": [
     {
@@ -84,9 +84,9 @@
     "checked": 554,
     "checked_today": 554,
     "checked_this_run": 554,
-    "last_attempt_at": "2026-11-04T05:50:28.055517+00:00",
-    "stale": 5,
-    "with_errors": 149
+    "last_attempt_at": "2026-11-05T05:56:25.106565+00:00",
+    "stale": 4,
+    "with_errors": 147
   },
   "admission": {
     "checked": 554,
@@ -100,7 +100,7 @@
     "checked": 364,
     "checked_today": 364,
     "checked_this_run": 364,
-    "last_attempt_at": "2026-11-04T05:44:24.606243+00:00",
+    "last_attempt_at": "2026-11-05T05:50:35.351688+00:00",
     "stale": 4,
     "with_errors": 60
   },
@@ -110,7 +110,7 @@
     "unavailable_sources": 148,
     "pending_luna": 164,
     "processor": "internal-luna",
-    "prepared_at": "2026-11-04T05:51:08.271536+00:00"
+    "prepared_at": "2026-11-05T05:57:05.655409+00:00"
   },
   "pending_exposition_luna": 164,
   "counts": {
@@ -122,19 +122,19 @@
     "with_coordinates": 1269,
     "with_telegram": 677,
     "note": "Каталог кандидатов из локальных выгрузок, дата исходных данных неизвестна. Возможны дубли и закрытые площадки.",
-    "built_at": "2026-11-04T05:51:10.425990+00:00",
+    "built_at": "2026-11-05T05:57:08.803763+00:00",
     "site_domains_total": 554,
     "site_domains_checked": 554,
     "site_domains_available": 442,
     "channels": 364,
     "channels_checked": 364,
     "channels_available": 304,
-    "events": 777,
-    "posts": 1500,
-    "event_source_domains": 30,
+    "events": 747,
+    "posts": 1512,
+    "event_source_domains": 29,
     "event_sources_checked": 554,
     "event_sources_configured": 554,
-    "event_sources_with_dates": 36,
+    "event_sources_with_dates": 35,
     "event_sources_individual": 17,
     "admission_sources_checked": 554,
     "admission_sources_with_facts": 201,
