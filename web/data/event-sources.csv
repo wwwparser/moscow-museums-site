@@ -1,555 +1,555 @@
 ﻿domain;name;adapter;status;events;checked_at;errors;stale
-agencyart.ru;Art ru;generic;needs_adapter;0;2026-11-05T05:50:36.810486+00:00;0;False
-art-story.com;Art Story;generic;unavailable;0;2026-11-05T05:50:36.812035+00:00;3;False
-kartina-ponomeram-pofoto.ru;Artmix;generic;needs_adapter;0;2026-11-05T05:50:36.812035+00:00;0;False
-azart.moscow;Az/art;generic;needs_adapter;0;2026-11-05T05:50:36.812035+00:00;0;False
-tochkag.net;Bubble Love;generic;unavailable;0;2026-11-05T05:50:36.812035+00:00;1;False
-cube.moscow;Cube.Moscow, центр современного искусства;generic;needs_adapter;0;2026-11-05T05:50:36.812035+00:00;0;False
-paleontologia.ru;Era;generic;needs_adapter;0;2026-11-05T05:50:36.812035+00:00;0;False
-fedini.art;Fedini Gallery;generic;needs_adapter;0;2026-11-05T05:50:36.812035+00:00;0;False
-galleryfineart.ru;Fineart Gallery;generic;needs_adapter;0;2026-11-05T05:50:37.670619+00:00;0;False
-frais.ru;Frais, кондитерская фабрика;generic;needs_adapter;0;2026-11-05T05:50:37.709125+00:00;0;False
-garagemca.org;Garage, музей современного искусства;cards;ok;6;2026-11-05T05:50:37.744352+00:00;0;False
-inartibus.org;In Artibus foundation;generic;unavailable;0;2026-11-05T05:50:38.094939+00:00;3;False
-luminarx.ru;Luminar-X, иммерсивное арт-пространство;generic;needs_adapter;0;2026-11-05T05:50:39.119252+00:00;0;False
-megabricks.ru;Megabricks, музей Лего;generic;unavailable;0;2026-11-05T05:50:39.192196+00:00;1;False
-melspace.ru;MelSpace;generic;needs_adapter;0;2026-11-05T05:50:40.537899+00:00;0;False
-popupmuseum.art;Pop Up Museum;generic;unavailable;0;2026-11-05T05:50:41.010594+00:00;1;False
-msk.smile-park.ru;Smile Park на ВДНХ, музей иллюзий;generic;needs_adapter;0;2026-11-05T05:50:41.114084+00:00;0;False
-vladey.net;Vladey;generic;needs_adapter;0;2026-11-05T05:50:41.882539+00:00;1;False
-automuseum.ru;Автомобили мира, музей;generic;needs_adapter;0;2026-11-05T05:50:42.742047+00:00;0;False
-academgorodokmitino.ru;Академгородок Митино;generic;needs_adapter;0;2026-11-05T05:50:43.414631+00:00;0;False
-эйнштейн.дети;Академия Теслы;generic;unavailable;0;2026-11-05T05:50:44.104317+00:00;1;False
-gokhran.ru;Алмазный фонд, выставочный зал;generic;needs_adapter;0;2026-11-05T05:50:44.247101+00:00;0;False
-kreml.ru;Алмазный фонд, выставочный зал;generic;needs_adapter;0;2026-11-05T05:50:45.288037+00:00;0;False
-museum.angstrem.ru;Ангстрем;generic;unavailable;0;2026-11-05T05:50:47.464012+00:00;1;False
-ivan-the-great-bell-tower.kreml.ru;Ансамбль колокольни Иван Великий, Московский Кремль;generic;unavailable;0;2026-11-05T05:50:48.014652+00:00;1;False
-tsaritsyno-museum.ru;Ансамбль усадьбы Царицыно, Большой дворец;cards;ok;11;2026-11-05T05:50:49.259819+00:00;0;False
-hortus.msu.ru;Аптекарский огород, викторная оранжерея;generic;needs_adapter;0;2026-11-05T05:50:49.957398+00:00;0;False
-artdecomuseum.ru;АР Деко;generic;needs_adapter;0;2026-11-05T05:50:50.414059+00:00;0;False
-goslitmuz.ru;Арка Марка;generic;needs_adapter;0;2026-11-05T05:50:51.500846+00:00;0;False
-armmuseum.ru;Армянский музей Москвы и культуры наций;generic;needs_adapter;0;2026-11-05T05:50:51.751582+00:00;0;False
-naive-museum.ru;Арт-Наив-Парк;generic;needs_adapter;0;2026-11-05T05:50:52.380320+00:00;0;False
-artdynamics.ru;АртДинамикс;generic;needs_adapter;0;2026-11-05T05:50:53.471809+00:00;0;False
-shm.ru;Артиллерийский двор Исторического музея;cards;ok;14;2026-11-05T05:50:55.569383+00:00;0;False
-archangel-cathedral.kreml.ru;Архангельский собор, Московский Кремль;generic;unavailable;0;2026-11-05T05:50:56.329029+00:00;1;False
-atom.museum;Атом;generic;needs_adapter;0;2026-11-05T05:50:56.712684+00:00;0;False
-basmania.ru;Басмания, музей Басманного района;generic;ok;1;2026-11-05T05:50:57.570088+00:00;0;False
-mgomz.ru;Башня Братского острога;generic;needs_adapter;0;2026-11-05T05:50:58.670396+00:00;0;False
-belvorobey.ru;Белый воробей;generic;needs_adapter;0;2026-11-05T05:51:02.816247+00:00;0;False
-moscow-bestiary.ru;Бестиарий, криптозоологический музей;generic;unavailable;0;2026-11-05T05:51:02.878305+00:00;1;False
-sviblovoprav.mskobr.ru;Библейский музей;generic;needs_adapter;0;2026-11-05T05:51:04.032378+00:00;0;False
-biotechmuseum.fbras.ru;Биотех;generic;needs_adapter;0;2026-11-05T05:51:04.840379+00:00;0;False
-annunciation-cathedral.kreml.ru;Благовещенский собор, Московский Кремль;generic;unavailable;0;2026-11-05T05:51:05.331502+00:00;1;False
-kuskovo.ru;Большая каменная оранжерея, музей;cards;ok;9;2026-11-05T05:51:05.416052+00:00;0;False
-1812panorama.ru;Бородинская битва, музей-панорама;generic;ok;4;2026-11-05T05:51:10.216984+00:00;0;False
-winzavod.ru;Бродильный цех;generic;ok;16;2026-11-05T05:51:10.825684+00:00;0;False
-dombulgakova.ru;Булгаковский Дом, музей;mec-calendar;ok;114;2026-11-05T05:51:12.044735+00:00;0;False
-bunker42.com;Бункер-42;generic;unavailable;0;2026-11-05T05:51:12.491006+00:00;2;False
-bunker703.ru;Бункер-703;generic;needs_adapter;0;2026-11-05T05:51:14.253157+00:00;0;False
-podzemnayamoskva.ru;Бункер-музей Подземная Москва;generic;needs_adapter;0;2026-11-05T05:51:14.564030+00:00;0;False
-vdnh.ru;Буран, интерактивный музейный комплекс;generic;needs_adapter;0;2026-11-05T05:51:15.446835+00:00;0;False
-domskazok.su;Буратино-Пиноккио, музей;generic;needs_adapter;0;2026-11-05T05:51:16.666543+00:00;0;False
-sw-cosplay.ru;В далёкой-далёкой Галактике, выставка-косплей;generic;needs_adapter;0;2026-11-05T05:51:17.176248+00:00;0;False
-museuminsilence.ru;В Тишине;generic;needs_adapter;0;2026-11-05T05:51:18.396006+00:00;2;False
-ecocenter-vg.tilda.ws;Воробьёвы горы, эколого-просветительский центр;generic;needs_adapter;0;2026-11-05T05:51:18.661952+00:00;0;False
-damuseum.ru;Всероссийский музей декоративного искусства;generic;needs_adapter;0;2026-11-05T05:51:19.007115+00:00;0;False
-museumsport.ru;Всероссийский физкультурно-спортивный комплекс Готов к труду и обороне;generic;needs_adapter;0;2026-11-05T05:51:19.175794+00:00;0;False
-tickets.gokhran.ru;Выставка Алмазный фонд Гохрана России;generic;needs_adapter;0;2026-11-05T05:51:21.620190+00:00;0;False
-official.vdnh.ru;Выставка достижений народного хозяйства;generic;needs_adapter;0;2026-11-05T05:51:22.147776+00:00;0;False
-mtmuseum.ru;Выставочное пространство Музея транспорта Москвы;generic;needs_adapter;0;2026-11-05T05:51:22.331284+00:00;0;False
-pushkinmuseum.ru;Выставочный зал государственного музея имени А.С. Пушкина;generic;needs_adapter;0;2026-11-05T05:51:22.498424+00:00;0;False
-tolstoymuseum.ru;Выставочный зал Л.Н.Толстого;generic;needs_adapter;0;2026-11-05T05:51:25.412866+00:00;0;False
-museum.cbr.ru;Выставочный зал музейно-экспозиционного фонда Банка России;generic;needs_adapter;0;2026-11-05T05:51:26.085150+00:00;0;False
-mosmuseum.ru;Выставочный зал Музея Зеленограда;cards;ok;71;2026-11-05T05:51:27.056510+00:00;0;False
-rah.ru;Выставочный зал Российской академии художеств;generic;needs_adapter;0;2026-11-05T05:51:27.883732+00:00;0;False
-sakharov-center.ru;Выставочный зал Сахаровского центра;generic;needs_adapter;0;2026-11-05T05:51:28.061295+00:00;0;False
-statearchive.ru;Выставочный зал федеральных архивов;generic;needs_adapter;0;2026-11-05T05:51:29.545965+00:00;0;False
-goramuseum.ru;Г.о.р.а., музей;generic;needs_adapter;0;2026-11-05T05:51:29.553816+00:00;1;False
-syntaxgallery.com;Галерея Syntax;generic;needs_adapter;0;2026-11-05T05:51:30.673567+00:00;0;False
-belyaevo.vzmoscow.ru;Галерея Беляево;generic;needs_adapter;0;2026-11-05T05:51:30.701168+00:00;1;False
-vykhino.vzmoscow.ru;Галерея Выхино;generic;needs_adapter;0;2026-11-05T05:51:31.085582+00:00;1;False
-davydkovo.vzmoscow.ru;Галерея Давыдково;generic;needs_adapter;0;2026-11-05T05:51:31.852335+00:00;1;False
-zagorje.vzmoscow.ru;Галерея Загорье;generic;needs_adapter;0;2026-11-05T05:51:32.161265+00:00;0;False
-glazunov-gallery.ru;Галерея Ильи Глазунова, Музей русского лубка и наивного искусства;generic;needs_adapter;0;2026-11-05T05:51:34.483192+00:00;0;False
-tsereteli.ru;Галерея искусств Зураба Церетели;generic;unavailable;0;2026-11-05T05:51:34.633809+00:00;1;False
-dzen.ru;Галерея искусств Зураба Церетели;generic;needs_adapter;0;2026-11-05T05:51:34.738622+00:00;0;False
-gallerykino.ru;Галерея Кино;generic;needs_adapter;0;2026-11-05T05:51:35.798571+00:00;0;False
-classicgallery.ru;Галерея классической фотографии;generic;needs_adapter;0;2026-11-05T05:51:36.323209+00:00;0;False
-dollslane.ru;Галерея Кукольный переулок;generic;needs_adapter;0;2026-11-05T05:51:36.510310+00:00;0;False
-kashirka.vzmoscow.ru;Галерея на Каширке;generic;needs_adapter;0;2026-11-05T05:51:36.667076+00:00;1;False
-shabolovka.vzmoscow.ru;Галерея на Шаболовке, музей авангарда;generic;needs_adapter;0;2026-11-05T05:51:36.708241+00:00;0;False
-nikoartgallery.com;Галерея Нико;generic;unavailable;4;2026-11-05T05:51:36.874809+00:00;3;True
-peresvetov.vzmoscow.ru;Галерея Пересветов переулок;generic;needs_adapter;0;2026-11-05T05:51:37.727148+00:00;0;False
-rostokino.vzmoscow.ru;Галерея Ростокино;generic;needs_adapter;0;2026-11-05T05:51:37.939776+00:00;1;False
-khodynka.vzmoscow.ru;Галерея Ходынка;generic;needs_adapter;0;2026-11-05T05:51:38.613000+00:00;0;False
-web.telegram.org;Галерея Ходынка;generic;needs_adapter;0;2026-11-05T05:51:38.837677+00:00;0;False
-fondkp.ru;Галерея Царская башня;generic;needs_adapter;0;2026-11-05T05:51:38.854757+00:00;0;False
-petrlizunov.com;Галерея-мастерская художника Лизунова П.;generic;needs_adapter;0;2026-11-05T05:51:39.361277+00:00;0;False
-memorythegallery.vsite.biz;Галерея-музей Память;generic;needs_adapter;0;2026-11-05T05:51:39.535313+00:00;0;False
-gon-museum.ru;Гараж особого назначения ФСО России, музей;generic;needs_adapter;0;2026-11-05T05:51:39.583621+00:00;0;False
-narkomfin.ru;Гараж, музей;generic;needs_adapter;0;2026-11-05T05:51:39.725726+00:00;0;False
-afgan-zal.ru;ГБУК г. Москвы Государственный выставочный зал истории войны в Афганистане;generic;needs_adapter;0;2026-11-05T05:51:40.372505+00:00;0;False
-vnesterenko.ru;ГБУК города Москвы Московская государственная картинная галерея Василия Нестеренко;generic;needs_adapter;0;2026-11-05T05:51:41.790262+00:00;0;False
-nesterenko.arts.mos.ru;ГБУК города Москвы Московская государственная картинная галерея Василия Нестеренко;generic;needs_adapter;0;2026-11-05T05:51:41.855861+00:00;0;False
-sgm.ru;Геологический Государственный музей им. В.И. Вернадского;generic;needs_adapter;0;2026-11-05T05:51:41.965810+00:00;0;False
-olehnik.ru;Геолого-палеонтологический школьный музей;generic;needs_adapter;0;2026-11-05T05:51:43.133456+00:00;0;False
-zen.yandex.ru;Гербовый зал г. Москвы;generic;needs_adapter;0;2026-11-05T05:51:43.326253+00:00;0;False
-domsmirnova.com;Главный дом городской усадьбы О. И. Гарчиковой - П. П. Смирнова;generic;needs_adapter;0;2026-11-05T05:51:43.411646+00:00;1;False
-park-kuzminki.ru;Главный дом усадьбы Н.А. Дурасова;generic;unavailable;0;2026-11-05T05:51:43.515066+00:00;3;False
-pushkinmuseum.art;ГМИИ имени Пушкина, Галерея искусства стран Европы и Америки XIX – XX веков;pushkin;unavailable;63;2026-11-05T05:51:43.625100+00:00;1;True
-russpass.ru;Городская усадьба И.Е. Рубцова-Моргуновых, г. Москва;generic;needs_adapter;0;2026-11-05T05:51:44.315141+00:00;0;False
-museum-tropinina.ru;Городская усадьба Масленниковых-Петуховых, г. Москва;generic;needs_adapter;0;2026-11-05T05:51:44.396709+00:00;0;False
-usadbazubovyh.ru;Городская усадьба Полежаевых и Зубовых;generic;needs_adapter;0;2026-11-05T05:51:44.618704+00:00;0;False
-gorkiy.plus;Горький плюс, музей;generic;needs_adapter;0;2026-11-05T05:51:44.951025+00:00;0;False
-tretyakovgallery.ru;Государственная Третьяковская галерея;tretyakov-api;ok;49;2026-11-05T05:51:46.165439+00:00;0;False
-tretyakov.ru;Государственная Третьяковская галерея, галерея Новая Третьяковка;generic;unavailable;0;2026-11-05T05:51:46.940896+00:00;1;False
-hramvtolmachah.ru;Государственная Третьяковская галерея, Музей-храм Святителя Николая в Толмачах;generic;needs_adapter;0;2026-11-05T05:51:47.643805+00:00;0;False
-2011.bolshoi.ru;Государственный Академический Большой Театр России, музей;generic;unavailable;0;2026-11-05T05:51:48.329441+00:00;1;False
-gbmt.ru;Государственный Биологический музей им. К.А. Тимирязева;generic;needs_adapter;0;2026-11-05T05:51:49.134250+00:00;0;False
-darwinmuseum.ru;Государственный Дарвиновский музей;cards;ok;44;2026-11-05T05:51:50.125892+00:00;0;False
-sketchfab.com;Государственный Дарвиновский музей;generic;needs_adapter;0;2026-11-05T05:51:52.282095+00:00;0;False
-izi.travel;Государственный историко-архитектурный художественный и ландшафтный музей-заповедник Царицыно;generic;needs_adapter;0;2026-11-05T05:51:53.130664+00:00;0;False
-okudshava.ru;Государственный мемориальный музей Б. Ш. Окуджавы;generic;needs_adapter;0;2026-11-05T05:51:53.364655+00:00;0;False
-muar.ru;Государственный музей архитектуры им. А.В. Щусева;generic;needs_adapter;0;2026-11-05T05:51:54.607582+00:00;0;False
-xn--80aedfjnibldycb2bv1r.xn--p1ai;Государственный музей В.В. Маяковского;generic;unavailable;0;2026-11-05T05:51:55.551674+00:00;3;False
-data.mos.ru;Государственный музей В.В. Маяковского;generic;needs_adapter;0;2026-11-05T05:51:56.200504+00:00;0;False
-muzeimayakovskogo.ru;Государственный музей В.В. Маяковского;generic;unavailable;0;2026-11-05T05:51:56.403426+00:00;3;False
-музеймаяковского.рф;Государственный музей В.В. Маяковского;generic;unavailable;0;2026-11-05T05:51:56.909134+00:00;3;False
-visotsky.ru;Государственный музей Владимира Высоцкого;generic;needs_adapter;0;2026-11-05T05:51:58.548585+00:00;0;False
-orientmuseum.ru;Государственный музей Востока;generic;needs_adapter;0;2026-11-05T05:51:58.737923+00:00;0;False
-museum.timacad.ru;Государственный музей животноводства им. Е. Ф. Лискуна;generic;unavailable;0;2026-11-05T05:52:00.832666+00:00;1;False
-gmom.ru;Государственный музей обороны Москвы;generic;needs_adapter;0;2026-11-05T05:52:01.748566+00:00;0;False
-ostafyevomuseum.ru;Государственный музей-заповедник Остафьево-Русский Парнас;generic;needs_adapter;0;2026-11-05T05:52:03.453025+00:00;0;False
-ostrovsky-museum.ru;Государственный музей-культурный центр Интеграция им. Н. А. Островского;generic;needs_adapter;0;2026-11-05T05:52:03.997899+00:00;0;False
-tverskaya14.ru;Государственный музей-культурный центр Интеграция им. Н. А. Островского;generic;needs_adapter;0;2026-11-05T05:52:04.856793+00:00;0;False
-rosizo.ru;Государственный музейно-выставочный центр Росизо;generic;partial;29;2026-11-05T05:52:05.550513+00:00;2;True
-vma.muar.ru;Государственный научно-исследовательский музей архитектуры имени А. В. Щусева;generic;unavailable;0;2026-11-05T05:52:06.784416+00:00;1;False
-sovrhistory.ru;Государственный центральный музей современной истории России;generic;ok;131;2026-11-05T05:52:08.907341+00:00;0;False
-sovr.ru;Государственный центральный музей современной истории России, филиал Пресня;generic;unavailable;0;2026-11-05T05:52:12.914488+00:00;1;False
-bakhrushinmuseum.ru;Государственный центральный театральный музей им. Бахрушина А. А.;generic;needs_adapter;0;2026-11-05T05:52:16.242212+00:00;0;False
-gctm.ru;Государственный центральный театральный музей им. Бахрушина А. А.;generic;needs_adapter;0;2026-11-05T05:52:16.400411+00:00;0;False
-grammofonika.ru;Граммофоника, музей виниловой музыки;generic;needs_adapter;0;2026-11-05T05:52:19.347431+00:00;0;False
-solyankagallery.ru;ГРАУНД Солянка;generic;needs_adapter;0;2026-11-05T05:52:19.866588+00:00;0;False
-iskusstvo.org;Дали & Пикассо, художественная выставка;generic;needs_adapter;0;2026-11-05T05:52:20.597276+00:00;0;False
-сдюсшор64.рф;Дворец борьбы имени Ивана Ярыгина;generic;needs_adapter;0;2026-11-05T05:52:20.691371+00:00;0;False
-dynamomuseum.ru;Динамо, музей;generic;unavailable;0;2026-11-05T05:52:20.726584+00:00;1;False
-liza.fund;Доктор Лиза;generic;needs_adapter;0;2026-11-05T05:52:21.496648+00:00;0;False
-domloseva.ru;Дом А. Ф. Лосева;generic;needs_adapter;0;2026-11-05T05:52:21.716556+00:00;0;False
-losev-library.ru;Дом А. Ф. Лосева;generic;needs_adapter;0;2026-11-05T05:52:23.022797+00:00;0;False
-mos.ru;Дом А. Ф. Лосева;generic;ok;3;2026-11-05T05:52:23.819057+00:00;0;False
-дом-ангелов.рф;Дом ангелов на Арбате;generic;needs_adapter;0;2026-11-05T05:52:25.696774+00:00;0;False
-xn----8sbgdcj6bdlgh.xn--p1ai;Дом Ангелов на Арбате, музей;generic;needs_adapter;0;2026-11-05T05:52:26.151735+00:00;0;False
-butterflarium.ru;Дом бабочек, Муравьёв и Рептилий;generic;unavailable;0;2026-11-05T05:52:26.619866+00:00;2;False
-dombulata.ru;Дом Булата;generic;needs_adapter;0;2026-11-05T05:52:26.906961+00:00;0;False
-burganov.ru;Дом Бурганова, музей;generic;needs_adapter;0;2026-11-05T05:52:29.410893+00:00;0;False
-домгарри.рф;Дом Гарри;generic;needs_adapter;0;2026-11-05T05:52:30.797711+00:00;0;False
-domgogolya.ru;Дом Н.В. Гоголя;cards;ok;34;2026-11-05T05:52:32.767992+00:00;0;False
-dnnmuseum.ru;Дом на набережной, музей;generic;unavailable;0;2026-11-05T05:52:32.782743+00:00;1;False
-domrz.ru;Дом Русского зарубежья им. А. Солженицына, музей;generic;ok;22;2026-11-05T05:52:32.988507+00:00;0;False
-taplink.cc;Дом русского зарубежья имени А. И. Солженицына;generic;unavailable;0;2026-11-05T05:52:33.525396+00:00;1;False
-mmom.ru;Дом-музей Великой княгини Елизаветы Феодоровны;generic;needs_adapter;0;2026-11-05T05:52:33.762794+00:00;0;False
-konyukhov.ru;Дом-музей и экспедиционный штаб Фёдора Конюхова;generic;needs_adapter;0;2026-11-05T05:52:33.771946+00:00;0;False
-museummhat.ru;Дом-музей К. С. Станиславского;generic;ok;2;2026-11-05T05:52:34.078899+00:00;0;False
-dommuseum.ru;Дом-музей Марины Цветаевой;generic;needs_adapter;0;2026-11-05T05:52:34.813248+00:00;2;False
-perfumer-house.ru;Домъ парфюмера, музей;generic;needs_adapter;0;2026-11-05T05:52:34.863176+00:00;0;False
-osmogenes.ru;Домъ парфюмера, музей;generic;needs_adapter;0;2026-11-05T05:52:36.738708+00:00;0;False
-dosaaf-auto.ru;ДОСААФ России, музей боевой и трудовой славы;generic;needs_adapter;0;2026-11-05T05:52:36.868965+00:00;0;False
-museum.rggu.ru;Другое искусство;generic;needs_adapter;0;2026-11-05T05:52:37.976200+00:00;0;False
-ekartmoscow.ru;Е.К.АртБюро;generic;needs_adapter;0;2026-11-05T05:52:39.094477+00:00;0;False
-jewish-museum.ru;Еврейский музей и центр толерантности;cards;ok;42;2026-11-05T05:52:39.834651+00:00;0;False
-esenin-museum.ru;Есенин-центр Московского государственного музея С. А. Есенина;generic;unavailable;0;2026-11-05T05:52:39.868328+00:00;1;False
-zhivayaistoriya.com;Живая история, музей;generic;unavailable;0;2026-11-05T05:52:40.406044+00:00;1;False
-zhivayaistoriya.ru;Живая история, музей;generic;needs_adapter;0;2026-11-05T05:52:40.528476+00:00;0;False
-zabawushka.ru;Забавушка;generic;needs_adapter;0;2026-11-05T05:52:41.438803+00:00;0;False
-stalinbunker.ru;Запасной командный пункт Верховного Главнокомандующего Красной Армии И.В. Сталина периода Великой Отечественной войны 1941-1945;generic;unavailable;0;2026-11-05T05:52:41.949133+00:00;2;False
-cmaf.ru;Запасной командный пункт Верховного Главнокомандующего Красной Армии И.В. Сталина периода Великой Отечественной войны 1941-1945 гг.;generic;needs_adapter;0;2026-11-05T05:52:42.178687+00:00;0;False
-zlatoustmonastyr.ru;Златоустовский мужской монастырь;generic;needs_adapter;0;2026-11-05T05:52:42.528351+00:00;0;False
-izmmu.ru;Зоологический музей МГУ;generic;needs_adapter;0;2026-11-05T05:52:42.875157+00:00;0;False
-zmmu.msu.ru;Зоологический музей МГУ;generic;needs_adapter;0;2026-11-05T05:52:43.176912+00:00;1;False
-zmmu.org;Зоологический музей МГУ;generic;needs_adapter;0;2026-11-05T05:52:43.400519+00:00;0;False
-sch904u.mskobr.ru;И не помнить об этом нельзя, военно-патриотический музей;generic;needs_adapter;0;2026-11-05T05:52:44.789847+00:00;0;False
-rsl.ru;Ивановский зал РГБ;generic;needs_adapter;0;2026-11-05T05:52:45.201102+00:00;0;False
-kremlin-izmailovo.com;Избушка Бабы-Яги;generic;unavailable;0;2026-11-05T05:52:45.520911+00:00;2;False
-animamuseum.ru;Измайловский кремль, музей анимации;generic;needs_adapter;0;2026-11-05T05:52:45.852091+00:00;0;False
-ingos.ru;Ингосстрах, музей;generic;needs_adapter;0;2026-11-05T05:52:45.902496+00:00;0;False
-park-inno.ru;Иннопарк;generic;unavailable;0;2026-11-05T05:52:46.594379+00:00;1;False
-vk.link;Инсектопия;generic;unavailable;0;2026-11-05T05:52:46.634261+00:00;1;False
-mozg.moscow;Интерактивный музей мозга;generic;needs_adapter;0;2026-11-05T05:52:47.418932+00:00;0;False
-mos-anatomikum.ru;Интерактивный музей Московский Анатомикум;generic;needs_adapter;0;2026-11-05T05:52:48.446610+00:00;0;False
-museumcherdak.ru;Интерактивный политехнический музей Дедушкин чердак;generic;needs_adapter;0;2026-11-05T05:52:48.472623+00:00;0;False
-museum.sportedu.ru;Историко-спортивный музей Рус Гцолифк;generic;unavailable;0;2026-11-05T05:52:48.689865+00:00;1;False
-mzd.rzd.ru;Историческая площадка Паровозное депо Подмосковная;generic;unavailable;0;2026-11-05T05:52:49.072154+00:00;1;False
-xn--b1ae4ad.xn--p1ai;Историческая экспозиция пожарно-спасательной службы;generic;needs_adapter;0;2026-11-05T05:52:49.938220+00:00;0;False
-вдпо.рф;Историческая экспозиция пожарно-спасательной службы;generic;needs_adapter;0;2026-11-05T05:52:50.177426+00:00;0;False
-kadashi.ru;Кадашевская слобода, канцелярия;generic;needs_adapter;0;2026-11-05T05:52:50.286047+00:00;0;False
-ambercombine.ru;Калининградский янтарный комбинат;generic;needs_adapter;0;2026-11-05T05:52:51.290135+00:00;1;False
-m.dzen.ru;Квартира Г. М. Кржижановского, экспозиционно-мемориальный отдел;generic;needs_adapter;0;2026-11-05T05:52:52.551940+00:00;0;False
-zaryadyepark.ru;Китайгородская стена;generic;needs_adapter;0;2026-11-05T05:52:53.996978+00:00;0;False
-keymineral.ru;Ключ земли, геологический музей;generic;unavailable;0;2026-11-05T05:52:54.258561+00:00;3;False
-cosmos.vdnh.ru;Космонавтика и авиация, музей;generic;needs_adapter;0;2026-11-05T05:52:54.261610+00:00;0;False
-hram-kurkino.ru;Краеведческий музей при храме Владимирской иконы Божией Матери;generic;needs_adapter;0;2026-11-05T05:52:54.377560+00:00;1;False
-newmanege.ru;Креативное пространство Новый Манеж;generic;needs_adapter;0;2026-11-05T05:52:54.617289+00:00;0;False
-kremlin-ksk.ru;Кремлевская школа верховой езды;generic;needs_adapter;0;2026-11-05T05:52:55.091920+00:00;0;False
-kulturazao.ru;Культурный центр Внуково;generic;unavailable;0;2026-11-05T05:52:56.344449+00:00;1;False
-kulturaszao.ru;Культурный центр Митино, музей морского космического флота;generic;needs_adapter;0;2026-11-05T05:52:56.966166+00:00;0;False
-rublev-museum.ru;Лекторий Музея им. Андрея Рублева;generic;ok;22;2026-11-05T05:52:57.038497+00:00;0;False
-historydepositarium.ru;Лица победы, исторический депозитарий;generic;needs_adapter;0;2026-11-05T05:52:59.455659+00:00;0;False
-lomakovka.ru;Ломаковский музей старинных автомобилей и мотоциклов;generic;needs_adapter;0;2026-11-05T05:53:00.181710+00:00;0;False
-museum.lukoil.ru;Лукойл, музей;generic;needs_adapter;0;2026-11-05T05:53:00.440562+00:00;0;False
-planetarium-moscow.ru;Лунариум, интерактивное пространство;generic;needs_adapter;0;2026-11-05T05:53:00.640305+00:00;0;False
-luchgallery.com;Луч;generic;unavailable;0;2026-11-05T05:53:00.858848+00:00;1;False
-mirvodki.com;М.и.р. водки, музей истории русской водки;generic;needs_adapter;0;2026-11-05T05:53:01.229709+00:00;0;False
-lgc.mirchocolat.ru;М.и.р. шоколада Крылатское;generic;needs_adapter;0;2026-11-05T05:53:01.271739+00:00;0;False
-majolicamuseum.ru;Майолики, художественный музей;generic;needs_adapter;0;2026-11-05T05:53:01.420166+00:00;0;False
-maketmoskvy.ru;Макет Москвы, выставочный центр;generic;needs_adapter;0;2026-11-05T05:53:01.756815+00:00;0;False
-artplay.ru;Малый выставочный зал;generic;needs_adapter;0;2026-11-05T05:53:02.051406+00:00;0;False
-clck.ru;Марс, центр современного искусства;generic;needs_adapter;0;2026-11-05T05:53:02.286945+00:00;0;False
-icom-russia.com;Международный совет музеев;generic;needs_adapter;0;2026-11-05T05:53:02.702538+00:00;0;False
-erzia-fond.com;Международный фонд искусств им. Ст.Д. Эрьзи;generic;unavailable;0;2026-11-05T05:53:03.176329+00:00;1;False
-maly.ru;Мемориальная квартира А. И. Сумбатова-Южина;generic;needs_adapter;0;2026-11-05T05:53:04.039824+00:00;0;False
-kvartira-belogo.guru.ru;Мемориальная квартира Андрея Белого;generic;needs_adapter;0;2026-11-05T05:53:04.738229+00:00;0;False
-sviatoslav-richter.ru;Мемориальная квартира Святослава Рихтера;generic;unavailable;0;2026-11-05T05:53:05.386206+00:00;1;False
-nrcki.ru;Мемориальный дом-музей академика И.В. Курчатова;generic;unavailable;0;2026-11-05T05:53:06.249772+00:00;1;False
-jivo.chat;Мемориальный дом-музей академика С.П. Королёва;generic;needs_adapter;0;2026-11-05T05:53:06.769657+00:00;0;False
-kosmo-museum.ru;Мемориальный дом-музей академика С.П. Королёва;cards;ok;6;2026-11-05T05:53:07.688263+00:00;0;False
-iep.ru;Мемориальный кабинет Гайдара, музей;generic;needs_adapter;0;2026-11-05T05:53:07.799587+00:00;0;False
-ineos.ac.ru;Мемориальный кабинет-музей академика А.Н. Несмеянова;generic;needs_adapter;0;2026-11-05T05:53:08.392856+00:00;0;False
-museum.ru;Мемориальный кабинет-музей академика А.П. Виноградова;generic;unavailable;0;2026-11-05T05:53:09.105578+00:00;1;False
-scriabinmuseum.ru;Мемориальный музей А. Н. Скрябина;scriabin;ok;64;2026-11-05T05:53:09.552487+00:00;0;False
-evgenia20.ru;Мемориальный музей Евгении Сергеевны Коваленко;generic;needs_adapter;0;2026-11-05T05:53:10.164708+00:00;0;False
-gnesina-museum.com;Мемориальный музей-квартира Е.Ф. Гнесиной;generic;needs_adapter;0;2026-11-05T05:53:10.706256+00:00;0;False
-timmuseum.timacad.ru;Мемориальный музей-квартира К. А. Тимирязева;generic;unavailable;0;2026-11-05T05:53:11.546233+00:00;1;False
-puppet.ru;Мемориальный музей-квартира С. В. Образцова;generic;needs_adapter;0;2026-11-05T05:53:12.325665+00:00;1;False
-florenskyfond.ru;Мемориальный музей-квартира священника Павла Флоренского;generic;unavailable;0;2026-11-05T05:53:12.997572+00:00;1;False
-culture.ru;МИИТ, дворец культуры;generic;ok;1;2026-11-05T05:53:14.692455+00:00;0;False
-dkmiit.ru;МИИТ, дворец культуры;generic;needs_adapter;0;2026-11-05T05:53:14.882067+00:00;0;False
-fmm.ru;Минералогический музей им. А. Е. Ферсмана;generic;needs_adapter;0;2026-11-05T05:53:16.484870+00:00;0;False
-mgri.ru;Минералогический музей Российского государственного геологоразведочного университета имени С. Орджоникидзе;generic;needs_adapter;0;2026-11-05T05:53:17.439521+00:00;0;False
-chokomuseum.ru;Мишка, музей истории шоколада и какао;generic;needs_adapter;0;2026-11-05T05:53:18.629996+00:00;0;False
-glazunov.ru;Московская государственная картинная галерея народного художника СССР Ильи Глазунова;generic;needs_adapter;0;2026-11-05T05:53:19.281656+00:00;0;False
-marhi.ru;Московский архитектурный институт, музей;generic;needs_adapter;0;2026-11-05T05:53:19.754613+00:00;0;False
-mgdu.dogm.mos.ru;Московский городской дом учителя;generic;needs_adapter;0;2026-11-05T05:53:20.673693+00:00;0;False
-museum.msu.ru;Московский государственный университет им. М.В. Ломоносова, Музей землеведения;generic;needs_adapter;0;2026-11-05T05:53:20.735628+00:00;0;False
-mdn.ru;Московский дом национальностей;generic;needs_adapter;0;2026-11-05T05:53:20.864528+00:00;0;False
-mdx.ru;Московский Дом художника;generic;needs_adapter;0;2026-11-05T05:53:22.311825+00:00;0;False
-moscowzoo.ru;Московский зоопарк, музей;generic;unavailable;0;2026-11-05T05:53:22.626973+00:00;1;False
-moscowdesignmuseum.ru;Московский музей дизайна;generic;needs_adapter;0;2026-11-05T05:53:22.772985+00:00;0;False
-moscow-cat-museum.wixsite.com;Московский Музей Кошки;generic;needs_adapter;0;2026-11-05T05:53:22.966891+00:00;0;False
-museumperfume.ru;Московский музей парфюмерии;generic;needs_adapter;0;2026-11-05T05:53:23.149114+00:00;0;False
-mmoma.ru;Московский музей современного искусства;cards;ok;9;2026-11-05T05:53:23.916588+00:00;0;False
-mmoma.timepad.ru;Московский музей современного искусства;generic;needs_adapter;0;2026-11-05T05:53:24.544020+00:00;0;False
-mosconcert.moscow;Москонцерт, Музыкальная квартира;generic;needs_adapter;0;2026-11-05T05:53:25.289564+00:00;0;False
-warmotors.ru;Моторы войны;generic;needs_adapter;0;2026-11-05T05:53:25.792346+00:00;0;False
-armoury-chamber.kreml.ru;Музеи Московского Кремля, Грановитая палата;generic;unavailable;0;2026-11-05T05:53:25.920024+00:00;1;False
-weliycenter.ru;Музей;generic;needs_adapter;0;2026-11-05T05:53:25.986412+00:00;0;False
-mlrz.ru;Музей;generic;needs_adapter;0;2026-11-05T05:53:26.268259+00:00;0;False
-sch717s.mskobr.ru;Музей 157-й Неманской стрелковой дивизии;generic;needs_adapter;0;2026-11-05T05:53:26.510070+00:00;0;False
-sch1246v.mskobr.ru;Музей 295-й стрелковой Херсонской дивизии;generic;needs_adapter;0;2026-11-05T05:53:26.988762+00:00;0;False
-moscowccc.ru;Музей VI съезда коммунистической партии Китая;generic;unavailable;0;2026-11-05T05:53:27.002497+00:00;1;False
-autostory.pro;Музей автомобильных историй;generic;unavailable;0;2026-11-05T05:53:27.552540+00:00;1;False
-teatrarmii.ru;Музей академического театра Российской армии;generic;unavailable;0;2026-11-05T05:53:27.640076+00:00;2;False
-mvk.academy-andriaka.ru;Музей акварели;generic;needs_adapter;0;2026-11-05T05:53:27.778293+00:00;0;False
-academy-andriaka.ru;Музей акварели;generic;needs_adapter;0;2026-11-05T05:53:27.970793+00:00;0;False
-academy.andriaka.ru;Музей акварели;generic;needs_adapter;0;2026-11-05T05:53:28.327932+00:00;0;False
-andriaka.ru;Музей акварели;generic;needs_adapter;0;2026-11-05T05:53:30.029444+00:00;0;False
-muz-alp.ru;Музей альпинизма;generic;needs_adapter;0;2026-11-05T05:53:31.168756+00:00;0;False
-antropos.msu.ru;Музей антропологии им. Д.Н. Анучина;generic;unavailable;0;2026-11-05T05:53:31.186489+00:00;1;False
-баронмюнхаузен.рф;Музей барона Мюнхгаузена;generic;unavailable;0;2026-11-05T05:53:31.598045+00:00;1;False
-gym1636u.mskobr.ru;Музей боевой славы 327-й авиадивизии 4-й воздушной армии;generic;needs_adapter;0;2026-11-05T05:53:32.062596+00:00;0;False
-gym1507uz.mskobr.ru;Музей боевой славы 43-й армии;generic;needs_adapter;0;2026-11-05T05:53:32.581541+00:00;0;False
-sch-mr.mskobr.ru;Музей боевой славы 6-го гвардейского механизированного корпуса 4-й танковой армии;generic;needs_adapter;0;2026-11-05T05:53:32.879762+00:00;0;False
-museumdal.ru;Музей В. И. Даля;generic;needs_adapter;0;2026-11-05T05:53:33.626902+00:00;0;False
-manufactura-mi.ru;Музей ватной игрушки;generic;needs_adapter;0;2026-11-05T05:53:33.867057+00:00;0;False
-toysmk.ru;Музей ватной игрушки;generic;needs_adapter;0;2026-11-05T05:53:33.962318+00:00;0;False
-museum-vf.ru;Музей военной формы;generic;needs_adapter;0;2026-11-05T05:53:34.463099+00:00;0;False
-rvio.histrf.ru;Музей военной формы;generic;needs_adapter;0;2026-11-05T05:53:34.463099+00:00;0;False
-msk.musbot.ru;Музей Восстания Машин;generic;needs_adapter;0;2026-11-05T05:53:35.027475+00:00;0;False
-watchmuseum.ru;Музей времени и часов;generic;needs_adapter;0;2026-11-05T05:53:36.802167+00:00;1;False
-museum.viam.ru;Музей Всероссийского института авиационных материалов;generic;needs_adapter;0;2026-11-05T05:53:37.212342+00:00;0;False
-victorymuseum.ru;Музей Г.О.Р.А.;cards;ok;13;2026-11-05T05:53:37.587346+00:00;0;False
-10.garagemca.org;Музей Гараж;generic;unavailable;0;2026-11-05T05:53:37.650963+00:00;1;False
-xn--80afcsrlra.xn--p1ai;Музей Гарри Поттера, интерактивная выставка;generic;needs_adapter;0;2026-11-05T05:53:37.888373+00:00;0;False
-ippo.ru;Музей генерал-губернатора Москвы Великого князя Сергея Александровича и истории Императорского православного палестинского общества;generic;needs_adapter;0;2026-11-05T05:53:41.053413+00:00;0;False
-kghmuseum.ru;Музей городского хозяйства Москвы;generic;needs_adapter;0;2026-11-05T05:53:42.540753+00:00;0;False
-xn----7sbabalfgj4as1arld1aqs8v.xn--p1ai;Музей декоративно-прикладного и промышленного искусства, МГХПА им. С.Г. Строганова;generic;ok;8;2026-11-05T05:53:43.510679+00:00;0;False
-kustari.net;Музей деревянной игрушки;generic;needs_adapter;0;2026-11-05T05:53:43.515285+00:00;0;False
-cdm-moscow.ru;Музей детства;generic;needs_adapter;0;2026-11-05T05:53:43.789352+00:00;0;False
-audioguide.cdm-moscow.ru;Музей детства;generic;needs_adapter;0;2026-11-05T05:53:44.246798+00:00;0;False
-ugolokdurova.ru;Музей династии Дурова;generic;needs_adapter;0;2026-11-05T05:53:44.877265+00:00;1;False
-museum-ksrk.ru;Музей дома культуры Всероссийского общества слепых;generic;unavailable;0;2026-11-05T05:53:45.159011+00:00;1;False
-ksrk.ru;Музей дома культуры Всероссийского общества слепых;generic;needs_adapter;0;2026-11-05T05:53:46.642714+00:00;0;False
-parcom.ru;Музей ЗАО МОФ Парижская коммуна;generic;needs_adapter;0;2026-11-05T05:53:47.465442+00:00;0;False
-zverevcenter.ru;Музей Зверевский центр современного искусства;generic;needs_adapter;0;2026-11-05T05:53:47.541416+00:00;0;False
-zelmuseum.ru;Музей Зеленограда;generic;ok;21;2026-11-05T05:53:48.093590+00:00;0;False
-cosmos.msu.ru;Музей землеведения Московского государственного университета имени М.В. Ломоносова;generic;needs_adapter;0;2026-11-05T05:53:48.758655+00:00;0;False
-mes.msu.ru;Музей землеведения Московского государственного университета имени М.В. Ломоносова;generic;needs_adapter;0;2026-11-05T05:53:48.834770+00:00;0;False
-msu.ru;Музей землеведения Московского государственного университета имени М.В. Ломоносова;generic;needs_adapter;0;2026-11-05T05:53:49.599413+00:00;0;False
-magistrvv.com;Музей изобразительного и декоративно-прикладного искусства Хайрулова В2;generic;unavailable;0;2026-11-05T05:53:50.138503+00:00;1;False
-museyfondn2.ru;Музей Императора Николая II;generic;needs_adapter;0;2026-11-05T05:53:50.755747+00:00;0;False
-timacad.ru;Музей Индустриализации Земледелия им. В.П. Горячкина;generic;needs_adapter;0;2026-11-05T05:53:50.791173+00:00;0;False
-khrunichevmuseum.tilda.ws;Музей истории;generic;needs_adapter;0;2026-11-05T05:53:51.552876+00:00;0;False
-voginfo.ru;Музей истории ВОГ;generic;unavailable;0;2026-11-05T05:53:51.656077+00:00;1;False
-mosparks.ru;Музей истории военно-морского флота;generic;needs_adapter;0;2026-11-05T05:53:51.832090+00:00;0;False
-gmig.ru;Музей истории ГУЛАГа;generic;unavailable;0;2026-11-05T05:53:52.314714+00:00;1;False
-mievr.ru;Музей истории евреев в России;generic;needs_adapter;0;2026-11-05T05:53:52.439769+00:00;0;False
-niitp.ru;Музей истории и технических достижений НИИ ТП;generic;needs_adapter;0;2026-11-05T05:53:52.470380+00:00;0;False
-hm.msu.ru;Музей истории МГУ имени М.В. Ломоносова;generic;needs_adapter;0;2026-11-05T05:53:52.568420+00:00;1;False
-museum.historymed.ru;Музей истории медицины МГМСУ имени А. И. Евдокимова;generic;needs_adapter;0;2026-11-05T05:53:53.368653+00:00;1;False
-sechenov.ru;Музей истории медицины первого Московского государственного медицинского университета им. И.М. Сеченова;generic;unavailable;0;2026-11-05T05:53:53.842814+00:00;1;False
-monikiweb.ru;Музей истории МОНИКИ;generic;needs_adapter;0;2026-11-05T05:53:54.058820+00:00;0;False
-miit.ru;Музей истории Московского государственного университета путей сообщения;generic;needs_adapter;0;2026-11-05T05:53:54.321779+00:00;0;False
-pkb1.ru;Музей истории Московской городской психиатрической больницы им. Н.А. Алексеева;generic;needs_adapter;0;2026-11-05T05:53:54.982327+00:00;0;False
-mosenergo-museum.ru;Музей истории Мосэнерго;generic;needs_adapter;0;2026-11-05T05:53:55.164795+00:00;0;False
-mint.museum;Музей истории науки и техники;generic;needs_adapter;0;2026-11-05T05:53:55.305685+00:00;2;False
-mospolytech.ru;Музей истории полиграфии, книгоиздания и МГУП им. Ивана Федорова;generic;needs_adapter;0;2026-11-05T05:53:55.614493+00:00;0;False
-prostarover.ru;Музей истории Преображенского старообрядческого монастыря;generic;needs_adapter;0;2026-11-05T05:53:55.927626+00:00;0;False
-mos-gaz.ru;Музей истории развития газового хозяйства;generic;needs_adapter;0;2026-11-05T05:53:56.134152+00:00;0;False
-museum-vnukovo.ru;Музей истории района Внуково;generic;needs_adapter;0;2026-11-05T05:53:57.279322+00:00;0;False
-gubkin.ru;Музей истории Российского государственного университета нефти и газа им. И.М. Губкина;generic;unavailable;0;2026-11-05T05:53:57.925894+00:00;1;False
-sokolniki.mirchocolat.ru;Музей Истории Русского Шоколада Сокольники;generic;needs_adapter;0;2026-11-05T05:53:58.364692+00:00;0;False
-rea.ru;Музей истории РЭУ имени Г. В. Плеханова;generic;ok;6;2026-11-05T05:53:58.697854+00:00;0;False
-telhistory.ru;Музей истории телефона;generic;unavailable;0;2026-11-05T05:53:59.214633+00:00;1;False
-museum-shchapovo.msk.muzkult.ru;Музей истории усадьбы Александрово-Щапово;generic;unavailable;0;2026-11-05T05:53:59.240712+00:00;1;False
-agios-nicolos.ru;Музей истории храма и Первой мировой войны;generic;needs_adapter;0;2026-11-05T05:54:00.169356+00:00;1;False
-sevastopolets-moskva.ru;Музей истории Черноморского флота;generic;needs_adapter;0;2026-11-05T05:54:00.518151+00:00;0;False
-mirpaustowskogo.ru;Музей К. Г. Паустовского;generic;needs_adapter;0;2026-11-05T05:54:01.228299+00:00;1;False
-museumkadashi.com;Музей Кадашёвская слобода;generic;unavailable;0;2026-11-05T05:54:01.661558+00:00;1;False
-музейкарамели.рф;Музей Карамели;generic;unavailable;0;2026-11-05T05:54:02.005823+00:00;1;False
-museikino.ru;Музей кино;generic;unavailable;0;2026-11-05T05:54:03.087300+00:00;1;False
-mosfilm.ru;Музей киноконцерна Мосфильм;generic;needs_adapter;0;2026-11-05T05:54:03.350527+00:00;0;False
-nomadic.ru;Музей кочевой культуры;generic;needs_adapter;0;2026-11-05T05:54:04.107530+00:00;0;False
-redcross.ru;Музей красного креста;generic;needs_adapter;0;2026-11-05T05:54:04.462895+00:00;0;False
-museum.redcross.ru;Музей красного креста;generic;needs_adapter;0;2026-11-05T05:54:05.028330+00:00;0;False
-cryptography-museum.ru;Музей криптографии;generic;needs_adapter;0;2026-11-05T05:54:05.255935+00:00;0;False
-tuzova.com;Музей кукол Barbie;generic;needs_adapter;0;2026-11-05T05:54:06.435666+00:00;0;False
-brickstar.ru;Музей Лего Brick Star;generic;needs_adapter;0;2026-11-05T05:54:06.752658+00:00;1;False
-bulgakovmuseum.ru;Музей М. А. Булгакова;bulgakov;ok;23;2026-11-05T05:54:06.876889+00:00;0;False
-magicmuseum.ru;Музей магии;generic;needs_adapter;0;2026-11-05T05:54:07.206326+00:00;0;False
-moskva-tr.gazprom.ru;Музей магистрального транспорта газа;generic;unavailable;0;2026-11-05T05:54:08.790294+00:00;1;False
-museum.histrf.ru;Музей Московских стрельцов Стрелецкие палаты;generic;needs_adapter;0;2026-11-05T05:54:09.537916+00:00;0;False
-museumrvio.ru;Музей Московских стрельцов Стрелецкие палаты;generic;needs_adapter;0;2026-11-05T05:54:09.598751+00:00;0;False
-mosmetro.ru;Музей Московского метрополитена;generic;needs_adapter;0;2026-11-05T05:54:10.430403+00:00;0;False
-mof.group;Музей Московской оружейной фабрики БР. Юдиныхъ с 1827г;generic;unavailable;0;2026-11-05T05:54:10.969673+00:00;1;False
-sch2093.mskobr.ru;Музей Моё Отечество;generic;needs_adapter;0;2026-11-05T05:54:11.372792+00:00;0;False
-mpgu.su;Музей МПГУ;generic;needs_adapter;0;2026-11-05T05:54:11.714351+00:00;1;False
-мпгу.рф;Музей МПГУ;generic;needs_adapter;0;2026-11-05T05:54:12.380750+00:00;0;False
-poiskovikirf.ru;Музей Неизвестный солдат;generic;unavailable;0;2026-11-05T05:54:12.949691+00:00;1;False
-xn--b1agahljhp0c.xn--p1ai;Музей необычных велосипедов;generic;unavailable;0;2026-11-05T05:54:13.082966+00:00;1;False
-веломузей.рф;Музей необычных велосипедов;generic;unavailable;0;2026-11-05T05:54:13.974449+00:00;1;False
-sklif.mos.ru;Музей НИИ скорой помощи им. Н.В. Склифосовского;generic;ok;1;2026-11-05T05:54:14.939963+00:00;0;False
-misis.ru;Музей Ниту Мисис;generic;unavailable;0;2026-11-05T05:54:16.020802+00:00;1;False
-brykina.com;Музей нонконформизма;generic;needs_adapter;0;2026-11-05T05:54:16.286321+00:00;0;False
-mnk.coinmuseum.ru;Музей нумизматики;generic;unavailable;0;2026-11-05T05:54:16.561808+00:00;1;False
-coinmuseum.ru;Музей нумизматики;generic;needs_adapter;0;2026-11-05T05:54:17.919498+00:00;0;False
-museumofillusions.moscow;Музей оптических иллюзий;generic;needs_adapter;0;2026-11-05T05:54:17.970985+00:00;0;False
-tupolev.ru;Музей опытного конструкторского бюро А. Н. Туполева;generic;unavailable;0;2026-11-05T05:54:18.396212+00:00;1;False
-museum-trotter.ru;Музей Орловского рысака и русской тройки;generic;needs_adapter;0;2026-11-05T05:54:18.442242+00:00;0;False
-podval-museum.ru;Музей Оружейный подвал;generic;needs_adapter;0;2026-11-05T05:54:19.078786+00:00;0;False
-moscowarmsmuseum.ru;Музей оружия;generic;needs_adapter;0;2026-11-05T05:54:19.531085+00:00;0;False
-surl.li;Музей Отечественной войны 1812 года;generic;needs_adapter;0;2026-11-05T05:54:19.982014+00:00;0;False
-rors.ru;Музей охоты и рыболовства;generic;needs_adapter;0;2026-11-05T05:54:20.051743+00:00;0;False
-music-museum.ru;Музей П.И. Чайковский и Москва;generic;needs_adapter;0;2026-11-05T05:54:21.017881+00:00;2;False
-museum.lihov6.ru;Музей памяти новомучеников и исповедников Российских;generic;needs_adapter;0;2026-11-05T05:54:21.173630+00:00;0;False
-park.sokolniki.com;Музей парка Сокольники;generic;unavailable;0;2026-11-05T05:54:21.367066+00:00;1;False
-printmuseum.ru;Музей Печатной графики;generic;unavailable;0;2026-11-05T05:54:21.590928+00:00;2;False
-gopinball.ru;Музей Пинбола GoPinball;generic;needs_adapter;0;2026-11-05T05:54:21.894855+00:00;0;False
-sch1161.mskobr.ru;Музей писателя Е. Л. Войскунского;generic;needs_adapter;0;2026-11-05T05:54:22.245883+00:00;0;False
-pokrov-monastir.ru;Музей Покровского монастыря и Блаженной Матроны Московской;generic;needs_adapter;0;2026-11-05T05:54:22.289167+00:00;0;False
-muzeydela.ru;Музей предпринимателей, меценатов и благотворителей;generic;needs_adapter;0;2026-11-05T05:54:22.729047+00:00;0;False
-museum.pkb4.ru;Музей Преображенской больницы;generic;needs_adapter;0;2026-11-05T05:54:23.281355+00:00;0;False
-pkb4.ru;Музей Преображенской больницы;generic;needs_adapter;0;2026-11-05T05:54:23.484756+00:00;0;False
-mosecopros.ru;Музей природы, экоцентр;generic;needs_adapter;0;2026-11-05T05:54:25.315843+00:00;0;False
-profiling.museum;Музей профайлинга;generic;unavailable;0;2026-11-05T05:54:25.991911+00:00;1;False
-mpomos.ru;Музей профессионального образования города Москвы;generic;needs_adapter;0;2026-11-05T05:54:26.402101+00:00;0;False
-gingerbread-msk.ru;Музей Пряника;generic;needs_adapter;0;2026-11-05T05:54:26.651538+00:00;0;False
-музей-пряник.рф;Музей Пряника;generic;needs_adapter;0;2026-11-05T05:54:27.670502+00:00;0;False
-xn--c1adffbadreybi0ax0b.xn--p1ai;Музей психологии, дефектологии и логопедии;generic;needs_adapter;0;2026-11-05T05:54:29.126646+00:00;0;False
-музейпсихологии.рф;Музей психологии, дефектологии и логопедии;generic;needs_adapter;0;2026-11-05T05:54:29.143018+00:00;0;False
-plmusey.narod.ru;Музей путешествий и паломничества по святым местам;generic;needs_adapter;0;2026-11-05T05:54:29.253873+00:00;0;False
-castle.moscow;Музей Ратной Истории г. Москвы;generic;ok;12;2026-11-05T05:54:29.396579+00:00;0;False
-roerichsmuseum.ru;Музей Рерихов;generic;needs_adapter;0;2026-11-05T05:54:30.014871+00:00;0;False
-museum.rmapo.ru;Музей РМАНПО;generic;needs_adapter;0;2026-11-05T05:54:30.331686+00:00;0;False
-rudn.ru;Музей Российского университета дружбы народов;generic;needs_adapter;0;2026-11-05T05:54:30.462684+00:00;1;False
-guslimuseum.ru;Музей русских гуслей и китайского гуциня;generic;needs_adapter;0;2026-11-05T05:54:31.358178+00:00;0;False
-moseparh.ru;Музей Русского Афона;generic;needs_adapter;0;2026-11-05T05:54:31.953270+00:00;0;False
-rusimp.su;Музей русского импрессионизма;generic;needs_adapter;0;2026-11-05T05:54:33.194740+00:00;0;False
-mirekmuseum.ru;Музей русской гармоники Альфреда Мирека;generic;needs_adapter;0;2026-11-05T05:54:33.320234+00:00;0;False
-new.russikona.ru;Музей русской иконы им. Михаила Абрамова;generic;needs_adapter;0;2026-11-05T05:54:33.499055+00:00;0;False
-kuzminki-msk.ru;Музей русской усадебной культуры Усадьба князей Голицыных Влахернское-Кузьминки;generic;unavailable;0;2026-11-05T05:54:34.076476+00:00;1;False
-sadovoekoltso.com;Музей Садовое кольцо;generic;unavailable;0;2026-11-05T05:54:36.637983+00:00;1;False
-gemmuseum.ru;Музей Самоцветы;generic;needs_adapter;0;2026-11-05T05:54:37.004323+00:00;0;False
-museum-light.bl-g.ru;Музей света;generic;needs_adapter;0;2026-11-05T05:54:37.525151+00:00;0;False
-mos03.ru;Музей скорой помощи, Станция скорой и неотложной медицинской помощи им. Пучкова А.С.;generic;needs_adapter;0;2026-11-05T05:54:37.900138+00:00;0;False
-museum-slav.com;Музей славянской культуры им. Константина Васильева;generic;needs_adapter;0;2026-11-05T05:54:38.022950+00:00;1;False
-dogmuseum.ru;Музей собаки;generic;ok;2;2026-11-05T05:54:38.500336+00:00;0;False
-mus-col.com;Музей Собрание;generic;needs_adapter;0;2026-11-05T05:54:39.155193+00:00;3;False
-15kop.ru;Музей советских игровых автоматов;generic;needs_adapter;0;2026-11-05T05:54:39.266021+00:00;0;False
-xn--80adgdranccsaibe8bu0mvc.xn--p1ai;Музей современной оловянной военно-исторической миниатюры;generic;needs_adapter;0;2026-11-05T05:54:39.446240+00:00;0;False
-hram-ks.ru;Музей создания Алексеевского монастыря;generic;unavailable;0;2026-11-05T05:54:40.785516+00:00;1;False
-souzmultpark.ru;Музей Союзмультфильма;generic;unavailable;0;2026-11-05T05:54:42.081339+00:00;2;False
-cska.ru;Музей спортивной славы ЦСКА;generic;needs_adapter;0;2026-11-05T05:54:42.510173+00:00;0;False
-mosmuseumussr.ru;Музей СССР;generic;needs_adapter;0;2026-11-05T05:54:43.263438+00:00;0;False
-armenianchurch.ru;Музей Тапан;generic;needs_adapter;0;2026-11-05T05:54:44.606554+00:00;0;False
-sculptura.ru;Музей Творческое наследие академика Юрия Орехова;generic;needs_adapter;0;2026-11-05T05:54:45.203593+00:00;0;False
-tvartsmuseum.ru;Музей телевизионного искусства;generic;needs_adapter;0;2026-11-05T05:54:45.435352+00:00;0;False
-muzeytemnoty.ru;Музей темноты;generic;needs_adapter;0;2026-11-05T05:54:45.771221+00:00;0;False
-muzeyvtemnote.ru;Музей темноты;generic;needs_adapter;0;2026-11-05T05:54:47.194962+00:00;0;False
-apple-museum.ru;Музей техники Apple;generic;needs_adapter;0;2026-11-05T05:54:47.813050+00:00;0;False
-dollmuseum.ru;Музей уникальных кукол;generic;needs_adapter;0;2026-11-05T05:54:47.904660+00:00;0;False
-xn----8sbacgokdt1a3a6c.xn--p1ai;Музей уральских сказов;generic;needs_adapter;0;2026-11-05T05:54:49.844948+00:00;2;False
-музей-бажова.рф;Музей уральских сказов;generic;needs_adapter;0;2026-11-05T05:54:51.752847+00:00;0;False
-fabrikacci.com;Музей фабрики;generic;needs_adapter;0;2026-11-05T05:54:52.324267+00:00;0;False
-fa.ru;Музей Финансового университета;generic;unavailable;0;2026-11-05T05:54:52.365222+00:00;1;False
-magic2.ru;Музей фокусов;generic;needs_adapter;0;2026-11-05T05:54:52.445930+00:00;0;False
-kosygin-rgu.ru;Музей художественного текстиля и костюма РГУ им. А. Н. Косыгина;generic;unavailable;0;2026-11-05T05:54:52.519850+00:00;1;False
-feina.ru;Музей чизкейка;generic;unavailable;0;2026-11-05T05:54:53.296965+00:00;1;False
-centralchessclub.ru;Музей шахмат;generic;needs_adapter;0;2026-11-05T05:54:53.573909+00:00;0;False
-ruchess.ru;Музей шахмат;generic;needs_adapter;0;2026-11-05T05:54:54.624103+00:00;0;False
-knigoluby.ru;Музей экслибриса и миниатюрной книги;generic;needs_adapter;0;2026-11-05T05:54:54.876538+00:00;0;False
-exlibrismuseum.org;Музей экслибриса и миниатюрной книги;generic;needs_adapter;0;2026-11-05T05:54:55.934305+00:00;0;False
-lectoriumart.ru;Музей экслибриса и миниатюрной книги;generic;needs_adapter;0;2026-11-05T05:54:56.250590+00:00;2;False
-museum.rgub.ru;Музей электронной книги;generic;needs_adapter;0;2026-11-05T05:54:56.835641+00:00;0;False
-museumofemotions.ru;Музей эмоций;generic;unavailable;0;2026-11-05T05:54:57.673228+00:00;1;False
-mus-school1086.ucoz.ru;Музей этнокультуры Кореи;generic;needs_adapter;0;2026-11-05T05:54:58.107395+00:00;0;False
-fond-nikulin.ru;Музей Ю. В. Никулина;generic;needs_adapter;0;2026-11-05T05:54:58.573843+00:00;0;False
-museum.festival15.ru;Музей Ю.В.Никулина, центр содействия семейному воспитанию;generic;needs_adapter;0;2026-11-05T05:54:59.368894+00:00;0;False
-xn--c1arjr.xn--p1ai;Музей, МПГУ им. М.А. Шолохова;generic;needs_adapter;0;2026-11-05T05:54:59.726355+00:00;0;False
-nffedorov.ru;Музей-библиотека им Н.Ф. Фёдорова;generic;needs_adapter;0;2026-11-05T05:55:00.043033+00:00;0;False
-museum.imli.ru;Музей-квартира А.М. Горького;generic;needs_adapter;0;2026-11-05T05:55:00.054218+00:00;0;False
-um.mos.ru;Музей-квартира академика Н.Д. Зелинского;generic;needs_adapter;0;2026-11-05T05:55:00.093747+00:00;0;False
-rutube.ru;Музей-квартира В. Н. Плучека;generic;needs_adapter;0;2026-11-05T05:55:01.678457+00:00;0;False
-gnesin-academy.ru;Музей-квартира Е. Ф. Гнесиной;generic;needs_adapter;0;2026-11-05T05:55:01.840916+00:00;0;False
-vakhtangov.ru;Музей-квартира Е.Б. Вахтангова;generic;needs_adapter;0;2026-11-05T05:55:03.332583+00:00;0;False
-sytin-museum.ru;Музей-квартира И. Д. Сытина;generic;needs_adapter;0;2026-11-05T05:55:03.713262+00:00;0;False
-librarystd.ru;Музей-квартира Народных артистов СССР Б.М. Тенина и Л.П. Сухаревской, филиал ЦНБ СТД РФ;generic;unavailable;0;2026-11-05T05:55:04.983367+00:00;3;False
-rubankov.ru;Музей-мастерская 1000 топоров;generic;needs_adapter;0;2026-11-05T05:55:05.436180+00:00;0;False
-small_museums_near.tretyakovgallery.ru;Музей-мастерская А.С. Голубкиной;generic;unavailable;0;2026-11-05T05:55:05.666353+00:00;1;False
-gurchenko.ru;Музей-мастерская Людмилы Гурченко;generic;needs_adapter;0;2026-11-05T05:55:06.415339+00:00;0;False
-moscowmanege.ru;Музей-мастерская народного художника СССР Д.А. Налбандяна;generic;needs_adapter;0;2026-11-05T05:55:06.908977+00:00;0;False
-puzzlemuseum.ru;Музей-студия головоломок;generic;needs_adapter;0;2026-11-05T05:55:07.204188+00:00;0;False
-lublino-palace.ru;Музей-усадьба Люблино;generic;unavailable;0;2026-11-05T05:55:07.282071+00:00;1;False
-mahm.ru;Музей-усадьба Муравьёвых-Апостолов;generic;needs_adapter;0;2026-11-05T05:55:08.266674+00:00;0;False
-31-12.рф;Музей-фабрика ёлочных игрушек;generic;needs_adapter;0;2026-11-05T05:55:08.648667+00:00;0;False
-mai.ru;Музейно-выставочный комплекс Московского авиационного института;generic;unavailable;0;2026-11-05T05:55:08.705058+00:00;3;False
-computer-museum.ru;Музейно-выставочный центр национальной микроэлектроники им. А.И. Шокина;generic;needs_adapter;0;2026-11-05T05:55:09.757651+00:00;0;False
-rrl-museum.cqham.ru;Музейный комплекс радиоэлектроники;generic;needs_adapter;0;2026-11-05T05:55:09.905784+00:00;0;False
-dostoevskyworld.ru;Музейный центр Московский дом Достоевского;generic;needs_adapter;0;2026-11-05T05:55:10.267773+00:00;0;False
-mamm-mdf.ru;Мультимедиа арт музей;cards;ok;40;2026-11-05T05:55:10.314192+00:00;0;False
-zhukovskymuseum.ru;Научно-мемориальный музей Н.Е. Жуковского;generic;needs_adapter;0;2026-11-05T05:55:11.059313+00:00;0;False
-portret.ru;Национальная портретная галерея;generic;needs_adapter;0;2026-11-05T05:55:12.992566+00:00;0;False
-irioh.ru;НИИ медицины труда им. академика Н.Ф. Измерова, музей истории гигиены труда и профпатологии;generic;needs_adapter;0;2026-11-05T05:55:13.087316+00:00;0;False
-ase-ec.ru;НИКИМТ-Атомстрой, музей;generic;unavailable;0;2026-11-05T05:55:14.353866+00:00;1;False
-nimamuseum.com;Нима;generic;unavailable;0;2026-11-05T05:55:14.485741+00:00;1;False
-hse.ru;НИУ ВШЭ, центр истории и социологии Второй мировой войны и ее последствий;generic;unavailable;0;2026-11-05T05:55:14.623433+00:00;1;False
-centervnl.ru;Обычные люди, пространство;generic;needs_adapter;0;2026-11-05T05:55:17.249826+00:00;0;False
-ognimos.ru;Огни Москвы;generic;needs_adapter;0;2026-11-05T05:55:17.721498+00:00;0;False
-nosov.rgub.ru;Особняк купца В.Д. Носова, историко-культурный центр;generic;needs_adapter;0;2026-11-05T05:55:17.847947+00:00;0;False
-rgub.ru;Особняк купца В.Д. Носова, историко-культурный центр;generic;needs_adapter;0;2026-11-05T05:55:17.908895+00:00;1;False
-xn----7sbbdcuwkodph3b5esd.xn--p1ai;Особняк-Небылица;generic;needs_adapter;0;2026-11-05T05:55:18.962420+00:00;0;False
-ostankino.kuskovo.ru;Останкино и Кусково, государственный музей-заповедник;generic;needs_adapter;0;2026-11-05T05:55:19.513160+00:00;0;False
-ostankino-museum.ru;Останкино, усадьба;generic;needs_adapter;0;2026-11-05T05:55:19.981173+00:00;1;False
-tvtower.ru;Останкинская телебашня;generic;needs_adapter;0;2026-11-05T05:55:20.234366+00:00;0;False
-polymus.ru;Открытые коллекции, Политехнический музей;generic;needs_adapter;0;2026-11-05T05:55:20.295152+00:00;0;False
-ochakovo.ru;Очаково, музей традиционных русских напитков;generic;needs_adapter;0;2026-11-05T05:55:20.684203+00:00;0;False
-transport.mos.ru;Павильон Московского транспорта;generic;needs_adapter;0;2026-11-05T05:55:20.908056+00:00;0;False
-znanie.vdnh.ru;Павильон Рабочий и колхозница;generic;unavailable;0;2026-11-05T05:55:21.610258+00:00;1;False
-expocentr.ru;Павильон № 5;generic;needs_adapter;0;2026-11-05T05:55:24.452818+00:00;0;False
-myhistorypark.ru;Павильон № 57 Россия — моя история;generic;needs_adapter;0;2026-11-05T05:55:24.859554+00:00;0;False
-berizaryad.ru;Павильон № 61. Выставка Лев Толстой. Война и мир. Ожившие страницы;generic;needs_adapter;0;2026-11-05T05:55:25.202571+00:00;0;False
-balletcenter.ru;Павильон № 62 Международный центр балета;generic;needs_adapter;0;2026-11-05T05:55:25.963828+00:00;0;False
-innoagency.ru;Павильон №37 Центр ассистивных технологий Феникс;generic;unavailable;0;2026-11-05T05:55:26.214262+00:00;1;False
-palaty.moscow;Палаты на Льва Толстого;generic;needs_adapter;0;2026-11-05T05:55:26.407217+00:00;0;False
-paleo.ru;Палеонтологический музей им. Ю. А. Орлова;generic;needs_adapter;0;2026-11-05T05:55:27.870645+00:00;0;False
-mama-nanik.ru;Памирский дом, этнический музей;generic;needs_adapter;0;2026-11-05T05:55:28.197342+00:00;0;False
-bapark.ru;Парк культуры и отдыха, администрация;generic;needs_adapter;0;2026-11-05T05:55:28.754891+00:00;0;False
-patriarchs-palace.kreml.ru;Патриаршие палаты;generic;unavailable;0;2026-11-05T05:55:29.421247+00:00;1;False
-fxxc.ru;Патриарший музей церковного искусства;generic;needs_adapter;0;2026-11-05T05:55:30.181791+00:00;0;False
-patriarchia.ru;Патриарший музей церковного искусства;generic;needs_adapter;0;2026-11-05T05:55:30.613979+00:00;0;False
-planetarium-cc.moscow;Планетарий Центрального дома Российской армии им. М. Фрунзе;generic;needs_adapter;0;2026-11-05T05:55:30.791208+00:00;0;False
-posusecam.ru;По сусекам, музей русского быта;generic;needs_adapter;0;2026-11-05T05:55:31.004916+00:00;0;False
-welcome.zaryadyepark.ru;Подземный музей;generic;needs_adapter;0;2026-11-05T05:55:31.358209+00:00;0;False
-poezddedamoroza.ru;Поезд Деда мороза;generic;needs_adapter;0;2026-11-05T05:55:31.876372+00:00;0;False
-museum-williams.ru;Почвенно-агрономический музей им. В. Р. Вильямса;generic;unavailable;0;2026-11-05T05:55:32.641788+00:00;1;False
-hramkv.ru;Православный духовно-культурный центр при храме святого равноапостольного князя Владимира в Тушине;generic;needs_adapter;0;2026-11-05T05:55:33.051582+00:00;0;False
-xn--b1acebhjbdcjdo3ad7ahdrlp9h.xn--p1ai;Прекрасное далеко, музей советской игрушки;generic;needs_adapter;0;2026-11-05T05:55:33.141431+00:00;0;False
-rkk-museum.ru;Радиомузей Валерия Громова;generic;needs_adapter;0;2026-11-05T05:55:33.519866+00:00;0;False
-робостанция.рф;Робостанция;generic;needs_adapter;0;2026-11-05T05:55:33.664267+00:00;0;False
-xn--80abwtcbllj6b9f.xn--p1ai;Робостанция, научно-развлекательная выставка;generic;needs_adapter;0;2026-11-05T05:55:33.968350+00:00;0;False
-rozaeinema.ru;Роза Эйнема, музей истории кондитерской фабрики;generic;needs_adapter;0;2026-11-05T05:55:34.538898+00:00;0;False
-glazunov-academy.ru;Российская академия живописи, ваяния и зодчества Ильи Глазунова, музей;generic;needs_adapter;0;2026-11-05T05:55:34.609635+00:00;0;False
-roslesmuseum.ru;Российский музей леса;generic;needs_adapter;0;2026-11-05T05:55:35.038934+00:00;2;False
-medmuseum.ru;Российский музей медицины;generic;needs_adapter;0;2026-11-05T05:55:35.238954+00:00;0;False
-history.rudn.ru;Российский университет дружбы народов им. Патриса Лумумбы, Музей истории РУДН;generic;needs_adapter;0;2026-11-05T05:55:35.659078+00:00;0;False
-gtsolifk.ru;Российский университет спорта ГЦОЛИФК, историко-спортивный музей;generic;needs_adapter;0;2026-11-05T05:55:35.857215+00:00;0;False
-uniconf.ru;Рот Фронт;generic;needs_adapter;0;2026-11-05T05:55:36.240275+00:00;0;False
-igem.ru;Рудно-петрографический музей;generic;needs_adapter;0;2026-11-05T05:55:36.394113+00:00;0;False
-losinyiostrov.ru;Русский быт, экологический центр;generic;needs_adapter;0;2026-11-05T05:55:38.523614+00:00;1;False
-sobyanina.ru;Русский музей детского искусства;generic;needs_adapter;0;2026-11-05T05:55:39.464859+00:00;0;False
-museumruss.ru;Русское средневековье, музейный центр;generic;needs_adapter;0;2026-11-05T05:55:39.559572+00:00;0;False
-rut-miit.ru;РУТ (МИИТ), музей;generic;needs_adapter;0;2026-11-05T05:55:40.023629+00:00;0;False
-muzey-sensorium.ru;Сенсориум, музей в темноте;generic;needs_adapter;0;2026-11-05T05:55:40.774167+00:00;0;False
-levsha-pav10.ru;Сибирский Левша;generic;unavailable;0;2026-11-05T05:55:40.838929+00:00;1;False
-slovo.vdnh.ru;Слово;generic;needs_adapter;0;2026-11-05T05:55:41.416619+00:00;0;False
-assumption-cathedral.kreml.ru;Собор Успения Пресвятой Богородицы;generic;unavailable;0;2026-11-05T05:55:41.790019+00:00;1;False
-lihov6.ru;Соборная палата;generic;needs_adapter;0;2026-11-05T05:55:42.214792+00:00;0;False
-smsport.ru;Современный музей спорта;generic;needs_adapter;0;2026-11-05T05:55:43.227349+00:00;0;False
-oao-sokol.ru;Сокол, музей радиоэлектроники;generic;needs_adapter;0;2026-11-05T05:55:43.266504+00:00;0;False
-tutanhamon.msk.ru;Сокровища гробницы Тутанхамона;generic;needs_adapter;0;2026-11-05T05:55:43.863268+00:00;0;False
-souzmultclub.ru;Союзмультфильм, музей;generic;unavailable;0;2026-11-05T05:55:45.422571+00:00;3;False
-kremlin-architectural-ensemble.kreml.ru;Спасская башня;generic;unavailable;0;2026-11-05T05:55:45.708865+00:00;1;False
-artanum.ru;Товарищество живописцев Московского союза художников;generic;needs_adapter;0;2026-11-05T05:55:46.154097+00:00;0;False
-moscow-painters.ru;Товарищество живописцев Московского союза художников;generic;needs_adapter;0;2026-11-05T05:55:46.201522+00:00;0;False
-tradart.ru;ТраDарт;generic;needs_adapter;0;2026-11-05T05:55:47.069124+00:00;0;False
-mif-mira.ru;Традиционные маски и фигуры мира;generic;unavailable;0;2026-11-05T05:55:47.070633+00:00;1;False
-usadbabaryshnikova.aif.ru;Усадьба Барышникова;generic;needs_adapter;0;2026-11-05T05:55:47.241608+00:00;0;False
-usadba.troitsasviblovo.ru;Усадьба Свиблово;generic;needs_adapter;0;2026-11-05T05:55:48.391919+00:00;0;False
-art-cvetaev.ru;Учебный художественный музей им. И. В. Цветаева;generic;needs_adapter;0;2026-11-05T05:55:49.050288+00:00;0;False
-rsuh.ru;Учебный художественный музей им. И. В. Цветаева;generic;needs_adapter;0;2026-11-05T05:55:49.274797+00:00;0;False
-31-12.xn--p1ai;Фабрика ёлочных игрушек, музей;generic;needs_adapter;0;2026-11-05T05:55:49.598846+00:00;0;False
-farfo.ru;Фарфо;generic;needs_adapter;0;2026-11-05T05:55:49.810961+00:00;0;False
-ekaterina-foundation.ru;Фонд культуры Екатерина;generic;needs_adapter;0;2026-11-05T05:55:50.339968+00:00;0;False
-mos-time.ru;Фонд Московское время;generic;needs_adapter;0;2026-11-05T05:55:50.686565+00:00;0;False
-gbsad.ru;Фондовая оранжерея Главного ботанического сада им. Н.В. Цицина РАН;generic;needs_adapter;0;2026-11-05T05:55:51.384398+00:00;0;False
-museum.spartak.com;Футбольный клуб Спартак-Москва, музей;generic;unavailable;0;2026-11-05T05:55:51.613198+00:00;1;False
-ordynka.com;Храм иконы Божией Матери всех скорбящих радость на большой Ордынке, музей;generic;needs_adapter;0;2026-11-05T05:55:51.814163+00:00;0;False
-tsar-maket.ru;Царь-макет, музей;generic;needs_adapter;0;2026-11-05T05:55:52.367258+00:00;1;False
-mospriroda.ru;Цветоводство, эколого-просветительский центр;generic;needs_adapter;0;2026-11-05T05:55:54.072058+00:00;0;False
-voznesenskycenter.ru;Центр Вознесенского;generic;unavailable;6;2026-11-05T05:55:54.276064+00:00;3;True
-artcentre.moscow;Центр искусств Москва;generic;needs_adapter;0;2026-11-05T05:55:57.142077+00:00;0;False
-numexpert.ru;Центр Исследований Культурных Ценностей;generic;needs_adapter;0;2026-11-05T05:55:57.727305+00:00;0;False
-centermars.ru;Центр Современного Искусства М'арс;generic;needs_adapter;0;2026-11-05T05:55:58.813309+00:00;0;False
-cca9.ru;Центр современного искусства №9;generic;unavailable;0;2026-11-05T05:56:00.096041+00:00;1;False
-fabrikacci.ru;Центр творческих индустрий Фабрика;generic;needs_adapter;0;2026-11-05T05:56:01.315328+00:00;0;False
-proektfabrika.ru;Центр творческих индустрий Фабрика;generic;unavailable;0;2026-11-05T05:56:01.471282+00:00;1;False
-icr.su;Центр-музей им. Н.К Рериха, офис;generic;needs_adapter;0;2026-11-05T05:56:02.542055+00:00;0;False
-aviacosmosdom.ru;Центральный дом авиации и космонавтики ДОСААФ России;generic;needs_adapter;0;2026-11-05T05:56:04.416384+00:00;0;False
-cdra.ru;Центральный Дом Российской Армии;generic;needs_adapter;0;2026-11-05T05:56:04.770663+00:00;0;False
-kcvs.ru;Центральный Дом Российской Армии;generic;unavailable;0;2026-11-05T05:56:05.372662+00:00;3;False
-partyhall.ru;Центральный Дом Российской Армии;generic;needs_adapter;0;2026-11-05T05:56:06.589619+00:00;0;False
-rosgvard.ru;Центральный музей войск национальной гвардии Российской Федерации;generic;unavailable;0;2026-11-05T05:56:06.811033+00:00;1;False
-museum.rosguard.gov.ru;Центральный музей войск национальной гвардии Российской Федерации;generic;needs_adapter;0;2026-11-05T05:56:06.937884+00:00;0;False
-mvd.ru;Центральный музей МВД России;generic;needs_adapter;0;2026-11-05T05:56:08.825621+00:00;0;False
-mchs.gov.ru;Центральный музей МЧС России;generic;needs_adapter;0;2026-11-05T05:56:09.109857+00:00;0;False
-museum.customs.gov.ru;Центральный музей таможенной службы;generic;needs_adapter;0;2026-11-05T05:56:09.204988+00:00;0;False
-park-gorkogo.ru;Центральный парк культуры и отдыха им. М. Горького, Музей;generic;needs_adapter;0;2026-11-05T05:56:09.752992+00:00;0;False
-ps.fsb.ru;Центральный пограничный музей ФСБ России;generic;needs_adapter;0;2026-11-05T05:56:10.215910+00:00;1;False
-ndm-museum.ru;Церковный музей Московской Епархии Русской Православной Церкви;generic;unavailable;0;2026-11-05T05:56:10.860742+00:00;1;False
-holy-robe-deposition-church.kreml.ru;Церковь Положения Ризы Божией Матери;generic;unavailable;0;2026-11-05T05:56:12.457633+00:00;1;False
-teapotland.ru;Чайникландия - Музей удивительных чайников мира;generic;needs_adapter;0;2026-11-05T05:56:12.508667+00:00;0;False
-school.aaii.ru;Школа акварели Сергея Андрияки;generic;needs_adapter;0;2026-11-05T05:56:13.117020+00:00;0;False
-pro100klass.wixsite.com;Школьные годы;generic;needs_adapter;0;2026-11-05T05:56:13.642372+00:00;0;False
-sch2126.mskobr.ru;Школьные годы;generic;needs_adapter;0;2026-11-05T05:56:14.934812+00:00;0;False
-rusheva.com;Школьный мемориальный музей Нади Рушевой;generic;unavailable;0;2026-11-05T05:56:15.928240+00:00;1;False
-sch1770.mskobr.ru;Школьный музей XX века;generic;needs_adapter;0;2026-11-05T05:56:16.968137+00:00;0;False
-xn--e1ahboc1a5byb.xn--d1acj3b;Эйнштейн.дети, музей;generic;unavailable;0;2026-11-05T05:56:17.619258+00:00;1;False
-xn--h1abpis6ct.xn--80adxhks;Эйфория, арт-пространство;generic;unavailable;0;2026-11-05T05:56:17.926716+00:00;1;False
-ecosborka.ru;ЭкоЦентр Сборка;generic;needs_adapter;0;2026-11-05T05:56:18.049167+00:00;0;False
-ekokuskovo.clients.site;Экоцентр экошкола Кусково;generic;needs_adapter;0;2026-11-05T05:56:21.138414+00:00;0;False
-mihrab.ru;Экскурсионное бюро, Московская Соборная мечеть;generic;needs_adapter;0;2026-11-05T05:56:22.490461+00:00;0;False
-exlibriscafe.ru;ЭксЛибрис;generic;needs_adapter;0;2026-11-05T05:56:22.671108+00:00;0;False
-experimentanium.ru;Экспериментаниум;generic;needs_adapter;0;2026-11-05T05:56:22.838708+00:00;0;False
-kuzpark.ru;Экспозиция меда и пчеловодства;generic;needs_adapter;0;2026-11-05T05:56:23.099373+00:00;0;False
-elysium.ru;Элизиум;generic;unavailable;0;2026-11-05T05:56:23.370109+00:00;3;False
-museum.yandex.ru;Яндекс Музей;generic;needs_adapter;0;2026-11-05T05:56:24.695683+00:00;0;False
-yandex.ru;Яндекс Музей;generic;needs_adapter;0;2026-11-05T05:56:25.106565+00:00;0;False
+agencyart.ru;Art ru;generic;needs_adapter;0;2026-11-06T05:28:22.251915+00:00;0;False
+art-story.com;Art Story;generic;unavailable;0;2026-11-06T05:28:22.251915+00:00;3;False
+kartina-ponomeram-pofoto.ru;Artmix;generic;needs_adapter;0;2026-11-06T05:28:22.251915+00:00;0;False
+azart.moscow;Az/art;generic;needs_adapter;0;2026-11-06T05:28:22.252435+00:00;0;False
+tochkag.net;Bubble Love;generic;unavailable;0;2026-11-06T05:28:22.252435+00:00;1;False
+cube.moscow;Cube.Moscow, центр современного искусства;generic;needs_adapter;0;2026-11-06T05:28:22.252435+00:00;0;False
+paleontologia.ru;Era;generic;needs_adapter;0;2026-11-06T05:28:22.252435+00:00;0;False
+fedini.art;Fedini Gallery;generic;needs_adapter;0;2026-11-06T05:28:22.252435+00:00;0;False
+galleryfineart.ru;Fineart Gallery;generic;needs_adapter;0;2026-11-06T05:28:23.005474+00:00;0;False
+frais.ru;Frais, кондитерская фабрика;generic;needs_adapter;0;2026-11-06T05:28:23.378406+00:00;0;False
+garagemca.org;Garage, музей современного искусства;cards;ok;6;2026-11-06T05:28:23.394947+00:00;0;False
+inartibus.org;In Artibus foundation;generic;ok;1;2026-11-06T05:28:23.516446+00:00;0;False
+luminarx.ru;Luminar-X, иммерсивное арт-пространство;generic;needs_adapter;0;2026-11-06T05:28:24.359085+00:00;0;False
+megabricks.ru;Megabricks, музей Лего;generic;unavailable;0;2026-11-06T05:28:25.263869+00:00;1;False
+melspace.ru;MelSpace;generic;needs_adapter;0;2026-11-06T05:28:26.812807+00:00;0;False
+popupmuseum.art;Pop Up Museum;generic;unavailable;0;2026-11-06T05:28:26.812807+00:00;1;False
+msk.smile-park.ru;Smile Park на ВДНХ, музей иллюзий;generic;needs_adapter;0;2026-11-06T05:28:27.273165+00:00;0;False
+vladey.net;Vladey;generic;unavailable;0;2026-11-06T05:28:28.004676+00:00;1;False
+automuseum.ru;Автомобили мира, музей;generic;needs_adapter;0;2026-11-06T05:28:28.067253+00:00;0;False
+academgorodokmitino.ru;Академгородок Митино;generic;needs_adapter;0;2026-11-06T05:28:28.299356+00:00;0;False
+эйнштейн.дети;Академия Теслы;generic;unavailable;0;2026-11-06T05:28:29.137072+00:00;1;False
+gokhran.ru;Алмазный фонд, выставочный зал;generic;needs_adapter;0;2026-11-06T05:28:29.210458+00:00;0;False
+kreml.ru;Алмазный фонд, выставочный зал;generic;needs_adapter;0;2026-11-06T05:28:30.321594+00:00;0;False
+museum.angstrem.ru;Ангстрем;generic;unavailable;0;2026-11-06T05:28:30.516632+00:00;1;False
+ivan-the-great-bell-tower.kreml.ru;Ансамбль колокольни Иван Великий, Московский Кремль;generic;unavailable;0;2026-11-06T05:28:30.915214+00:00;1;False
+tsaritsyno-museum.ru;Ансамбль усадьбы Царицыно, Большой дворец;cards;ok;12;2026-11-06T05:28:33.573529+00:00;0;False
+hortus.msu.ru;Аптекарский огород, викторная оранжерея;generic;needs_adapter;0;2026-11-06T05:28:34.166693+00:00;0;False
+artdecomuseum.ru;АР Деко;generic;needs_adapter;0;2026-11-06T05:28:34.407297+00:00;0;False
+goslitmuz.ru;Арка Марка;generic;needs_adapter;0;2026-11-06T05:28:35.736546+00:00;0;False
+armmuseum.ru;Армянский музей Москвы и культуры наций;generic;needs_adapter;0;2026-11-06T05:28:35.768841+00:00;0;False
+naive-museum.ru;Арт-Наив-Парк;generic;needs_adapter;0;2026-11-06T05:28:36.100363+00:00;0;False
+artdynamics.ru;АртДинамикс;generic;needs_adapter;0;2026-11-06T05:28:37.775801+00:00;0;False
+shm.ru;Артиллерийский двор Исторического музея;cards;ok;15;2026-11-06T05:28:38.665015+00:00;0;False
+archangel-cathedral.kreml.ru;Архангельский собор, Московский Кремль;generic;unavailable;0;2026-11-06T05:28:39.350284+00:00;1;False
+atom.museum;Атом;generic;needs_adapter;0;2026-11-06T05:28:40.085881+00:00;0;False
+basmania.ru;Басмания, музей Басманного района;generic;ok;1;2026-11-06T05:28:40.801168+00:00;0;False
+mgomz.ru;Башня Братского острога;generic;needs_adapter;0;2026-11-06T05:28:40.914536+00:00;0;False
+belvorobey.ru;Белый воробей;generic;needs_adapter;0;2026-11-06T05:28:42.949119+00:00;0;False
+moscow-bestiary.ru;Бестиарий, криптозоологический музей;generic;unavailable;0;2026-11-06T05:28:45.612358+00:00;1;False
+sviblovoprav.mskobr.ru;Библейский музей;generic;needs_adapter;0;2026-11-06T05:28:46.004734+00:00;0;False
+biotechmuseum.fbras.ru;Биотех;generic;needs_adapter;0;2026-11-06T05:28:46.152442+00:00;0;False
+annunciation-cathedral.kreml.ru;Благовещенский собор, Московский Кремль;generic;unavailable;0;2026-11-06T05:28:46.691919+00:00;1;False
+kuskovo.ru;Большая каменная оранжерея, музей;cards;ok;11;2026-11-06T05:28:46.869169+00:00;0;False
+1812panorama.ru;Бородинская битва, музей-панорама;generic;ok;4;2026-11-06T05:28:47.662128+00:00;0;False
+winzavod.ru;Бродильный цех;generic;ok;16;2026-11-06T05:28:48.555441+00:00;0;False
+dombulgakova.ru;Булгаковский Дом, музей;mec-calendar;unavailable;109;2026-11-06T05:28:49.794744+00:00;1;True
+bunker42.com;Бункер-42;generic;unavailable;0;2026-11-06T05:28:51.823593+00:00;2;False
+bunker703.ru;Бункер-703;generic;needs_adapter;0;2026-11-06T05:28:51.966507+00:00;0;False
+podzemnayamoskva.ru;Бункер-музей Подземная Москва;generic;needs_adapter;0;2026-11-06T05:28:52.758333+00:00;0;False
+vdnh.ru;Буран, интерактивный музейный комплекс;generic;needs_adapter;0;2026-11-06T05:28:53.469384+00:00;0;False
+domskazok.su;Буратино-Пиноккио, музей;generic;needs_adapter;0;2026-11-06T05:28:54.395534+00:00;0;False
+sw-cosplay.ru;В далёкой-далёкой Галактике, выставка-косплей;generic;needs_adapter;0;2026-11-06T05:28:55.269560+00:00;0;False
+museuminsilence.ru;В Тишине;generic;needs_adapter;0;2026-11-06T05:28:55.675768+00:00;2;False
+ecocenter-vg.tilda.ws;Воробьёвы горы, эколого-просветительский центр;generic;needs_adapter;0;2026-11-06T05:28:56.352410+00:00;0;False
+damuseum.ru;Всероссийский музей декоративного искусства;generic;needs_adapter;0;2026-11-06T05:28:57.120364+00:00;0;False
+museumsport.ru;Всероссийский физкультурно-спортивный комплекс Готов к труду и обороне;generic;needs_adapter;0;2026-11-06T05:28:58.369871+00:00;0;False
+tickets.gokhran.ru;Выставка Алмазный фонд Гохрана России;generic;needs_adapter;0;2026-11-06T05:28:59.550735+00:00;0;False
+official.vdnh.ru;Выставка достижений народного хозяйства;generic;needs_adapter;0;2026-11-06T05:29:00.028108+00:00;0;False
+mtmuseum.ru;Выставочное пространство Музея транспорта Москвы;generic;needs_adapter;0;2026-11-06T05:29:00.254730+00:00;0;False
+pushkinmuseum.ru;Выставочный зал государственного музея имени А.С. Пушкина;generic;needs_adapter;0;2026-11-06T05:29:01.020614+00:00;0;False
+tolstoymuseum.ru;Выставочный зал Л.Н.Толстого;generic;needs_adapter;0;2026-11-06T05:29:02.050575+00:00;0;False
+museum.cbr.ru;Выставочный зал музейно-экспозиционного фонда Банка России;generic;needs_adapter;0;2026-11-06T05:29:02.631940+00:00;0;False
+mosmuseum.ru;Выставочный зал Музея Зеленограда;cards;ok;69;2026-11-06T05:29:03.122728+00:00;0;False
+rah.ru;Выставочный зал Российской академии художеств;generic;needs_adapter;0;2026-11-06T05:29:04.691681+00:00;0;False
+sakharov-center.ru;Выставочный зал Сахаровского центра;generic;needs_adapter;0;2026-11-06T05:29:05.996131+00:00;0;False
+statearchive.ru;Выставочный зал федеральных архивов;generic;needs_adapter;0;2026-11-06T05:29:06.025778+00:00;0;False
+goramuseum.ru;Г.о.р.а., музей;generic;needs_adapter;0;2026-11-06T05:29:07.509172+00:00;1;False
+syntaxgallery.com;Галерея Syntax;generic;needs_adapter;0;2026-11-06T05:29:08.088731+00:00;0;False
+belyaevo.vzmoscow.ru;Галерея Беляево;generic;needs_adapter;0;2026-11-06T05:29:08.135954+00:00;1;False
+vykhino.vzmoscow.ru;Галерея Выхино;generic;needs_adapter;0;2026-11-06T05:29:09.211549+00:00;1;False
+davydkovo.vzmoscow.ru;Галерея Давыдково;generic;needs_adapter;0;2026-11-06T05:29:09.332621+00:00;1;False
+zagorje.vzmoscow.ru;Галерея Загорье;generic;needs_adapter;0;2026-11-06T05:29:09.658874+00:00;0;False
+glazunov-gallery.ru;Галерея Ильи Глазунова, Музей русского лубка и наивного искусства;generic;needs_adapter;0;2026-11-06T05:29:10.020141+00:00;0;False
+tsereteli.ru;Галерея искусств Зураба Церетели;generic;unavailable;0;2026-11-06T05:29:11.402382+00:00;1;False
+dzen.ru;Галерея искусств Зураба Церетели;generic;needs_adapter;0;2026-11-06T05:29:13.212023+00:00;0;False
+gallerykino.ru;Галерея Кино;generic;needs_adapter;0;2026-11-06T05:29:13.665147+00:00;0;False
+classicgallery.ru;Галерея классической фотографии;generic;needs_adapter;0;2026-11-06T05:29:13.866417+00:00;0;False
+dollslane.ru;Галерея Кукольный переулок;generic;needs_adapter;0;2026-11-06T05:29:14.070105+00:00;0;False
+kashirka.vzmoscow.ru;Галерея на Каширке;generic;needs_adapter;0;2026-11-06T05:29:14.417187+00:00;1;False
+shabolovka.vzmoscow.ru;Галерея на Шаболовке, музей авангарда;generic;needs_adapter;0;2026-11-06T05:29:14.509059+00:00;0;False
+nikoartgallery.com;Галерея Нико;generic;unavailable;4;2026-11-06T05:29:14.515655+00:00;3;True
+peresvetov.vzmoscow.ru;Галерея Пересветов переулок;generic;needs_adapter;0;2026-11-06T05:29:15.073834+00:00;0;False
+rostokino.vzmoscow.ru;Галерея Ростокино;generic;needs_adapter;0;2026-11-06T05:29:15.088044+00:00;1;False
+khodynka.vzmoscow.ru;Галерея Ходынка;generic;needs_adapter;0;2026-11-06T05:29:15.546868+00:00;0;False
+web.telegram.org;Галерея Ходынка;generic;needs_adapter;0;2026-11-06T05:29:16.161475+00:00;0;False
+fondkp.ru;Галерея Царская башня;generic;needs_adapter;0;2026-11-06T05:29:16.661577+00:00;0;False
+petrlizunov.com;Галерея-мастерская художника Лизунова П.;generic;needs_adapter;0;2026-11-06T05:29:17.010553+00:00;0;False
+memorythegallery.vsite.biz;Галерея-музей Память;generic;needs_adapter;0;2026-11-06T05:29:17.045745+00:00;0;False
+gon-museum.ru;Гараж особого назначения ФСО России, музей;generic;needs_adapter;0;2026-11-06T05:29:17.115836+00:00;0;False
+narkomfin.ru;Гараж, музей;generic;needs_adapter;0;2026-11-06T05:29:17.154906+00:00;0;False
+afgan-zal.ru;ГБУК г. Москвы Государственный выставочный зал истории войны в Афганистане;generic;needs_adapter;0;2026-11-06T05:29:17.924635+00:00;0;False
+vnesterenko.ru;ГБУК города Москвы Московская государственная картинная галерея Василия Нестеренко;generic;needs_adapter;0;2026-11-06T05:29:18.925026+00:00;0;False
+nesterenko.arts.mos.ru;ГБУК города Москвы Московская государственная картинная галерея Василия Нестеренко;generic;needs_adapter;0;2026-11-06T05:29:19.146663+00:00;0;False
+sgm.ru;Геологический Государственный музей им. В.И. Вернадского;generic;needs_adapter;0;2026-11-06T05:29:19.458084+00:00;0;False
+olehnik.ru;Геолого-палеонтологический школьный музей;generic;needs_adapter;0;2026-11-06T05:29:19.632026+00:00;0;False
+zen.yandex.ru;Гербовый зал г. Москвы;generic;needs_adapter;0;2026-11-06T05:29:20.106353+00:00;0;False
+domsmirnova.com;Главный дом городской усадьбы О. И. Гарчиковой - П. П. Смирнова;generic;needs_adapter;0;2026-11-06T05:29:20.322600+00:00;1;False
+park-kuzminki.ru;Главный дом усадьбы Н.А. Дурасова;generic;unavailable;0;2026-11-06T05:29:20.371546+00:00;3;False
+pushkinmuseum.art;ГМИИ имени Пушкина, Галерея искусства стран Европы и Америки XIX – XX веков;pushkin;unavailable;62;2026-11-06T05:29:20.960338+00:00;1;True
+russpass.ru;Городская усадьба И.Е. Рубцова-Моргуновых, г. Москва;generic;needs_adapter;0;2026-11-06T05:29:21.128589+00:00;0;False
+museum-tropinina.ru;Городская усадьба Масленниковых-Петуховых, г. Москва;generic;needs_adapter;0;2026-11-06T05:29:22.085625+00:00;0;False
+usadbazubovyh.ru;Городская усадьба Полежаевых и Зубовых;generic;needs_adapter;0;2026-11-06T05:29:22.200269+00:00;0;False
+gorkiy.plus;Горький плюс, музей;generic;unavailable;0;2026-11-06T05:29:23.472410+00:00;1;False
+tretyakovgallery.ru;Государственная Третьяковская галерея;tretyakov-api;ok;48;2026-11-06T05:29:24.920615+00:00;0;False
+tretyakov.ru;Государственная Третьяковская галерея, галерея Новая Третьяковка;generic;unavailable;0;2026-11-06T05:29:25.183814+00:00;1;False
+hramvtolmachah.ru;Государственная Третьяковская галерея, Музей-храм Святителя Николая в Толмачах;generic;needs_adapter;0;2026-11-06T05:29:26.586879+00:00;0;False
+2011.bolshoi.ru;Государственный Академический Большой Театр России, музей;generic;unavailable;0;2026-11-06T05:29:27.479235+00:00;1;False
+gbmt.ru;Государственный Биологический музей им. К.А. Тимирязева;generic;needs_adapter;0;2026-11-06T05:29:28.339120+00:00;0;False
+darwinmuseum.ru;Государственный Дарвиновский музей;cards;ok;43;2026-11-06T05:29:29.343732+00:00;0;False
+sketchfab.com;Государственный Дарвиновский музей;generic;needs_adapter;0;2026-11-06T05:29:32.007397+00:00;0;False
+izi.travel;Государственный историко-архитектурный художественный и ландшафтный музей-заповедник Царицыно;generic;needs_adapter;0;2026-11-06T05:29:32.081299+00:00;0;False
+okudshava.ru;Государственный мемориальный музей Б. Ш. Окуджавы;generic;needs_adapter;0;2026-11-06T05:29:32.875615+00:00;0;False
+muar.ru;Государственный музей архитектуры им. А.В. Щусева;generic;needs_adapter;0;2026-11-06T05:29:32.955813+00:00;0;False
+xn--80aedfjnibldycb2bv1r.xn--p1ai;Государственный музей В.В. Маяковского;generic;unavailable;0;2026-11-06T05:29:33.848197+00:00;3;False
+data.mos.ru;Государственный музей В.В. Маяковского;generic;needs_adapter;0;2026-11-06T05:29:34.193707+00:00;0;False
+muzeimayakovskogo.ru;Государственный музей В.В. Маяковского;generic;needs_adapter;0;2026-11-06T05:29:34.775705+00:00;2;False
+музеймаяковского.рф;Государственный музей В.В. Маяковского;generic;unavailable;0;2026-11-06T05:29:35.252455+00:00;3;False
+visotsky.ru;Государственный музей Владимира Высоцкого;generic;needs_adapter;0;2026-11-06T05:29:36.853915+00:00;0;False
+orientmuseum.ru;Государственный музей Востока;generic;needs_adapter;0;2026-11-06T05:29:39.913955+00:00;0;False
+museum.timacad.ru;Государственный музей животноводства им. Е. Ф. Лискуна;generic;unavailable;0;2026-11-06T05:29:40.988920+00:00;1;False
+gmom.ru;Государственный музей обороны Москвы;generic;needs_adapter;0;2026-11-06T05:29:42.914998+00:00;0;False
+ostafyevomuseum.ru;Государственный музей-заповедник Остафьево-Русский Парнас;generic;needs_adapter;0;2026-11-06T05:29:43.301790+00:00;0;False
+ostrovsky-museum.ru;Государственный музей-культурный центр Интеграция им. Н. А. Островского;generic;needs_adapter;0;2026-11-06T05:29:43.649587+00:00;0;False
+tverskaya14.ru;Государственный музей-культурный центр Интеграция им. Н. А. Островского;generic;needs_adapter;0;2026-11-06T05:29:44.270247+00:00;0;False
+rosizo.ru;Государственный музейно-выставочный центр Росизо;generic;partial;29;2026-11-06T05:29:44.650982+00:00;2;True
+vma.muar.ru;Государственный научно-исследовательский музей архитектуры имени А. В. Щусева;generic;unavailable;0;2026-11-06T05:29:45.173622+00:00;1;False
+sovrhistory.ru;Государственный центральный музей современной истории России;generic;ok;132;2026-11-06T05:29:46.663058+00:00;0;False
+sovr.ru;Государственный центральный музей современной истории России, филиал Пресня;generic;unavailable;0;2026-11-06T05:29:48.354132+00:00;1;False
+bakhrushinmuseum.ru;Государственный центральный театральный музей им. Бахрушина А. А.;generic;needs_adapter;0;2026-11-06T05:29:50.559197+00:00;0;False
+gctm.ru;Государственный центральный театральный музей им. Бахрушина А. А.;generic;needs_adapter;0;2026-11-06T05:29:51.793114+00:00;0;False
+grammofonika.ru;Граммофоника, музей виниловой музыки;generic;needs_adapter;0;2026-11-06T05:29:53.906378+00:00;0;False
+solyankagallery.ru;ГРАУНД Солянка;generic;needs_adapter;0;2026-11-06T05:29:55.272111+00:00;0;False
+iskusstvo.org;Дали & Пикассо, художественная выставка;generic;needs_adapter;0;2026-11-06T05:29:55.356221+00:00;1;False
+сдюсшор64.рф;Дворец борьбы имени Ивана Ярыгина;generic;needs_adapter;0;2026-11-06T05:29:56.022857+00:00;0;False
+dynamomuseum.ru;Динамо, музей;generic;unavailable;0;2026-11-06T05:29:56.877024+00:00;1;False
+liza.fund;Доктор Лиза;generic;needs_adapter;0;2026-11-06T05:29:56.912484+00:00;0;False
+domloseva.ru;Дом А. Ф. Лосева;generic;needs_adapter;0;2026-11-06T05:29:57.614264+00:00;0;False
+losev-library.ru;Дом А. Ф. Лосева;generic;needs_adapter;0;2026-11-06T05:29:57.661068+00:00;0;False
+mos.ru;Дом А. Ф. Лосева;generic;ok;3;2026-11-06T05:29:59.993576+00:00;0;False
+дом-ангелов.рф;Дом ангелов на Арбате;generic;needs_adapter;0;2026-11-06T05:30:00.124280+00:00;0;False
+xn----8sbgdcj6bdlgh.xn--p1ai;Дом Ангелов на Арбате, музей;generic;needs_adapter;0;2026-11-06T05:30:00.646250+00:00;0;False
+butterflarium.ru;Дом бабочек, Муравьёв и Рептилий;generic;needs_adapter;0;2026-11-06T05:30:01.022359+00:00;0;False
+dombulata.ru;Дом Булата;generic;needs_adapter;0;2026-11-06T05:30:01.332716+00:00;0;False
+burganov.ru;Дом Бурганова, музей;generic;needs_adapter;0;2026-11-06T05:30:03.267159+00:00;0;False
+домгарри.рф;Дом Гарри;generic;needs_adapter;0;2026-11-06T05:30:05.607772+00:00;0;False
+domgogolya.ru;Дом Н.В. Гоголя;cards;ok;39;2026-11-06T05:30:06.667160+00:00;0;False
+dnnmuseum.ru;Дом на набережной, музей;generic;needs_adapter;0;2026-11-06T05:30:06.849048+00:00;0;False
+domrz.ru;Дом Русского зарубежья им. А. Солженицына, музей;generic;ok;22;2026-11-06T05:30:07.238508+00:00;0;False
+taplink.cc;Дом русского зарубежья имени А. И. Солженицына;generic;unavailable;0;2026-11-06T05:30:08.783614+00:00;1;False
+mmom.ru;Дом-музей Великой княгини Елизаветы Феодоровны;generic;needs_adapter;0;2026-11-06T05:30:08.788146+00:00;0;False
+konyukhov.ru;Дом-музей и экспедиционный штаб Фёдора Конюхова;generic;needs_adapter;0;2026-11-06T05:30:09.061703+00:00;0;False
+museummhat.ru;Дом-музей К. С. Станиславского;generic;ok;3;2026-11-06T05:30:10.087974+00:00;0;False
+dommuseum.ru;Дом-музей Марины Цветаевой;generic;needs_adapter;0;2026-11-06T05:30:11.217965+00:00;2;False
+perfumer-house.ru;Домъ парфюмера, музей;generic;needs_adapter;0;2026-11-06T05:30:12.173583+00:00;0;False
+osmogenes.ru;Домъ парфюмера, музей;generic;needs_adapter;0;2026-11-06T05:30:12.483345+00:00;0;False
+dosaaf-auto.ru;ДОСААФ России, музей боевой и трудовой славы;generic;needs_adapter;0;2026-11-06T05:30:12.521478+00:00;0;False
+museum.rggu.ru;Другое искусство;generic;needs_adapter;0;2026-11-06T05:30:14.001811+00:00;0;False
+ekartmoscow.ru;Е.К.АртБюро;generic;needs_adapter;0;2026-11-06T05:30:14.471935+00:00;0;False
+jewish-museum.ru;Еврейский музей и центр толерантности;cards;ok;47;2026-11-06T05:30:14.564026+00:00;0;False
+esenin-museum.ru;Есенин-центр Московского государственного музея С. А. Есенина;generic;unavailable;0;2026-11-06T05:30:15.207582+00:00;1;False
+zhivayaistoriya.com;Живая история, музей;generic;unavailable;0;2026-11-06T05:30:15.536297+00:00;1;False
+zhivayaistoriya.ru;Живая история, музей;generic;needs_adapter;0;2026-11-06T05:30:15.959828+00:00;0;False
+zabawushka.ru;Забавушка;generic;needs_adapter;0;2026-11-06T05:30:16.050050+00:00;0;False
+stalinbunker.ru;Запасной командный пункт Верховного Главнокомандующего Красной Армии И.В. Сталина периода Великой Отечественной войны 1941-1945;generic;unavailable;0;2026-11-06T05:30:16.705967+00:00;2;False
+cmaf.ru;Запасной командный пункт Верховного Главнокомандующего Красной Армии И.В. Сталина периода Великой Отечественной войны 1941-1945 гг.;generic;needs_adapter;0;2026-11-06T05:30:17.000593+00:00;0;False
+zlatoustmonastyr.ru;Златоустовский мужской монастырь;generic;needs_adapter;0;2026-11-06T05:30:17.496552+00:00;0;False
+izmmu.ru;Зоологический музей МГУ;generic;needs_adapter;0;2026-11-06T05:30:18.073134+00:00;0;False
+zmmu.msu.ru;Зоологический музей МГУ;generic;needs_adapter;0;2026-11-06T05:30:18.635588+00:00;1;False
+zmmu.org;Зоологический музей МГУ;generic;needs_adapter;0;2026-11-06T05:30:19.015017+00:00;0;False
+sch904u.mskobr.ru;И не помнить об этом нельзя, военно-патриотический музей;generic;needs_adapter;0;2026-11-06T05:30:19.704747+00:00;0;False
+rsl.ru;Ивановский зал РГБ;generic;needs_adapter;0;2026-11-06T05:30:20.115771+00:00;0;False
+kremlin-izmailovo.com;Избушка Бабы-Яги;generic;unavailable;0;2026-11-06T05:30:20.533346+00:00;2;False
+animamuseum.ru;Измайловский кремль, музей анимации;generic;needs_adapter;0;2026-11-06T05:30:20.754469+00:00;0;False
+ingos.ru;Ингосстрах, музей;generic;needs_adapter;0;2026-11-06T05:30:21.943198+00:00;0;False
+park-inno.ru;Иннопарк;generic;unavailable;0;2026-11-06T05:30:22.208475+00:00;1;False
+vk.link;Инсектопия;generic;unavailable;0;2026-11-06T05:30:23.105710+00:00;1;False
+mozg.moscow;Интерактивный музей мозга;generic;needs_adapter;0;2026-11-06T05:30:23.480696+00:00;0;False
+mos-anatomikum.ru;Интерактивный музей Московский Анатомикум;generic;needs_adapter;0;2026-11-06T05:30:23.711985+00:00;0;False
+museumcherdak.ru;Интерактивный политехнический музей Дедушкин чердак;generic;needs_adapter;0;2026-11-06T05:30:24.820350+00:00;0;False
+museum.sportedu.ru;Историко-спортивный музей Рус Гцолифк;generic;unavailable;0;2026-11-06T05:30:24.873677+00:00;1;False
+mzd.rzd.ru;Историческая площадка Паровозное депо Подмосковная;generic;unavailable;0;2026-11-06T05:30:25.374298+00:00;1;False
+xn--b1ae4ad.xn--p1ai;Историческая экспозиция пожарно-спасательной службы;generic;needs_adapter;0;2026-11-06T05:30:25.498704+00:00;0;False
+вдпо.рф;Историческая экспозиция пожарно-спасательной службы;generic;needs_adapter;0;2026-11-06T05:30:25.585611+00:00;0;False
+kadashi.ru;Кадашевская слобода, канцелярия;generic;needs_adapter;0;2026-11-06T05:30:26.326708+00:00;0;False
+ambercombine.ru;Калининградский янтарный комбинат;generic;needs_adapter;0;2026-11-06T05:30:28.782782+00:00;1;False
+m.dzen.ru;Квартира Г. М. Кржижановского, экспозиционно-мемориальный отдел;generic;needs_adapter;0;2026-11-06T05:30:28.839853+00:00;0;False
+zaryadyepark.ru;Китайгородская стена;generic;needs_adapter;0;2026-11-06T05:30:28.912271+00:00;0;False
+keymineral.ru;Ключ земли, геологический музей;generic;unavailable;0;2026-11-06T05:30:29.396977+00:00;3;False
+cosmos.vdnh.ru;Космонавтика и авиация, музей;generic;needs_adapter;0;2026-11-06T05:30:29.914058+00:00;0;False
+hram-kurkino.ru;Краеведческий музей при храме Владимирской иконы Божией Матери;generic;needs_adapter;0;2026-11-06T05:30:30.502197+00:00;1;False
+newmanege.ru;Креативное пространство Новый Манеж;generic;needs_adapter;0;2026-11-06T05:30:31.133277+00:00;0;False
+kremlin-ksk.ru;Кремлевская школа верховой езды;generic;needs_adapter;0;2026-11-06T05:30:31.417665+00:00;0;False
+kulturazao.ru;Культурный центр Внуково;generic;unavailable;0;2026-11-06T05:30:32.407822+00:00;1;False
+kulturaszao.ru;Культурный центр Митино, музей морского космического флота;generic;needs_adapter;0;2026-11-06T05:30:32.799594+00:00;0;False
+rublev-museum.ru;Лекторий Музея им. Андрея Рублева;generic;ok;21;2026-11-06T05:30:33.535785+00:00;0;False
+historydepositarium.ru;Лица победы, исторический депозитарий;generic;needs_adapter;0;2026-11-06T05:30:35.386416+00:00;0;False
+lomakovka.ru;Ломаковский музей старинных автомобилей и мотоциклов;generic;needs_adapter;0;2026-11-06T05:30:35.909234+00:00;0;False
+museum.lukoil.ru;Лукойл, музей;generic;needs_adapter;0;2026-11-06T05:30:36.128721+00:00;0;False
+planetarium-moscow.ru;Лунариум, интерактивное пространство;generic;needs_adapter;0;2026-11-06T05:30:36.446890+00:00;0;False
+luchgallery.com;Луч;generic;needs_adapter;0;2026-11-06T05:30:36.838017+00:00;0;False
+mirvodki.com;М.и.р. водки, музей истории русской водки;generic;needs_adapter;0;2026-11-06T05:30:36.839021+00:00;0;False
+lgc.mirchocolat.ru;М.и.р. шоколада Крылатское;generic;needs_adapter;0;2026-11-06T05:30:37.082527+00:00;0;False
+majolicamuseum.ru;Майолики, художественный музей;generic;needs_adapter;0;2026-11-06T05:30:37.283232+00:00;0;False
+maketmoskvy.ru;Макет Москвы, выставочный центр;generic;needs_adapter;0;2026-11-06T05:30:37.394331+00:00;0;False
+artplay.ru;Малый выставочный зал;generic;needs_adapter;0;2026-11-06T05:30:37.656370+00:00;0;False
+clck.ru;Марс, центр современного искусства;generic;needs_adapter;0;2026-11-06T05:30:38.221881+00:00;0;False
+icom-russia.com;Международный совет музеев;generic;needs_adapter;0;2026-11-06T05:30:38.237062+00:00;0;False
+erzia-fond.com;Международный фонд искусств им. Ст.Д. Эрьзи;generic;unavailable;0;2026-11-06T05:30:38.458393+00:00;1;False
+maly.ru;Мемориальная квартира А. И. Сумбатова-Южина;generic;needs_adapter;0;2026-11-06T05:30:40.288452+00:00;0;False
+kvartira-belogo.guru.ru;Мемориальная квартира Андрея Белого;generic;needs_adapter;0;2026-11-06T05:30:41.276234+00:00;0;False
+sviatoslav-richter.ru;Мемориальная квартира Святослава Рихтера;generic;unavailable;0;2026-11-06T05:30:41.833458+00:00;1;False
+nrcki.ru;Мемориальный дом-музей академика И.В. Курчатова;generic;unavailable;0;2026-11-06T05:30:41.896330+00:00;1;False
+jivo.chat;Мемориальный дом-музей академика С.П. Королёва;generic;needs_adapter;0;2026-11-06T05:30:42.183530+00:00;0;False
+kosmo-museum.ru;Мемориальный дом-музей академика С.П. Королёва;cards;ok;7;2026-11-06T05:30:42.980804+00:00;0;False
+iep.ru;Мемориальный кабинет Гайдара, музей;generic;needs_adapter;0;2026-11-06T05:30:44.243434+00:00;0;False
+ineos.ac.ru;Мемориальный кабинет-музей академика А.Н. Несмеянова;generic;needs_adapter;0;2026-11-06T05:30:44.341244+00:00;0;False
+museum.ru;Мемориальный кабинет-музей академика А.П. Виноградова;generic;unavailable;0;2026-11-06T05:30:45.013532+00:00;1;False
+scriabinmuseum.ru;Мемориальный музей А. Н. Скрябина;scriabin;ok;61;2026-11-06T05:30:45.525660+00:00;0;False
+evgenia20.ru;Мемориальный музей Евгении Сергеевны Коваленко;generic;needs_adapter;0;2026-11-06T05:30:46.188946+00:00;0;False
+gnesina-museum.com;Мемориальный музей-квартира Е.Ф. Гнесиной;generic;needs_adapter;0;2026-11-06T05:30:46.481547+00:00;0;False
+timmuseum.timacad.ru;Мемориальный музей-квартира К. А. Тимирязева;generic;unavailable;0;2026-11-06T05:30:47.343169+00:00;1;False
+puppet.ru;Мемориальный музей-квартира С. В. Образцова;generic;needs_adapter;0;2026-11-06T05:30:47.698828+00:00;1;False
+florenskyfond.ru;Мемориальный музей-квартира священника Павла Флоренского;generic;unavailable;0;2026-11-06T05:30:48.281542+00:00;1;False
+culture.ru;МИИТ, дворец культуры;generic;ok;1;2026-11-06T05:30:50.019865+00:00;0;False
+dkmiit.ru;МИИТ, дворец культуры;generic;needs_adapter;0;2026-11-06T05:30:50.314962+00:00;0;False
+fmm.ru;Минералогический музей им. А. Е. Ферсмана;generic;needs_adapter;0;2026-11-06T05:30:50.648494+00:00;0;False
+mgri.ru;Минералогический музей Российского государственного геологоразведочного университета имени С. Орджоникидзе;generic;needs_adapter;0;2026-11-06T05:30:51.589358+00:00;0;False
+chokomuseum.ru;Мишка, музей истории шоколада и какао;generic;needs_adapter;0;2026-11-06T05:30:53.278722+00:00;0;False
+glazunov.ru;Московская государственная картинная галерея народного художника СССР Ильи Глазунова;generic;needs_adapter;0;2026-11-06T05:30:53.316609+00:00;0;False
+marhi.ru;Московский архитектурный институт, музей;generic;needs_adapter;0;2026-11-06T05:30:53.736632+00:00;0;False
+mgdu.dogm.mos.ru;Московский городской дом учителя;generic;needs_adapter;0;2026-11-06T05:30:54.304466+00:00;0;False
+museum.msu.ru;Московский государственный университет им. М.В. Ломоносова, Музей землеведения;generic;needs_adapter;0;2026-11-06T05:30:54.722531+00:00;0;False
+mdn.ru;Московский дом национальностей;generic;needs_adapter;0;2026-11-06T05:30:54.839413+00:00;0;False
+mdx.ru;Московский Дом художника;generic;needs_adapter;0;2026-11-06T05:30:56.125917+00:00;0;False
+moscowzoo.ru;Московский зоопарк, музей;generic;unavailable;0;2026-11-06T05:30:56.184964+00:00;1;False
+moscowdesignmuseum.ru;Московский музей дизайна;generic;needs_adapter;0;2026-11-06T05:30:56.367874+00:00;0;False
+moscow-cat-museum.wixsite.com;Московский Музей Кошки;generic;needs_adapter;0;2026-11-06T05:30:56.547573+00:00;0;False
+museumperfume.ru;Московский музей парфюмерии;generic;needs_adapter;0;2026-11-06T05:30:56.793457+00:00;0;False
+mmoma.ru;Московский музей современного искусства;cards;ok;9;2026-11-06T05:30:56.968475+00:00;0;False
+mmoma.timepad.ru;Московский музей современного искусства;generic;needs_adapter;0;2026-11-06T05:30:57.287268+00:00;0;False
+mosconcert.moscow;Москонцерт, Музыкальная квартира;generic;needs_adapter;0;2026-11-06T05:30:58.834845+00:00;0;False
+warmotors.ru;Моторы войны;generic;needs_adapter;0;2026-11-06T05:30:59.507890+00:00;0;False
+armoury-chamber.kreml.ru;Музеи Московского Кремля, Грановитая палата;generic;unavailable;0;2026-11-06T05:30:59.853548+00:00;1;False
+weliycenter.ru;Музей;generic;needs_adapter;0;2026-11-06T05:31:00.087942+00:00;0;False
+mlrz.ru;Музей;generic;needs_adapter;0;2026-11-06T05:31:00.333232+00:00;0;False
+sch717s.mskobr.ru;Музей 157-й Неманской стрелковой дивизии;generic;needs_adapter;0;2026-11-06T05:31:00.450476+00:00;0;False
+sch1246v.mskobr.ru;Музей 295-й стрелковой Херсонской дивизии;generic;needs_adapter;0;2026-11-06T05:31:00.811790+00:00;0;False
+moscowccc.ru;Музей VI съезда коммунистической партии Китая;generic;unavailable;0;2026-11-06T05:31:01.022244+00:00;1;False
+autostory.pro;Музей автомобильных историй;generic;unavailable;0;2026-11-06T05:31:01.088087+00:00;1;False
+teatrarmii.ru;Музей академического театра Российской армии;generic;unavailable;0;2026-11-06T05:31:01.113622+00:00;2;False
+mvk.academy-andriaka.ru;Музей акварели;generic;needs_adapter;0;2026-11-06T05:31:01.503328+00:00;0;False
+academy-andriaka.ru;Музей акварели;generic;needs_adapter;0;2026-11-06T05:31:01.877727+00:00;0;False
+academy.andriaka.ru;Музей акварели;generic;needs_adapter;0;2026-11-06T05:31:03.498075+00:00;0;False
+andriaka.ru;Музей акварели;generic;needs_adapter;0;2026-11-06T05:31:04.793398+00:00;0;False
+muz-alp.ru;Музей альпинизма;generic;needs_adapter;0;2026-11-06T05:31:05.079785+00:00;0;False
+antropos.msu.ru;Музей антропологии им. Д.Н. Анучина;generic;unavailable;0;2026-11-06T05:31:05.811546+00:00;1;False
+баронмюнхаузен.рф;Музей барона Мюнхгаузена;generic;unavailable;0;2026-11-06T05:31:06.172317+00:00;1;False
+gym1636u.mskobr.ru;Музей боевой славы 327-й авиадивизии 4-й воздушной армии;generic;needs_adapter;0;2026-11-06T05:31:07.282197+00:00;0;False
+gym1507uz.mskobr.ru;Музей боевой славы 43-й армии;generic;needs_adapter;0;2026-11-06T05:31:07.907161+00:00;0;False
+sch-mr.mskobr.ru;Музей боевой славы 6-го гвардейского механизированного корпуса 4-й танковой армии;generic;needs_adapter;0;2026-11-06T05:31:08.177999+00:00;0;False
+museumdal.ru;Музей В. И. Даля;generic;needs_adapter;0;2026-11-06T05:31:08.486267+00:00;0;False
+manufactura-mi.ru;Музей ватной игрушки;generic;needs_adapter;0;2026-11-06T05:31:08.702339+00:00;0;False
+toysmk.ru;Музей ватной игрушки;generic;needs_adapter;0;2026-11-06T05:31:08.920218+00:00;0;False
+museum-vf.ru;Музей военной формы;generic;needs_adapter;0;2026-11-06T05:31:09.231900+00:00;0;False
+rvio.histrf.ru;Музей военной формы;generic;needs_adapter;0;2026-11-06T05:31:09.416642+00:00;0;False
+msk.musbot.ru;Музей Восстания Машин;generic;needs_adapter;0;2026-11-06T05:31:10.121227+00:00;0;False
+watchmuseum.ru;Музей времени и часов;generic;needs_adapter;0;2026-11-06T05:31:11.458482+00:00;1;False
+museum.viam.ru;Музей Всероссийского института авиационных материалов;generic;needs_adapter;0;2026-11-06T05:31:12.295327+00:00;0;False
+victorymuseum.ru;Музей Г.О.Р.А.;cards;ok;14;2026-11-06T05:31:12.497812+00:00;0;False
+10.garagemca.org;Музей Гараж;generic;unavailable;0;2026-11-06T05:31:12.825424+00:00;1;False
+xn--80afcsrlra.xn--p1ai;Музей Гарри Поттера, интерактивная выставка;generic;needs_adapter;0;2026-11-06T05:31:13.037211+00:00;0;False
+ippo.ru;Музей генерал-губернатора Москвы Великого князя Сергея Александровича и истории Императорского православного палестинского общества;generic;needs_adapter;0;2026-11-06T05:31:15.699756+00:00;0;False
+kghmuseum.ru;Музей городского хозяйства Москвы;generic;needs_adapter;0;2026-11-06T05:31:16.216927+00:00;0;False
+xn----7sbabalfgj4as1arld1aqs8v.xn--p1ai;Музей декоративно-прикладного и промышленного искусства, МГХПА им. С.Г. Строганова;generic;ok;8;2026-11-06T05:31:17.246447+00:00;0;False
+kustari.net;Музей деревянной игрушки;generic;unavailable;0;2026-11-06T05:31:17.521590+00:00;1;False
+cdm-moscow.ru;Музей детства;generic;unavailable;0;2026-11-06T05:31:17.804924+00:00;1;False
+audioguide.cdm-moscow.ru;Музей детства;generic;needs_adapter;0;2026-11-06T05:31:19.317490+00:00;0;False
+ugolokdurova.ru;Музей династии Дурова;generic;needs_adapter;0;2026-11-06T05:31:21.173962+00:00;1;False
+museum-ksrk.ru;Музей дома культуры Всероссийского общества слепых;generic;unavailable;0;2026-11-06T05:31:21.323902+00:00;1;False
+ksrk.ru;Музей дома культуры Всероссийского общества слепых;generic;needs_adapter;0;2026-11-06T05:31:21.572914+00:00;0;False
+parcom.ru;Музей ЗАО МОФ Парижская коммуна;generic;needs_adapter;0;2026-11-06T05:31:22.216641+00:00;0;False
+zverevcenter.ru;Музей Зверевский центр современного искусства;generic;needs_adapter;0;2026-11-06T05:31:22.802467+00:00;0;False
+zelmuseum.ru;Музей Зеленограда;generic;ok;21;2026-11-06T05:31:22.984714+00:00;0;False
+cosmos.msu.ru;Музей землеведения Московского государственного университета имени М.В. Ломоносова;generic;needs_adapter;0;2026-11-06T05:31:23.328943+00:00;0;False
+mes.msu.ru;Музей землеведения Московского государственного университета имени М.В. Ломоносова;generic;needs_adapter;0;2026-11-06T05:31:23.726658+00:00;0;False
+msu.ru;Музей землеведения Московского государственного университета имени М.В. Ломоносова;generic;needs_adapter;0;2026-11-06T05:31:24.088862+00:00;0;False
+magistrvv.com;Музей изобразительного и декоративно-прикладного искусства Хайрулова В2;generic;unavailable;0;2026-11-06T05:31:24.761960+00:00;1;False
+museyfondn2.ru;Музей Императора Николая II;generic;needs_adapter;0;2026-11-06T05:31:25.168341+00:00;0;False
+timacad.ru;Музей Индустриализации Земледелия им. В.П. Горячкина;generic;needs_adapter;0;2026-11-06T05:31:25.607245+00:00;0;False
+khrunichevmuseum.tilda.ws;Музей истории;generic;needs_adapter;0;2026-11-06T05:31:26.037906+00:00;0;False
+voginfo.ru;Музей истории ВОГ;generic;needs_adapter;0;2026-11-06T05:31:26.069509+00:00;0;False
+mosparks.ru;Музей истории военно-морского флота;generic;needs_adapter;0;2026-11-06T05:31:26.247210+00:00;0;False
+gmig.ru;Музей истории ГУЛАГа;generic;unavailable;0;2026-11-06T05:31:26.377400+00:00;1;False
+mievr.ru;Музей истории евреев в России;generic;needs_adapter;0;2026-11-06T05:31:26.742690+00:00;0;False
+niitp.ru;Музей истории и технических достижений НИИ ТП;generic;needs_adapter;0;2026-11-06T05:31:26.919941+00:00;0;False
+hm.msu.ru;Музей истории МГУ имени М.В. Ломоносова;generic;needs_adapter;0;2026-11-06T05:31:27.220137+00:00;0;False
+museum.historymed.ru;Музей истории медицины МГМСУ имени А. И. Евдокимова;generic;needs_adapter;0;2026-11-06T05:31:27.333789+00:00;1;False
+sechenov.ru;Музей истории медицины первого Московского государственного медицинского университета им. И.М. Сеченова;generic;unavailable;0;2026-11-06T05:31:27.742311+00:00;1;False
+monikiweb.ru;Музей истории МОНИКИ;generic;needs_adapter;0;2026-11-06T05:31:27.811415+00:00;0;False
+miit.ru;Музей истории Московского государственного университета путей сообщения;generic;needs_adapter;0;2026-11-06T05:31:27.938729+00:00;0;False
+pkb1.ru;Музей истории Московской городской психиатрической больницы им. Н.А. Алексеева;generic;needs_adapter;0;2026-11-06T05:31:28.886375+00:00;0;False
+mosenergo-museum.ru;Музей истории Мосэнерго;generic;needs_adapter;0;2026-11-06T05:31:29.269879+00:00;0;False
+mint.museum;Музей истории науки и техники;generic;needs_adapter;0;2026-11-06T05:31:29.451510+00:00;2;False
+mospolytech.ru;Музей истории полиграфии, книгоиздания и МГУП им. Ивана Федорова;generic;needs_adapter;0;2026-11-06T05:31:29.465302+00:00;0;False
+prostarover.ru;Музей истории Преображенского старообрядческого монастыря;generic;needs_adapter;0;2026-11-06T05:31:29.691964+00:00;0;False
+mos-gaz.ru;Музей истории развития газового хозяйства;generic;needs_adapter;0;2026-11-06T05:31:29.954649+00:00;0;False
+museum-vnukovo.ru;Музей истории района Внуково;generic;needs_adapter;0;2026-11-06T05:31:30.361294+00:00;0;False
+gubkin.ru;Музей истории Российского государственного университета нефти и газа им. И.М. Губкина;generic;unavailable;0;2026-11-06T05:31:30.744144+00:00;1;False
+sokolniki.mirchocolat.ru;Музей Истории Русского Шоколада Сокольники;generic;needs_adapter;0;2026-11-06T05:31:31.486713+00:00;0;False
+rea.ru;Музей истории РЭУ имени Г. В. Плеханова;generic;ok;6;2026-11-06T05:31:31.584131+00:00;0;False
+telhistory.ru;Музей истории телефона;generic;needs_adapter;0;2026-11-06T05:31:31.950765+00:00;0;False
+museum-shchapovo.msk.muzkult.ru;Музей истории усадьбы Александрово-Щапово;generic;unavailable;0;2026-11-06T05:31:32.410208+00:00;1;False
+agios-nicolos.ru;Музей истории храма и Первой мировой войны;generic;needs_adapter;0;2026-11-06T05:31:32.509961+00:00;1;False
+sevastopolets-moskva.ru;Музей истории Черноморского флота;generic;needs_adapter;0;2026-11-06T05:31:33.071952+00:00;0;False
+mirpaustowskogo.ru;Музей К. Г. Паустовского;generic;needs_adapter;0;2026-11-06T05:31:33.548398+00:00;1;False
+museumkadashi.com;Музей Кадашёвская слобода;generic;unavailable;0;2026-11-06T05:31:34.073970+00:00;1;False
+музейкарамели.рф;Музей Карамели;generic;unavailable;0;2026-11-06T05:31:34.098452+00:00;1;False
+museikino.ru;Музей кино;generic;unavailable;0;2026-11-06T05:31:34.738521+00:00;1;False
+mosfilm.ru;Музей киноконцерна Мосфильм;generic;needs_adapter;0;2026-11-06T05:31:35.034752+00:00;0;False
+nomadic.ru;Музей кочевой культуры;generic;needs_adapter;0;2026-11-06T05:31:36.113000+00:00;0;False
+redcross.ru;Музей красного креста;generic;needs_adapter;0;2026-11-06T05:31:36.550245+00:00;0;False
+museum.redcross.ru;Музей красного креста;generic;needs_adapter;0;2026-11-06T05:31:36.558395+00:00;0;False
+cryptography-museum.ru;Музей криптографии;generic;needs_adapter;0;2026-11-06T05:31:36.927997+00:00;0;False
+tuzova.com;Музей кукол Barbie;generic;needs_adapter;0;2026-11-06T05:31:37.050230+00:00;0;False
+brickstar.ru;Музей Лего Brick Star;generic;needs_adapter;0;2026-11-06T05:31:37.769622+00:00;1;False
+bulgakovmuseum.ru;Музей М. А. Булгакова;bulgakov;ok;23;2026-11-06T05:31:37.957418+00:00;0;False
+magicmuseum.ru;Музей магии;generic;needs_adapter;0;2026-11-06T05:31:38.104040+00:00;0;False
+moskva-tr.gazprom.ru;Музей магистрального транспорта газа;generic;unavailable;0;2026-11-06T05:31:38.739177+00:00;1;False
+museum.histrf.ru;Музей Московских стрельцов Стрелецкие палаты;generic;needs_adapter;0;2026-11-06T05:31:39.094560+00:00;0;False
+museumrvio.ru;Музей Московских стрельцов Стрелецкие палаты;generic;needs_adapter;0;2026-11-06T05:31:40.259086+00:00;0;False
+mosmetro.ru;Музей Московского метрополитена;generic;needs_adapter;0;2026-11-06T05:31:40.594623+00:00;0;False
+mof.group;Музей Московской оружейной фабрики БР. Юдиныхъ с 1827г;generic;unavailable;0;2026-11-06T05:31:40.663275+00:00;1;False
+sch2093.mskobr.ru;Музей Моё Отечество;generic;needs_adapter;0;2026-11-06T05:31:40.850526+00:00;0;False
+mpgu.su;Музей МПГУ;generic;needs_adapter;0;2026-11-06T05:31:41.130489+00:00;1;False
+мпгу.рф;Музей МПГУ;generic;needs_adapter;0;2026-11-06T05:31:41.732082+00:00;0;False
+poiskovikirf.ru;Музей Неизвестный солдат;generic;unavailable;0;2026-11-06T05:31:42.195530+00:00;1;False
+xn--b1agahljhp0c.xn--p1ai;Музей необычных велосипедов;generic;unavailable;0;2026-11-06T05:31:42.216887+00:00;1;False
+веломузей.рф;Музей необычных велосипедов;generic;unavailable;0;2026-11-06T05:31:42.922296+00:00;1;False
+sklif.mos.ru;Музей НИИ скорой помощи им. Н.В. Склифосовского;generic;ok;1;2026-11-06T05:31:43.125449+00:00;0;False
+misis.ru;Музей Ниту Мисис;generic;unavailable;0;2026-11-06T05:31:44.961637+00:00;1;False
+brykina.com;Музей нонконформизма;generic;needs_adapter;0;2026-11-06T05:31:45.255881+00:00;0;False
+mnk.coinmuseum.ru;Музей нумизматики;generic;unavailable;0;2026-11-06T05:31:45.815888+00:00;1;False
+coinmuseum.ru;Музей нумизматики;generic;needs_adapter;0;2026-11-06T05:31:46.414543+00:00;0;False
+museumofillusions.moscow;Музей оптических иллюзий;generic;needs_adapter;0;2026-11-06T05:31:47.063838+00:00;0;False
+tupolev.ru;Музей опытного конструкторского бюро А. Н. Туполева;generic;unavailable;0;2026-11-06T05:31:47.073639+00:00;1;False
+museum-trotter.ru;Музей Орловского рысака и русской тройки;generic;needs_adapter;0;2026-11-06T05:31:47.258274+00:00;0;False
+podval-museum.ru;Музей Оружейный подвал;generic;needs_adapter;0;2026-11-06T05:31:48.483658+00:00;0;False
+moscowarmsmuseum.ru;Музей оружия;generic;needs_adapter;0;2026-11-06T05:31:49.256588+00:00;0;False
+surl.li;Музей Отечественной войны 1812 года;generic;needs_adapter;0;2026-11-06T05:31:49.460041+00:00;0;False
+rors.ru;Музей охоты и рыболовства;generic;needs_adapter;0;2026-11-06T05:31:49.588378+00:00;0;False
+music-museum.ru;Музей П.И. Чайковский и Москва;generic;needs_adapter;0;2026-11-06T05:31:49.721448+00:00;2;False
+museum.lihov6.ru;Музей памяти новомучеников и исповедников Российских;generic;needs_adapter;0;2026-11-06T05:31:50.044112+00:00;0;False
+park.sokolniki.com;Музей парка Сокольники;generic;unavailable;0;2026-11-06T05:31:50.582521+00:00;1;False
+printmuseum.ru;Музей Печатной графики;generic;unavailable;0;2026-11-06T05:31:50.791635+00:00;2;False
+gopinball.ru;Музей Пинбола GoPinball;generic;needs_adapter;0;2026-11-06T05:31:51.444384+00:00;0;False
+sch1161.mskobr.ru;Музей писателя Е. Л. Войскунского;generic;needs_adapter;0;2026-11-06T05:31:51.543120+00:00;0;False
+pokrov-monastir.ru;Музей Покровского монастыря и Блаженной Матроны Московской;generic;needs_adapter;0;2026-11-06T05:31:51.543120+00:00;0;False
+muzeydela.ru;Музей предпринимателей, меценатов и благотворителей;generic;needs_adapter;0;2026-11-06T05:31:51.919259+00:00;0;False
+museum.pkb4.ru;Музей Преображенской больницы;generic;needs_adapter;0;2026-11-06T05:31:52.168833+00:00;0;False
+pkb4.ru;Музей Преображенской больницы;generic;needs_adapter;0;2026-11-06T05:31:52.297295+00:00;0;False
+mosecopros.ru;Музей природы, экоцентр;generic;needs_adapter;0;2026-11-06T05:31:53.175116+00:00;0;False
+profiling.museum;Музей профайлинга;generic;unavailable;0;2026-11-06T05:31:53.735345+00:00;1;False
+mpomos.ru;Музей профессионального образования города Москвы;generic;needs_adapter;0;2026-11-06T05:31:54.133801+00:00;0;False
+gingerbread-msk.ru;Музей Пряника;generic;needs_adapter;0;2026-11-06T05:31:55.458619+00:00;0;False
+музей-пряник.рф;Музей Пряника;generic;needs_adapter;0;2026-11-06T05:31:55.953891+00:00;0;False
+xn--c1adffbadreybi0ax0b.xn--p1ai;Музей психологии, дефектологии и логопедии;generic;needs_adapter;0;2026-11-06T05:31:56.627431+00:00;0;False
+музейпсихологии.рф;Музей психологии, дефектологии и логопедии;generic;needs_adapter;0;2026-11-06T05:31:57.083927+00:00;0;False
+plmusey.narod.ru;Музей путешествий и паломничества по святым местам;generic;needs_adapter;0;2026-11-06T05:31:57.678998+00:00;0;False
+castle.moscow;Музей Ратной Истории г. Москвы;generic;ok;12;2026-11-06T05:31:57.726413+00:00;0;False
+roerichsmuseum.ru;Музей Рерихов;generic;needs_adapter;0;2026-11-06T05:31:58.277074+00:00;0;False
+museum.rmapo.ru;Музей РМАНПО;generic;needs_adapter;0;2026-11-06T05:31:58.277074+00:00;0;False
+rudn.ru;Музей Российского университета дружбы народов;generic;needs_adapter;0;2026-11-06T05:31:58.486599+00:00;1;False
+guslimuseum.ru;Музей русских гуслей и китайского гуциня;generic;needs_adapter;0;2026-11-06T05:31:58.606528+00:00;0;False
+moseparh.ru;Музей Русского Афона;generic;needs_adapter;0;2026-11-06T05:32:00.422361+00:00;0;False
+rusimp.su;Музей русского импрессионизма;generic;needs_adapter;0;2026-11-06T05:32:01.105452+00:00;0;False
+mirekmuseum.ru;Музей русской гармоники Альфреда Мирека;generic;needs_adapter;0;2026-11-06T05:32:01.127190+00:00;0;False
+new.russikona.ru;Музей русской иконы им. Михаила Абрамова;generic;needs_adapter;0;2026-11-06T05:32:01.571397+00:00;0;False
+kuzminki-msk.ru;Музей русской усадебной культуры Усадьба князей Голицыных Влахернское-Кузьминки;generic;unavailable;0;2026-11-06T05:32:04.048891+00:00;1;False
+sadovoekoltso.com;Музей Садовое кольцо;generic;unavailable;0;2026-11-06T05:32:05.123054+00:00;1;False
+gemmuseum.ru;Музей Самоцветы;generic;needs_adapter;0;2026-11-06T05:32:05.355862+00:00;0;False
+museum-light.bl-g.ru;Музей света;generic;needs_adapter;0;2026-11-06T05:32:06.505498+00:00;0;False
+mos03.ru;Музей скорой помощи, Станция скорой и неотложной медицинской помощи им. Пучкова А.С.;generic;needs_adapter;0;2026-11-06T05:32:07.205224+00:00;0;False
+museum-slav.com;Музей славянской культуры им. Константина Васильева;generic;needs_adapter;0;2026-11-06T05:32:07.308693+00:00;0;False
+dogmuseum.ru;Музей собаки;generic;ok;2;2026-11-06T05:32:07.612354+00:00;0;False
+mus-col.com;Музей Собрание;generic;needs_adapter;0;2026-11-06T05:32:07.696825+00:00;3;False
+15kop.ru;Музей советских игровых автоматов;generic;needs_adapter;0;2026-11-06T05:32:07.833132+00:00;0;False
+xn--80adgdranccsaibe8bu0mvc.xn--p1ai;Музей современной оловянной военно-исторической миниатюры;generic;needs_adapter;0;2026-11-06T05:32:07.840258+00:00;0;False
+hram-ks.ru;Музей создания Алексеевского монастыря;generic;unavailable;0;2026-11-06T05:32:10.960963+00:00;1;False
+souzmultpark.ru;Музей Союзмультфильма;generic;unavailable;0;2026-11-06T05:32:11.156662+00:00;2;False
+cska.ru;Музей спортивной славы ЦСКА;generic;needs_adapter;0;2026-11-06T05:32:11.734311+00:00;0;False
+mosmuseumussr.ru;Музей СССР;generic;needs_adapter;0;2026-11-06T05:32:11.971307+00:00;0;False
+armenianchurch.ru;Музей Тапан;generic;needs_adapter;0;2026-11-06T05:32:13.311509+00:00;0;False
+sculptura.ru;Музей Творческое наследие академика Юрия Орехова;generic;needs_adapter;0;2026-11-06T05:32:13.873434+00:00;0;False
+tvartsmuseum.ru;Музей телевизионного искусства;generic;needs_adapter;0;2026-11-06T05:32:14.568513+00:00;0;False
+muzeytemnoty.ru;Музей темноты;generic;needs_adapter;0;2026-11-06T05:32:15.460462+00:00;0;False
+muzeyvtemnote.ru;Музей темноты;generic;needs_adapter;0;2026-11-06T05:32:16.513309+00:00;0;False
+apple-museum.ru;Музей техники Apple;generic;needs_adapter;0;2026-11-06T05:32:17.109197+00:00;0;False
+dollmuseum.ru;Музей уникальных кукол;generic;needs_adapter;0;2026-11-06T05:32:17.242054+00:00;0;False
+xn----8sbacgokdt1a3a6c.xn--p1ai;Музей уральских сказов;generic;unavailable;0;2026-11-06T05:32:17.915838+00:00;3;False
+музей-бажова.рф;Музей уральских сказов;generic;unavailable;0;2026-11-06T05:32:18.830406+00:00;1;False
+fabrikacci.com;Музей фабрики;generic;needs_adapter;0;2026-11-06T05:32:20.231860+00:00;0;False
+fa.ru;Музей Финансового университета;generic;unavailable;0;2026-11-06T05:32:20.734307+00:00;1;False
+magic2.ru;Музей фокусов;generic;needs_adapter;0;2026-11-06T05:32:22.259396+00:00;0;False
+kosygin-rgu.ru;Музей художественного текстиля и костюма РГУ им. А. Н. Косыгина;generic;unavailable;0;2026-11-06T05:32:22.525289+00:00;1;False
+feina.ru;Музей чизкейка;generic;unavailable;0;2026-11-06T05:32:22.610304+00:00;1;False
+centralchessclub.ru;Музей шахмат;generic;needs_adapter;0;2026-11-06T05:32:23.028149+00:00;0;False
+ruchess.ru;Музей шахмат;generic;needs_adapter;0;2026-11-06T05:32:23.767045+00:00;0;False
+knigoluby.ru;Музей экслибриса и миниатюрной книги;generic;needs_adapter;0;2026-11-06T05:32:23.859390+00:00;0;False
+exlibrismuseum.org;Музей экслибриса и миниатюрной книги;generic;needs_adapter;0;2026-11-06T05:32:24.113819+00:00;0;False
+lectoriumart.ru;Музей экслибриса и миниатюрной книги;generic;needs_adapter;0;2026-11-06T05:32:24.919545+00:00;2;False
+museum.rgub.ru;Музей электронной книги;generic;needs_adapter;0;2026-11-06T05:32:25.223770+00:00;0;False
+museumofemotions.ru;Музей эмоций;generic;unavailable;0;2026-11-06T05:32:26.362226+00:00;1;False
+mus-school1086.ucoz.ru;Музей этнокультуры Кореи;generic;needs_adapter;0;2026-11-06T05:32:27.036319+00:00;0;False
+fond-nikulin.ru;Музей Ю. В. Никулина;generic;needs_adapter;0;2026-11-06T05:32:27.762826+00:00;0;False
+museum.festival15.ru;Музей Ю.В.Никулина, центр содействия семейному воспитанию;generic;needs_adapter;0;2026-11-06T05:32:28.187882+00:00;0;False
+xn--c1arjr.xn--p1ai;Музей, МПГУ им. М.А. Шолохова;generic;needs_adapter;0;2026-11-06T05:32:28.472446+00:00;0;False
+nffedorov.ru;Музей-библиотека им Н.Ф. Фёдорова;generic;needs_adapter;0;2026-11-06T05:32:28.971531+00:00;0;False
+museum.imli.ru;Музей-квартира А.М. Горького;generic;needs_adapter;0;2026-11-06T05:32:29.003680+00:00;0;False
+um.mos.ru;Музей-квартира академика Н.Д. Зелинского;generic;needs_adapter;0;2026-11-06T05:32:29.043599+00:00;0;False
+rutube.ru;Музей-квартира В. Н. Плучека;generic;needs_adapter;0;2026-11-06T05:32:30.369740+00:00;0;False
+gnesin-academy.ru;Музей-квартира Е. Ф. Гнесиной;generic;needs_adapter;0;2026-11-06T05:32:30.890307+00:00;0;False
+vakhtangov.ru;Музей-квартира Е.Б. Вахтангова;generic;needs_adapter;0;2026-11-06T05:32:31.761144+00:00;0;False
+sytin-museum.ru;Музей-квартира И. Д. Сытина;generic;needs_adapter;0;2026-11-06T05:32:32.473086+00:00;0;False
+librarystd.ru;Музей-квартира Народных артистов СССР Б.М. Тенина и Л.П. Сухаревской, филиал ЦНБ СТД РФ;generic;unavailable;0;2026-11-06T05:32:32.936685+00:00;3;False
+rubankov.ru;Музей-мастерская 1000 топоров;generic;needs_adapter;0;2026-11-06T05:32:33.554383+00:00;0;False
+small_museums_near.tretyakovgallery.ru;Музей-мастерская А.С. Голубкиной;generic;unavailable;0;2026-11-06T05:32:33.896336+00:00;1;False
+gurchenko.ru;Музей-мастерская Людмилы Гурченко;generic;needs_adapter;0;2026-11-06T05:32:34.570978+00:00;0;False
+moscowmanege.ru;Музей-мастерская народного художника СССР Д.А. Налбандяна;generic;needs_adapter;0;2026-11-06T05:32:35.310071+00:00;0;False
+puzzlemuseum.ru;Музей-студия головоломок;generic;needs_adapter;0;2026-11-06T05:32:35.546372+00:00;0;False
+lublino-palace.ru;Музей-усадьба Люблино;generic;unavailable;0;2026-11-06T05:32:36.201232+00:00;1;False
+mahm.ru;Музей-усадьба Муравьёвых-Апостолов;generic;needs_adapter;0;2026-11-06T05:32:36.227262+00:00;0;False
+31-12.рф;Музей-фабрика ёлочных игрушек;generic;needs_adapter;0;2026-11-06T05:32:36.380964+00:00;0;False
+mai.ru;Музейно-выставочный комплекс Московского авиационного института;generic;unavailable;0;2026-11-06T05:32:36.737395+00:00;3;False
+computer-museum.ru;Музейно-выставочный центр национальной микроэлектроники им. А.И. Шокина;generic;needs_adapter;0;2026-11-06T05:32:37.298793+00:00;0;False
+rrl-museum.cqham.ru;Музейный комплекс радиоэлектроники;generic;needs_adapter;0;2026-11-06T05:32:37.504397+00:00;0;False
+dostoevskyworld.ru;Музейный центр Московский дом Достоевского;generic;needs_adapter;0;2026-11-06T05:32:37.851518+00:00;0;False
+mamm-mdf.ru;Мультимедиа арт музей;cards;ok;40;2026-11-06T05:32:38.389417+00:00;0;False
+zhukovskymuseum.ru;Научно-мемориальный музей Н.Е. Жуковского;generic;needs_adapter;0;2026-11-06T05:32:38.590519+00:00;0;False
+portret.ru;Национальная портретная галерея;generic;needs_adapter;0;2026-11-06T05:32:40.203157+00:00;0;False
+irioh.ru;НИИ медицины труда им. академика Н.Ф. Измерова, музей истории гигиены труда и профпатологии;generic;needs_adapter;0;2026-11-06T05:32:41.041406+00:00;0;False
+ase-ec.ru;НИКИМТ-Атомстрой, музей;generic;unavailable;0;2026-11-06T05:32:41.819266+00:00;1;False
+nimamuseum.com;Нима;generic;unavailable;0;2026-11-06T05:32:42.379024+00:00;1;False
+hse.ru;НИУ ВШЭ, центр истории и социологии Второй мировой войны и ее последствий;generic;unavailable;0;2026-11-06T05:32:42.751752+00:00;1;False
+centervnl.ru;Обычные люди, пространство;generic;needs_adapter;0;2026-11-06T05:32:43.782136+00:00;0;False
+ognimos.ru;Огни Москвы;generic;needs_adapter;0;2026-11-06T05:32:45.025607+00:00;0;False
+nosov.rgub.ru;Особняк купца В.Д. Носова, историко-культурный центр;generic;needs_adapter;0;2026-11-06T05:32:45.340043+00:00;0;False
+rgub.ru;Особняк купца В.Д. Носова, историко-культурный центр;generic;needs_adapter;0;2026-11-06T05:32:45.786643+00:00;1;False
+xn----7sbbdcuwkodph3b5esd.xn--p1ai;Особняк-Небылица;generic;needs_adapter;0;2026-11-06T05:32:45.864859+00:00;0;False
+ostankino.kuskovo.ru;Останкино и Кусково, государственный музей-заповедник;generic;needs_adapter;0;2026-11-06T05:32:45.909357+00:00;0;False
+ostankino-museum.ru;Останкино, усадьба;generic;needs_adapter;0;2026-11-06T05:32:46.090733+00:00;1;False
+tvtower.ru;Останкинская телебашня;generic;needs_adapter;0;2026-11-06T05:32:46.395186+00:00;0;False
+polymus.ru;Открытые коллекции, Политехнический музей;generic;needs_adapter;0;2026-11-06T05:32:47.306578+00:00;0;False
+ochakovo.ru;Очаково, музей традиционных русских напитков;generic;needs_adapter;0;2026-11-06T05:32:47.408091+00:00;0;False
+transport.mos.ru;Павильон Московского транспорта;generic;needs_adapter;0;2026-11-06T05:32:48.548627+00:00;0;False
+znanie.vdnh.ru;Павильон Рабочий и колхозница;generic;unavailable;0;2026-11-06T05:32:49.270385+00:00;1;False
+expocentr.ru;Павильон № 5;generic;needs_adapter;0;2026-11-06T05:32:49.719713+00:00;0;False
+myhistorypark.ru;Павильон № 57 Россия — моя история;generic;needs_adapter;0;2026-11-06T05:32:50.524480+00:00;0;False
+berizaryad.ru;Павильон № 61. Выставка Лев Толстой. Война и мир. Ожившие страницы;generic;needs_adapter;0;2026-11-06T05:32:51.195226+00:00;0;False
+balletcenter.ru;Павильон № 62 Международный центр балета;generic;needs_adapter;0;2026-11-06T05:32:53.113560+00:00;0;False
+innoagency.ru;Павильон №37 Центр ассистивных технологий Феникс;generic;unavailable;0;2026-11-06T05:32:53.685290+00:00;1;False
+palaty.moscow;Палаты на Льва Толстого;generic;needs_adapter;0;2026-11-06T05:32:54.074805+00:00;0;False
+paleo.ru;Палеонтологический музей им. Ю. А. Орлова;generic;needs_adapter;0;2026-11-06T05:32:54.514790+00:00;0;False
+mama-nanik.ru;Памирский дом, этнический музей;generic;needs_adapter;0;2026-11-06T05:32:55.198723+00:00;0;False
+bapark.ru;Парк культуры и отдыха, администрация;generic;needs_adapter;0;2026-11-06T05:32:55.766949+00:00;0;False
+patriarchs-palace.kreml.ru;Патриаршие палаты;generic;unavailable;0;2026-11-06T05:32:56.199183+00:00;1;False
+fxxc.ru;Патриарший музей церковного искусства;generic;needs_adapter;0;2026-11-06T05:32:56.400605+00:00;0;False
+patriarchia.ru;Патриарший музей церковного искусства;generic;needs_adapter;0;2026-11-06T05:32:57.368636+00:00;0;False
+planetarium-cc.moscow;Планетарий Центрального дома Российской армии им. М. Фрунзе;generic;needs_adapter;0;2026-11-06T05:32:57.933078+00:00;0;False
+posusecam.ru;По сусекам, музей русского быта;generic;needs_adapter;0;2026-11-06T05:32:58.130282+00:00;0;False
+welcome.zaryadyepark.ru;Подземный музей;generic;needs_adapter;0;2026-11-06T05:32:58.500677+00:00;0;False
+poezddedamoroza.ru;Поезд Деда мороза;generic;needs_adapter;0;2026-11-06T05:32:58.787877+00:00;0;False
+museum-williams.ru;Почвенно-агрономический музей им. В. Р. Вильямса;generic;unavailable;0;2026-11-06T05:32:59.492716+00:00;1;False
+hramkv.ru;Православный духовно-культурный центр при храме святого равноапостольного князя Владимира в Тушине;generic;needs_adapter;0;2026-11-06T05:32:59.951981+00:00;0;False
+xn--b1acebhjbdcjdo3ad7ahdrlp9h.xn--p1ai;Прекрасное далеко, музей советской игрушки;generic;needs_adapter;0;2026-11-06T05:33:00.338460+00:00;0;False
+rkk-museum.ru;Радиомузей Валерия Громова;generic;needs_adapter;0;2026-11-06T05:33:00.352128+00:00;0;False
+робостанция.рф;Робостанция;generic;needs_adapter;0;2026-11-06T05:33:00.781421+00:00;0;False
+xn--80abwtcbllj6b9f.xn--p1ai;Робостанция, научно-развлекательная выставка;generic;needs_adapter;0;2026-11-06T05:33:00.963879+00:00;0;False
+rozaeinema.ru;Роза Эйнема, музей истории кондитерской фабрики;generic;needs_adapter;0;2026-11-06T05:33:01.662694+00:00;0;False
+glazunov-academy.ru;Российская академия живописи, ваяния и зодчества Ильи Глазунова, музей;generic;needs_adapter;0;2026-11-06T05:33:01.700306+00:00;0;False
+roslesmuseum.ru;Российский музей леса;generic;needs_adapter;0;2026-11-06T05:33:01.765675+00:00;2;False
+medmuseum.ru;Российский музей медицины;generic;needs_adapter;0;2026-11-06T05:33:01.932064+00:00;0;False
+history.rudn.ru;Российский университет дружбы народов им. Патриса Лумумбы, Музей истории РУДН;generic;needs_adapter;0;2026-11-06T05:33:02.461117+00:00;0;False
+gtsolifk.ru;Российский университет спорта ГЦОЛИФК, историко-спортивный музей;generic;needs_adapter;0;2026-11-06T05:33:02.647457+00:00;0;False
+uniconf.ru;Рот Фронт;generic;needs_adapter;0;2026-11-06T05:33:03.035354+00:00;0;False
+igem.ru;Рудно-петрографический музей;generic;needs_adapter;0;2026-11-06T05:33:03.541566+00:00;0;False
+losinyiostrov.ru;Русский быт, экологический центр;generic;needs_adapter;0;2026-11-06T05:33:05.470748+00:00;1;False
+sobyanina.ru;Русский музей детского искусства;generic;needs_adapter;0;2026-11-06T05:33:05.844663+00:00;0;False
+museumruss.ru;Русское средневековье, музейный центр;generic;needs_adapter;0;2026-11-06T05:33:06.347462+00:00;0;False
+rut-miit.ru;РУТ (МИИТ), музей;generic;needs_adapter;0;2026-11-06T05:33:06.445273+00:00;0;False
+muzey-sensorium.ru;Сенсориум, музей в темноте;generic;needs_adapter;0;2026-11-06T05:33:06.873931+00:00;0;False
+levsha-pav10.ru;Сибирский Левша;generic;unavailable;0;2026-11-06T05:33:07.114890+00:00;1;False
+slovo.vdnh.ru;Слово;generic;needs_adapter;0;2026-11-06T05:33:08.375540+00:00;0;False
+assumption-cathedral.kreml.ru;Собор Успения Пресвятой Богородицы;generic;unavailable;0;2026-11-06T05:33:08.561446+00:00;1;False
+lihov6.ru;Соборная палата;generic;needs_adapter;0;2026-11-06T05:33:08.586380+00:00;0;False
+smsport.ru;Современный музей спорта;generic;needs_adapter;0;2026-11-06T05:33:09.019902+00:00;0;False
+oao-sokol.ru;Сокол, музей радиоэлектроники;generic;needs_adapter;0;2026-11-06T05:33:09.626405+00:00;0;False
+tutanhamon.msk.ru;Сокровища гробницы Тутанхамона;generic;needs_adapter;0;2026-11-06T05:33:10.749345+00:00;0;False
+souzmultclub.ru;Союзмультфильм, музей;generic;unavailable;0;2026-11-06T05:33:11.289838+00:00;3;False
+kremlin-architectural-ensemble.kreml.ru;Спасская башня;generic;unavailable;0;2026-11-06T05:33:12.074632+00:00;1;False
+artanum.ru;Товарищество живописцев Московского союза художников;generic;needs_adapter;0;2026-11-06T05:33:12.286402+00:00;0;False
+moscow-painters.ru;Товарищество живописцев Московского союза художников;generic;needs_adapter;0;2026-11-06T05:33:12.714069+00:00;0;False
+tradart.ru;ТраDарт;generic;needs_adapter;0;2026-11-06T05:33:13.118981+00:00;0;False
+mif-mira.ru;Традиционные маски и фигуры мира;generic;unavailable;0;2026-11-06T05:33:13.170722+00:00;1;False
+usadbabaryshnikova.aif.ru;Усадьба Барышникова;generic;needs_adapter;0;2026-11-06T05:33:13.665037+00:00;0;False
+usadba.troitsasviblovo.ru;Усадьба Свиблово;generic;needs_adapter;0;2026-11-06T05:33:14.694321+00:00;0;False
+art-cvetaev.ru;Учебный художественный музей им. И. В. Цветаева;generic;needs_adapter;0;2026-11-06T05:33:15.285207+00:00;0;False
+rsuh.ru;Учебный художественный музей им. И. В. Цветаева;generic;needs_adapter;0;2026-11-06T05:33:15.433213+00:00;0;False
+31-12.xn--p1ai;Фабрика ёлочных игрушек, музей;generic;needs_adapter;0;2026-11-06T05:33:15.560147+00:00;0;False
+farfo.ru;Фарфо;generic;needs_adapter;0;2026-11-06T05:33:15.595899+00:00;0;False
+ekaterina-foundation.ru;Фонд культуры Екатерина;generic;needs_adapter;0;2026-11-06T05:33:16.401119+00:00;0;False
+mos-time.ru;Фонд Московское время;generic;needs_adapter;0;2026-11-06T05:33:16.777516+00:00;0;False
+gbsad.ru;Фондовая оранжерея Главного ботанического сада им. Н.В. Цицина РАН;generic;needs_adapter;0;2026-11-06T05:33:17.430231+00:00;0;False
+museum.spartak.com;Футбольный клуб Спартак-Москва, музей;generic;unavailable;0;2026-11-06T05:33:17.532043+00:00;1;False
+ordynka.com;Храм иконы Божией Матери всех скорбящих радость на большой Ордынке, музей;generic;needs_adapter;0;2026-11-06T05:33:17.574750+00:00;0;False
+tsar-maket.ru;Царь-макет, музей;generic;needs_adapter;0;2026-11-06T05:33:18.932850+00:00;1;False
+mospriroda.ru;Цветоводство, эколого-просветительский центр;generic;needs_adapter;0;2026-11-06T05:33:20.001056+00:00;0;False
+voznesenskycenter.ru;Центр Вознесенского;generic;unavailable;6;2026-11-06T05:33:20.080206+00:00;3;True
+artcentre.moscow;Центр искусств Москва;generic;needs_adapter;0;2026-11-06T05:33:22.959533+00:00;0;False
+numexpert.ru;Центр Исследований Культурных Ценностей;generic;needs_adapter;0;2026-11-06T05:33:23.813263+00:00;0;False
+centermars.ru;Центр Современного Искусства М'арс;generic;needs_adapter;0;2026-11-06T05:33:25.371045+00:00;0;False
+cca9.ru;Центр современного искусства №9;generic;unavailable;0;2026-11-06T05:33:25.692000+00:00;1;False
+fabrikacci.ru;Центр творческих индустрий Фабрика;generic;needs_adapter;0;2026-11-06T05:33:26.810503+00:00;0;False
+proektfabrika.ru;Центр творческих индустрий Фабрика;generic;unavailable;0;2026-11-06T05:33:27.864338+00:00;1;False
+icr.su;Центр-музей им. Н.К Рериха, офис;generic;needs_adapter;0;2026-11-06T05:33:28.245263+00:00;0;False
+aviacosmosdom.ru;Центральный дом авиации и космонавтики ДОСААФ России;generic;needs_adapter;0;2026-11-06T05:33:30.732168+00:00;0;False
+cdra.ru;Центральный Дом Российской Армии;generic;needs_adapter;0;2026-11-06T05:33:30.942868+00:00;0;False
+kcvs.ru;Центральный Дом Российской Армии;generic;unavailable;0;2026-11-06T05:33:31.090719+00:00;3;False
+partyhall.ru;Центральный Дом Российской Армии;generic;needs_adapter;0;2026-11-06T05:33:31.208069+00:00;0;False
+rosgvard.ru;Центральный музей войск национальной гвардии Российской Федерации;generic;unavailable;0;2026-11-06T05:33:31.716573+00:00;1;False
+museum.rosguard.gov.ru;Центральный музей войск национальной гвардии Российской Федерации;generic;needs_adapter;0;2026-11-06T05:33:32.926657+00:00;0;False
+mvd.ru;Центральный музей МВД России;generic;needs_adapter;0;2026-11-06T05:33:32.962937+00:00;0;False
+mchs.gov.ru;Центральный музей МЧС России;generic;needs_adapter;0;2026-11-06T05:33:33.257456+00:00;0;False
+museum.customs.gov.ru;Центральный музей таможенной службы;generic;needs_adapter;0;2026-11-06T05:33:34.677096+00:00;0;False
+park-gorkogo.ru;Центральный парк культуры и отдыха им. М. Горького, Музей;generic;needs_adapter;0;2026-11-06T05:33:34.735667+00:00;0;False
+ps.fsb.ru;Центральный пограничный музей ФСБ России;generic;needs_adapter;0;2026-11-06T05:33:34.815626+00:00;1;False
+ndm-museum.ru;Церковный музей Московской Епархии Русской Православной Церкви;generic;unavailable;0;2026-11-06T05:33:35.309695+00:00;1;False
+holy-robe-deposition-church.kreml.ru;Церковь Положения Ризы Божией Матери;generic;unavailable;0;2026-11-06T05:33:35.795397+00:00;1;False
+teapotland.ru;Чайникландия - Музей удивительных чайников мира;generic;needs_adapter;0;2026-11-06T05:33:37.634947+00:00;0;False
+school.aaii.ru;Школа акварели Сергея Андрияки;generic;needs_adapter;0;2026-11-06T05:33:38.323638+00:00;0;False
+pro100klass.wixsite.com;Школьные годы;generic;needs_adapter;0;2026-11-06T05:33:38.969347+00:00;0;False
+sch2126.mskobr.ru;Школьные годы;generic;needs_adapter;0;2026-11-06T05:33:40.096236+00:00;0;False
+rusheva.com;Школьный мемориальный музей Нади Рушевой;generic;unavailable;0;2026-11-06T05:33:41.272926+00:00;1;False
+sch1770.mskobr.ru;Школьный музей XX века;generic;needs_adapter;0;2026-11-06T05:33:42.105753+00:00;0;False
+xn--e1ahboc1a5byb.xn--d1acj3b;Эйнштейн.дети, музей;generic;unavailable;0;2026-11-06T05:33:42.744609+00:00;1;False
+xn--h1abpis6ct.xn--80adxhks;Эйфория, арт-пространство;generic;unavailable;0;2026-11-06T05:33:44.038511+00:00;1;False
+ecosborka.ru;ЭкоЦентр Сборка;generic;needs_adapter;0;2026-11-06T05:33:44.131914+00:00;0;False
+ekokuskovo.clients.site;Экоцентр экошкола Кусково;generic;needs_adapter;0;2026-11-06T05:33:47.135994+00:00;0;False
+mihrab.ru;Экскурсионное бюро, Московская Соборная мечеть;generic;needs_adapter;0;2026-11-06T05:33:47.338832+00:00;0;False
+exlibriscafe.ru;ЭксЛибрис;generic;needs_adapter;0;2026-11-06T05:33:48.309220+00:00;0;False
+experimentanium.ru;Экспериментаниум;generic;needs_adapter;0;2026-11-06T05:33:48.623625+00:00;0;False
+kuzpark.ru;Экспозиция меда и пчеловодства;generic;needs_adapter;0;2026-11-06T05:33:48.703334+00:00;0;False
+elysium.ru;Элизиум;generic;unavailable;0;2026-11-06T05:33:49.111669+00:00;3;False
+museum.yandex.ru;Яндекс Музей;generic;needs_adapter;0;2026-11-06T05:33:49.665241+00:00;0;False
+yandex.ru;Яндекс Музей;generic;needs_adapter;0;2026-11-06T05:33:50.305036+00:00;0;False
