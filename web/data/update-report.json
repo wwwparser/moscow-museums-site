@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-11-06T05:27:18.152841+00:00",
-  "finished_at": "2026-11-06T05:34:31.621019+00:00",
+  "started_at": "2026-11-07T07:41:24.557279+00:00",
+  "finished_at": "2026-11-07T07:49:01.037382+00:00",
   "mode": "daily",
   "steps": [
     {
@@ -84,9 +84,9 @@
     "checked": 554,
     "checked_today": 554,
     "checked_this_run": 554,
-    "last_attempt_at": "2026-11-06T05:33:50.305036+00:00",
+    "last_attempt_at": "2026-11-07T07:48:16.355132+00:00",
     "stale": 5,
-    "with_errors": 145
+    "with_errors": 146
   },
   "admission": {
     "checked": 554,
@@ -100,9 +100,9 @@
     "checked": 364,
     "checked_today": 364,
     "checked_this_run": 364,
-    "last_attempt_at": "2026-11-06T05:28:20.752830+00:00",
-    "stale": 1,
-    "with_errors": 57
+    "last_attempt_at": "2026-11-07T07:42:34.005965+00:00",
+    "stale": 3,
+    "with_errors": 59
   },
   "expositions": {
     "checked_sources": 554,
@@ -110,7 +110,7 @@
     "unavailable_sources": 148,
     "pending_luna": 164,
     "processor": "internal-luna",
-    "prepared_at": "2026-11-06T05:34:29.239686+00:00"
+    "prepared_at": "2026-11-07T07:48:58.003388+00:00"
   },
   "pending_exposition_luna": 164,
   "counts": {
@@ -122,15 +122,15 @@
     "with_coordinates": 1269,
     "with_telegram": 677,
     "note": "Каталог кандидатов из локальных выгрузок, дата исходных данных неизвестна. Возможны дубли и закрытые площадки.",
-    "built_at": "2026-11-06T05:34:30.224375+00:00",
+    "built_at": "2026-11-07T07:48:59.199393+00:00",
     "site_domains_total": 554,
     "site_domains_checked": 554,
     "site_domains_available": 442,
     "channels": 364,
     "channels_checked": 364,
-    "channels_available": 307,
-    "events": 751,
-    "posts": 1506,
+    "channels_available": 305,
+    "events": 753,
+    "posts": 1513,
     "event_source_domains": 30,
     "event_sources_checked": 554,
     "event_sources_configured": 554,
@@ -141,7 +141,7 @@
     "admission_tariffs": 2277,
     "admission_free_rules": 781,
     "site_sources_stale": 39,
-    "telegram_sources_stale": 1,
+    "telegram_sources_stale": 3,
     "admission_sources_stale": 8,
     "exposition_museums": 339,
     "exposition_sources_checked": 554,
