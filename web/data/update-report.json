@@ -1,10 +1,10 @@
 {
-  "started_at": "2026-11-07T07:41:24.557279+00:00",
-  "finished_at": "2026-11-07T07:49:01.037382+00:00",
-  "mode": "daily",
+  "started_at": "2026-11-08T07:10:27.057661+00:00",
+  "finished_at": "2026-11-08T07:37:41.442402+00:00",
+  "mode": "full",
   "steps": [
     {
-      "name": "Telegram",
+      "name": "sites and Telegram",
       "status": "ok",
       "exit_code": 0
     },
@@ -19,7 +19,37 @@
       "exit_code": 0
     },
     {
+      "name": "admission pages",
+      "status": "ok",
+      "exit_code": 0
+    },
+    {
+      "name": "rendered admission pages",
+      "status": "ok",
+      "exit_code": 0
+    },
+    {
+      "name": "admission facts revalidation",
+      "status": "ok",
+      "exit_code": 0
+    },
+    {
+      "name": "admission audit",
+      "status": "ok",
+      "exit_code": 0
+    },
+    {
       "name": "prepare internal Luna queue",
+      "status": "ok",
+      "exit_code": 0
+    },
+    {
+      "name": "exposition source pages",
+      "status": "ok",
+      "exit_code": 0
+    },
+    {
+      "name": "rendered exposition pages",
       "status": "ok",
       "exit_code": 0
     },
@@ -69,50 +99,50 @@
       "exit_code": 0
     }
   ],
-  "pending_luna": 83,
+  "pending_luna": 119,
   "llm_processing": "internal-luna",
   "external_llm_enabled": false,
   "sites": {
     "checked": 554,
-    "checked_today": 0,
-    "checked_this_run": 0,
-    "last_attempt_at": "2026-11-01T06:58:42.933531+00:00",
-    "stale": 39,
+    "checked_today": 554,
+    "checked_this_run": 554,
+    "last_attempt_at": "2026-11-08T07:15:46.438935+00:00",
+    "stale": 42,
     "with_errors": 132
   },
   "events": {
     "checked": 554,
     "checked_today": 554,
     "checked_this_run": 554,
-    "last_attempt_at": "2026-11-07T07:48:16.355132+00:00",
-    "stale": 5,
-    "with_errors": 146
+    "last_attempt_at": "2026-11-08T07:22:28.573521+00:00",
+    "stale": 4,
+    "with_errors": 141
   },
   "admission": {
     "checked": 554,
-    "checked_today": 0,
-    "checked_this_run": 0,
-    "last_attempt_at": "2026-11-01T07:11:15.699088+00:00",
-    "stale": 8,
-    "with_errors": 175
+    "checked_today": 554,
+    "checked_this_run": 554,
+    "last_attempt_at": "2026-11-08T07:28:06.211850+00:00",
+    "stale": 18,
+    "with_errors": 180
   },
   "telegram": {
-    "checked": 364,
-    "checked_today": 364,
-    "checked_this_run": 364,
-    "last_attempt_at": "2026-11-07T07:42:34.005965+00:00",
+    "checked": 367,
+    "checked_today": 367,
+    "checked_this_run": 367,
+    "last_attempt_at": "2026-11-08T07:17:02.365571+00:00",
     "stale": 3,
-    "with_errors": 59
+    "with_errors": 57
   },
   "expositions": {
     "checked_sources": 554,
-    "readable_sources": 406,
-    "unavailable_sources": 148,
-    "pending_luna": 164,
+    "readable_sources": 411,
+    "unavailable_sources": 143,
+    "pending_luna": 222,
     "processor": "internal-luna",
-    "prepared_at": "2026-11-07T07:48:58.003388+00:00"
+    "prepared_at": "2026-11-08T07:37:38.160547+00:00"
   },
-  "pending_exposition_luna": 164,
+  "pending_exposition_luna": 222,
   "counts": {
     "imported_at": "2026-10-09T16:04:14.361346+00:00",
     "raw_rows": 4812,
@@ -120,32 +150,32 @@
     "museums": 1270,
     "with_site": 980,
     "with_coordinates": 1269,
-    "with_telegram": 677,
+    "with_telegram": 676,
     "note": "Каталог кандидатов из локальных выгрузок, дата исходных данных неизвестна. Возможны дубли и закрытые площадки.",
-    "built_at": "2026-11-07T07:48:59.199393+00:00",
+    "built_at": "2026-11-08T07:37:39.507577+00:00",
     "site_domains_total": 554,
     "site_domains_checked": 554,
-    "site_domains_available": 442,
-    "channels": 364,
-    "channels_checked": 364,
-    "channels_available": 305,
-    "events": 753,
-    "posts": 1513,
+    "site_domains_available": 441,
+    "channels": 367,
+    "channels_checked": 367,
+    "channels_available": 310,
+    "events": 740,
+    "posts": 1530,
     "event_source_domains": 30,
     "event_sources_checked": 554,
     "event_sources_configured": 554,
     "event_sources_with_dates": 36,
     "event_sources_individual": 17,
     "admission_sources_checked": 554,
-    "admission_sources_with_facts": 201,
-    "admission_tariffs": 2277,
-    "admission_free_rules": 781,
-    "site_sources_stale": 39,
+    "admission_sources_with_facts": 199,
+    "admission_tariffs": 2179,
+    "admission_free_rules": 750,
+    "site_sources_stale": 42,
     "telegram_sources_stale": 3,
-    "admission_sources_stale": 8,
+    "admission_sources_stale": 18,
     "exposition_museums": 339,
     "exposition_sources_checked": 554,
-    "exposition_sources_readable": 406,
+    "exposition_sources_readable": 411,
     "exposition_sources_reviewed": 554
   },
   "status": "partial"

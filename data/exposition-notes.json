@@ -552,7 +552,7 @@
       "domain": "damuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "d88ff28fd6a8b9b549c2c03674f8841efda79c042ad31f7a064347d79cfe1ada",
-      "status": "verified"
+      "status": "stale"
     },
     "4bf389f73f60": {
       "facts": [
@@ -569,7 +569,7 @@
       "domain": "damuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "d88ff28fd6a8b9b549c2c03674f8841efda79c042ad31f7a064347d79cfe1ada",
-      "status": "verified"
+      "status": "stale"
     },
     "12a88db0ad84": {
       "facts": [
@@ -862,7 +862,7 @@
       "domain": "classicgallery.ru",
       "processor": "internal-luna",
       "evidence_hash": "3d324a38651a16eceb1d5621fe5bf233a361bf88dde56873fbdac4389e66a038",
-      "status": "verified"
+      "status": "stale"
     },
     "349ac44d5fce": {
       "facts": [
@@ -1307,7 +1307,7 @@
       "domain": "gbmt.ru",
       "processor": "internal-luna",
       "evidence_hash": "208482556df671915b7084583ec2084442082db6ac6be4cbf7cb331aa36db426",
-      "status": "verified"
+      "status": "stale"
     },
     "8c6f687fffc0": {
       "facts": [
@@ -1328,7 +1328,7 @@
       "domain": "gbmt.ru",
       "processor": "internal-luna",
       "evidence_hash": "208482556df671915b7084583ec2084442082db6ac6be4cbf7cb331aa36db426",
-      "status": "verified"
+      "status": "stale"
     },
     "8ecbd9e815ee": {
       "facts": [
@@ -1391,7 +1391,7 @@
       "domain": "gon-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "f1ed6a70c984a2e37b50814e33fcebb3c69960e492e733441ee8803caee7bb48",
-      "status": "verified"
+      "status": "stale"
     },
     "db9e1b2b07ca": {
       "facts": [
@@ -1412,7 +1412,7 @@
       "domain": "gon-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "f1ed6a70c984a2e37b50814e33fcebb3c69960e492e733441ee8803caee7bb48",
-      "status": "verified"
+      "status": "stale"
     },
     "75f67c81c5cd": {
       "facts": [
@@ -1563,7 +1563,7 @@
       "domain": "centermars.ru",
       "processor": "internal-luna",
       "evidence_hash": "a6513b59fa1e2ee8c841b02e6a6eaa914534952c475d4a7500f8cb61cea629c7",
-      "status": "verified"
+      "status": "stale"
     },
     "f92cc3bd14aa": {
       "facts": [
@@ -1659,7 +1659,7 @@
       "domain": "kosmo-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "ba92e8bb2bc8d3bb4976b7092085ae0ba577a797ca96642ed4cefd7451620fdd",
-      "status": "verified"
+      "status": "stale"
     },
     "299d59ddfd90": {
       "facts": [
@@ -1684,7 +1684,7 @@
       "domain": "kosmo-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "ba92e8bb2bc8d3bb4976b7092085ae0ba577a797ca96642ed4cefd7451620fdd",
-      "status": "verified"
+      "status": "stale"
     },
     "1096fede3517": {
       "facts": [
@@ -2039,7 +2039,7 @@
       "domain": "jewish-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "d35d87500fce72a8931a3ea6976955b35e3ac1b04274e384a8ed1f5d733dba04",
-      "status": "verified"
+      "status": "stale"
     },
     "f7d1ffa56de3": {
       "facts": [
@@ -2261,7 +2261,7 @@
       "domain": "mgdu.dogm.mos.ru",
       "processor": "internal-luna",
       "evidence_hash": "460ce92a328fa1a37216caf39fff28a74643e11d28f37aebc7e1775a0ea98707",
-      "status": "verified"
+      "status": "stale"
     },
     "d5f8f0aae133": {
       "facts": [
@@ -2391,7 +2391,7 @@
       "domain": "lihov6.ru",
       "processor": "internal-luna",
       "evidence_hash": "c57ab959cda5777c965375fd85e4ada726dd9a428e77fdb816e98eda13baa7e1",
-      "status": "verified"
+      "status": "stale"
     },
     "cacccd1a28e8": {
       "facts": [
@@ -3277,7 +3277,7 @@
       "domain": "mos03.ru",
       "processor": "internal-luna",
       "evidence_hash": "c59bce79af6dbfe68bb444345fe516cfa884fa1d68a99b3f285e414a248ca23e",
-      "status": "verified"
+      "status": "stale"
     },
     "1833924301e8": {
       "facts": [
@@ -4510,7 +4510,7 @@
       "domain": "xn--80afcsrlra.xn--p1ai",
       "processor": "internal-luna",
       "evidence_hash": "736729812a6f1604d06e29dc9b3042b3f3d8aaf6f258e11a68abda30bc8d349a",
-      "status": "verified"
+      "status": "stale"
     },
     "a95627d287be": {
       "facts": [
@@ -4535,7 +4535,7 @@
       "domain": "scriabinmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "e202c74dc309fff5e861a771c229cd4319ec0217c130d795a7f0835d225c154d",
-      "status": "verified"
+      "status": "stale"
     },
     "3d0405e952fa": {
       "facts": [
@@ -4560,7 +4560,7 @@
       "domain": "scriabinmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "e202c74dc309fff5e861a771c229cd4319ec0217c130d795a7f0835d225c154d",
-      "status": "verified"
+      "status": "stale"
     },
     "84ed3057f0b9": {
       "facts": [
@@ -4598,7 +4598,7 @@
       "domain": "rostokino.vzmoscow.ru",
       "processor": "internal-luna",
       "evidence_hash": "cd0816b1c8e2babab72372562d708a2b4a55df74edcf5868676aef9e27beb855",
-      "status": "verified"
+      "status": "stale"
     },
     "ff6efe33a0f6": {
       "facts": [
@@ -4941,7 +4941,7 @@
       "domain": "museum.historymed.ru",
       "processor": "internal-luna",
       "evidence_hash": "6a39074e2ef90b59ee3fa18f89b16c03cfb59390cf7882f53a9ce14876c5eab9",
-      "status": "stale"
+      "status": "verified"
     },
     "62d1e217b69a": {
       "facts": [
@@ -4962,7 +4962,7 @@
       "domain": "museum.historymed.ru",
       "processor": "internal-luna",
       "evidence_hash": "6a39074e2ef90b59ee3fa18f89b16c03cfb59390cf7882f53a9ce14876c5eab9",
-      "status": "stale"
+      "status": "verified"
     },
     "63df6b42b4e4": {
       "facts": [
@@ -5917,7 +5917,7 @@
       "domain": "naive-museum.ru",
       "processor": "internal-luna",
       "evidence_hash": "cceed4adcb3c60a882b435552c873ea5ac38ff1d9d190a050563b54a5d770975",
-      "status": "verified"
+      "status": "stale"
     },
     "8973de22eea5": {
       "facts": [
@@ -10662,5 +10662,5 @@
       "note": "Кэш содержит анонсы и описания временных выставок без указания срока, но не подтверждает постоянную коллекцию или постоянную экспозицию."
     }
   },
-  "updated_at": "2026-11-07T07:48:57.261905+00:00"
+  "updated_at": "2026-11-08T07:37:37.414611+00:00"
 }
