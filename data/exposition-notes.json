@@ -22,8 +22,8 @@
       "checked_at": "2026-10-30T17:27:33+03:00",
       "domain": "bunker42.com",
       "processor": "internal-luna",
-      "evidence_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "status": "stale"
+      "evidence_hash": "da34f4f2a02562182a7c5c202bafc29728fa69650b587b1b4524c30835a39591",
+      "status": "verified"
     },
     "ea598a385013": {
       "facts": [
@@ -47,8 +47,8 @@
       "checked_at": "2026-10-30T17:27:33+03:00",
       "domain": "bunker42.com",
       "processor": "internal-luna",
-      "evidence_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "status": "stale"
+      "evidence_hash": "da34f4f2a02562182a7c5c202bafc29728fa69650b587b1b4524c30835a39591",
+      "status": "verified"
     },
     "64eda5ce64da": {
       "facts": [
@@ -380,7 +380,7 @@
       "domain": "coinmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "964f73eab4e0bf1a4ca2c462ec1df1ee13d9bad883345c48e34a4712dfc88f7f",
-      "status": "verified"
+      "status": "stale"
     },
     "080057a00206": {
       "facts": [
@@ -401,7 +401,7 @@
       "domain": "coinmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "964f73eab4e0bf1a4ca2c462ec1df1ee13d9bad883345c48e34a4712dfc88f7f",
-      "status": "verified"
+      "status": "stale"
     },
     "4974caf9d88c": {
       "facts": [
@@ -422,7 +422,7 @@
       "domain": "fmm.ru",
       "processor": "internal-luna",
       "evidence_hash": "2b4f0883c752bec07d4e3de17aa93cd6549d65a0dd7324d6e9768457ba2f3394",
-      "status": "verified"
+      "status": "stale"
     },
     "58e84cf9f8a0": {
       "facts": [
@@ -443,7 +443,7 @@
       "domain": "fmm.ru",
       "processor": "internal-luna",
       "evidence_hash": "2b4f0883c752bec07d4e3de17aa93cd6549d65a0dd7324d6e9768457ba2f3394",
-      "status": "verified"
+      "status": "stale"
     },
     "9f9ea01bbbc7": {
       "facts": [
@@ -1143,7 +1143,7 @@
       "domain": "experimentanium.ru",
       "processor": "internal-luna",
       "evidence_hash": "a0f76cf70b76362188e14f75e60dce6f1d7c8c73431b13faab2731b7dcb406e7",
-      "status": "verified"
+      "status": "stale"
     },
     "35a2dc1fa82b": {
       "facts": [
@@ -2942,7 +2942,7 @@
       "domain": "museum-vnukovo.ru",
       "processor": "internal-luna",
       "evidence_hash": "ae4dab9577617e586bdddd68a7896215e0a7fd2c9cd02e2c404e390daccf1889",
-      "status": "verified"
+      "status": "stale"
     },
     "1a26e03467da": {
       "facts": [
@@ -2967,7 +2967,7 @@
       "domain": "museum-vnukovo.ru",
       "processor": "internal-luna",
       "evidence_hash": "ae4dab9577617e586bdddd68a7896215e0a7fd2c9cd02e2c404e390daccf1889",
-      "status": "verified"
+      "status": "stale"
     },
     "4a4a24e46aea": {
       "facts": [
@@ -4296,7 +4296,7 @@
       "domain": "museum-slav.com",
       "processor": "internal-luna",
       "evidence_hash": "e366c73304d3cce861d7966483fb63689af7238a50a64b17e4edd5a27dbd4f79",
-      "status": "stale"
+      "status": "verified"
     },
     "04af8c46464d": {
       "facts": [
@@ -4317,7 +4317,7 @@
       "domain": "museum-slav.com",
       "processor": "internal-luna",
       "evidence_hash": "e366c73304d3cce861d7966483fb63689af7238a50a64b17e4edd5a27dbd4f79",
-      "status": "stale"
+      "status": "verified"
     },
     "fe7185472101": {
       "facts": [
@@ -4598,7 +4598,7 @@
       "domain": "rostokino.vzmoscow.ru",
       "processor": "internal-luna",
       "evidence_hash": "cd0816b1c8e2babab72372562d708a2b4a55df74edcf5868676aef9e27beb855",
-      "status": "stale"
+      "status": "verified"
     },
     "ff6efe33a0f6": {
       "facts": [
@@ -4853,7 +4853,7 @@
       "domain": "kghmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "47583db09a0706902df5536995bcbab2b9be22cbac91a529358824b932dd1f5e",
-      "status": "verified"
+      "status": "stale"
     },
     "1023a407f677": {
       "facts": [
@@ -4878,7 +4878,7 @@
       "domain": "kghmuseum.ru",
       "processor": "internal-luna",
       "evidence_hash": "47583db09a0706902df5536995bcbab2b9be22cbac91a529358824b932dd1f5e",
-      "status": "verified"
+      "status": "stale"
     },
     "7ef457a35d32": {
       "facts": [
@@ -6172,7 +6172,7 @@
       "domain": "rosizo.ru",
       "processor": "internal-luna",
       "evidence_hash": "af4693e001b6b36fad87610feef96c7d1f4d9301eb0c93fa0154549e917823c5",
-      "status": "verified"
+      "status": "stale"
     },
     "43066763c462": {
       "facts": [
@@ -7338,7 +7338,7 @@
   },
   "reviews": {
     "bunker42.com": {
-      "evidence_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_hash": "da34f4f2a02562182a7c5c202bafc29728fa69650b587b1b4524c30835a39591",
       "status": "ok",
       "checked_at": "2026-10-30T17:27:33+03:00",
       "note": ""
@@ -10662,5 +10662,5 @@
       "note": "Кэш содержит анонсы и описания временных выставок без указания срока, но не подтверждает постоянную коллекцию или постоянную экспозицию."
     }
   },
-  "updated_at": "2026-11-14T08:17:40.363445+00:00"
+  "updated_at": "2026-11-15T08:15:46.569314+00:00"
 }
