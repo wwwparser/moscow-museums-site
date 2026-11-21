@@ -32,6 +32,12 @@ for c in p['channels']:
     assert set(c['museum_ids']).issubset(ids)
     assert len(c['posts']) <= 5
     post_ids.extend(x['id'].lower() for x in c['posts'])
+    for post in c['posts']:
+        cursor = 0
+        for link in post.get('links', []):
+            assert cursor <= link['start'] < link['end'] <= len(post['text']), post['id']
+            assert link['url'].startswith(('http://', 'https://')), post['id']
+            cursor = link['end']
 assert len(post_ids) == len(set(post_ids)), 'Duplicate Telegram posts'
 assert len(post_ids) == p['meta']['posts']
 for row in p.get('admission_sources',[]):

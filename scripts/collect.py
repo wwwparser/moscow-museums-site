@@ -61,6 +61,7 @@ def main():
     ap.add_argument('--section',choices=['all','sites','telegram'],default='all')
     ap.add_argument('--no-build',action='store_true')
     ap.add_argument('--since',help='Skip rows checked at or after this ISO timestamp')
+    ap.add_argument('--domains', help='Only crawl these comma-separated website domains')
     args = ap.parse_args()
     museums = json.loads((ROOT/'data/museums.json').read_text(encoding='utf8'))
     domains = {}
@@ -69,7 +70,10 @@ def main():
             domain = urlparse(url).hostname
             if domain:
                 domains.setdefault(domain.removeprefix('www.'), url)
-    selected = list(domains.items())[:args.limit or None]
+    selected = list(domains.items())
+    if args.domains:
+        selected = [(key, url) for key, url in selected if key in args.domains.split(',')]
+    selected = selected[:args.limit or None]
     cache_path = ROOT/'data/site-results.jsonl'
     previous_sites=load_cache(cache_path)
     cache = dict(previous_sites)

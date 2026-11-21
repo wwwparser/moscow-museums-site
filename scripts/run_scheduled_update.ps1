@@ -3,4 +3,6 @@ $ErrorActionPreference = 'Stop'
 Set-Location (Split-Path -Parent $PSScriptRoot)
 $env:PYTHONUTF8 = '1'
 & $PythonPath 'scripts/update_all.py' --mode auto --publish
+if ($LASTEXITCODE) { exit $LASTEXITCODE }
+& powershell -NoProfile -File 'scripts/publish_server.ps1'
 exit $LASTEXITCODE

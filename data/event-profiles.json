@@ -1,4 +1,18 @@
 {
+  "a-s-t-r-a.ru": {
+    "domain": "a-s-t-r-a.ru",
+    "name": "A-s-t-r-a",
+    "adapter": "generic",
+    "seeds": [
+      "https://a-s-t-r-a.ru/page/lab-events",
+      "https://a-s-t-r-a.ru/product/reflektsiya-3",
+      "https://a-s-t-r-a.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
   "agencyart.ru": {
     "domain": "agencyart.ru",
     "name": "Art ru",
@@ -19,6 +33,20 @@
       "https://www.art-story.com/events/",
       "https://www.art-story.com/events/items/18533/",
       "http://art-story.com/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "artmaison.moscow": {
+    "domain": "artmaison.moscow",
+    "name": "ArtMaison",
+    "adapter": "generic",
+    "seeds": [
+      "https://artmaison.moscow/afisha/",
+      "https://artmaison.moscow/afisha/pleyada/",
+      "https://artmaison.moscow/"
     ],
     "max_pages": 4,
     "max_details": 6,
@@ -206,6 +234,18 @@
     "adapter": "generic",
     "seeds": [
       "https://popupmuseum.art/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "sistema.gallery": {
+    "domain": "sistema.gallery",
+    "name": "Sistema Gallery",
+    "adapter": "generic",
+    "seeds": [
+      "https://sistema.gallery/"
     ],
     "max_pages": 4,
     "max_details": 6,
@@ -548,6 +588,19 @@
     "enabled": true,
     "refresh_hours": 12
   },
+  "kulturauao.ru": {
+    "domain": "kulturauao.ru",
+    "name": "Библиотека № 161",
+    "adapter": "generic",
+    "seeds": [
+      "https://kulturauao.ru/afisha",
+      "https://kulturauao.ru/biblio_161"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
   "biotechmuseum.fbras.ru": {
     "domain": "biotechmuseum.fbras.ru",
     "name": "Биотех",
@@ -734,6 +787,18 @@
       "https://museuminsilence.ru/novyj-god-v-tishine/",
       "https://museuminsilence.ru/oboi-na-telefon-ijun/",
       "http://museuminsilence.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "pk33.mskobr.ru": {
+    "domain": "pk33.mskobr.ru",
+    "name": "Военно-исторический музей Героя СССР, лётчицы Т. П. Макаровой",
+    "adapter": "generic",
+    "seeds": [
+      "https://pk33.mskobr.ru/edu-news/2944"
     ],
     "max_pages": 4,
     "max_details": 6,
@@ -1402,6 +1467,20 @@
     "seeds": [
       "https://usadbazubovyh.ru/calendar",
       "http://usadbazubovyh.ru/"
+    ],
+    "max_pages": 4,
+    "max_details": 6,
+    "enabled": true,
+    "refresh_hours": 12
+  },
+  "gorkyfilm.ru": {
+    "domain": "gorkyfilm.ru",
+    "name": "Горький Плюс",
+    "adapter": "generic",
+    "seeds": [
+      "https://gorkyfilm.ru/events/",
+      "https://gorkyfilm.ru/calendar/",
+      "https://gorkyfilm.ru/"
     ],
     "max_pages": 4,
     "max_details": 6,

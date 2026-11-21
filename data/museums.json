@@ -5,7 +5,9 @@
     "address": "4-й Сыромятнический пер., 1/8с9, Москва",
     "city": "Москва",
     "category": "Музеи",
-    "sites": [],
+    "sites": [
+      "https://a-s-t-r-a.ru/"
+    ],
     "telegram": [],
     "emails": [],
     "phones": [
@@ -157,7 +159,9 @@
     "address": "просп. Академика Сахарова, 7, Москва",
     "city": "Москва",
     "category": "Музеи",
-    "sites": [],
+    "sites": [
+      "https://artmaison.moscow/"
+    ],
     "telegram": [],
     "emails": [],
     "phones": [],
@@ -705,7 +709,9 @@
     "address": "Бобров пер., 4, стр. 4, Москва",
     "city": "Москва",
     "category": "Музеи",
-    "sites": [],
+    "sites": [
+      "https://sistema.gallery/"
+    ],
     "telegram": [],
     "emails": [],
     "phones": [],
@@ -1161,7 +1167,9 @@
     "address": "просп. Мира, 26, стр. 10, Москва",
     "city": "Москва",
     "category": "Музеи",
-    "sites": [],
+    "sites": [
+      "https://hortus.msu.ru/"
+    ],
     "telegram": [],
     "emails": [],
     "phones": [],
@@ -1703,7 +1711,9 @@
     "address": "Загородное ш., 9, стр. 1, Москва",
     "city": "Москва",
     "category": "Музеи",
-    "sites": [],
+    "sites": [
+      "https://kulturauao.ru/biblio_161"
+    ],
     "telegram": [],
     "emails": [],
     "phones": [
@@ -2477,7 +2487,9 @@
     "address": "просп. Мира, 119, стр. 55, Москва",
     "city": "Москва",
     "category": "Музеи",
-    "sites": [],
+    "sites": [
+      "https://msk.smile-park.ru/attractions/insidevdnh"
+    ],
     "telegram": [],
     "emails": [],
     "phones": [],
@@ -2528,7 +2540,9 @@
     "address": "6-я Радиальная ул., 10, Москва",
     "city": "Москва",
     "category": "Музеи",
-    "sites": [],
+    "sites": [
+      "https://pk33.mskobr.ru/edu-news/2944"
+    ],
     "telegram": [],
     "emails": [],
     "phones": [],
@@ -4617,7 +4631,9 @@
     "address": "Москва, улица Жужа",
     "city": "Москва",
     "category": "Музеи",
-    "sites": [],
+    "sites": [
+      "https://www.mgomz.ru/ru/exhibition/gollandskii-domik-petra"
+    ],
     "telegram": [],
     "emails": [],
     "phones": [],
@@ -4920,7 +4936,9 @@
     "address": "ул. Сергея Эйзенштейна, 8, стр. 1, Москва",
     "city": "Москва",
     "category": "Музеи",
-    "sites": [],
+    "sites": [
+      "https://gorkyfilm.ru/"
+    ],
     "telegram": [],
     "emails": [],
     "phones": [
@@ -7086,7 +7104,9 @@
     "address": "Тверская улица, 21 ст1",
     "city": "Москва",
     "category": "Музеи",
-    "sites": [],
+    "sites": [
+      "https://www.sovrhistory.ru/museum/build/tverskaya/index.php"
+    ],
     "telegram": [],
     "emails": [],
     "phones": [],
@@ -8580,7 +8600,9 @@
     "address": "ул. Серафимовича, 3, посёлок ДСК Мичуринец",
     "city": "Москва",
     "category": "Музеи-квартиры",
-    "sites": [],
+    "sites": [
+      "https://goslitmuz.ru/museums/muzeynyy-tsentr-dom-chukovskogo-v-peredelkine/"
+    ],
     "telegram": [],
     "emails": [],
     "phones": [
@@ -9370,7 +9392,9 @@
     "address": "Измайловское шоссе, 73ж",
     "city": "Москва",
     "category": "Музеи-квартиры",
-    "sites": [],
+    "sites": [
+      "https://domskazok.su/domskazok/"
+    ],
     "telegram": [
       "https://t.me/domskazok_moskva"
     ],

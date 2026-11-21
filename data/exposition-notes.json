@@ -7334,6 +7334,221 @@
       "processor": "internal-luna",
       "evidence_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "status": "stale"
+    },
+    "e8284efdd44d": {
+      "facts": [
+        {
+          "text": "По публикации муниципального округа, экспозиция размещалась в Пищевом колледже № 33.",
+          "source": "https://www.mcherem.ru/news/gochs-informiruet/sotrudnitsy-moskovskogo-aviatsentra-posetili-muzey-legendarnoy-letchitsy-tatyany-makarovoy"
+        },
+        {
+          "text": "Экспозиция посвящена боевому пути Татьяны Макаровой и её однополчанкам из 46-го Гвардейского Таманского авиационного полка.",
+          "source": "https://www.mcherem.ru/news/gochs-informiruet/sotrudnitsy-moskovskogo-aviatsentra-posetili-muzey-legendarnoy-letchitsy-tatyany-makarovoy"
+        },
+        {
+          "text": "Материалы для экспозиции собирали семьи участниц войны, учащиеся и преподаватели колледжа.",
+          "source": "https://www.mcherem.ru/news/gochs-informiruet/sotrudnitsy-moskovskogo-aviatsentra-posetili-muzey-legendarnoy-letchitsy-tatyany-makarovoy"
+        }
+      ],
+      "checked_at": "2026-11-21T06:22:24.922666+00:00",
+      "domain": "mcherem.ru",
+      "processor": "internal-luna",
+      "evidence_hash": "",
+      "status": "verified"
+    },
+    "1fd7a73b57b0": {
+      "facts": [
+        {
+          "text": "a—s—t—р—a gallery — галерея современного искусства.",
+          "source": "https://a-s-t-r-a.ru/"
+        },
+        {
+          "text": "Галерея находится на территории ЦСИ «Винзавод» по адресу 4-й Сыромятнический переулок, 1/8, строение 9, подъезд 22.",
+          "source": "https://a-s-t-r-a.ru/"
+        }
+      ],
+      "checked_at": "2026-11-21T06:25:39.758083+00:00",
+      "domain": "a-s-t-r-a.ru",
+      "processor": "internal-luna",
+      "evidence_hash": "",
+      "status": "verified"
+    },
+    "9265da3e01fe": {
+      "facts": [
+        {
+          "text": "ARTMAISON покупает и продаёт картины русских и советских художников в Москве.",
+          "source": "https://artmaison.moscow/"
+        },
+        {
+          "text": "Галерея находится на проспекте Академика Сахарова, 7.",
+          "source": "https://artmaison.moscow/"
+        }
+      ],
+      "checked_at": "2026-11-21T06:25:39.758083+00:00",
+      "domain": "artmaison.moscow",
+      "processor": "internal-luna",
+      "evidence_hash": "",
+      "status": "verified"
+    },
+    "6ed0cb2f0bc1": {
+      "facts": [
+        {
+          "text": "SISTEMA GALLERY представляет проекты художников в двух зданиях с выставочной площадью более 400 кв. м.",
+          "source": "https://sistema.gallery/"
+        },
+        {
+          "text": "Галерея основана в 2022 году и организовала более 55 выставок (по данным официальной страницы).",
+          "source": "https://sistema.gallery/"
+        },
+        {
+          "text": "В фондах галереи хранится и экспонируется более 400 произведений живописи, графики и скульптуры российских и зарубежных авторов.",
+          "source": "https://sistema.gallery/"
+        }
+      ],
+      "checked_at": "2026-11-21T06:25:39.758083+00:00",
+      "domain": "sistema.gallery",
+      "processor": "internal-luna",
+      "evidence_hash": "",
+      "status": "verified"
+    },
+    "9bb33e43f748": {
+      "facts": [
+        {
+          "text": "«Аптекарский огород» — ботанический сад МГУ и старейший ботанический сад России.",
+          "source": "https://hortus.msu.ru/about.html"
+        },
+        {
+          "text": "Аптекарский огород заложили в 1706 году по указу Петра I для выращивания лекарственных растений.",
+          "source": "https://hortus.msu.ru/about.html"
+        },
+        {
+          "text": "Растения сада использовали для приготовления лекарств и обучения ботанике студентов-медиков.",
+          "source": "https://hortus.msu.ru/about.html"
+        }
+      ],
+      "checked_at": "2026-11-21T06:25:39.758083+00:00",
+      "domain": "hortus.msu.ru",
+      "processor": "internal-luna",
+      "evidence_hash": "",
+      "status": "verified"
+    },
+    "6a77397f7de9": {
+      "facts": [
+        {
+          "text": "Библиотека № 161 основана в 1937 году; сначала она занимала две квартиры на первом этаже жилого дома.",
+          "source": "https://kulturauao.ru/biblio_161"
+        },
+        {
+          "text": "В 1981 году библиотека переехала в отдельное специализированное здание.",
+          "source": "https://kulturauao.ru/biblio_161"
+        },
+        {
+          "text": "В библиотеке открыт «Музей Далёкой Галактики», посвящённый киновселенной «Звёздных войн».",
+          "source": "https://kulturauao.ru/biblio_161"
+        }
+      ],
+      "checked_at": "2026-11-21T06:25:39.758083+00:00",
+      "domain": "kulturauao.ru",
+      "processor": "internal-luna",
+      "evidence_hash": "",
+      "status": "verified"
+    },
+    "76c3fdee6054": {
+      "facts": [
+        {
+          "text": "«Внутри человека» — музей-аттракцион в павильоне № 55 на ВДНХ по адресу проспект Мира, 119с55.",
+          "source": "https://msk.smile-park.ru/attractions/insidevdnh"
+        },
+        {
+          "text": "Экспозиция предлагает путешествие по человеческому телу с гигантскими моделями сердца, желудка и мозга.",
+          "source": "https://msk.smile-park.ru/attractions/insidevdnh"
+        },
+        {
+          "text": "В аттракционе посетители проходят через сердце, желудок, лёгкие и мозг; органы сделаны в гигантском масштабе и подсвечены.",
+          "source": "https://msk.smile-park.ru/attractions/insidevdnh"
+        },
+        {
+          "text": "В интерактивных зонах посетители могут трогать предметы, нажимать на элементы и заглядывать внутрь.",
+          "source": "https://msk.smile-park.ru/attractions/insidevdnh"
+        }
+      ],
+      "checked_at": "2026-11-21T06:27:26.260527+00:00",
+      "domain": "msk.smile-park.ru",
+      "processor": "internal-luna",
+      "evidence_hash": "",
+      "status": "verified"
+    },
+    "89ec2ec5c36e": {
+      "facts": [
+        {
+          "text": "Экспозиция посвящена Великому посольству Петра I в Западную Европу в 1697–1698 годах.",
+          "source": "https://www.mgomz.ru/ru/exhibition/gollandskii-domik-petra"
+        },
+        {
+          "text": "Голландский домик в Коломенском — полноразмерная копия дома в Заандаме, где Пётр I жил восемь дней.",
+          "source": "https://www.mgomz.ru/ru/exhibition/gollandskii-domik-petra"
+        }
+      ],
+      "checked_at": "2026-11-21T06:33:25.309045+00:00",
+      "domain": "mgomz.ru",
+      "processor": "internal-luna",
+      "evidence_hash": "",
+      "status": "verified"
+    },
+    "92c295ed16f4": {
+      "facts": [
+        {
+          "text": "С 25 мая 2026 года мемориальная дача Чуковского закрыта для посетителей из-за реставрации.",
+          "source": "https://goslitmuz.ru/museums/muzeynyy-tsentr-dom-chukovskogo-v-peredelkine/"
+        },
+        {
+          "text": "Библиотеку при музейном центре основал Корней Чуковский в 1957 году.",
+          "source": "https://goslitmuz.ru/museums/muzeynyy-tsentr-dom-chukovskogo-v-peredelkine/"
+        },
+        {
+          "text": "Для школьных групп музейный центр проводит интерактивную экскурсию по своей открытой территории.",
+          "source": "https://goslitmuz.ru/museums/muzeynyy-tsentr-dom-chukovskogo-v-peredelkine/"
+        }
+      ],
+      "checked_at": "2026-11-21T06:33:25.309045+00:00",
+      "domain": "goslitmuz.ru",
+      "processor": "internal-luna",
+      "evidence_hash": "",
+      "status": "verified"
+    },
+    "ee5237820e9e": {
+      "facts": [
+        {
+          "text": "Официальная страница главного здания музея указывает адрес: Москва, Тверская, 21, строение 1.",
+          "source": "https://www.sovrhistory.ru/museum/build/tverskaya/index.php"
+        },
+        {
+          "text": "Музей описывает главное здание как площадку с высокотехнологичной экспозицией и научно-просветительской работой.",
+          "source": "https://www.sovrhistory.ru/museum/build/tverskaya/index.php"
+        }
+      ],
+      "checked_at": "2026-11-21T06:33:25.309045+00:00",
+      "domain": "sovrhistory.ru",
+      "processor": "internal-luna",
+      "evidence_hash": "",
+      "status": "verified"
+    },
+    "36d35f125118": {
+      "facts": [
+        {
+          "text": "В музее проходят театрализованные экскурсии, в которых посетители перевоплощаются в сказочных персонажей.",
+          "source": "https://domskazok.su/domskazok/"
+        },
+        {
+          "text": "Интерактивная коллекция включает более 600 старинных предметов быта, костюмов и кукол.",
+          "source": "https://domskazok.su/domskazok/"
+        }
+      ],
+      "checked_at": "2026-11-21T06:33:25.309045+00:00",
+      "domain": "domskazok.su",
+      "processor": "internal-luna",
+      "evidence_hash": "",
+      "status": "verified"
     }
   },
   "reviews": {
@@ -10662,5 +10877,5 @@
       "note": "Кэш содержит анонсы и описания временных выставок без указания срока, но не подтверждает постоянную коллекцию или постоянную экспозицию."
     }
   },
-  "updated_at": "2026-11-21T06:09:01.020904+00:00"
+  "updated_at": "2026-11-21T06:33:25.309045+00:00"
 }
