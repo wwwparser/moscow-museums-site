@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-11-24T05:52:48.322633+00:00",
-  "finished_at": "2026-11-24T06:03:50.191962+00:00",
+  "started_at": "2026-11-25T06:17:27.151852+00:00",
+  "finished_at": "2026-11-25T06:29:08.536598+00:00",
   "mode": "daily",
   "steps": [
     {
@@ -84,9 +84,9 @@
     "checked": 560,
     "checked_today": 560,
     "checked_this_run": 560,
-    "last_attempt_at": "2026-11-24T06:02:40.430995+00:00",
-    "stale": 4,
-    "with_errors": 132
+    "last_attempt_at": "2026-11-25T06:28:05.521109+00:00",
+    "stale": 3,
+    "with_errors": 133
   },
   "admission": {
     "checked": 560,
@@ -100,9 +100,9 @@
     "checked": 368,
     "checked_today": 368,
     "checked_this_run": 368,
-    "last_attempt_at": "2026-11-24T05:56:43.542773+00:00",
-    "stale": 85,
-    "with_errors": 138
+    "last_attempt_at": "2026-11-25T06:21:44.671604+00:00",
+    "stale": 51,
+    "with_errors": 104
   },
   "expositions": {
     "checked_sources": 560,
@@ -110,7 +110,7 @@
     "unavailable_sources": 128,
     "pending_luna": 272,
     "processor": "internal-luna",
-    "prepared_at": "2026-11-24T06:03:44.726325+00:00"
+    "prepared_at": "2026-11-25T06:29:03.264430+00:00"
   },
   "pending_exposition_luna": 272,
   "counts": {
@@ -122,26 +122,26 @@
     "with_coordinates": 1269,
     "with_telegram": 686,
     "note": "Каталог кандидатов из локальных выгрузок, дата исходных данных неизвестна. Возможны дубли и закрытые площадки.",
-    "built_at": "2026-11-24T06:03:47.215928+00:00",
+    "built_at": "2026-11-25T06:29:05.632707+00:00",
     "site_domains_total": 560,
     "site_domains_checked": 560,
     "site_domains_available": 468,
     "channels": 368,
     "channels_checked": 368,
-    "channels_available": 230,
-    "events": 767,
-    "posts": 1532,
-    "event_source_domains": 33,
+    "channels_available": 264,
+    "events": 762,
+    "posts": 1537,
+    "event_source_domains": 31,
     "event_sources_checked": 560,
     "event_sources_configured": 560,
-    "event_sources_with_dates": 39,
+    "event_sources_with_dates": 37,
     "event_sources_individual": 17,
     "admission_sources_checked": 560,
     "admission_sources_with_facts": 195,
     "admission_tariffs": 2047,
     "admission_free_rules": 725,
     "site_sources_stale": 28,
-    "telegram_sources_stale": 85,
+    "telegram_sources_stale": 51,
     "admission_sources_stale": 11,
     "exposition_museums": 350,
     "exposition_sources_checked": 560,
